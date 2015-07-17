@@ -1,8 +1,10 @@
-# STA380: Predictive Modeling
+# STA 380: Predictive Modeling
 
-Welcome to Part 2 of STA 380: Predictive Modeling.  All course materials can be found through this GitHub page, including the [course syllabus](syllabus.md).  
+Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page, including the [course syllabus](syllabus.md).  
 
 ## Topics 
+
+(as of 6/17/2015): the readings listed below are far from complete, but the topics list is accurate.
 
 ### (1) The data scientist's toolbox
 
@@ -25,7 +27,7 @@ Readings:
 
 ### (3) Resampling methods
 
-The bootstrap and the permutation test.
+The bootstrap and the permutation test; using the bootstrap to approximate value at risk (VaR). 
 
 Readings:  
 - [These notes](http://jgscott.github.io/SDS325H_Spring2015/files/05-QuantifyingUncertaintyPart1.pdf), pages 99-111.  This is an introduction to the bootstrap from the perspective of linear regression modeling, but it conveys the essential idea.  
@@ -36,8 +38,11 @@ Readings:
 
 ### (4) Finding latent classes
 
-K-means clustering; mixture models; hierarchical clustering.  Reading: ISL Section 10.1 and 10.3.
+K-means clustering; mixture models; hierarchical clustering.
 
+Readings:  
+- ISL Section 10.1 and 10.3.  
+- TBA  
 
 ### (5) Finding latent features
 
@@ -45,11 +50,14 @@ Principal component analysis (PCA); factor analysis; canonical correlation analy
 
 Readings:  
 - ISL Section 10.2.  
+- TBA.  
 
 
 ### (6) Text data
 
 Co-occurrence statistics; TF-IDF; topic models; vector-space models of text (if time allows).
+
+Readings: TBA
 
 
 ### (7) Miscellaneous
