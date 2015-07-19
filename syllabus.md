@@ -27,8 +27,11 @@ The remaining 20% of your grade will come from submitting a high-quality scribe 
 
 The course readings are assembled from sources matching two criteria: 1) high quality, and 2) free. 
 
-* Selections from _An Introduction to Statistical Learning_ by James, Witten, Hastie, and Tibshirani.  The book is [freely available here](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Fourth%20Printing.pdf).  I'll refer to it as ISL in the course outline below.  
+* _ISL_: Selections from _An Introduction to Statistical Learning_ by James, Witten, Hastie, and Tibshirani.  The book is [freely available here](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Fourth%20Printing.pdf).  I'll refer to it as "ISL" in the course outline.  
+* _Elements_: selections from [_Elements of Statistical Learning_](http://statweb.stanford.edu/~tibs/ElemStatLearn/printings/ESLII_print10.pdf), by Hastie, Tibshirani, and Friedman.  A standard reference on data mining from a more statistical perspective.  Referrered to as "Elements" in the course outline.  
+* _Shalizi_: selections from [Advanced Data Analysis from an Elementary Point of View](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf), by Cosma Shalizi.  Another textbook whose author has kindly posted a free version on the web.  Referred to as "Shalizi" in the course outline.  
 * NIST Engineering Statistics Handbook, [Chapter 1](http://www.itl.nist.gov/div898/handbook/eda/eda.htm).  Yes, this webpage has a "Geocities circa 1998" look to it, but its discussion of exploratory data analysis is at least as good as anything you have to pay for.  
+* Other smaller-format readings on a case-by-case basis.  
 
 
 
