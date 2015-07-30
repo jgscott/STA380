@@ -20,14 +20,23 @@ Readings:
 
 Contingency tables; basic plots (scatterplot, boxplot, histogram); lattice plots; basic measures of association (relative risk, odds ratio, correlation, rank correlation); comparing two distributions (QQ plots); heteroskedasticity and autocorrelation.  
 
+Scripts and data: 
+- [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)   
+- [titanic.R](R/titanic.R) and [TitanicSurvival](data/TitanicSurvival.R)  
+
 Readings:  
 - NIST Handbook, Chapter 1.  
-- R walkthroughs on basic EDA: [contingency tables](http://jgscott.github.io/teaching/r/titanic/titanic.html), [histograms](http://jgscott.github.io/teaching/r/citytemps/citytemps.html), and [scatterplots/lattice plots](http://jgscott.github.io/teaching/r/sat/sat.html).   
+- R walkthroughs on basic EDA: [contingency tables](http://jgscott.github.io/teaching/r/titanic/titanic.html), [histograms](http://jgscott.github.io/teaching/r/citytemps/citytemps.html), and [scatterplots/lattice plots](http://jgscott.github.io/teaching/r/sat/sat.html). 
+- [Bad graphics ](notes/badgraphics.pdf)
+- Good graphics: scan through some of the New York Times' best [data visualizations](http://www.nytimes.com/interactive/2014/12/29/us/year-in-interactive-storytelling.html?_r=0#data-visualization)
 
 
 ### (3) Resampling methods
 
 The bootstrap and the permutation test; using the bootstrap to approximate value at risk (VaR). 
+
+Scripts:  
+- [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv) 
 
 Readings:  
 - ISL Section 5.2 for a basic overview.  

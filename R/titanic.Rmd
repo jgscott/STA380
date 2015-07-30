@@ -1,0 +1,70 @@
+---
+output:
+  pdf_document
+---
+
+### Contingency tables
+
+In this walk-through, you will learn a few tools for summarizing categorical data using contingency tables.
+
+Data files:  
+* [TitanicSurvival.csv](../data/TitanicSurvival.csv)  
+
+First download the TitanicSurvival.csv file and read it in. You can use RStudio's Import Dataset button, or the read.csv command:
+```{r}
+TitanicSurvival = read.csv('../data/TitanicSurvival.csv')
+```
+
+Let's look at the first few lines of the data set using the `head` function.
+```{r}
+head(TitanicSurvival)
+```
+We can see the name of each passenger and whether they survived, along with their age, sex, and cabin class.
+
+Next, we'll use the xtabs (for cross-tabulate) function to make some contingency tables.  We can stratify by survival status and sex:
+```{r}
+xtabs(~survived + sex, data=TitanicSurvival)
+```
+
+Or by passenger class:
+```{r}
+xtabs(~survived + passengerClass, data=TitanicSurvival)
+```
+
+We can also turn a table of counts into a table of proportions using the `prob.table` command.
+```{r}
+table1 = xtabs(~survived + sex, data=TitanicSurvival)
+prop.table(table1, margin=1)
+```
+The first command says to store the table of raw counts in a variable called `table1`.  The second says to turn the counts into proportions, standardizing along the rows (margin=1).
+
+We can also standardize along the columns, which probably makes more sense here.  We're thinking of sex as the predictor and survival as the response, and therefore we want to see how the relative chances of survival changes for men versus women:
+```{r}
+prop.table(table1, margin=1)
+```
+
+From the table, we can read off the odds of survival for both men and women.  Let's store these in new variables:
+```{r}
+odds_male = 0.19/0.81
+odds_female = 0.73/0.27
+```
+
+Now we can use these to compute the odds ratio, a standard measure of association in two-by-two contingency tables.
+```{r}
+odds_ratio = odds_female/odds_male
+odds_ratio
+```
+An odds ratio of about 12 quantifies the extent to which females were more likely to survive than males.
+
+We can also look at survival stratified by two variables.
+```{r}
+xtabs(~survived + sex + passengerClass, data=TitanicSurvival)
+```
+
+We can also see whether age seems correlated with survival:
+```{r}
+boxplot(age~survived:sex, data=TitanicSurvival)
+```
+
+The colon between survived and sex refers to an interaction.  It says to give separate boxplots for every pairwise combination of these two variables.
+
