@@ -11,6 +11,7 @@ The readings listed below are not yet complete, but the topics list is accurate.
 Good data-curation and data-analysis practices; R; Markdown and RMarkdown; the importance of replicable analyses; version control with Git and Github.
 
 Readings:  
+- [a few introductory slides](notes/STA380intro.pdf)
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [Introduction to GitHub](https://help.github.com/articles/set-up-git/)    
