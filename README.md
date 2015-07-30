@@ -4,7 +4,7 @@ Welcome to part 2 of STA 380, a course on predictive modeling in the MS program 
 
 ## Topics 
 
-(as of 6/19/2015): the readings listed below are far from complete, but the topics list is accurate.
+The readings listed below are not yet complete, but the topics list is accurate.
 
 ### (1) The data scientist's toolbox
 
@@ -18,11 +18,11 @@ Readings:
 
 ### (2) Exploratory analysis
 
-Contingency tables; basic plots (scatterplot, boxplot, histogram); lattice plots; basic measures of association (relative risk, odds ratio, correlation, rank correlation); comparing two distributions (QQ plots); heteroskedasticity and autocorrelation.  
+Contingency tables; basic plots (scatterplot, boxplot, histogram); lattice plots; basic measures of association (relative risk, odds ratio, correlation, rank correlation)
 
 Scripts and data: 
 - [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)   
-- [titanic.R](R/titanic.R) and [TitanicSurvival](data/TitanicSurvival.R)  
+- [titanic.R](R/titanic.R) and [TitanicSurvival](data/TitanicSurvival.csv)  
 
 Readings:  
 - NIST Handbook, Chapter 1.  
