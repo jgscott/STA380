@@ -77,7 +77,6 @@ sd(sim1)
 ReturnAvg = 0.05
 ReturnSD = 0.025
 Horizon = 40
-sim1 =  = 40
 sim1 = foreach(i=1:500, .combine='rbind') %do% {
   Wealth = 10000  # Reset initial wealth
   WealthOverTime = rep(0, Horizon)  # Allocate some space

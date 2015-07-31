@@ -57,13 +57,14 @@ mean_weight_sample = mean(fishing_trip$weight)
 mean_weight_sample
 
 # Now bootstrap that sample
-boot1 = foreach(i = 1:365, .combine='c') %do% {
+boot1 = foreach(i = 1:2500, .combine='c') %do% {
   fishing_trip_bootstrap = resample(fishing_trip, n_fish)
   mean_weight_bootstrap = mean(fishing_trip_bootstrap$weight)
   mean_weight_bootstrap
 }
 
 # Compare the true sampling distribution with the bootstrapped sampling distribution
+par(mfrow=c(2,1))
 hist(my_fishing_year, 25)
 hist(boot1, 25)
 
