@@ -34,10 +34,12 @@ Readings:
 
 ### (3) Resampling methods
 
-The bootstrap and the permutation test; using the bootstrap to approximate value at risk (VaR). 
+The bootstrap and the permutation test; joint distributions; basic moment identities for linear combinations; using the bootstrap to approximate value at risk (VaR). 
 
 Scripts:  
 - [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv) 
+- [montecarlo.R](R/montecarlo.R)  
+- [portfolio.R](R/portfolio.R)  
 
 Readings:  
 - ISL Section 5.2 for a basic overview.  
