@@ -1,0 +1,203 @@
+---
+tditle: "Scribe_Module2"
+output: pdf_document
+---
+
+# MODULE 2: July 31st 2015
+
+## Main Discussion Points:
+ - Sampling Distributions
+ - Bootstrap for Uncertainty Quantification
+
+## Two Main Questions:
+
+ 1. How sure can the answer be?  
+ 		- Sample Distribution
+ 2. Are these two "things" associated with one another?  
+ 		- Permutation Test See Scribe Notes Module 3: (July 31st 2015):  
+ 		- Answering old question with new technological power (timeless question that always come up)
+
+## Sampling Distribution -  
+Statistic --> any function of the data  
+Sample = $x_{1}, ......, x_{n}$  
+Compute sample statistic: $t = T(X_{1}, ......, X_{n})$  
+\            $T$ = (random variable $Tn$) --> a function of all observations  
+\	     $t_{n}$ = observed statistic for sample size n  
+\	     Key notion: A different sample will return a different statistic     
+
+Posiblity of a different observed statistic is dependent upon the sample taken from the population.  
+If the sample is random and the statistic is random: how different are they going to be?
+$P(Tn)$: sampling distribution --> all possible $T_{n}$ results for all samples of tn:  
+1. Determine Meaningfulness by equating confidence with stability  
+2. If Tn varies dramatically across samples, wildly unstable, the answer for each independent sample is untrustworthy.  
+3. If $T_{n}$ has minimal variance --> the stability of the estimate improves credibility  
+4. What are some features of $P(T_{n})$?  
+    
+\        Evaluate the Standard Error --> Standard Deviation of P(Tn)  
+\        Example:  
+\        Sample 1: $x_{1} ^{1}, x_{2} ^{1}, ...., x_{n} ^{1}$ --> $t_{n} ^{1}$  	  
+\        Sample 2: $x_{1}^{2}, x_{2}^{2}, ...., x_{n}^{2}$ --> $t_{n}^{2}$  
+\        $...$  
+\        $...$  
+\        $...$  
+\        Sample 1000: $x_{1}^{1000}, x_{2}^{1000}, ...., x_{n}^{1000}$ --> $t_{n}^{1000}$  
+\        $...$  
+\        $...$  
+\        $...$  
+\    Sampling distribution = collection of $tn(1)$, $tn(2)$, ... $tn(1000)$, ...  
+\    Convert into histogram --> This provides transparency to the sampling distribution.  
+\    Determine the spread of distribution -->  Evaluate the standard error by constructing error bars on the histogram.  
+\        Quote the standard deviation as the distribution standard error  
+
+Typically a lot of assumptions are made that the errors are randomly and normally centered around zero. However, these assumptions often times do not prove to be true in more complex models. In order to account for this, a more robust method is necessary.  
+
+\        The Bootstrap method provides an all purpose tool that uses a sample to approximate a collection of statistics across the entire population.  
+
+## BOOTSTRAP tool: 
+Ideally to approximate $P(T_{n})$ we would sample the entire population repeatedly.  
+ - $x_{1}^{1}, x_{2}^{1},$ ....., $x_{n}^{1}$ -->  
+\ However, given the nature of population data and the extensive effort required to obtain samples, the act of sampling the entire population repeatedly is far to expensive to both collect and evaluate.   
+  						
+### One Alternative:  
+Objectively evaluate a single surrogate sampling of the entire population. With a surrogate sample of size n, a random sample of size n is needed 
+\  1 major flaw:  
+\        When n = n, the results are going to be the same every time given the entire sample is being used repeatedly. Using n = n on the sample data would produce a static result no different than sampling the entire population. With n = n, there will only be a single observable statistic (tn).  
+
+### Modifying the sampling process (implementing with replacement):  
+\    Sampling with replacement: The idea is that as an $x$ is randomly selected from the sample data, it is accounted for than then returned back to the sample. Once returned it becomes a candidate for selection with the probability of being reselected unchanged from the initial probability of selection. This leads $n$ = $n$ sampling with a unique observable statistic ($tn$) for each sample.   
+\  Example: Catch and Release Fishing  
+\        Once a fish is caught it is released. The probability of catching that fish again remains the same.   
+
+### Variability associated with Bootstrapping:  
+1. Monte Carlo Variability - The variability associated with random sampling through Monte Carlo Simulation. This variance is reducible in Bootstrapping by increasing the number of random samples used.  
+2. Single Sample Nature - With a single sample, the chances that the sample does not truly represent the entire population leads to a level of irreducible variability relative to the population.  
+
+\    With Bootstrapping there will always be unique standard errors for each and every sample run due to the with replacement nature of sampling. This eliminates the n = n problem that is present when sampling without replacement.  
+
+We will use the example "Gone Fishing" to illustrate bootstrapping.  
+
+The data used in Gone Fishing is a csv with the length, width, and height of a fictious set of caught fish.  
+
+First we take a look at the histogram of the weights of the entire population:  
+```{r, message=FALSE}
+library(mosaic)
+library(foreach)
+gonefishing = read.csv('../data/gonefishing.csv', header=TRUE)
+
+```
+
+
+
+```{r} 
+# Histogram of weights
+hist(gonefishing$weight, breaks=20)
+mean_weight_pop = mean(gonefishing$weight)
+abline(v=mean_weight_pop, lwd=4, col='blue')
+```
+
+Next we look at sampling the entire population 25 times (without replacement)
+
+```{r}
+n_fish = 30
+
+foreach(i = 1:25, .combine='c') %do% {
+  fishing_trip = sample(gonefishing, n_fish)
+  mean_weight_sample = mean(fishing_trip$weight)
+  mean_weight_sample
+}
+```
+
+Next we look at an entire year of catching 30 fish per day:
+```{r}
+my_fishing_year = foreach(i = 1:365, .combine='c') %do% {
+  fishing_trip = sample(gonefishing, n_fish)
+  mean_weight_sample = mean(fishing_trip$weight)
+  mean_weight_sample
+}
+
+```
+
+Which has a historgram and standard deviation of weights that looks like:
+```{r}
+hist(my_fishing_year, 25)
+sd(my_fishing_year)
+```
+
+This takes a lot of work- catching 30 fish per day for an entire year? Let's try something else.
+
+Bootstrapping:
+
+So for a single sample of the total population
+```{r}
+fishing_trip = sample(gonefishing, n_fish)
+mean_weight_sample = mean(fishing_trip$weight)
+mean_weight_sample
+
+```
+
+We can now bootstrap that single sample
+```{r}
+boot1 = foreach(i = 1:365, .combine='c') %do% {
+  fishing_trip_bootstrap = resample(fishing_trip, n_fish)
+  mean_weight_bootstrap = mean(fishing_trip_bootstrap$weight)
+  mean_weight_bootstrap
+}
+
+```
+
+Compare the two histograms:
+
+```{r echo=FALSE}
+par(mfrow=c(2,1))
+hist(my_fishing_year, 25, xlim=(c(350,650)))
+hist(boot1, 25, xlim=(c(350,650)))
+```
+
+And let's compare the two standard errors
+```{r}
+sd(my_fishing_year)
+sd(boot1)
+```
+
+
+A second example: GDP Growth- Quantifying uncertainity between two estimations.
+
+Our goal is to Bootstrap ordianry correlation coefficienat (a pearson non-robust correlation coefficeient)
+
+And compare to the Spearman Correlation Coefficient.
+```{r}
+gdpgrowth = read.csv('../data/gdpgrowth.csv', header=TRUE)
+head(gdpgrowth)
+
+
+```
+
+
+
+```{r}
+NMC = 1000
+boot1 = foreach(i=1:NMC, .combine='c') %do% {
+	gdp_boot = resample(gdpgrowth)
+	rho = cor(gdp_boot$DEF60, gdp_boot$GR6096)
+} 
+
+```
+
+And here is the histogram
+```{r}
+par(mfrow=c(1,1))
+hist(boot1)
+```
+
+Now the Spearman Correlation
+```{r}
+boot2 = foreach(i=1:NMC, .combine='c') %do% {
+	gdp_boot = resample(gdpgrowth)
+	rho = cor(gdp_boot$DEF60, gdp_boot$GR6096, method='spearman')
+} 
+
+hist(boot2)
+
+```
+
+The Bootstrap procedure is an all purpose tool for quantifying estimates. It works for any statistic, both common and unorthodox.
