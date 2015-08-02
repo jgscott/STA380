@@ -2,6 +2,12 @@
 
 Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
+## Scribe notes and exercises
+
+You can find the up-to-date collection of [scribe notes here](scribe/).
+
+The first set of exercises is [available here](exercises/exercises01.md).
+
 ## Topics 
 
 The readings listed below are not yet complete, but the topics list is accurate.
