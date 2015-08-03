@@ -59,11 +59,16 @@ Optionally, Shalizi (Chapter 6) has a much lengthier treatment of the bootstrap,
 
 ### (4) Latent classes
 
-K-means clustering; mixture models; hierarchical clustering.
+Basics of clustering; K-means clustering; mixture models; hierarchical clustering.
+
+Scripts and data:  
+- [protein.R](R/protein.R) and [protein.csv](data/protein.csv) 
+- [cars.R](R/cars.R) and [cars.csv](data/cars.csv) 
 
 Readings:  
 - ISL Section 10.1 and 10.3  
 - Elements Chapter 14.3 (more advanced)    
+- [K means examples](notes/kmeans_examples.pdf): a few stylized examples to build your intuition for how k-means behaves.  
 
 
 ### (5) Latent features and structure
