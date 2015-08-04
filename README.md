@@ -64,11 +64,17 @@ Basics of clustering; K-means clustering; mixture models; hierarchical clusterin
 Scripts and data:  
 - [protein.R](R/protein.R) and [protein.csv](data/protein.csv) 
 - [cars.R](R/cars.R) and [cars.csv](data/cars.csv) 
+- [we8there.R](R/we8there.R)  
+- [hclust_examples.R](R/hclust_examples.R)   
+
+
 
 Readings:  
 - ISL Section 10.1 and 10.3  
 - Elements Chapter 14.3 (more advanced)    
 - [K means examples](notes/kmeans_examples.pdf): a few stylized examples to build your intuition for how k-means behaves.  
+- [Hierarchical clustering examples](notes/hclust_examples.pdf): ditto for hierarchical clustering.  
+
 
 
 ### (5) Latent features and structure

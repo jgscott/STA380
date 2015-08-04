@@ -87,6 +87,8 @@ pairs(myreturns)
 return.today = resample(myreturns, 1, orig.ids=FALSE)
 
 # Update the value of your holdings
+total_wealth = 10000
+holdings = total_wealth*c(0.2,0.2,0.2, 0.2, 0.2)
 holdings = holdings + holdings*return.today
 
 # Compute your new total wealth
@@ -110,7 +112,7 @@ plot(wealthtracker, type='l')
 
 
 # Now simulate many different possible trading years!
-sim1 = foreach(i=1:500, .combine='rbind') %do% {
+sim1 = foreach(i=1:5000, .combine='rbind') %do% {
 	totalwealth = 10000
 	weights = c(0.2, 0.2, 0.2, 0.2, 0.2)
 	holdings = weights * totalwealth
@@ -125,7 +127,7 @@ sim1 = foreach(i=1:500, .combine='rbind') %do% {
 }
 
 head(sim1)
-hist(sim1[,n_days])
+hist(sim1[,n_days], 25)
 
 # Profit/loss
 hist(sim1[,n_days]- 10000)
