@@ -1,5 +1,5 @@
-countdata = read.csv("congress109.csv", header=TRUE, row.names=1)
-memberdata = read.csv("congress109members.csv", header=TRUE, row.names=1)
+countdata = read.csv("../data/congress109.csv", header=TRUE, row.names=1)
+memberdata = read.csv("../data/congress109members.csv", header=TRUE, row.names=1)
 
 # Normalize phrase counts to phrase frequencies
 Z = countdata/rowSums(countdata)

@@ -67,8 +67,6 @@ Scripts and data:
 - [we8there.R](R/we8there.R)  
 - [hclust_examples.R](R/hclust_examples.R)   
 
-
-
 Readings:  
 - ISL Section 10.1 and 10.3  
 - Elements Chapter 14.3 (more advanced)    
@@ -76,10 +74,13 @@ Readings:
 - [Hierarchical clustering examples](notes/hclust_examples.pdf): ditto for hierarchical clustering.  
 
 
-
 ### (5) Latent features and structure
 
 Principal component analysis (PCA); factor analysis; canonical correlation analysis; multi-dimensional scaling.
+
+Scripts and data:  
+- [pca_intro.R](R/pca_intro.R)  
+- [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
 
 Readings:  
 - ISL Section 10.2 for the basics  
