@@ -9,7 +9,7 @@ protein_distance_matrix = dist(protein_scaled, method='euclidean')
 
 
 # Now run hierarchical clustering
-hier_protein = hclust(protein_distance_matrix, method='complete')
+hier_protein = hclust(protein_distance_matrix, method='average')
 
 
 # Plot the dendrogram
