@@ -79,6 +79,7 @@ Readings:
 Principal component analysis (PCA); factor analysis; canonical correlation analysis; multi-dimensional scaling.
 
 Scripts and data:  
+- [pca_2D.R](R/pca_2D.R)  
 - [pca_intro.R](R/pca_intro.R)  
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
 
