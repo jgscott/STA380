@@ -82,6 +82,9 @@ Scripts and data:
 - [pca_2D.R](R/pca_2D.R)  
 - [pca_intro.R](R/pca_intro.R)  
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
+- [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)  
+- [gasoline.csv](data/gasoline.csv) 
+
 
 Readings:  
 - ISL Section 10.2 for the basics  

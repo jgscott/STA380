@@ -1,0 +1,23 @@
+al australia
+bz brazil
+ca canada
+ch china
+dn denmark
+eu euro
+hk 'hong kong'
+in india
+jp japan
+ko 'south korea'
+ma malaysia
+mx mexico
+no norway
+nz 'new zealand'
+sd sweden
+sf 'south africa'
+si singapore
+sl 'sri lanka'
+sz switzerland
+ta taiwan
+th thailand
+uk uk
+vz venezuela
