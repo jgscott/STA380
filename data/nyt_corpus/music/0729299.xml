@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>A New 'Nutcracker' Ushers In a Season</title>
+    <meta content="4" name="publication_day_of_month"/>
+    <meta content="12" name="publication_month"/>
+    <meta content="1994" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Westchester Weekly Desk" name="dsk"/>
+    <meta content="27" name="print_page_number"/>
+    <meta content="13WC" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="729299"/>
+      <doc.copyright holder="The New York Times" year="1994"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">DANCING</classifier>
+        <person class="indexing_service">HERSHENSON, ROBERTA</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region/Westchester</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Dancing</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19941204T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E00E6DC1E30F937A35751C1A962958260" item-length="244" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>A New 'Nutcracker' Ushers In a Season</hl1>
+      </hedline>
+      <byline class="print_byline">By ROBERTA HERSHENSON</byline>
+      <byline class="normalized_byline">HERSHENSON, ROBERTA</byline>
+      <dateline>PURCHASE</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>STAGE right at the Performing Arts Center here was aflutter with small silvery creatures awaiting their rehearsal cue. Then dozens of little girls danced into the spotlight, transformed suddenly into luminous angels for the Purchase College production of "The Nutcracker."</p>
+        <p>The newly choreographed ballet, performed yesterday for the first time with the Purchase Symphony Orchestra playing the Tchaikovsky score, is a joint production of the school's dance division and the division of continuing education. It can be seen today at 1 and 4:30 P.M. The dancers include soloists from the American Ballet Theater, the Purchase Dance Corps and 200 children.</p>
+      </block>
+      <block class="full_text">
+        <p>STAGE right at the Performing Arts Center here was aflutter with small silvery creatures awaiting their rehearsal cue. Then dozens of little girls danced into the spotlight, transformed suddenly into luminous angels for the Purchase College production of "The Nutcracker."</p>
+        <p>The newly choreographed ballet, performed yesterday for the first time with the Purchase Symphony Orchestra playing the Tchaikovsky score, is a joint production of the school's dance division and the division of continuing education. It can be seen today at 1 and 4:30 P.M. The dancers include soloists from the American Ballet Theater, the Purchase Dance Corps and 200 children.</p>
+        <p>The American Ballet Theater's own performances of "The Nutcracker," scheduled later this month, were abruptly canceled last week. Christopher Beach, executive director of the Performing Arts Center, said the company's partnership with the college would not be affected, however.</p>
+        <p>A Land-of-the-Sweets Party is planned for 3:15 P.M. today. Children attending either performance are invited to the party in costume and to have their faces made up by professionals. Light refreshments will be served, and cast members will be on hand for photographs.</p>
+        <p>Tickets range from $12 to $20 for the ballet. Tickets to the party are $5 for each child, while adults will be admitted free. Tickets to both events can be reserved by calling the Performing Arts Center box office at 251-6200. ROBERTA HERSHENSON</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

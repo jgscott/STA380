@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Engaging the City's Intimate Connection to Jazz</title>
+    <meta content="21JAZZ$02" name="slug"/>
+    <meta content="21" name="publication_day_of_month"/>
+    <meta content="10" name="publication_month"/>
+    <meta content="2004" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2004/10/21/arts/design/21jazz.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1620809"/>
+      <doc.copyright holder="The New York Times" year="2004"/>
+      <series series.name="ARCHITECTURE REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <classifier class="indexing_service" type="descriptor">Jazz</classifier>
+        <classifier class="indexing_service" type="descriptor">Jazz at Lincoln Center</classifier>
+        <classifier class="indexing_service" type="descriptor">Time-Warner Building (NYC)</classifier>
+        <classifier class="indexing_service" type="descriptor">Architecture</classifier>
+        <person class="indexing_service">Ouroussoff, Nicolai</person>
+        <person class="indexing_service">Vinoly, Rafael</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Architecture</classifier>
+        <classifier class="online_producer" type="descriptor">Architecture</classifier>
+        <classifier class="online_producer" type="general_descriptor">Time</classifier>
+        <classifier class="online_producer" type="general_descriptor">Jazz</classifier>
+        <classifier class="online_producer" type="general_descriptor">Architecture</classifier>
+        <classifier class="online_producer" type="general_descriptor">Office Buildings and Commercial Properties</classifier>
+        <classifier class="online_producer" type="general_descriptor">Festivals</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+        <org class="online_producer">Jazz at Lincoln Center</org>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20041021T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9900EEDA103AF932A15753C1A9629C8B63" item-length="1197" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Engaging the City's Intimate Connection to Jazz</hl1>
+        <hl2 class="online_headline">Engaging the City's Intimate Connection to Jazz</hl2>
+      </hedline>
+      <byline class="print_byline">By NICOLAI OUROUSSOFF</byline>
+      <byline class="normalized_byline">Ouroussoff, Nicolai</byline>
+      <abstract>
+        <p>Nicolai Ouroussoff reviews new Jazz at Lincoln Center complex in Time Warner Center, designed by Rafael Vinoly; contains three performing spaces and a Jazz Hall of Fame; photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Perched five stories above Columbus Circle in the Time Warner Center, Rafael Viñoly's new design for Jazz at Lincoln Center has a cool ethereality that lifts it above the mediocrity of its setting. It's a reminder that some experiences become more intimate when they are shared in full public view.</p>
+        <p>The complex, measuring 100,000 square feet, has three performance spaces -- the 1,200-seat Rose Theater, the 550-seat Allen Room and Dizzy's Club Coca-Cola -- and a Jazz Hall of Fame. The beauty of these spaces lies in their emotional range. The most stunning, the Allen Room, opens onto a dazzling view of Manhattan's Midtown skyline. The largest, the Rose, is more insular, while Dizzy's Club has a cozy informality.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Perched five stories above Columbus Circle, Rafael Viñoly's new design for Jazz at Lincoln Center has a cool ethereality that lifts it above the mediocrity of its setting.</p>
+      </block>
+      <block class="full_text">
+        <p>Perched five stories above Columbus Circle in the Time Warner Center, Rafael Viñoly's new design for Jazz at Lincoln Center has a cool ethereality that lifts it above the mediocrity of its setting. It's a reminder that some experiences become more intimate when they are shared in full public view.</p>
+        <p>The complex, measuring 100,000 square feet, has three performance spaces -- the 1,200-seat Rose Theater, the 550-seat Allen Room and Dizzy's Club Coca-Cola -- and a Jazz Hall of Fame. The beauty of these spaces lies in their emotional range. The most stunning, the Allen Room, opens onto a dazzling view of Manhattan's Midtown skyline. The largest, the Rose, is more insular, while Dizzy's Club has a cozy informality.</p>
+        <p>What's so surprising is that all three arose in the context of one of the city's most convoluted -- and lifeless -- recent development projects. Jazz at Lincoln Center was conceived as just one component of Time Warner's massive retail-office project, overseen by the Related Companies, the developer, and designed by David Childs of Skidmore, Owings &amp; Merrill. Mr. Childs designed the project's retail and commercial spaces, while Mr. Viñoly oversaw the design of the jazz center; the architects had to negotiate the relationship between the spaces.</p>
+        <p>Mr. Viñoly's complex rests on top of the Time Warner Center's shops and restaurants, a soulless mall that has the feel of a mausoleum. Conceived by Mr. Childs as a series of identical floors on the first four stories that frame a vast glass atrium overlooking Columbus Circle and 59th Street, the mall's uniform spaces -- clad in expensive-looking gray granite and glass -- are a vision of suburban ennui. Even the view of the city, experienced from a series of balconies that are pulled back from the main facade, seems detached. The sterile result is a conventional development formula, an efficient trap for consumers.</p>
+        <p>Mr. Viñoly obviously wanted to isolate his project from the one below, and link it closely to the vibrancy of the city outside. At various points, he and Mr. Childs discussed creating a series of escalators that would run straight from the mall's main atrium to the lobby of Jazz at Lincoln Center. Mr. Viñoly also tried in vain to negotiate direct access from the street. Eventually, they settled on a compromise: a bank of elevators set just inside the mall's entry at Broadway and 60th Street.</p>
+        <p>This entry has the advantage of allowing visitors to sneak by the mall's depressing warren of shops. The elevators rise directly to the jazz center's fifth-floor lobby. The Ertegun Jazz Hall of Fame is tucked to one side of this. Designed by the Rockwell Group, the long narrow room is enclosed behind pivoting cork-clad walls that open so people can drift in directly from a corridor leading to the restrooms and entrances to the theaters. The hall's undulating wood ceiling and plush carpeting, decorated in a brown-and-beige geometric pattern, are a cliché of 1960's style. The rest of the lobby, designed by Mr. Viñoly, is dominated by a large, oddly shaped events space with a window that yields your first glimpse of the Midtown skyline and the trees of Central Park. Photographs of jazz performers line the walls. (In a nod to the developer's desire to tap into the jazz center's clientele, the escalators here lead down to the mall's fourth-floor restaurants.)</p>
+        <p>The lobby areas, which feel as if they have been carved out of the mall's leftover spaces, would be at home in a neighborhood cineplex. But at least they avoid the pretentious middlebrow posturing of the granite-clad retail areas below. Their informality suits the center's mission to make jazz accessible.</p>
+        <p>It is best, however, to ignore these spaces and retreat into the theaters. The Allen Room alone justifies the torturous trip up from the mall. Casual and compact, it provides a stunning view of Central Park's bushy treetops and the axis of 59th Street. At night, the view dissolves into a spectacular series of overlapping images. A soft curtain of light descends over the stage, evoking veil-like clouds of smoke. Two enormous glass walls -- one enclosing the room, another the exterior of the building -- frame the backs of the performers. Lights from the cars streaming by on 59th Street below reflect off the glass, creating a refracted pattern of blue, red and gold.</p>
+        <p>At moments, the colorful rhythms invoke Mondrian's ''Broadway Boogie Woogie'' (1942-43), whose overlapping grids of line and colors captured the vibrancy of Manhattan's street grid. But here, the delicate layering of images gives the space an unexpected visual depth, and you feel as if you're drifting at the city's edge. The audience, performers and city collapse into a single entity.</p>
+        <p>That connection, that transparency, is as meaningful from the street as it is from the seats. Its aim is to offer the entire city a more intimate relationship with the art form, and put jazz at the center of New York's cultural life.</p>
+        <p>By comparison, the Rose Room, much bigger, is more self-contained. Its oval form is surrounded by three rings of balconies. Clad in a dark, rich wood, the balconies give the room a rigid formal symmetry. The stage, set at one end and decorated with an arc of vertical lights, anchors the room, but the space can be rearranged to suit different kinds of performances: sections of balcony behind the stage, for example, can be removed to create a more conventional proscenium stage. A seating area at the back of the theater can be replaced by a more informal table arrangement.</p>
+        <p>Mr. Viñoly's past work has often felt cold and inhuman. The brick-and-stucco shell of his Kimmel Center for the Performing Arts in Philadelphia, for example, is brutal in its simplicity. The Rose Theater has a similar geometric purity, but this is the architect at his warmest. The room's proportions are perfect, and the symmetry locks your attention on the performance. When the lights dim, everything but the stage and the elegant balconies disappears, leaving you floating inside a womblike space.</p>
+        <p>That sense of drifting returns in Dizzy's Club, the center's most relaxed venue. Tables are scattered around a small stage; more views open up to the city, this time farther north to Donald Trump's sleek, bronzed tower and the treetops of Central Park West.</p>
+        <p>There is something to celebrate here. In engaging the city so directly, Mr. Viñoly's design reasserts jazz's importance to New York's social life. Yet the project suggests what is wrong with the public-private partnerships, so typical today, that made construction of the Time Warner Center possible. Situated in a maze of commercial interests, the jazz center shows how contorted an effort it takes to negotiate a city where business so often comes before art.</p>
+        <p>The theaters are a gift. But imagine what they would be if we could obliterate the banality that surrounds them.</p>
+        <p>ARCHITECTURE REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

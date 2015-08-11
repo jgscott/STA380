@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>ART IN REVIEW</title>
+    <meta content="RV022811" name="slug"/>
+    <meta content="8" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1999" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Leisure/Weekend Desk" name="dsk"/>
+    <meta content="41" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1075559"/>
+      <doc.copyright holder="The New York Times" year="1999"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Aitken, Doug</person>
+        <person class="indexing_service">Johnson, Ken</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19990108T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9F05EFD8113EF93BA35752C0A96F958260" item-length="284" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>ART IN REVIEW</hl1>
+      </hedline>
+      <byline class="print_byline">By KEN JOHNSON</byline>
+      <byline class="normalized_byline">Johnson, Ken</byline>
+      <abstract>
+        <p>Ken Johnson reviews video installations by Doug Aitken at 303 Gallery (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Doug Aitken  303 Gallery  525 West 22d Street  Chelsea  Through Jan. 30</p>
+        <p>Doug Aitken earns a living directing music videos; for art galleries, he creates video installations based on world-roving geographical explorations, including, for example, a visit to the infamous Jonestown in Guyana.</p>
+      </block>
+      <block class="full_text">
+        <p>Doug Aitken  303 Gallery  525 West 22d Street  Chelsea  Through Jan. 30</p>
+        <p>Doug Aitken earns a living directing music videos; for art galleries, he creates video installations based on world-roving geographical explorations, including, for example, a visit to the infamous Jonestown in Guyana.</p>
+        <p>One of two polished but over-complicated works on view here is a sequence of video projections designed to recreate a hike across an island in the Caribbean where a volcano erupted in 1995. Entering the darkened gallery, you first encounter a double projection presenting the artist's view as he follows a rocky stream through the jungle; in the next room, another double projection offers a meandering tour of a bleak, abandoned town. Finally, you arrive at a room where three projections surround you with a desolate volcanic landscape and fog. As a Conradian journey to the ends of civilization, this is haunting. But the artsy multiplication of views distracts from what's most engaging, which is the cinematic narrative.</p>
+        <p>In Mr. Aitken's second piece, three monitors are arranged in the center of the room so that you can walk around them. Blending banality and mystery, they alternate views of semi-urban blight (car lots, commercial strips) and dreamlike scenes in which professional auctioneers, chanting numbers and commentary, stroll through empty spaces like a corporate lobby or an anonymous, institutional hallway. Mr. Aitken has constructed a theatrical environment for this work, including wooden benches, walls painted yellow and yellow-filtered skylights. But his formal contrivances are not so compelling that you don't wish he would just make a regular movie.</p>
+        <p>KEN JOHNSON</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

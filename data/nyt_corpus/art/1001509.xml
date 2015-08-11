@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Footlights</title>
+    <meta content="12FOOT$05" name="slug"/>
+    <meta content="12" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="1998" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Movies; Arts" name="online_sections"/>
+    <meta content="Correction Appended" name="banner"/>
+    <meta content="19980314T000000" name="correction_date"/>
+    <docdata>
+      <doc-id id-string="1001509"/>
+      <doc.copyright holder="The New York Times" year="1998"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Television</classifier>
+        <classifier class="indexing_service" type="descriptor">Awards, Decorations and Honors</classifier>
+        <classifier class="indexing_service" type="descriptor">Emmy Awards</classifier>
+        <classifier class="indexing_service" type="descriptor">Television</classifier>
+        <classifier class="indexing_service" type="descriptor">Opera</classifier>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Museums</classifier>
+        <classifier class="indexing_service" type="descriptor">Motion Pictures</classifier>
+        <location class="indexing_service">Italy</location>
+        <org class="indexing_service">San Francisco Opera</org>
+        <org class="indexing_service">American Museum of the Moving Image (NYC)</org>
+        <person class="indexing_service">Mcnally, Terrence</person>
+        <person class="indexing_service">heggie, jake</person>
+        <person class="indexing_service">Van Gelder, Lawrence</person>
+        <person class="indexing_service">Lucci, Susan</person>
+        <person class="indexing_service">mansouri, lotfi</person>
+        <person class="indexing_service">Prejean, Helen (Sister)</person>
+        <person class="indexing_service">Hoffman, Dustin</person>
+        <object.title class="indexing_service">dead man walking (opera)</object.title>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Italy</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features/People</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features/People/Terrence McNally</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies/News and Features/Awards</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Media, Entertainment and Publishing</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe/Italy</classifier>
+        <classifier class="online_producer" type="general_descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Emmy Awards</classifier>
+        <classifier class="online_producer" type="general_descriptor">Emmy Awards</classifier>
+        <classifier class="online_producer" type="general_descriptor">Motion Pictures</classifier>
+        <classifier class="online_producer" type="general_descriptor">Opera</classifier>
+        <classifier class="online_producer" type="general_descriptor">Awards, Decorations and Honors</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Television</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19980312T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D03E2DE1130F931A25750C0A96E958260" item-length="485" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Footlights</hl1>
+      </hedline>
+      <byline class="print_byline">By LAWRENCE VAN GELDER</byline>
+      <byline class="normalized_byline">Van Gelder, Lawrence</byline>
+      <abstract>
+        <p>Soap opera star Susan Lucci gets Daytime Emmy nomination for best actress for 18th time; has never won; San Francisco Opera general director Lotfi Mansouri has commissioned Terrence McNally and Jake Heggie to create opera, Dead Man Walking, based on Sister Helen Prejean's book; Italy plans to keep 16 popular museums open for extra three hours a day, until 10 PM, for at least three years; American Museum of the Moving Image to honor Dustin Hoffman at fete, New York City; will show scenes from some of his best films, introduced by his colleagues; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>NEWS  Days of Hope</p>
+        <p>As Yogi Berra might say, it's deja vu all over again. Yes, Susan Lucci has received another Daytime Emmy nomination for best actress, her 18th. Ms. Lucci, now an expert on accepting consolation, has never won. The actress, who portrays Erika Kane on the ABC soap opera ''All My Children,'' will learn her fate on April 15 when the awards ceremony is televised on NBC. Among the soaps, ''All My Children'' received 17 nominations yesterday, one behind ''The Young and Restless'' on CBS and one ahead of ABC's ''General Hospital.''</p>
+      </block>
+      <block class="full_text">
+        <p>NEWS  Days of Hope</p>
+        <p>As Yogi Berra might say, it's deja vu all over again. Yes, Susan Lucci has received another Daytime Emmy nomination for best actress, her 18th. Ms. Lucci, now an expert on accepting consolation, has never won. The actress, who portrays Erika Kane on the ABC soap opera ''All My Children,'' will learn her fate on April 15 when the awards ceremony is televised on NBC. Among the soaps, ''All My Children'' received 17 nominations yesterday, one behind ''The Young and Restless'' on CBS and one ahead of ABC's ''General Hospital.''</p>
+        <p>Words and Music</p>
+        <p>''Dead Man Walking'' will come up singing for the San Francisco Opera in the company's 2000-2001 season. Lotfi Mansouri, the general director of the San Francisco Opera, announced yesterday that he had commissioned the playwright Terrence McNally and the composer Jake Heggie to create an opera based on Sister Helen Prejean's award-winning 1993 book about the capital punishment system. In 1995, the book was adapted for the screen. Susan Sarandon's portrayal of Sister Helen won her an Academy Award for best actress. The ''Dead Man Walking'' opera project is part of Mr. Mansouri's ''Pacific Visions'' program for replenishing the opera repertory. Plans call for Patrick Summers to conduct the premiere and for the mezzo-soprano Frederica von Stade to sing the principal role, the inmate's mother.</p>
+        <p>Open Door Policy</p>
+        <p>Judging a summer experiment a success, Italy plans to keep the doors of 16 popular museums open for an extra three hours a day for at least three years. Culture Minister Walter Veltroni said that beginning on April 7, the 16 museums, which open at 9 A.M. and close at 7 P.M., will remain open until 10 P.M. Among them are the Uffizi in Florence, the Galleria Borghese and National Gallery of Modern Art in Rome and l'Accademia in Venice. Attendance at Italy's museums rose to 11.9 million last year from 7.9 million in 1985.</p>
+        <p>Now See This</p>
+        <p>With a little help from his friends, Dustin Hoffman's life will flash before his eyes at a gala dinner of the American Museum of the Moving Image next Thursday in the grand ballroom of the Waldorf-Astoria Hotel. As the 13th subject of the museum's annual salute, the actor will witness scenes from some of his best films, introduced by colleagues like Kevin Bacon, Teri Garr, Barry Levinson, Katharine Ross and Justin Henry. A star of films like ''The Graduate,'' ''Midnight Cowboy,'' ''All the President's Men,'' ''Kramer vs. Kramer,'' ''Tootsie'' and ''Rain Man,'' Mr. Hoffman is a nominee for an Academy Award for ''Wag the Dog.''</p>
+        <p>LAWRENCE VAN GELDER</p>
+        <p>Correction:  March 14, 1998, Saturday  A brief report in the Footlights column of the Arts section on Thursday about Susan Lucci's nomination for a Daytime Emmy misstated the date of this year's awards. It is May 15, not April 15.</p>
+      </block>
+      <block class="correction_text">
+        <p>Correction: March 14, 1998, Saturday</p>
+        <p>A brief report in the Footlights column of the Arts section on Thursday about Susan Lucci's nomination for a Daytime Emmy misstated the date of this year's awards. It is May 15, not April 15.</p>
+        <p>&lt;br&gt;</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

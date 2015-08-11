@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>From Soup Cans to Still Lifes, Turn the Den Into an Art Gallery</title>
+    <meta content="06PLAY$01" name="slug"/>
+    <meta content="6" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="2005" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Circuits" name="dsk"/>
+    <meta content="6" name="print_page_number"/>
+    <meta content="G" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Technology" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2005/01/06/technology/circuits/06play.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1639809"/>
+      <doc.copyright holder="The New York Times" year="2005"/>
+      <series series.name="NEWS WATCH: ART"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Television</classifier>
+        <org class="indexing_service">Beon Media (Co)</org>
+        <person class="indexing_service">Millman, Howard</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Technology</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Technology/Circuits</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Technology, Telecommunications and Internet</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business/Media and Advertising</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Media, Entertainment and Publishing</classifier>
+        <classifier class="online_producer" type="descriptor">Photography</classifier>
+        <classifier class="online_producer" type="descriptor">Museums</classifier>
+        <classifier class="online_producer" type="descriptor">Collectors and Collections</classifier>
+        <classifier class="online_producer" type="general_descriptor">Photography</classifier>
+        <classifier class="online_producer" type="general_descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Collectors and Collections</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Television</classifier>
+        <org class="online_producer">Microsoft Corporation</org>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20050106T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9A02EEDF1039F935A35752C0A9639C8B63" item-length="281" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>From Soup Cans to Still Lifes, Turn the Den Into an Art Gallery</hl1>
+        <hl2 class="online_headline">From Soup Cans to Still Lifes, Turn the Den Into an Art Gallery</hl2>
+      </hedline>
+      <byline class="print_byline">By Howard Millman</byline>
+      <byline class="normalized_byline">Millman, Howard</byline>
+      <abstract>
+        <p>Beon Media's GalleryPlayer is image-downloading service that can transform blank television screen into dynamic digital canvas that can display array of fine art; service is by subscription; photo (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Not all art must hang in a frame. GalleryPlayer, an image-downloading service, can transform a big blank TV screen into a dynamic digital canvas.</p>
+        <p>For $5 to $7 a month, the service provides 20 to 25 images in any of several categories, allowing you to create a high-resolution slide show on televisions connected to a Microsoft Media Center PC. Requirements include high-speed Internet access for downloading and a Media Center PC running GalleryPlayer software, to convert the downloaded files into images. Media Center PC's offer multiple ports for transferring the images to the television, including Digital Visual Interface, S-video and VGA. Viewing is optimal on a liquid-crystal display or plasma television.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Not all art must hang in a frame. GalleryPlayer, an image-downloading service, can transform a big blank TV screen into a dynamic digital canvas.</p>
+      </block>
+      <block class="full_text">
+        <p>Not all art must hang in a frame. GalleryPlayer, an image-downloading service, can transform a big blank TV screen into a dynamic digital canvas.</p>
+        <p>For $5 to $7 a month, the service provides 20 to 25 images in any of several categories, allowing you to create a high-resolution slide show on televisions connected to a Microsoft Media Center PC. Requirements include high-speed Internet access for downloading and a Media Center PC running GalleryPlayer software, to convert the downloaded files into images. Media Center PC's offer multiple ports for transferring the images to the television, including Digital Visual Interface, S-video and VGA. Viewing is optimal on a liquid-crystal display or plasma television.</p>
+        <p>Beon Media, GalleryPlayer's developer, said sets of images were available in 12 categories like nature, earth and space and fine art, including work by Ansel Adams, Cézanne and Andy Warhol. Each category requires a separate subscription; entries are updated monthly.</p>
+        <p>The company said most of the photos and paintings were in private collections, and many were previously unavailable for downloading or online viewing.</p>
+        <p>Images can be purchased outright for $1 to $3 each, or in collections of 15 images for $5 to $20. Thumbnails of the images and descriptions of the categories are at galleryplayer.com.</p>
+        <p>The viewing experience can be enhanced by music or sound effects, but you will have to provide your own.</p>
+        <p>Howard Millman</p>
+        <p>NEWS WATCH: ART</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

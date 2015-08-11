@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Where Top British Directors Are: Broadway</title>
+    <meta content="07DIRE" name="slug"/>
+    <meta content="7" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="2002" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts; Theater" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2002/03/07/arts/theater/07DIRE.html" name="alternate_url"/>
+    <meta content="Correction Appended" name="banner"/>
+    <meta content="20020308T000000" name="correction_date"/>
+    <docdata>
+      <doc-id id-string="1373660"/>
+      <doc.copyright holder="The New York Times" year="2002"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <org class="indexing_service">Royal National Theater</org>
+        <person class="indexing_service">Eyre, Richard</person>
+        <person class="indexing_service">Hytner, Nicholas</person>
+        <person class="indexing_service">Nunn, Trevor</person>
+        <person class="indexing_service">Gussow, Mel</person>
+        <object.title class="indexing_service">Crucible, the (Play)</object.title>
+        <object.title class="indexing_service">Oklahoma! (Play)</object.title>
+        <object.title class="indexing_service">Sweet Smell of Success (Play)</object.title>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Plains</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features/Companies and Organizations</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features/Companies and Organizations/Royal National Theater</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/Plays</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York</classifier>
+        <classifier class="online_producer" type="descriptor">Theater</classifier>
+        <classifier class="online_producer" type="general_descriptor">Theater</classifier>
+        <location class="online_producer">Broadway (NYC)</location>
+        <person class="online_producer">Eyre, Richard</person>
+        <person class="online_producer">Hytner, Nicholas</person>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20020307T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9B05E6DA1530F934A35750C0A9649C8B63" item-length="1560" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Where Top British Directors Are: Broadway</hl1>
+        <hl2 class="online_headline">Top British Directors Are Busy on Broadway</hl2>
+      </hedline>
+      <byline class="print_byline">By MEL GUSSOW</byline>
+      <byline class="normalized_byline">Gussow, Mel</byline>
+      <abstract>
+        <p>Interviews with three British directors who are working on Broadway at same time: Richard Eyre on revival of The Crucible, Nicholas Hytner on new musical Sweet Smell of Sucess and Trevor Nunn on remounting of British production of Oklahoma!; all offer enthusiasm for American theater and comment on their past and future roles with London's Royal National Theater; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Is it simply a coincidence or could it be a cabal? Three of the foremost British directors are working on Broadway at the same time, readying major American shows to face New York audiences this month. Richard Eyre is opening a revival of ''The Crucible'' tonight, Nicholas Hytner's production of the new musical ''Sweet Smell of Success'' opens on March 14, and Trevor Nunn's remounting of his acclaimed Royal National Theater production of ''Oklahoma!'' opens on March 21.</p>
+        <p>These men have many things in common, beginning with the fact that each represents a past, present or future artistic director of the Royal National Theater in London. Each is well aware of the artistic (and royal) lineage at the National -- the baton passing from Lord Olivier to Sir Peter Hall, Sir Richard Eyre, Sir Trevor Nunn and, as yet, Mr. Hytner, who takes over the post next year.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Three of the foremost British directors are working on Broadway at the same time, readying major American shows to face New York audiences this month.</p>
+      </block>
+      <block class="full_text">
+        <p>Is it simply a coincidence or could it be a cabal? Three of the foremost British directors are working on Broadway at the same time, readying major American shows to face New York audiences this month. Richard Eyre is opening a revival of ''The Crucible'' tonight, Nicholas Hytner's production of the new musical ''Sweet Smell of Success'' opens on March 14, and Trevor Nunn's remounting of his acclaimed Royal National Theater production of ''Oklahoma!'' opens on March 21.</p>
+        <p>These men have many things in common, beginning with the fact that each represents a past, present or future artistic director of the Royal National Theater in London. Each is well aware of the artistic (and royal) lineage at the National -- the baton passing from Lord Olivier to Sir Peter Hall, Sir Richard Eyre, Sir Trevor Nunn and, as yet, Mr. Hytner, who takes over the post next year.</p>
+        <p>For several weeks, each of the three was in rehearsal with his show in the same building, the Duke on 42nd Street. They would often pass one another in hallways: old home week for the visiting Britons.</p>
+        <p>As Liam Neeson, portraying John Proctor, cried out in defense of his good name in 17th-century Salem, in other rooms Patrick Wilson sauntered across the rehearsal stage singing ''Oh, What a Beautiful Mornin','' and John Lithgow, as the cynical newspaper columnist J. J. Hunsecker, sang a salute to his profession, ''Welcome to the Night.''</p>
+        <p>In individual interviews, the directors expressed a particular enthusiasm for American shows while speaking about their own roles at the National. Mr. Eyre and Mr. Nunn are doing ''The Crucible'' and 'Oklahoma!'' because they are contemporary American classics. Having done his share of revivals, Mr. Hytner was, quite simply, attracted to the challenge of doing a new American musical on Broadway. Although their careers have overlapped, each has a clear directorial identity. The first show that Mr. Eyre directed on the Olivier stage at the National was ''Guys and Dolls,'' and he is also known in England for directing plays by David Hare. He was the chief creative force behind ''Changing Stages,'' a book and television series about the English theater. His most recent film is ''Iris,'' for which Dame Judi Dench has been nominated for an Oscar.</p>
+        <p>Mr. Nunn, who was three years ahead of Mr. Eyre at Cambridge University, was the artistic director of the Royal Shakespeare Company for many years, and is known equally for his Shakespearean productions, for ''Nicholas Nickleby'' (which he directed with John Caird) and for his collaboration with Andrew Lloyd Webber. He wrote the lyrics for ''Memory'' in ''Cats,'' which he directed. Both he and Mr. Eyre have staged plays by Tom Stoppard.</p>
+        <p>At 45, Mr. Hytner is the youngest, and the one with the strongest New York connection, having directed ''Carousel'' and ''Twelfth Night'' at Lincoln Center, where he is an associate director of the theater company. He has often staged the work of Alan Bennett and filmed Mr. Bennett's ''Madness of King George'' as well as ''The Crucible.'' He also directed ''Miss Saigon.''</p>
+        <p>Mr. Hytner said that Mr. Eyre gave him his first opportunity to direct at the National. They have remained friends and had dinner together in New York. Mr. Nunn was usually on the run and at one point returned briefly to London.</p>
+        <p>Mr. Eyre and Mr. Nunn will probably continue to direct at the National when Mr. Hytner is in charge. Also, along with Sir Peter, they will be available ''as ex-directors of the National who know where all the bodies are buried,'' Mr. Hytner said.</p>
+        <p>Discussing their common backgrounds and interests, Mr. Hytner said, ''We're all creatures of subsidized theater.'' Each has also had considerable success in commercial theater. ''We're always looking for ways of reconciling the seductive hustle of the American musical with the high seriousness of European art theater,'' he said, while leaving room for English plays, classic and modern.</p>
+        <p>Explaining why classic American musicals seem to be even more popular in England than in the United States, Mr. Hytner said: ''One of the great strengths of the American theater is that it has always been less interested in reinvestigation and revival than in creating the new.''</p>
+        <p>Mr. Hytner's reference was not just to Broadway, which specializes in revivals, but to the broad range of the American theater. ''In England, our culture looks back all the time,'' he continued. ''It seems to me the great challenge of running the National is to discover new work.'' Perhaps more than his predecessors, that will be high on his agenda, much higher than Shakespeare.</p>
+        <p>In contrast to his revival of ''Carousel,'' a new musical like ''Sweet Smell of Success'' is ''more of a high-wire act,'' he said. After trying out in Chicago, the show (by Marvin Hamlisch, Craig Carnelia and John Guare) has gone through revisions in New York before opening on Broadway.</p>
+        <p>Mr. Eyre said categorically, ''The American musical is the only original dramatic form to be created in the 20th century,'' and he emphasized, ''It is a uniquely American creation.''</p>
+        <p>He continued: ''For 20 or 25 years, it was an art form in a state of grace. It produced a series of masterpieces, in the same way as Puccini and Verdi in 19th-century opera.'' He said that growing up in the 1950's, he thought that ''everything about American culture was better than British'' -- plays, novels, films, music.</p>
+        <p>His kinship with the United States extends to drama, in particular to the works of Arthur Miller and Tennessee Williams, and he praised their writing for its ''passion and muscularity.''</p>
+        <p>As he said: ''Most American plays tend to be about the American dream or the corollary, the failure of the American dream; about utopianism and idealism corrupted. If you're marinated in Shakespeare, and looking for a classic continuum, you certainly lean more to people who seem to have swum in the same water than you do to the etiolated British playwrights. For me, Coward is nails down a blackboard.''</p>
+        <p>More recent British playwrights -- including Harold Pinter, Alan Ayckbourn, Mr. Stoppard and Mr. Hare -- are exempted from that charge, and have been staged at the National through various regimes.</p>
+        <p>In their work at the National, both Mr. Eyre and Mr. Nunn have explored America's theatrical past, plays as well as musicals (including many by Stephen Sondheim). Some London critics have objected to Mr. Nunn presenting such lavish productions of American shows (''South Pacific'' followed ''My Fair Lady'' at the Olivier).</p>
+        <p>On the other hand, new American writers have not often been produced in London. In response, Mr. Nunn said, ''If we started to do a great deal more American drama, we would be criticized for becoming the National Theater of America.''</p>
+        <p>Mr. Nunn's next major work will be Mr. Stoppard's trilogy about Russia before the Revolution, scheduled to open this summer.</p>
+        <p>In articulating his feelings about theater, Mr. Nunn looks back to his Cambridge days and his studies with F. R. Leavis:</p>
+        <p>''This great literary critic believed that absolute standards in artistic matters were definable, that 'a matter of opinion' would not do. He would say that the way we progress is to ask the question, 'This is so, isn't it?' And we expect the reply, 'Yes, but.' The 'but' is all-important. What Richard passed on to me was something about which I could say, 'Yes, but,' and I believe that's what I will pass on to Nick. The National under Nick will have a very defined personality, as is clear from all his creative work up to now.''</p>
+        <p>Reflecting on his run at the National, Mr. Nunn said that heading such a theater ''takes diplomacy, patience'' and sometimes ''a degree of unpopularity to get things to work; but what it takes most of all is good luck.''</p>
+        <p>Having been freed for the last four years from the National's obligations, Mr. Eyre is tempted by the idea of directing a company again. ''I sort of think I will because I love doing it,'' he said, adding that he missed his meetings with artists he had chosen to work with and also missed ''that feeling of adventure.''</p>
+        <p>In contrast, Mr. Nunn said that having run two major companies, the National and the Royal Shakespeare -- ''huge, huge labyrinthine, tentacular organizations'' -- he is not eager to run another one. For him, too much time had to be devoted to being a producer rather than a director. When he concludes his five-year tenure, he plans to return to being a freelance director.</p>
+        <p>As for Mr. Hytner, he is looking ahead to his new position: ''I can't think of anything that would be better to do. This is the best job that's available to a director in the English-speaking theater.''</p>
+        <p>He said he was tantalized by ''the idea that in a few years there will be people who feel that their lives and careers owe as much to me as I owe to Richard Eyre.''</p>
+        <p>Correction:  March 8, 2002, Friday  Because of an editing error, an article in the arts pages yesterday about three British directors in New York misidentified the building where their plays were in rehearsal. It is the New 42nd Street Studios. (The Duke on 42nd Street is a ''black box'' theater in the building.)</p>
+      </block>
+      <block class="correction_text">
+        <p>Correction: March 8, 2002, Friday</p>
+        <p>Because of an editing error, an article in the arts pages yesterday about three British directors in New York misidentified the building where their plays were in rehearsal. It is the New 42nd Street Studios. (The Duke on 42nd Street is a ''black box'' theater in the building.)</p>
+        <p>&lt;br&gt;</p>
+        <p>&lt;br&gt;</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Last Chance</title>
+    <meta content="20CHAN" name="slug"/>
+    <meta content="20" name="publication_day_of_month"/>
+    <meta content="9" name="publication_month"/>
+    <meta content="1996" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Weekend Desk" name="dsk"/>
+    <meta content="31" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="878245"/>
+      <doc.copyright holder="The New York Times" year="1996"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">NO INDEX TERMS</classifier>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="online_producer" type="types_of_material">Summary</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19960920T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9502E6DF173DF933A1575AC0A960958260" item-length="282" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Last Chance</hl1>
+      </hedline>
+      <abstract>
+        <p>Sampling of shows and exhibitions in Manhattan that will close soon (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Here is a sampling of shows and exhibitions in Manhattan that are to close soon:</p>
+        <p>Closing This Weekend</p>
+        <p>''WINSLOW HOMER'' AND ''AMERICAN PRINTMAKING, 1860-1900: WINSLOW HOMER AND HIS CONTEMPORARIES,'' Metropolitan Museum of Art, Fifth Avenue, at 82d Street. The first, a retrospective with more than 150 drawings, watercolors and oil paintings. The second, 50 lithographs, engravings and etchings. Both through Sunday. Hours: 9:30 A.M. to 8:45 P.M. today and tomorrow; 9:30 A.M. to 5:15 P.M. on Sunday. Admission: $8; $4 for students and the elderly. Information: (212) 535-7710.</p>
+        <p>''INTERNATIONAL FESTIVAL OF PUPPET THEATER,'' through Sunday at various sites. The performance spaces and performers this weekend: Joseph Papp Public Theater, 425 Lafayette Street, East Village, (212) 260-2400 (El Periferico des Objetos, Compagnie Nicole Mossoux and Patrick Bonte, Romann Paska, Mabou Mines, Green Ginger, Evolve Productions, Theater Laku Paka, Alchemilla); La MaMa Etc., 74A East Fourth Street, East Village, (212) 475-7710 (Frantisek and Vera, Warner Blake I and 11); Dance Theater Workshop, 219 West 19th Street, Chelsea, (212) 924-0077 (Janie Geiser and Company); The New Victory Theater, 209 West 42d Street, (212) 563-5544, (Amoros and Augustin); P.S. 122, 150 First Avenue, at Ninth Street, East Village, (212) 477-5288 (Puppet Lounge and Late Night Cabaret). For showtimes and ticket information, call the individual theater or Telecharge, (212) 563-5544.</p>
+        <p>''IN/SIGHT: AFRICAN PHOTOGRAPHERS, 1940 TO THE PRESENT,'' Solomon R. Guggenheim Museum, 1071 Fifth Avenue, at 89th Street. Photographs by 30 African-born artists. Through Sunday. Hours: Today and tomorrow, 10 A.M. to 8 P.M.; Sunday, 10 A.M. to 6 P.M. Admission: $10; $5 for students and the elderly; free for those under 12. Information: (212) 423-3500.</p>
+      </block>
+      <block class="full_text">
+        <p>Here is a sampling of shows and exhibitions in Manhattan that are to close soon:</p>
+        <p>Closing This Weekend</p>
+        <p>''WINSLOW HOMER'' AND ''AMERICAN PRINTMAKING, 1860-1900: WINSLOW HOMER AND HIS CONTEMPORARIES,'' Metropolitan Museum of Art, Fifth Avenue, at 82d Street. The first, a retrospective with more than 150 drawings, watercolors and oil paintings. The second, 50 lithographs, engravings and etchings. Both through Sunday. Hours: 9:30 A.M. to 8:45 P.M. today and tomorrow; 9:30 A.M. to 5:15 P.M. on Sunday. Admission: $8; $4 for students and the elderly. Information: (212) 535-7710.</p>
+        <p>''INTERNATIONAL FESTIVAL OF PUPPET THEATER,'' through Sunday at various sites. The performance spaces and performers this weekend: Joseph Papp Public Theater, 425 Lafayette Street, East Village, (212) 260-2400 (El Periferico des Objetos, Compagnie Nicole Mossoux and Patrick Bonte, Romann Paska, Mabou Mines, Green Ginger, Evolve Productions, Theater Laku Paka, Alchemilla); La MaMa Etc., 74A East Fourth Street, East Village, (212) 475-7710 (Frantisek and Vera, Warner Blake I and 11); Dance Theater Workshop, 219 West 19th Street, Chelsea, (212) 924-0077 (Janie Geiser and Company); The New Victory Theater, 209 West 42d Street, (212) 563-5544, (Amoros and Augustin); P.S. 122, 150 First Avenue, at Ninth Street, East Village, (212) 477-5288 (Puppet Lounge and Late Night Cabaret). For showtimes and ticket information, call the individual theater or Telecharge, (212) 563-5544.</p>
+        <p>''IN/SIGHT: AFRICAN PHOTOGRAPHERS, 1940 TO THE PRESENT,'' Solomon R. Guggenheim Museum, 1071 Fifth Avenue, at 89th Street. Photographs by 30 African-born artists. Through Sunday. Hours: Today and tomorrow, 10 A.M. to 8 P.M.; Sunday, 10 A.M. to 6 P.M. Admission: $10; $5 for students and the elderly; free for those under 12. Information: (212) 423-3500.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Is There a Composer in the House? Not Always</title>
+    <meta content="01SCHW" name="slug"/>
+    <meta content="1" name="publication_day_of_month"/>
+    <meta content="9" name="publication_month"/>
+    <meta content="1996" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Arts and Leisure Desk" name="dsk"/>
+    <meta content="22" name="print_page_number"/>
+    <meta content="2" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="CLASSICAL MUSIC" name="column_name"/>
+    <docdata>
+      <doc-id id-string="874477"/>
+      <doc.copyright holder="The New York Times" year="1996"/>
+      <series series.name="CLASSICAL MUSIC"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Finances</classifier>
+        <person class="indexing_service">Schwarz, K Robert</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Banking, Finance and Insurance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Finances</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19960901T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9407E3DF1239F932A3575AC0A960958260" item-length="1732" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Is There a Composer in the House? Not Always</hl1>
+      </hedline>
+      <byline class="print_byline">By K. ROBERT SCHWARZ</byline>
+      <byline class="normalized_byline">Schwarz, K Robert</byline>
+      <abstract>
+        <p>K Robert Schwarz article on composer-in-residence programs with American orchestras; composers generally play role in programming and advise on new music; few orchestras have retained program since outside funding ran out; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>FOR MORE THAN A DECADE, mysterious figures have lurked on the margins of American musical organizations, especially symphony orchestras. Their duties may be precisely delineated or barely defined, their power substantial or illusory, their achievement lasting or transient. Though rarely seen in public, they may be trotted out when their presence is useful. They go by several names, the most common being composer-in-residence.</p>
+        <p>The title summons the image of a composer ensconced backstage, furiously churning out scores to be set before the public. But what do composers-in-residence actually do?</p>
+      </block>
+      <block class="full_text">
+        <p>FOR MORE THAN A DECADE, mysterious figures have lurked on the margins of American musical organizations, especially symphony orchestras. Their duties may be precisely delineated or barely defined, their power substantial or illusory, their achievement lasting or transient. Though rarely seen in public, they may be trotted out when their presence is useful. They go by several names, the most common being composer-in-residence.</p>
+        <p>The title summons the image of a composer ensconced backstage, furiously churning out scores to be set before the public. But what do composers-in-residence actually do?</p>
+        <p>Generally, they play a role in programming and advise on matters related to new music. And given the atmosphere of artistic conservatism and fiscal caution that pervades most American musical institutions, they perform an awkward balancing act. They must mediate between their own desire to champion the new, and the tendency of artistic administrators and music directors to stick with the old. They must gain the trust of suspicious audiences by introducing fare that neither panders nor alienates. They must argue the case for the living composer without being troublemakers.</p>
+        <p>As young as the breed is, it is already dwindling. With the start of a new concert season, Tania Leon, who was once a composer fellow of the New York Philharmonic, remains in the position of new-music adviser, and Ellen Taaffe Zwilich begins the second year of a three-year appointment to the composer's chair at Carnegie Hall. But Bernard Rands has left the Philadelphia Orchestra after a particularly long tenure of seven years as composer-in-residence, although he continues to hold similar positions at the Aspen Music Festival and the Tanglewood Music Center.</p>
+        <p>American orchestras began to retain composers on their payrolls only in the 1980's. New American music had become increasingly rare in orchestral programs and was often viewed as an unwelcome guest, perhaps tolerated but not encouraged.</p>
+        <p>''There were few opportunities for composers in the orchestral world, and especially for younger composers,'' said John Duffy, the former director of Meet the Composer, an organization that advocates on behalf of living American composers and seeks to make them integral parts of their communities. ''Most younger composers felt that the orchestra was hopelessly out of reach, so instead they wrote electronic or chamber works. That was not a healthy musical situation.''</p>
+        <p>In 1982, Meet the Composer, under Mr. Duffy's leadership, initiated an ambitious 10-year plan to place composers in residence with major American orchestras and raised the money to make the idea a reality. Suddenly, many orchestras sprouted composers, some of whom played highly visible roles. In New York, Jacob Druckman worked with the Philharmonic and its music director, Zubin Mehta, to develop a series of summer festivals called Horizons. In San Francisco, John Adams enjoyed a warm relationship with Edo de Waart, the symphony's music director; the results included a ''New and Unusual Music'' series and two of Mr. Adams's most significant orchestral works.</p>
+        <p>Through the program, composers gained a foothold in the American orchestral world and began to sense new opportunities.</p>
+        <p>''Because there were composers-in-residence with most major orchestras,'' Mr. Rands said, ''composers in general began to feel that there was someone in the institution who advocated on their behalf, someone with direct access to the music director. And if one looked at programming over the last 15 years, one would see a marked increase in the commissioning and performance of new scores.''</p>
+        <p>In 1992, Meet the Composer's financing ran out. ''The program was designed to self-destruct,'' Mr. Duffy said. ''If after 10 years the orchestra didn't have a line item in its budget for a composer, then the residency would end. The idea was that the orchestras would care enough to carry on the program themselves.''</p>
+        <p>But of the 21 major orchestras who participated in the original residency project, only 6 still have composers-in-residence. Some simply dropped the position when they were forced to pay for it. Others, like the Philadelphia Orchestra, maintained it for several years but eventually eliminated it for budgetary reasons. Still others, like the New York Philharmonic, have redefined and retitled the position, reducing its influence.</p>
+        <p>Perhaps no Meet the Composer residency was more influential than Druckman's four-year stint with the Philharmonic. From 1983 to 1986, he coordinated four Horizons festivals, which attracted sizable audiences and called attention to a rising neo-Romanticism in American music.</p>
+        <p>Druckman was succeeded by David Del Tredici, and the Philharmonic, in a powerful gesture of support for new music, celebrated its 150th anniversary in 1992 by commissioning 36 American works. (Only 25 have so far been performed.) But Mr. Del Tredici's successor, Ms. Leon, is now called new-music adviser, not composer-in-residence, and the change involves more than semantics.</p>
+        <p>''The major difference is that in the fellowship under which Tania was engaged, there was no promise or guarantee that works by the composer would be played or commissioned,'' said Welz Kauffman, the artistic administrator of the Philharmonic. Ms. Leon's position, financed by the Philharmonic, includes most of the tasks composers-in-residence typically perform: sifting through scores, offering advice on repertory and taking part in public events that relate to new music.</p>
+        <p>''It was my understanding in conversations with the management and the music director that they were in fact going to perform Tania's work, and that she would play a central role in advising Kurt Masur,'' Mr. Duffy said. ''Now they have an outstanding composer who has very little input.''</p>
+        <p>Ms. Leon discusses her role with the caution of a seasoned diplomat.</p>
+        <p>''Organizations hire composers-in-residence intending to find a solution, yet the infrastructure of the institution is tied to a mode of operation that approaches change in a very cautious way,'' she said. ''As far as the nature of this residency, I thought that a real partnership could be created, that by uniting ideals and actions we could revive an appreciation for the contributions of our composers. But it seems to me that I am a dreamer, and my dreams are clouded with big ideals.''</p>
+        <p>In any case, the Philharmonic has at least retained a composer on its staff in some capacity. Other orchestras, like the Philadelphia, have failed to do so, citing fiscal problems.</p>
+        <p>''This is a tragedy,'' Mr. Rands said. ''Every orchestra can afford a composer-in-residence, no matter what the economic situation. They cannot afford not to have one. It seems to me that the cost of one more back-desk violinist is not relevant when compared with the broad involvement that a creative position can bring. But my departure coincided with some financial crunch, and in a panic response the position was eliminated.''</p>
+        <p>Joseph Kluger, the president of the Philadelphia Orchestra, sees the issue in more practical terms. ''We were facing a need to reduce expenses next year in order to balance our budget. When we got together to decide which painful cuts to make, we felt that this one could be made without compromising a primary objective, the continued performance of contemporary music.''</p>
+        <p>Others will now divide the task of choosing which new works to perform, Mr. Kluger explained. ''It's going to require more work from our staff, from our maestro, Wolfgang Sawallisch, and from our guest conductors. But as one of the senior orchestras in this country, we think we'll be able to make some kind of selection process.''</p>
+        <p>With public and private support for musical institutions declining, the orchestra's decision is understandable. To a financially strapped organization, a composer-in-residence may seem an unaffordable luxury. But some see other motives.</p>
+        <p>''I am fairly skeptical about the excuse that it's a financial decision,'' said Catherine Wichterman, the director of Meet the Composer. ''The total amount spent on a composer-in-residence could be wiped out by the engagement of one guest artist. The real issues have to do with marketing. If you have a conservative board of directors, a staff that doesn't specialize in contemporary music and a music director who isn't American and doesn't do much new work, the elimination of the composer becomes the expedient thing to do.''</p>
+        <p>As orchestras retrench, the composer-in-residence will become an increasingly endangered species. But a new model is offered by projects like Carnegie Hall's composer's chair. Ms. Zwilich is its first occupant, and she exudes an optimism rare among orchestral composers.</p>
+        <p>''The main reason I agreed to do this is that I'm considered primarily a composer, and this was understood by the Carnegie administration,'' she said. ''I'm not going to turn into an administrator.''</p>
+        <p>Indeed, Ms. Zwilich has been offered three major commissions, all of which will receive their premieres at Carnegie Hall. This season she will moderate ''Making Music,'' a new series of composer conversations in Weill Recital Hall, and next season she will direct a professional training workshop for young composers.</p>
+        <p>But she is spared some of the problems resident composers face in orchestras. ''The orchestra residencies are in a context where you have a music director, and it's a very different situation if there is a conductor who is the final authority on what music is done,'' Ms. Zwilich said. ''The major role of the composer-in-residence is to bring contemporary music to the attention of the music director, which involves wading through tons of scores. I didn't feel that was right for me.''</p>
+        <p>Undoubtedly the job of composer-in-residence, as envisioned by Meet the Composer, could be all-consuming. Mr. Druckman became so involved with Horizons festivals that he missed the deadline for submission of his opera ''Medea'' to the Metropolitan Opera, which, partly as a result, canceled its commission.</p>
+        <p>No matter how idealistic the residencies may have been, they often worked. The proof lies in much music that would otherwise never have been written, performed or recorded.</p>
+        <p>''All the work that went into this program, the foundation that was built by composers and managers and music directors, is now left to wither,'' Mr. Duffy said. ''Without living composers, the orchestras will be threadbare. They may have money, they may have high culture, but they will lack soul.''  CLASSICAL MUSIC  K. Robert Schwarz is the author of ''Minimalists.''</p>
+      </block>
+    </body.content>
+    <body.end>
+      <tagline class="author_info">K. Robert Schwarz is the author of ''Minimalists.''</tagline>
+    </body.end>
+  </body>
+</nitf>

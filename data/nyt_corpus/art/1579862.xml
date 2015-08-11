@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>'One to One' -- 'Visions -- Recent Photographs From China'</title>
+    <meta content="RV004709" name="slug"/>
+    <meta content="7" name="publication_day_of_month"/>
+    <meta content="5" name="publication_month"/>
+    <meta content="2004" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Leisure/Weekend Desk" name="dsk"/>
+    <meta content="38" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1579862"/>
+      <doc.copyright holder="The New York Times" year="2004"/>
+      <series series.name="ART IN REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Johnson, Ken</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20040507T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D04E4DD173CF934A35756C0A9629C8B63" item-length="302" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>'One to One' -- 'Visions -- Recent Photographs From China'</hl1>
+      </hedline>
+      <byline class="print_byline">By KEN JOHNSON</byline>
+      <byline class="normalized_byline">Johnson, Ken</byline>
+      <abstract>
+        <p>Ken Johnson reviews works by eight Chinese photographers at Chambers Fine Art Gallery (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Chambers Fine Art  210 11th Avenue, near 24th Street  Chelsea  Through May 29</p>
+        <p>Feng Boyi, who organized this show of eight Chinese photographers, says he hopes viewers will gain from it a deeper understanding of contemporary Chinese experience. But the artists he has selected, all born after 1960, show more interest in familiar formal or narrative photographic conventions than in real life.</p>
+      </block>
+      <block class="full_text">
+        <p>Chambers Fine Art  210 11th Avenue, near 24th Street  Chelsea  Through May 29</p>
+        <p>Feng Boyi, who organized this show of eight Chinese photographers, says he hopes viewers will gain from it a deeper understanding of contemporary Chinese experience. But the artists he has selected, all born after 1960, show more interest in familiar formal or narrative photographic conventions than in real life.</p>
+        <p>Four artists toy with the grid. Guan Shi's diaristic montages have one snapshot of himself or his immediate environment for every day of a given year; Lin Jingjing's ''My 365 Days'' has a picture of a plain bowl with some wispy hair in it, also for every day of the year. Ma Han's ''Plan of the Ants'' is a grid of small bird's-eye views of a busy city intersection. Bai Yiluo shapes grids of thumbtack-size portraits of ordinary people into the silhouettes of Chinese zodiac animals.</p>
+        <p>Wen Ling's color pictures of anonymous people and street scenes printed end to end on long bands of paper also have the serial continuity and noncentered composition of the grid.</p>
+        <p>The others construct narratives. Chi Peng's pictures of naked young men pursued by bright red, bird-size airplanes call to mind the surrealist photographs of Sandy Skoglund. Yi Deer's color pictures of himself in an entirely gold costume emerging from a cornfield or a street manhole are like updates of Tseng Kwong Chi's 1980's self-portraits as a Maoist tourist. Xu Lei's photographs of blue gauze curtains covering photographs of ancient statuary and buildings meditate on photography, history and the veils of perception.</p>
+        <p>KEN JOHNSON</p>
+        <p>ART IN REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

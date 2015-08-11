@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Concluding an 'Opulent Music' Series</title>
+    <meta content="31MILL$01" name="slug"/>
+    <meta content="31" name="publication_day_of_month"/>
+    <meta content="5" name="publication_month"/>
+    <meta content="1999" name="publication_year"/>
+    <meta content="Monday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="5" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1111650"/>
+      <doc.copyright holder="The New York Times" year="1999"/>
+      <series series.name="MUSIC REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <org class="indexing_service">Lark Quartet</org>
+        <person class="indexing_service">Oestreich, James R</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19990531T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9F07E0D91530F932A05756C0A96F958260" item-length="416" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Concluding an 'Opulent Music' Series</hl1>
+      </hedline>
+      <byline class="print_byline">By JAMES R. OESTREICH</byline>
+      <byline class="normalized_byline">Oestreich, James R</byline>
+      <abstract>
+        <p>James Oestreich reviews Lark Quartet performance concluding Opulent Music series at Miller Theater; photo (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>It fell to the Lark Quartet, on Wednesday evening, to close the Miller Theater's Opulent Music series and, more, the entire first season under the adventuresome new direction of George Steel of the theater at Columbia University.</p>
+        <p>''Opulent'' was surely the word for the four works presented here, by Nikolai Roslavets, Arthur Lourie, Webern and Zemlinsky. Chromaticism oozed from every string. The tonal wealth was shared more or less equally among the 12 notes of the chromatic scale, and all 12 seemed to be present much of the time in a heady, fulminating stew.</p>
+      </block>
+      <block class="full_text">
+        <p>It fell to the Lark Quartet, on Wednesday evening, to close the Miller Theater's Opulent Music series and, more, the entire first season under the adventuresome new direction of George Steel of the theater at Columbia University.</p>
+        <p>''Opulent'' was surely the word for the four works presented here, by Nikolai Roslavets, Arthur Lourie, Webern and Zemlinsky. Chromaticism oozed from every string. The tonal wealth was shared more or less equally among the 12 notes of the chromatic scale, and all 12 seemed to be present much of the time in a heady, fulminating stew.</p>
+        <p>Still, there were two very different aspects to the program, as the title, ''Moscow and Vienna,'' implied.</p>
+        <p>It was not just because the players had the Viennese works more thoroughly in hand that Webern, in his one-movement Quartet (1905), and Zemlinsky, in his six-movement Fourth Quartet (1936), showed a greater care for structure and symmetry.</p>
+        <p>In their First Quartets, Roslavets, in a brief single movement (1910), and Lourie, in two extended ones (1915), sought effects: astringent coloration, abrasive surprise, perhaps even flashes of awe and ecstasy. (Throughout the Lourie the violinist Gidon Kremer kept coming to mind. We would undoubtedly have heard this composer's name at some point in any case, but we heard it first, along with the names Arvo Part, Alfred Schnittke and Sofia Gubaidulina, from Mr. Kremer.)</p>
+        <p>But the variability in performance was undeniable. The Roslavets, especially, seemed something (not quite) prepared for the occasion, with shrill tone turned shriller by queasy intonation. The Lourie was better, with fine timing in the exchanges among instruments, but the performances of Webern and Zemlinsky inhabited an altogether higher level of assurance and achievement.</p>
+        <p>The Lark players -- Diane Pascal and Jennifer Orchard, violinists; Danielle Farina, violist, and Astrid Schween, cellist -- contributed mightily to the Opulent Music series, playing an earlier program of unhackneyed works as well.</p>
+        <p>But it is precisely the problem with this kind of adventuring that there is often not enough time to hone to a fine edge every marginal or unusual piece, the very material in which a fine edge is needed to scrape away reservations.</p>
+        <p>MUSIC REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

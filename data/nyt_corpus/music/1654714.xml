@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>A Spiky Opera Inspired by Crows Outside a Window</title>
+    <meta content="06MIDG" name="slug"/>
+    <meta content="6" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="2005" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Arts and Leisure Desk" name="dsk"/>
+    <meta content="30" name="print_page_number"/>
+    <meta content="2" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1654714"/>
+      <doc.copyright holder="The New York Times" year="2005"/>
+      <series series.name="MUSIC: CLASSICAL RECORDINGS"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Recordings (Audio)</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <org class="indexing_service">Minnesota Orchestra</org>
+        <person class="indexing_service">Midgette, Anne</person>
+        <person class="indexing_service">Vanska, Osmo</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Midwest</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Recordings (Audio)</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20050306T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E00E2D8123DF935A35750C0A9639C8B63" item-length="354" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>A Spiky Opera Inspired by Crows Outside a Window</hl1>
+      </hedline>
+      <byline class="print_byline">By ANNE MIDGETTE</byline>
+      <byline class="normalized_byline">Midgette, Anne</byline>
+      <abstract>
+        <p>Ann Midgette reviews recording of Beethoven symphonies by the Minnesota Orchestra, conducted by Osmo Vanska</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Beethoven: Symphonies Nos. 4, 5  Minnesota Orchestra, conducted by Osmo Vanska. Bis SACD 1416; CD.</p>
+        <p>SO why should anyone want yet another Beethoven symphony CD? Why do we listen to Beethoven, anyway? This recording offers an answer -- or rather, a lot of them. We listen because Beethoven offers suspense. Action. Humor. Delight.</p>
+      </block>
+      <block class="full_text">
+        <p>Beethoven: Symphonies Nos. 4, 5  Minnesota Orchestra, conducted by Osmo Vanska. Bis SACD 1416; CD.</p>
+        <p>SO why should anyone want yet another Beethoven symphony CD? Why do we listen to Beethoven, anyway? This recording offers an answer -- or rather, a lot of them. We listen because Beethoven offers suspense. Action. Humor. Delight.</p>
+        <p>Not that the Finnish conductor Osmo Vanska deliberately aims at these effects. Instead, they arise from a clear, swift stream of music that does full justice to the force and power of the score without aggression or artifice.</p>
+        <p>From the start of the Fourth, you can't not listen. As the somber introduction masses the orchestra's forces, a sense of Pink Pantherish humor lurks behind the music; something is about to happen, but what? Yet the explosive release of the main theme, when it comes, is more than just a punch line: it opens a new door.</p>
+        <p>Emotionally, in this pairing, it also presages the climactic transition from the third movement of the Fifth to the finale, where the whole orchestra shines in majestic joy without appearing at all self-important. This is something that Mr. Vanska excels at over and over here: creating a sense of impending event, then delivering even more than he promised. His deft control of the orchestra is just icing on the cake.</p>
+        <p>The orchestra sounds full and clear, with particularly fine woodwinds. (Mr. Vanska, it happens, is a clarinetist.) Recorded with great specificity of timbre, solo instruments sound like the very essence of themselves.</p>
+        <p>It's refreshing to hear a strong reading of Beethoven that isn't riddled with angst or the Seriousness of It All. Not that this sunny disk is at all superficial. It is instead a reminder that good music is simply music in which interesting things happen in a way that people can hear, and want to hear.</p>
+        <p>ANNE MIDGETTE</p>
+        <p>MUSIC: CLASSICAL RECORDINGS</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>In New London, a Garde Audience Is Growing</title>
+    <meta content="16THEA$07" name="slug"/>
+    <meta content="16" name="publication_day_of_month"/>
+    <meta content="7" name="publication_month"/>
+    <meta content="2000" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Connecticut Weekly Desk" name="dsk"/>
+    <meta content="14" name="print_page_number"/>
+    <meta content="14CN" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Theater; New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1215202"/>
+      <doc.copyright holder="The New York Times" year="2000"/>
+      <series series.name="THEATER"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <org class="indexing_service">Garde Arts Center (New London, Conn)</org>
+        <person class="indexing_service">Klein, Alvin</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region/Connecticut</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Theater</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20000716T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9802EEDD1E38F935A25754C0A9669C8B63" item-length="910" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>In New London, a Garde Audience Is Growing</hl1>
+      </hedline>
+      <byline class="print_byline">By ALVIN KLEIN</byline>
+      <byline class="normalized_byline">Klein, Alvin</byline>
+      <abstract>
+        <p>Alvin Klein article on upcoming fall-winter season at Garde Arts Center in New London, Conn, which is attracting larger audiences after its first summer season since its restoration (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>THE attention-grabbing summer news in New London may have been all about tall ships, but yesterday, they sailed away. Now, how can a town of 28,000 follow that act? With professional summer theater, that's how.</p>
+        <p>For the grandly restored Garde Arts Center, Operation Sail was a stopover for millions, but a first-ever Summer On Stage season -- it opened Thursday and goes on through Sept. 1 -- is here to stay. And it is the newest chapter in the evolution of a town and of its theater.</p>
+      </block>
+      <block class="full_text">
+        <p>THE attention-grabbing summer news in New London may have been all about tall ships, but yesterday, they sailed away. Now, how can a town of 28,000 follow that act? With professional summer theater, that's how.</p>
+        <p>For the grandly restored Garde Arts Center, Operation Sail was a stopover for millions, but a first-ever Summer On Stage season -- it opened Thursday and goes on through Sept. 1 -- is here to stay. And it is the newest chapter in the evolution of a town and of its theater.</p>
+        <p>After last year's splashy reopening of the Garde, a movie palace and a vaudeville house in its glory days more than 70 years ago, the necessity for an emerging artistic vision became abundantly clear to Steve Sigel, the 1,488-seat showplace's managing director.</p>
+        <p>Although Patti LuPone was a top draw in her opening-night concert, star quality of that caliber was not to be an every-night affair. Bus and truck tours of musicals -- ''Annie,''  ''1776,'' ''Camelot,'' ''Victor/Victoria'' and ''Show Boat'' -- followed, each for two performances. ''A large house in a small community cannot do a big Broadway show for a full week,'' Mr. Sigel said. But the Garde audience grows. For the fall-winter season, which already shows a 50-percent increase in ticket sales, Mr. Sigel said, ''Godspell'' is scheduled for three shows. And there will be four for the ''Phantom'' by Maury Yeston and Arthur Kopit.</p>
+        <p>Other successes also tell a growth story. One scheduled appearance by the jazz singer and musician, Diana Krall, was increased to two. Then there's the word-of-mouth popularity of ''Late Nite Catechism,'' an Off Broadway sendup in the manner of Sister Mary Ignatius and all those ''Nunsenses.'' After eight performances in a reconfigured space, seating 350 in January, it is to play a seven-performance encore Aug. 8 through 13, the fourth show in the new summer series.</p>
+        <p>Summer On Stage opened with ''Grease.'' ''Forbidden Hollywood'' is to play Tuesday through next Sunday. On Aug. l5, ''If You Ever Leave Me . . . I'm Going With You,'' written by and starring Renee Taylor and Joe Bologna, will give the first of seven performances. ''Five Guys Named Moe'' and ''Tony and Tina's Wedding'' finish the season, six performances each.</p>
+        <p>The summer part of the Garde's theater programming reflects the cultural awareness of a gritty little town, to rephrase the words of the arts center's publicity representative Patty Freedman, who went on to say that attention to substance is the Garde's new thrust, now that its spectacular $15.75 million renovation, is proven. ''The economics are still being attended to,'' Ms. Freedman said. ''But it's time to look at what's going on artistically.''</p>
+        <p>And don't forget acoustical preservation; it was Ms. LuPone who gave testament to that and thanks during her first-night concert last October. Mr. Sigel loves to talk about the seats. ''Great personal comfort when you're sitting for two and a half hours matters as much as architecture and marketing,'' he said. ''Going to the theater should not be a back-breaking experience.''</p>
+        <p>Not that he deflects queries about that artistic vision. That takes time, he concedes, and the Garde is in a formative phase, learning from process and exploring possibility. Three months ago, the peerless Savion Glover and his troupe took over the theater, the studios and rehearsal spaces for one week to work on his new show, now on tour. Before leaving, Mr. Glover held the world premiere performance of ''Footnotes'' at the Garde.</p>
+        <p>As for the summer series, with weeklong shows scheduled for the first time, Mr. Sigel talked about attracting audiences ''we don't normally get, especially the people who live here, but go to Florida in October.''</p>
+        <p>''We want to do shows with an intimate feeling,'' he went on. ''With the Garde's lighting, you don't notice the disappearance of a full proscenium.'' Mr. Sigel is eager to find new ways of producing, or presenting, new or old material for new audiences. ''We want to interest other producers in coming here. The blockbuster type show is on the way out, and more theaters'' -- he mentioned Goodspeed in East Haddam and the Bushnell in Hartford -- are planning smaller stages. ''There is a paucity of product to command a large stage,'' he added, looking to alliances with regional theaters and expressing interest in extending the life of Off Broadway plays and musicals.</p>
+        <p>As the art part evolves, the Garde has real estate to spare and to accommodate it. The Garde owns six buildings -- 187,000 square feet in all -- some now used for office rentals, some for its Institute for Creativity classes in performing arts. Thinking back on the movie palace of old, Mr. Sigel mentioned a modern-day homage to Hollywood classics.</p>
+        <p>''Casablanca'' was screened in March ''and 1,100 people came,'' Mr. Sigel recalled. Don't think he is not thinking of a small cinema. ''Now the Garde is listening to the community,'' Ms. Freedman added.</p>
+        <p>THEATER</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

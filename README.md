@@ -82,8 +82,9 @@ Scripts and data:
 - [pca_2D.R](R/pca_2D.R)  
 - [pca_intro.R](R/pca_intro.R)  
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
+- [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)  
 - [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)  
-- [gasoline.csv](data/gasoline.csv) 
+- [cca_intro.R](R/cca_intro.R), [mmreg.csv](data/mmreg.csv), and [mouse_nutrition.csv](data/mouse_nutrition.csv)  
 
 
 Readings:  
@@ -96,6 +97,10 @@ Readings:
 
 Co-occurrence statistics; TF-IDF; topic models; vector-space models of text (if time allows).
 
+Scripts and data:  
+- [textutils.R](R/textutils.R) 
+- [nyt_stories.R](R/nyt_stories.R) and [selections from the New York Times](../data/nyt_corpus/)  
+
 Readings: TBA
 
 
@@ -104,3 +109,4 @@ Readings: TBA
 Coverage of these topics will depend on the time available.  Possibilities include: anomaly detection; label propagation; learning association rules; graph partitioning; partial least squares.  
 
 Readings: TBA
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>'Persuasion'</title>
+    <meta content="RV234622" name="slug"/>
+    <meta content="23" name="publication_day_of_month"/>
+    <meta content="7" name="publication_month"/>
+    <meta content="1999" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Leisure/Weekend Desk" name="dsk"/>
+    <meta content="35" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1125506"/>
+      <doc.copyright holder="The New York Times" year="1999"/>
+      <series series.name="ART IN REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Glueck, Grace</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19990723T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9903E2D7153EF930A15754C0A96F958260" item-length="385" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>'Persuasion'</hl1>
+      </hedline>
+      <byline class="print_byline">By GRACE GLUECK</byline>
+      <byline class="normalized_byline">Glueck, Grace</byline>
+      <abstract>
+        <p>Grace Glueck reviews work by more than 50 artists conerned with use of art to manipulate public perception; show is at Lombard-Freid Fine Arts (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Lombard-Freid Fine Arts  470 Broome Street  SoHo  Through July 30</p>
+        <p>This wide-ranging barrage of a show presents work by more than 50 artists concerned with the use of art to manipulate public perception. The artists, some anonymous, range from earlier 20th-century Europeans like Kathe Kollwitz, John Heartfield and El Lissitzky to current practitioners, among them the cartoonist Art Spiegelman and the photographer Carrie Mae Weems. The show explores three areas: the propaganda of governments like that of the former Soviet Union, the penetration of consumer culture by propaganda messages, and adversarial statements by individual artists. But there is lots of overlap.</p>
+      </block>
+      <block class="full_text">
+        <p>Lombard-Freid Fine Arts  470 Broome Street  SoHo  Through July 30</p>
+        <p>This wide-ranging barrage of a show presents work by more than 50 artists concerned with the use of art to manipulate public perception. The artists, some anonymous, range from earlier 20th-century Europeans like Kathe Kollwitz, John Heartfield and El Lissitzky to current practitioners, among them the cartoonist Art Spiegelman and the photographer Carrie Mae Weems. The show explores three areas: the propaganda of governments like that of the former Soviet Union, the penetration of consumer culture by propaganda messages, and adversarial statements by individual artists. But there is lots of overlap.</p>
+        <p>The invasion of consumer culture by hidden -- or not-so-hidden -- messages is aptly conveyed by ''Chase Advantage'' (1976), Hans Haacke's highlighting of an advertisement for Chase Bank that links art with corporate power. Martha Rosler, however, sneaks one in herself, altering a glamorous photograph of Pat Nixon in the White House so that she stands beneath a frame of a woman being shot, from the movie ''Bonnie and Clyde.'' On the nationalist front, there is a cleverly designed agitprop poster in photomontage by the Russian Constructivist Gustav Klutsis, ''Labor in the U.S.S.R. Is About Honor, Glory, Bravery and Heroism'' (1931). There is also one of quite a different turn, ''Liberator'' (1944), a World War II blast by an unknown Italian artist depicting a black American aviator smashing a fist into Italy.</p>
+        <p>Among the personal ''adversarial'' statements, Sue Coe shows ''Rape and War'' (1993), an angry Expressionist diatribe in stark black-and-white. Ms. Weems is represented by four photographs from a 1995 series that make a critical comment on the representation of blacks in American photographic history.</p>
+        <p>But the show is overkill. To say it needs pruning is not to condemn it, but it does lose power by the number of objects squeezed into the space and the unbridled mix of the trivial with the serious.</p>
+        <p>GRACE GLUECK</p>
+        <p>ART IN REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

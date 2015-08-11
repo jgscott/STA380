@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Sinopoli Leaves Imprint On the Old Dresden</title>
+    <meta content="17" name="publication_day_of_month"/>
+    <meta content="4" name="publication_month"/>
+    <meta content="1996" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="12" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="844250"/>
+      <doc.copyright holder="The New York Times" year="1996"/>
+      <series series.name="MUSIC REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MUSIC</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <org class="indexing_service">DRESDEN STAATSKAPELLE (MUSIC GROUP)</org>
+        <person class="indexing_service">HOLLAND, BERNARD</person>
+        <person class="indexing_service">SINOPOLI, GIUSEPPE GIUSEPPE SINOPOLI</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19960417T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E02E5DE1E39F934A25757C0A960958260" item-length="462" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Sinopoli Leaves Imprint On the Old Dresden</hl1>
+      </hedline>
+      <byline class="print_byline">By BERNARD HOLLAND</byline>
+      <byline class="normalized_byline">HOLLAND, BERNARD;</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>The removal of the Iron Curtain has opened up fresh territory for Western music-business operatives while freeing central and eastern European orchestras  from a provincialism forced on them by years of communism. The ride has been both exhilarating and dangerous, and it has created strange bedfellows, none stranger than Giuseppe Sinopoli's directorship of the Dresden Staatskapelle.</p>
+        <p>Orchestra and conductor have been here this week in two all-Strauss programs  at Carnegie Hall. The Dresden dates its origins back to the 16th century and boasts involvement in the premieres of four major Strauss operas, not to mention Wagner's "Tannhauser." Mr. Sinopoli has provoked rage, amusement and applause for his against-the-grain approach to the standard repertory. (I remember in particular a Bruckner symphony in this hall played in the manner of Haydn.) Conductorial ego is, of course, part of the job description, but at his worst Mr. Sinopoli has managed more or less to obliterate style and proportion in order to make his own presence felt.</p>
+      </block>
+      <block class="full_text">
+        <p>The removal of the Iron Curtain has opened up fresh territory for Western music-business operatives while freeing central and eastern European orchestras  from a provincialism forced on them by years of communism. The ride has been both exhilarating and dangerous, and it has created strange bedfellows, none stranger than Giuseppe Sinopoli's directorship of the Dresden Staatskapelle.</p>
+        <p>Orchestra and conductor have been here this week in two all-Strauss programs  at Carnegie Hall. The Dresden dates its origins back to the 16th century and boasts involvement in the premieres of four major Strauss operas, not to mention Wagner's "Tannhauser." Mr. Sinopoli has provoked rage, amusement and applause for his against-the-grain approach to the standard repertory. (I remember in particular a Bruckner symphony in this hall played in the manner of Haydn.) Conductorial ego is, of course, part of the job description, but at his worst Mr. Sinopoli has managed more or less to obliterate style and proportion in order to make his own presence felt.</p>
+        <p>On Monday, perversity took a different turn: a conductor assigning to an orchestra music that he must realize his players are unable to play successfully. The "Alpine" Symphony represents Strauss the orchestral voluptuary. The "Alpine" is conspicuous consumption, instrumental luxury stretched to the point of vulgarity. The Dresden's lower strings went virtually  unnoticed throughout this performance. The violin sections, despite their earnest musicianship, could offer only dry, hardscrabble sonority: Strauss' green mountain meadows reduced by drought.</p>
+        <p>The Dresden's brass sections whaled stalwartly away, and timpani climaxes banged as if in competition with everyone else. No thought to balances seems to have been given. No one, moreover, seemed to believe in this performance. It  had no center, only a collection of orchestra sections trying to get by. I wonder about the quality of the Dresden's stringed instruments themselves. There was often the feeling of worthwhile effort undermined not by how the musicians played but what they were playing on. I don't think Mr. Sinopoli alone could have desiccated th' Dresden's sound to this extent.</p>
+        <p>And there were indeed touching moments that rose above the obstacles: in the  "Sunset," "Epilogue" and "Night" of the Symphony, for example, and in the final  moments of "Metamorphosen," which began the evening.</p>
+        <p>The latter piece offers contemplative exteriors but seethes with inner contrapuntal complication. Mr. Sinopoli's approach was light-footed to begin with, but I don't think all of the thinness was intentional. The multiple crossing voices are terribly difficult to make clear, even by a virtuoso orchestra (or conductor), and here clarity was a sometime thing. Tuesday's program included "Don Juan," the "Four Last Songs," with Cheryl Studer, and "Ein Heldenleben."</p>
+        <p>MUSIC REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

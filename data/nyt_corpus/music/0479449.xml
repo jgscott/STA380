@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Pop and Jazz in Review</title>
+    <meta content="10" name="publication_day_of_month"/>
+    <meta content="10" name="publication_month"/>
+    <meta content="1991" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="20" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="479449"/>
+      <doc.copyright holder="The New York Times" year="1991"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MUSIC</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <classifier class="indexing_service" type="descriptor">CONCERTS AND RECITALS</classifier>
+        <person class="indexing_service">WATROUS, PETER</person>
+        <person class="indexing_service">BENSON, GEORGE</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19911010T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D0CE0DB1438F933A25753C1A967958260" item-length="367" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Pop and Jazz in Review</hl1>
+      </hedline>
+      <byline class="print_byline">By PETER WATROUS</byline>
+      <byline class="normalized_byline">WATROUS, PETER</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>George Benson  Blue Note</p>
+        <p>When the guitarist George Benson drifted into the pop-jazz world in the early 1970's, his records were fascinating because they were so loaded with inside jokes. Mr. Benson was playing instrumental pop music for people who didn't particularly want to be bothered with the complexities of improvisation. Mr. Benson, an exceptional guitarist with a complicated harmonic palette, always included runs and lines that flashed how much he knew, adding an intentional tension to his projects.</p>
+      </block>
+      <block class="full_text">
+        <p>George Benson  Blue Note</p>
+        <p>When the guitarist George Benson drifted into the pop-jazz world in the early 1970's, his records were fascinating because they were so loaded with inside jokes. Mr. Benson was playing instrumental pop music for people who didn't particularly want to be bothered with the complexities of improvisation. Mr. Benson, an exceptional guitarist with a complicated harmonic palette, always included runs and lines that flashed how much he knew, adding an intentional tension to his projects.</p>
+        <p>That tension, between the desire to please a crowd with simple music and a jazz musician's desire to exercise the imagination, should have vanished in Mr. Benson's recent pairing with the Count Basie Orchestra, but it hasn't. Mr. Benson's performance at the Blue Note on Tuesday night, backed by the orchestra, was authentic schmaltz, pure grinning disingenuousness. At the end of the performance, Mr. Benson, introducing the rhythm section as if he'd known them half his life, had Frank Foster, the leader of the orchestra, whispering their names to him as he announced them.</p>
+        <p>Mr. Benson simply isn't that good in the role of good-time, bound-for-Vegas entertainer; there's always something slightly frozen about his performances. The role demands being able to make people believe in your sincerity, something Mr. Benson hasn't quite got the hang of. Which isn't to say Mr. Benson doesn't have real talent; he's still an extraordinary guitarist and a more than decent singer. On tunes like "On Green Dolphin Street," "Mambo Inn" and "I Only Have Eyes For You," he crooned the melodies in a way that made them all excursions into optimistic pop music.</p>
+        <p>It was on his short guitar improvisations that Mr. Benson's abilities came through. On "Mambo Inn," he slid up and down into notes and turned the simple harmonies into a backdrop for his own harmonic imagination, moving from blues dissonances to darker harmonies and percussive chordal explosions. Mr. Benson was virtuosic, but the context deprived his playing of much significance. By the end of the hour-and-a-half-show it was clear that once one's soul has been sold to commerce, it's impossible to get it back.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

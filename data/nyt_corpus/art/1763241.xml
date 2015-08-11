@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Seeing the Big Pictures</title>
+    <meta content="21limura" name="slug"/>
+    <meta content="21" name="publication_day_of_month"/>
+    <meta content="5" name="publication_month"/>
+    <meta content="2006" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Long Island Weekly Desk" name="dsk"/>
+    <meta content="16" name="print_page_number"/>
+    <meta content="14LI" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="New York and Region" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2006/05/21/nyregion/nyregionspecial2/21limura.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1763241"/>
+      <doc.copyright holder="The New York Times" year="2006"/>
+      <series series.name="ART"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Murals</classifier>
+        <location class="indexing_service">Long Island (NY)</location>
+        <org class="indexing_service">Works Progress Administration</org>
+        <person class="indexing_service">Rather, John</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region/Long Island</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York/Long Island</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York</classifier>
+        <classifier class="online_producer" type="descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <location class="online_producer">Long Island (NY)</location>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20060521T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9907EFDE123EF932A15756C0A9609C8B63" item-length="1230" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Seeing the Big Pictures</hl1>
+        <hl2 class="online_headline">Seeing the Big Pictures</hl2>
+      </hedline>
+      <byline class="print_byline">By JOHN RATHER</byline>
+      <byline class="normalized_byline">Rather, John</byline>
+      <abstract>
+        <p>Article on places across Long Island where murals done in 1930's and 1940's by Works Progress Administration artists are on view; photos (Special Issue: The Arts) (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>THEY were painted in the 1930's and early 40's, by artists who are long forgotten, on prime wall space in post offices, schools and other public buildings across Long Island. About 50 of the generously proportioned murals remain, hiding in plain sight, most of them in Nassau County.</p>
+        <p>With widely varying degrees of artistic mastery, the murals generally depict local history and contemporary scenes: from the brooding and vaguely apocalyptic ''Pleasures of the Bathing Beach'' in the lobby of the Long Beach post office, painted by Jon Corbino in 1939, to the far simpler and sunnier ''Outdoor Sports'' in the Westhampton Beach post office, painted by Sol Wilson in 1942.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Dozens of murals from the W.P.A. years can still be viewed around Long Island, if you know where to look.</p>
+      </block>
+      <block class="full_text">
+        <p>THEY were painted in the 1930's and early 40's, by artists who are long forgotten, on prime wall space in post offices, schools and other public buildings across Long Island. About 50 of the generously proportioned murals remain, hiding in plain sight, most of them in Nassau County.</p>
+        <p>With widely varying degrees of artistic mastery, the murals generally depict local history and contemporary scenes: from the brooding and vaguely apocalyptic ''Pleasures of the Bathing Beach'' in the lobby of the Long Beach post office, painted by Jon Corbino in 1939, to the far simpler and sunnier ''Outdoor Sports'' in the Westhampton Beach post office, painted by Sol Wilson in 1942.</p>
+        <p>All of the paintings stem from Depression-era programs of the Works Progress Administration (later the Works Projects Administration) and the Treasury Department, meant to employ artists in creating highly visible public art showing American life in the local settings where the works would be permanently displayed.</p>
+        <p>Perhaps because the murals have been there so long, many seem to have faded into the background.</p>
+        <p>''People tend to become oblivious to them, but they are right there in front of us,'' said Natalie A. Naylor of Uniondale, a retired professor and former director of the Long Island Studies Institute at Hofstra University.</p>
+        <p>From 1934 until 1943, Treasury Department programs accounted for about 1,200 murals in post offices throughout the country; the Postal Service says about 1,000 survive. Post offices in Freeport, Garden City, Hempstead, Oyster Bay, Port Washington and Rockville Centre, in addition to Westhampton Beach and Long Beach, have one or more W.P.A. murals.</p>
+        <p>Some of Long Island's share of the 2,500 murals done nationally under W.P.A. auspices can also be found in public schools in Floral Park, Hicksville and Roslyn, and at the old Nassau County Courthouse in Mineola, the former Suffolk Home almshouse in Yaphank, the Hempstead firehouse and Farmingdale State University of New York.</p>
+        <p>All the Long Island murals are oil on canvas, except those in the Oyster Bay post office, where there are five frescos over doorways and a sixth on the ceiling.</p>
+        <p>One mural, an oil painted by Paul Chapman in 1939 titled ''Huntington Harbor,'' is in a former Huntington post office building owned since 1978 by Gundermann &amp; Gundermann, an insurance agency. Pam Montag, the company treasurer, said the Postal Service recently told the company that the mural, measuring almost 8 feet by 15 feet, remained post office property. ''We are proud of our mural, but we don't own it,'' she said.</p>
+        <p>Tom Gaynor, a Long Island spokesman for the Postal Service, said current policy when an old post office is replaced is to move murals whenever possible into the new post office. When that has not been possible, he said, the Postal Service sought help from historical societies, local governments or museums in finding a mural a new home.</p>
+        <p>He said the Postal Service was ''making every effort to preserve and safeguard'' its murals.</p>
+        <p>Dr. Naylor, the author of two articles in local historical journals that list the Long Island murals' locations and other details, said that only a few had been lost over the years and that she had found most of the murals to be in relatively good condition.</p>
+        <p>The exceptions, she said, were four murals on the staircase walls of two locked academic buildings at Farmingdale State University that are no longer used. One has water damage and stripped-away canvas, and two are marred by graffiti.</p>
+        <p>The murals, painted by Frederick Marshall of Woodbridge, N.J., in 1936, depart from the pattern of showing local scenes. In Cutler Hall, a 6-foot-by-19-foot mural, the most damaged of the four, shows a redwood forest that could only be on the West Coast. It faces a mural of the same size showing rice being harvested in a landscape dominated by a mountain looking much like Mount Fuji.</p>
+        <p>More curiously, one of Marshall's murals in Hicks Hall, 6 feet by 15 feet, appears to show slaves picking cotton in the antebellum South, with a plantation mansion and a riverboat in the background. The other mural is a wheat-threshing scene.</p>
+        <p>All four murals are somewhat insensitively chopped on one side by fire barriers that were added later.</p>
+        <p>Jonathan C. Gibralter, the university president, acknowledged that the murals were in jeopardy in the deteriorating buildings and said they were worth saving as historic artwork. He said that two organizations -- alumni promoting horticulture programs in Hicks Hall and a private group planning to set up a Sept. 11 museum at Cutler Hall -- were trying to raise private money to renovate the buildings, both built in 1914.</p>
+        <p>Dr. Gibralter said he had been unable to secure state financing for renovations, which would cost an estimated $4 million for each building. He said an alternative would be to move the murals to the university library. The university and the State Department of Parks, Recreation and Historic Restoration are discussing other steps to preserve the murals.</p>
+        <p>Two other locked-away murals, ''Bull Smith's Ride, 1655'' and ''Paul Cuffee, Shinnecock Preacher,'' are in far better condition at the Suffolk Home in Yaphank, built as a W.P.A. project in 1937 and now used for county offices. The murals, about nine feet square, were painted by Robert Gaston Herbert of Sea Cliff in 1939 and are in a darkened auditorium accessible only with permission from the county's commissioner of public works.</p>
+        <p>In legend, Richard (Bull) Smith's wild ride set the boundaries of modern Smithtown, based on how far Smith rode a bull in a day. The mural adds a touch more whimsy to the tall tale by making the bull white.</p>
+        <p>Corbino's more complex and misleadingly named ''Pleasures of the Bathing Beach'' in the Long Beach post office is filled with apprehension bordering on dread. In the right foreground, a woman seen from behind holds aloft a note or letter. A downcast group nearby ignores her. It is as if a tragedy or catastrophe is imminent or has just occurred. Other figures in the work squirm more than frolic.</p>
+        <p>Corbino, one of the better-known New Deal artists among those who did works for Long Island, showed the woman as a nude in pre-mural sketches, but Treasury officials insisted on clothing. Dr. Naylor notes that Corbino painted the mural in his summer studio in Rockport, Mass., and never visited Long Beach.</p>
+        <p>''Outdoor Sports,'' the 1942 work by Wilson at the Westhampton Beach post office, was the last of the New Deal murals on Long Island and a counterpoint to the Corbino mural.</p>
+        <p>In the foreground, a natty golfer tees off into the lobby. Four misshapen women play tennis on a foreshortened court to the left. A hunter points a rifle skyward on the right, and in the background, beyond the dunes, is a beach dotted with umbrellas. Bathers, surf and sailboats complete the image.</p>
+        <p>The mural seems to fit neatly into the ''American scene'' theme the government prescribed and makes no visual reference to the Hurricane of 1938, a defining moment in Westhampton Beach history that was then a fresh memory.</p>
+        <p>Dr. Naylor said that at least one set of murals in a Rockville Centre school was apparently painted over. ''I could find no evidence of them,'' she said.</p>
+        <p>At least those murals were completed. Murals approved for Manhasset High School and the Jones Beach bathhouse, she said, appear never to have been done.</p>
+        <p>ART</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

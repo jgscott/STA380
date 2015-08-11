@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>On Stage, and Off</title>
+    <meta content="31" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="1995" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Weekend Desk" name="dsk"/>
+    <meta content="2" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts; Theater" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="752044"/>
+      <doc.copyright holder="The New York Times" year="1995"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">THEATER</classifier>
+        <classifier class="indexing_service" type="descriptor">THEATER</classifier>
+        <classifier class="indexing_service" type="descriptor">THEATER</classifier>
+        <classifier class="indexing_service" type="descriptor">THEATER</classifier>
+        <person class="indexing_service">MCNEIL, DONALD G JR</person>
+        <person class="indexing_service">LLLOYD WEBBER, ANDREW (SIR)</person>
+        <person class="indexing_service">BURNETT, CAROL</person>
+        <person class="indexing_service">LUDWIG, KEN</person>
+        <person class="indexing_service">WILDHORN, FRANK</person>
+        <person class="indexing_service">BRICUSSE, LESLIE</person>
+        <object.title class="indexing_service">SUNSET BOULEVARD (PLAY)</object.title>
+        <object.title class="indexing_service">MOON OVER BUFFALO (PLAY)</object.title>
+        <object.title class="indexing_service">JEKYLL &amp; HYDE (PLAY)</object.title>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Columns/On Stage and Off</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/Plays</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Theater</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19950331T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=990CEFD61E3DF932A05750C0A963958260" item-length="1050" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>On Stage, and Off</hl1>
+      </hedline>
+      <byline class="print_byline">By Donald G. McNeil Jr.</byline>
+      <byline class="normalized_byline">MCNEIL, DONALD G JR</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>A Scandal at 'Sunset'</p>
+        <p>A scandal involving "Sunset Boulevard" box-office figures shocked Broadway this week and led to a resignation offer by Edgar Dobie, the head of North American operations for the Really Useful Group, Sir Andrew Lloyd Webber's production company.</p>
+        <p>Sir Andrew released a letter yesterday saying that he was refusing Mr. Dobie's resignation, but it took a rather paternalistic tone; Sir Andrew distanced himself from Mr. Dobie's decision to inflate box-office figures, even calling it "idiotic." That may leave Mr. Dobie little choice but to quit.</p>
+      </block>
+      <block class="full_text">
+        <p>A Scandal at 'Sunset'</p>
+        <p>A scandal involving "Sunset Boulevard" box-office figures shocked Broadway this week and led to a resignation offer by Edgar Dobie, the head of North American operations for the Really Useful Group, Sir Andrew Lloyd Webber's production company.</p>
+        <p>Sir Andrew released a letter yesterday saying that he was refusing Mr. Dobie's resignation, but it took a rather paternalistic tone; Sir Andrew distanced himself from Mr. Dobie's decision to inflate box-office figures, even calling it "idiotic." That may leave Mr. Dobie little choice but to quit.</p>
+        <p>The fuss began when Jeremy Gerard, writing in Daily Variety, obtained a Ticketmaster box-office statement for March 7 to 12, the first week Glenn Close was on a previously announced vacation and replaced by her understudy, Karen Mason. It said the show had sold $569,720 worth of tickets. That was $155,000 less than the show had reported to Variety, which prints weekly box-office figures for all Broadway shows. Variety usually gets its figures from theater owners, but "Sunset" insisted on providing its own.</p>
+        <p>The implication in Mr. Gerard's article on Wednesday was that Really Useful was trying to show, falsely, that "Sunset" could thrive without Ms. Close, which will be a crucial issue when she leaves for good in July.</p>
+        <p>That day, Mr. Dobie released a letter explaining the discrepancy and apologizing. Because "Sunset" had 5,462 tickets available during Ms. Close's two-week vacation, he said, it passed many of them to "worthy organizations" (like the Theater Development Fund, which makes them available at deep discounts to the elderly, students and the handicapped). But it reported those tickets as sold at full value.</p>
+        <p>However, Broadway shows routinely get rid of excess tickets that way, or send them to the TKTS booth, and they account for the discounting instead of disguising the figures.</p>
+        <p>Mr. Dobie did not respond to phone calls yesterday. A spokesman for Sir Andrew said he believed that Sir Andrew did not intend to force Mr. Dobie to resign but would not comment further. Carol Burnett Fades Back In</p>
+        <p>Carol Burnett plans to return to Broadway this fall for the first time in 30 years, playing opposite Philip Bosco in "Moon Over Buffalo," a comedy by Ken Ludwig, who wrote "Lend Me a Tenor" and the book for the musical "Crazy for You."</p>
+        <p>The comedy follows an acting couple, second-rate Lunts, touring Buffalo playing "Private Lives" and "Cyrano de Bergerac" in repertory when Frank Capra arrives to watch them. Desperate for starring roles in his next film, they carry their marital feud through a matinee.</p>
+        <p>Mr. Bosco has been on Broadway all along, of course. But Miss Burnett's last appearance, in "Fade Out, Fade In" in 1964, was legendary, not just because she was a hit, as she was in "Once Upon a Mattress," but because the show became one of the messiest, most litigious chapters in theater history.</p>
+        <p>According to press reports from the time, the producers, Lester Osterman and the composer Jule Styne, accused her of expensively delaying the show with a surprise pregnancy, faking neck injuries and colds to miss 58 of the first 199 performances, and trying to get out of her contract because television studios were pursuing her. (She created her own Emmy-winning show four years later.) Miss Burnett counterattacked, wearing a neck brace at news conferences and releasing a letter saying: "I'm sorry I got sick. I'm sorry the play had to close because I was sick. I'm sorry you don't think I'm sick."</p>
+        <p>Ultimately, through lawsuits and Actors' Equity arbitration hearings, they forced her back to the stage and reopened the show. But it ran only 72 more performances before Miss Burnett informed the producers that she had hurt her neck again, was pregnant again and was confined to bed. A week after the closing, she broke her ankle playing softball.</p>
+        <p>Asked about the battle yesterday, she said: "That's all water under the bridge. I'm not the same person I was then. I'm not the same person I was five years ago."</p>
+        <p>Elizabeth Williams, the lead producer of "Moon Over Buffalo," said she didn't know the history but wasn't worried; she produced "Love Letters" in Los Angeles with Miss Burnett without a hitch. Two Faces in 'Jekyll &amp; Hyde'</p>
+        <p>"Jekyll &amp; Hyde" has an eye-catching logo, with a starched shirt front whetted down into a dagger at the heroine's throat, and now it has plans for a national tour that may make a lunge at Broadway in time to qualify for Tony contention in 1996.</p>
+        <p>This version of Robert Louis Stevenson's Gothic tale of a doctor whose high-minded experiments release his murderous dark side had its premiere at the Alley Theater in Houston in 1990. After rewrites, it reopened in the vast Music Hall there in January, then moved to Seattle. Critics there snubbed its pop-opera music but praised the stars, Robert Cuccioli, doctor and madman, and Linda Eder, as Lucy, the prostitute dreaming of a better life. Frank Wildhorn is the composer; the lyrics are by Leslie Bricusse, who is also the librettist for next season's "Victor/Victoria," suggesting an unhealthy interest in multiple musical personalities. Footlights</p>
+        <p>*Nelson Mandela, South Africa's President, expelled his estranged wife, Winnie, from his Government for insubordination this week. One man's view of how their relationship as lovers and revolutionaries fell apart can be seen this weekend and next at the Theater for the New City. "M: The Mandela Saga" is by Laurence Holder, who usually writes biographical plays with moral lessons about black Americans.</p>
+        <p>*For sheer discombobulation, it doesn't compare with the computer foul-ups that occasionally bedevil Broadway shows, but Tom Aldredge's performance in "Incommunicado" as the imprisoned Ezra Pound is apparently so powerful that he broke his cage, the size of a telephone booth. Two previews were canceled so it could be sent out for rewelding.</p>
+        <p>*"Stomp," the pounding-on-cans show that's tough on propmasters, may have an opening for a Pentagon procurement officer. It began touring Japan last week and discovered that it's tough to find a pedal-powered pop-up-lid dustbin there. Cost of same in New York: $50. Cost of next-day delivery to Tokyo: $615. Problem discovered on arrival: wrong color, and the lid stuck.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

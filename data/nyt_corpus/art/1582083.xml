@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Art and Taxes</title>
+    <meta content="L16ARTT" name="slug"/>
+    <meta content="16" name="publication_day_of_month"/>
+    <meta content="5" name="publication_month"/>
+    <meta content="2004" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Editorial Desk" name="dsk"/>
+    <meta content="12" name="print_page_number"/>
+    <meta content="4" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Opinion" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1582083"/>
+      <doc.copyright holder="The New York Times" year="2004"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Philanthropy</classifier>
+        <classifier class="indexing_service" type="descriptor">Tax Evasion</classifier>
+        <classifier class="indexing_service" type="descriptor">Taxation</classifier>
+        <org class="indexing_service">Art Dealers Assn of America</org>
+        <person class="indexing_service">Solomon, Richard</person>
+        <classifier class="online_producer" type="types_of_material">Letter</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion/Letters</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Tax Evasion</classifier>
+        <classifier class="online_producer" type="general_descriptor">Philanthropy</classifier>
+        <classifier class="online_producer" type="general_descriptor">Taxation</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20040516T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9C06E5D91F3CF935A25756C0A9629C8B63" item-length="193" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Art and Taxes</hl1>
+      </hedline>
+      <abstract>
+        <p>Art Dealers Assn of America president Richard Solomon letter disputes May 2 article asserting that art world has fought proposals to hold it accountable for facilitating tax fraud through donations</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>To the Editor:</p>
+        <p>''A Violin's Value, and What to Pay the I.R.S. Fiddler'' (front page, May 2) asserts that ''the art world has fought proposals to hold it accountable for facilitating tax fraud through donations.''</p>
+      </block>
+      <block class="full_text">
+        <p>To the Editor:</p>
+        <p>''A Violin's Value, and What to Pay the I.R.S. Fiddler'' (front page, May 2) asserts that ''the art world has fought proposals to hold it accountable for facilitating tax fraud through donations.''</p>
+        <p>In fact, 25 years ago, the Art Dealers Association of America and the Association of Art Museum Directors, conscious of the problem of possible fraud in art donations, suggested that the Internal Revenue Service establish an art advisory panel.</p>
+        <p>The I.R.S. acted on the suggestion. As a result, the panel, consisting of dealers, museum directors and curators who serve voluntarily, has monitored art appraisals for tax purposes with outstanding success in dealing with inflated appraisals.</p>
+        <p>Art museums must rely on the generosity of collectors to supplement their acquisition funds. Our tax laws provide an incentive for such donations. The I.R.S. and the art community have worked together over the years to prevent art appraisal abuses. The system works, and the public interest is well served.</p>
+        <p>RICHARD SOLOMON  Pres., Art Dealers Assn. of America  New York, May 5, 2004</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

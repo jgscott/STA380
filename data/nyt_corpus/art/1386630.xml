@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>New 'Smart' Galleries, Wireless and Web-Friendly</title>
+    <meta content="24JONE$02" name="slug"/>
+    <meta content="24" name="publication_day_of_month"/>
+    <meta content="4" name="publication_month"/>
+    <meta content="2002" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="Museums" name="dsk"/>
+    <meta content="27" name="print_page_number"/>
+    <meta content="G" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Technology" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2002/04/24/arts/artsspecial/24JONE.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1386630"/>
+      <doc.copyright holder="The New York Times" year="2002"/>
+      <series series.name="TECHNOLOGY"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Museums</classifier>
+        <classifier class="indexing_service" type="descriptor">Computers and the Internet</classifier>
+        <person class="indexing_service">Jones, Karen</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Technology</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Technology, Telecommunications and Internet</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="descriptor">Computers and the Internet</classifier>
+        <classifier class="online_producer" type="descriptor">Museums</classifier>
+        <classifier class="online_producer" type="descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Computers and the Internet</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20020424T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9C01E1DC143CF937A15757C0A9649C8B63" item-length="918" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>New 'Smart' Galleries, Wireless and Web-Friendly</hl1>
+        <hl2 class="online_headline">New 'Smart' Galleries, Wireless and Web-Friendly</hl2>
+      </hedline>
+      <byline class="print_byline">By KAREN JONES</byline>
+      <byline class="normalized_byline">Jones, Karen</byline>
+      <abstract>
+        <p>Museums are experimenting with latest technology, and some may soon be wired for Internet, allowing visitors to use their hand-held computers to download information about entire collection or single object, to explore museum's hidden archives or bookmark Web pages; drawing (Special section, Museums) (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>HAND-HELD computers have many uses -- but who would have thought they could take art home from a museum?</p>
+        <p>That is just what is happening at the current Biennial exhibition at the Whitney Museum of American Art in New York. At a special kiosk, visitors can download ''Tap,'' a digital artwork by James Buckhouse, into electronic organizers equipped with the Palm operating system, and with that download, receive their own digital dancer (male or female, the viewer picks). The dancer practices, learns from other dancers and gives recitals.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Museums are experimenting with the latest technology, and soon their galleries may be wired (or go wireless) for the Internet.</p>
+      </block>
+      <block class="full_text">
+        <p>HAND-HELD computers have many uses -- but who would have thought they could take art home from a museum?</p>
+        <p>That is just what is happening at the current Biennial exhibition at the Whitney Museum of American Art in New York. At a special kiosk, visitors can download ''Tap,'' a digital artwork by James Buckhouse, into electronic organizers equipped with the Palm operating system, and with that download, receive their own digital dancer (male or female, the viewer picks). The dancer practices, learns from other dancers and gives recitals.</p>
+        <p>Technology in museums, especially the artistic kind, has traditionally meant audio guides. This was not a deliberate oversight; many museums began testing an array of Jetsons-style gadgetry a few years ago, but the dot-com bust and the economic downturn have delayed progress. Museums are now slowly recapturing their momentum. Many are experimenting with the latest technology, and soon their galleries may be wired (or go wireless) for the Internet, allowing visitors to use their hand-held computers to download information about an entire collection or a single object, to explore a museum's hidden archives or bookmark Web pages.</p>
+        <p>The Exploratorium, a science and art museum in San Francisco, is developing the Electronic Guidebook Project, which will not only allow visitors to download additional material on their hand-held computers, but also create a password-protected personal Web page, meaning people can revisit their own selection of the museum's collections from any computer.</p>
+        <p>The American Museum of the Moving Image in New York is testing eDocent, a wireless network in its galleries that will allow visitors to download information into their hand-held computers and bookmark Web pages. The network may also give audiences viewings of what they cannot see in the gallery. Like many museums, the Museum of the Moving Image can display only a small percentage of its collection, 1,200 of 90,000 objects. When eDocent becomes a reality, which is not expected until 2003, audiences could see much of this hidden collection.</p>
+        <p>''Because our collection is so extensive, we have a huge amount of material to link,'' said Rochelle Slovin, the museum's director. ''The ultimate goal of eDocent is for the information to be so rich and extensive that you could go deeper and deeper into the layers.''</p>
+        <p>The Walker Art Center in Minneapolis is preparing for a $90 million renovation and expansion project, which will break ground in 2003. Central to the renovation is a wireless network that will provide visitors with more information about objects in the museum, said Andrew Blauvelt, the museum's design director.</p>
+        <p>He thinks that hand-held computers will not be the only way to download material. Indeed, Mr. Blauvelt is interested in what he calls ''social computing,'' which is a shared or collaborative computer experience. This could involve a group sitting at a ''smart'' table, where touch screens embedded in the tabletop would allow many users to tap into Walker's collections and resources, and simultaneously interact and discuss the information with others. To explore other social computing possibilities, Mr. Blauvelt has invited more than 30 artists, designers and architects to submit ideas.</p>
+        <p>He is also interested in futuristic options, like wearable computer guides. ''Technically, the iPAQ is wearable,'' he said, referring to Compaq's hand-held device. ''This is more radical, where circuitry is stitched into a fabric or a scarf.''</p>
+        <p>Many museums hope that the new technology lures younger audiences. ''We have an entire generation coming up speaking digital as a first language,'' said Leonard Steinbach, a program creator at the Cleveland Museum of Art.</p>
+        <p>The need to speak to younger generations has moved his museum to start ''Sharing the Passion,'' a program that allows the museum's curators and students at the Cleveland Institute of Art to explore how technology can be used to convey the meaning of art. A student chooses an object from a curator's collection, then uses digital media to express his ''passion'' for that artwork. But, Mr. Steinbach said, the main goal of technology must be ''to direct the visitor to the object and not distract from it.''</p>
+        <p>Traditionalists may object to mixing art with wireless networking, but they are likely to be in the minority.</p>
+        <p>''We can't act like ostriches, believing that objects will always attract people the way they have in the past,'' said Marjorie Schwarzer, an associate professor of museum studies at the John F. Kennedy University in Northern California.</p>
+        <p>A recent survey by the American Association of Museums, which Ms. Schwarzer helped conduct, found that not a single art museum reported visitors reacting negatively to new technology in the galleries.</p>
+        <p>''People like choices,'' Ms. Schwarzer said, ''and when museums give more choices, the response is positive.''</p>
+        <p>Even those who are enthusiastic about change are wary of going too far in trying to develop new technologies themselves. ''Museums are not in the hardware business, we're not in the software business -- we're in the content-development business,'' said Maxwell L. Anderson, the director of the Whitney Museum of American Art.</p>
+        <p>While Mr. Anderson is interested in exotic possibilities that range from audio guides with sufficient artificial intelligence to answer questions from visitors to 3-D-style glasses for reading invisible text on walls, the bottom line is reliability.</p>
+        <p>''We don't want to be in the lab tinkering,'' he said, ''when our public is drumming their fingers in the gallery.''</p>
+        <p>TECHNOLOGY</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

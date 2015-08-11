@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>INSIDE ART</title>
+    <meta content="10INSI" name="slug"/>
+    <meta content="10" name="publication_day_of_month"/>
+    <meta content="9" name="publication_month"/>
+    <meta content="2004" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Leisure/Weekend Desk" name="dsk"/>
+    <meta content="24" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2004/09/10/arts/design/10INSI.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1610198"/>
+      <doc.copyright holder="The New York Times" year="2004"/>
+      <series series.name="Inside Art"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Auctions</classifier>
+        <classifier class="indexing_service" type="descriptor">Photography</classifier>
+        <classifier class="indexing_service" type="descriptor">Collectors and Collections</classifier>
+        <classifier class="indexing_service" type="descriptor">Restoration and Rehabilitation</classifier>
+        <org class="indexing_service">National Gallery of Art (Rome)</org>
+        <org class="indexing_service">Frick Collection</org>
+        <org class="indexing_service">Museum of Fine Arts (Houston, Tex)</org>
+        <org class="indexing_service">Indianapolis Museum of Art</org>
+        <org class="indexing_service">Christie's</org>
+        <org class="indexing_service">Museum of Modern Art (NYC)</org>
+        <person class="indexing_service">Vogel, Carol</person>
+        <person class="indexing_service">Raphael (Painter) (1483-1520)</person>
+        <person class="indexing_service">John, Elton</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Columns/Inside Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Auctions</classifier>
+        <classifier class="online_producer" type="general_descriptor">Restoration and Rehabilitation</classifier>
+        <classifier class="online_producer" type="general_descriptor">Photography</classifier>
+        <classifier class="online_producer" type="general_descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Collectors and Collections</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <org class="online_producer">Museum of Modern Art</org>
+        <person class="online_producer">John, Elton</person>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20040910T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D0CE7DB1430F933A2575AC0A9629C8B63" item-length="1007" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>INSIDE ART</hl1>
+        <hl2 class="online_headline">A Famed Raphael Will Cross the Sea</hl2>
+      </hedline>
+      <byline class="print_byline">By Carol Vogel</byline>
+      <byline class="normalized_byline">Vogel, Carol</byline>
+      <abstract>
+        <p>Carol Vogel Inside Art column; La Fornarina, 1520 portrait by Raphael thought to depict baker's daughter Margherita Luti, is being lent by National Gallery of Art at Palazzo Barberini in Rome for tour that will include Frick Collection, Museum of Fine Arts, Houston, and Indianapolis Museum of Art; Christie's will sell about 100 photographs from collection of Elton John on October 14; tickets for reopening of New York City's Museum of Modern Art, which has been undergoing expansion, go on sale; photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>A Famed Raphael Will Cross the Sea</p>
+        <p>Raphael's ''Fornarina,'' that sensual portrait of the baker's daughter who is said to have been the artist's lover, is heading to the United States for the first time.</p>
+        <p>A three-quarter-length Renaissance nude executed around 1520, it is thought to depict Margherita Luti, the daughter of Francesco Senese, a baker from Siena. It is being lent to three American museums by the National Gallery of Art at the Palazzo Barberini in Rome.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Raphael's "Fornarina," that sensual portrait of the baker's daughter who is said to have been the artist's lover, is heading to the United States for the first time.</p>
+      </block>
+      <block class="full_text">
+        <p>A Famed Raphael Will Cross the Sea</p>
+        <p>Raphael's ''Fornarina,'' that sensual portrait of the baker's daughter who is said to have been the artist's lover, is heading to the United States for the first time.</p>
+        <p>A three-quarter-length Renaissance nude executed around 1520, it is thought to depict Margherita Luti, the daughter of Francesco Senese, a baker from Siena. It is being lent to three American museums by the National Gallery of Art at the Palazzo Barberini in Rome.</p>
+        <p>The painting will first be on view in the Oval Room of the Frick Collection, from Dec. 2 through Jan. 30. Then it will travel to the Museum of Fine Arts, Houston, where it will be shown for two months beginning in mid-February before going to the Indianapolis Museum of Art in May.</p>
+        <p>''It's one of those iconic works that everyone feels they know because it's in all the history books,'' said Colin B. Bailey, chief curator of the Frick. As with other exceptional loans of works by artists like Mantegna, van Gogh and Picasso, Frick officials are planning to hang the painting on its own.</p>
+        <p>''The opportunity to see a great Raphael in New York is rare,'' Mr. Bailey said. ''There are only three here, and they are all at the Met.''</p>
+        <p>The ''Fornarina'' loan was conceived last spring, Mr. Bailey said, when he received a visit from Manfredi Piccolomini, cultural director of the year-old Foundation for Italian Art and Culture, and his colleagues from Rome.</p>
+        <p>Mr. Piccolomini said, ''We are trying to promote Italian culture in the United States, to make Italian art more available here where there is a great demand.''</p>
+        <p>''Italy has a lot of bureaucracy, and it's a difficult system,'' Mr. Piccolomini added. In the past, loans of this sort have been nearly impossible. But the foundation was able to expedite the process, with the help of Giuliano Urbani, Italy's minister of cultural affairs and a member of the foundation's board; Alain Elkann, Mr. Urbani's adviser and president of the foundation; and Claudio Strinati, the superintendent for the National Museums of Rome, who is an adviser to the foundation.</p>
+        <p>The painting was restored in 2000, Mr. Piccolomini added, making it stable enough to withstand international travel.</p>
+        <p>The restoration also produced significant new scholarship. The painting had been firmly attributed to Raphael until the late 18th century, when it was suggested that the figure's coloring was closer to that of one of the artist's pupils, Giulio Romano. The painting's authorship was debated for the next two centuries. But the findings of the restoration, including X-rays of the painting -- which have been recorded in a catalog that is being published in the United States to coincide with the exhibitions -- revealed figure drawings under the painting's surface that are similar to extant sketches and drawings by Raphael.</p>
+        <p>Some scholars also believe that the intimacy of the sitter confirms that she was Raphael's lover, although others aren't so sure. ''That's a question that will be debated for generations to come,'' Mr. Bailey said.</p>
+        <p>Many historians like to think that the artist's untimely death at age 37 was related to a passionate affair. The Renaissance biographer Giorgio Vasari said that ''Raphael could not give his mind to his work because of his infatuation with his mistress'' and implied that the artist's sexual exploits killed him.</p>
+        <p>''It's an image that has captured the imagination of so many artists, from Ingres to Picasso, along with the fascinating stories that have spun around it,'' Mr. Bailey said.</p>
+        <p>Elton John's Yard Sale</p>
+        <p>As passionate a collector as Sir Elton John is, he can never be accused of being a pack rat. Over the years the rock star has bought and sold vintage cars, paintings, furniture, decorative objects and more. Recently he hired Jane Jackson, a former Atlanta dealer, to work on his vast photography collection and to compile a digital catalog of his holdings. It was only when he was able to survey everything he had that he decided some pruning was in order.</p>
+        <p>So on Oct. 14 Christie's will be selling about 100 photographs, ranging from vintage 20th-century images by masters like Berenice Abbott and Edward Steichen to iconic fashion photographs by Irving Penn, Horst and Norman Parkinson. The sale is estimated to bring $700,000 to $1 million.</p>
+        <p>Sir Elton began collecting photographs in 1991, buying at auction, privately and through dealers. His collection now numbers around 4,000 photographs. The works Christie's is selling are for the most part popular and well-known images, among them Robert Mapplethorpe's ''Calla Lily'' (1988), which is expected to bring $30,000 to $50,000; Mr. Penn's ''Mermaid Dress (Rochas) Lisa Fonssagrives, Paris'' (1950), which is expected to fetch $25,000 to $35,000; and Ansel Adams's ''Tetons and Snake River, Grand Teton National Park, Wyoming'' (1942), estimated at $35,000 to $45,000.</p>
+        <p>''The catalog is like a mini-retrospective of his collecting activities,'' said Joshua Holdeman, international director of Christie's photography department. ''It has been organized by subjects, like still lifes, fashion images and landscapes.''</p>
+        <p>The New, $20 Modern</p>
+        <p>Two full months remain before the Museum of Modern Art reopens after an $858 million, two-and-a-half-year expansion of its West 53rd Street home, but tickets (a record $20 for adults) are going on sale on Sunday. The formal reopening is on Nov. 20, a day that admission will be free. But timed tickets will be necessary afterward (except on Fridays from 4 p.m. until 8 p.m., when admission is free).</p>
+        <p>Visitors who don't want to risk buying their tickets at the door can order them through Ticketmaster, (212) 220-0505, or at www.  ticketmaster.com. As if the $20 admission charge weren't enough ($16 for senior citizens and $12 for full-time students), Ticketmaster charges a $3.75 ''convenience'' fee for each ticket and a $1.75 handling fee per order.</p>
+        <p>Inside Art</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

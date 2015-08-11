@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>When a Burst of Sunshine Swept Over Brazil's Art World</title>
+    <meta content="13trop" name="slug"/>
+    <meta content="13" name="publication_day_of_month"/>
+    <meta content="10" name="publication_month"/>
+    <meta content="2006" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Leisure/Weekend Desk" name="dsk"/>
+    <meta content="33" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2006/10/13/arts/design/13trop.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1796735"/>
+      <doc.copyright holder="The New York Times" year="2006"/>
+      <series series.name="ART REVIEW"/>
+      <identified-content>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Central and South America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Central and South America/Brazil</classifier>
+        <classifier class="online_producer" type="descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <org class="online_producer">Bronx Museum of the Arts</org>
+        <person class="online_producer">Oiticica, Helio</person>
+        <person class="online_producer">Veloso, Caetano</person>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20061013T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E02E2D81030F930A25753C1A9609C8B63" item-length="1210" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>When a Burst of Sunshine Swept Over Brazil's Art World</hl1>
+        <hl2 class="online_headline">When a Burst of Sunshine Swept Over Brazil’s Art World</hl2>
+      </hedline>
+      <byline class="print_byline">By HOLLAND COTTER</byline>
+      <byline class="normalized_byline">Cotter, Holland</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>A lot of the most radical art of the 1960's and 70's never made it into museums, or did so only in residue form, like swept-up confetti after a party. This was certainly true of art based on actions and interactions rather than on objects. A thing of beauty may be a joy forever, but a beautiful gesture? Did you see it? No? Too late. It's gone.</p>
+        <p>''Tropicália: A Revolution in Brazilian Culture,'' at the Bronx Museum of the Arts, is an absorbing if inevitably diffuse attempt to recapture such a fugitive art, one that flourished for a mere five years, from 1967 to 1972. Tropicália, or Tropicalism, wasn't a style or a movement as much as an atmosphere, a rush of youthful, cosmopolitan, liberationist optimism that broke over Brazil like a sun shower and soaked into everything: art, music, fashion, film, theater, literature.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>At the Bronx Museum of the Arts, “Tropicália” seeks to recapture some of the more ephemeral works of the 60’s and 70’s.</p>
+      </block>
+      <block class="full_text">
+        <p>A lot of the most radical art of the 1960's and 70's never made it into museums, or did so only in residue form, like swept-up confetti after a party. This was certainly true of art based on actions and interactions rather than on objects. A thing of beauty may be a joy forever, but a beautiful gesture? Did you see it? No? Too late. It's gone.</p>
+        <p>''Tropicália: A Revolution in Brazilian Culture,'' at the Bronx Museum of the Arts, is an absorbing if inevitably diffuse attempt to recapture such a fugitive art, one that flourished for a mere five years, from 1967 to 1972. Tropicália, or Tropicalism, wasn't a style or a movement as much as an atmosphere, a rush of youthful, cosmopolitan, liberationist optimism that broke over Brazil like a sun shower and soaked into everything: art, music, fashion, film, theater, literature.</p>
+        <p>Almost instantly it gave rise to a crop of startling hybrids: American psychedelic rock cross-pollinating sambas, political resistance with the pleasure principle, Brazilian art with international art. The new growth was dense and enveloping: you looked at it, listened to it, tasted it, breathed in its perfume, lived in it.</p>
+        <p>Or you didn't, in which case the whole phenomenon was puzzling at best, and threatening at worst. To the military authorities then in power it was a clear and present danger. They let the party go on for a while, then clamped down hard. By 1972 Tropicália was effectively over, leaving scraps of itself -- photographs, films, recordings, manifestoes and fragile pieces of art -- behind.</p>
+        <p>The show, organized by Carlos Basualdo, a curator at the Philadelphia Museum of Art, is largely made up of such scraps. In historical exhibitions this could be a serious liability. You would be getting only a fragmented view of a larger whole. But even at its peak Tropicália was a thing of many parts, some of which, like art and pop music, connected only obliquely. It brought global and Brazilian culture together in barely digested combinations. Politically it was oppositional without being ideological, or rather it embraced many ideologies.</p>
+        <p>The name Tropicália actually derived from art, specifically from a single work by Hélio Oiticica (1937-80), a leading figure of the Brazilian avant-garde. He was born into a family of leftist intellectuals in Rio de Janeiro and went to school there in the 1950's with a group of remarkable contemporaries, among them Lygia Clark and Lygia Pape, who are major presences in the Bronx show.</p>
+        <p>Although Mr. Oiticica's main work at the time was utopian, Mondrian-inspired abstract painting, he also experimented with ephemeral materials and tactile forms. In 1964 he started attending a samba school in one of Rio's favelas, or shantytowns, and his immersion in this performance-based popular art transformed his work.</p>
+        <p>He turned his attention from making gallery-bound objects to environments for viewer participation, plain and practical in design but with certain ''Brazilian'' elements added. The result was an exoticized, sensorily stimulating, walk-in version of modernist abstraction. When he exhibited the first of these ramshackle, funky constructions publicly in 1967, he titled it ''Tropicália.''</p>
+        <p>A reproduction of that piece, complete with live plants and parrots, enclosures modeled on favela architecture, and a single television blasting away, is the centerpiece of the Bronx show, where it melds into a second Oiticica piece, ''The Eden Plan'' (1968-89), equipped with a wading pool, ''nests'' of dried leaves and a tent with piped-in music.</p>
+        <p>Mr. Oiticica was explicit about the music to be played: songs by Gilberto Gil and Caetano Veloso, two of the country's hottest young music stars. The dreamboaty Mr. Veloso was especially popular. In 1968, in a bow to Mr. Oiticica, he titled an album ''Tropicália,'' and in the process he gave the name to an intense moment of Brazilian pop culture.</p>
+        <p>Many people associate Tropicália exclusively with the music, which combined bossa nova, Euro-American pop and traditional Brazilian material, woven around anti-establishment lyrics. It's fabulous stuff, and you can get a concentrated dose of it in a series of video clips playing in the Bronx Museum's handsome new architectural extension.</p>
+        <p>Among the clips are shots of Mr. Gil and Mr. Veloso singing to enraptured crowds, and tropicalist fellow travelers like the former bossa nova stylist Gal Costa, dressed like Little Richard and sounding like Janis Joplin, and the band Os Mutantes. Nearby is a selection of Flower Powerish album covers and a lavish display of Tropicália fashions. Made of fabrics printed with tropical flowers, birds and vibrant abstract patterns, the clothes perfectly embody the marriage of Op, Pop and Braziliana that Mr. Oiticica envisioned.</p>
+        <p>These are remnants of a classic 1960's scene. And as in everything 1960's, tensions buzzed away under the surface. Despite or because of its popularity, Tropicália drew fire from both ends of the political spectrum. To the left its commercial success was deeply suspect and its espousal of hedonism -- ''Joy, Joy'' was the title of one of Mr. Veloso's hit songs -- as a mode of subversion, regressive. Mr. Oiticica shared these concerns.</p>
+        <p>For the right the matter was simpler. Tropicália was part of an international revolutionary impulse, and it had to go. In 1969 Mr. Gil and Mr. Veloso played some gigs at a nightclub where there was a banner, designed by Mr. Oiticica, with the words ''Be an outlaw; Be a hero.'' Soon after, they were jailed and then went into exile. Mr. Oiticica also left. Tropicália was over.</p>
+        <p>Or at least it was subdued. Mr. Oiticica, who moved to New York, continued to think and write about it. He was, and remains, its real theoretician. Mr. Veloso, an international celebrity, has tended to smooth over Tropicália's sharper edges while keeping its spirit alive. Mr. Gil, the current minister of culture in Brazil, periodically invokes it as a political model while remaining ambiguous about how its politics were defined.</p>
+        <p>They were defined of course by ambiguity, a refusal of dogmatism that, ideally, opened the path for a carnivalesque collective activism, one that has parallels in certain ''interventionist'' political art today. The show addresses the question of Tropicália's continuing influence by including work by several young artists made in response to it.</p>
+        <p>A stick-on mural of classic tropicalist images orchestrated by the Brazilian-born artist Assume Vivid Astro Focus generates a celebratory energy. But pieces by two young artists based in Brazil, Rodrigo Araujo and Marcos Reis Peixoto, who goes by the name Marepe, allude to continuing social inequities that Tropicalism never addressed.</p>
+        <p>In the end it is Mr. Oiticica's work that seems, particularly in a museum context, most radical and most alive. For one thing, it is there but not there: almost everything under his name in the show is a reproduction of an original either fragile beyond use or gone. For another, his is truly an art of gestures, not frozen in time, but repeated and translated differently by each visitor who walks into his ''Tropicália'' environment and makes it his or her own. If we engage with his art, it is something; if we do not, it is nothing. Its creation is our responsibility.</p>
+        <p>''Tropicália: A Revolution in Brazilian Culture'' runs through Jan. 28 at the Bronx Museum of the Arts, 1040 Grand Concourse, at 165th Street, Morrisania, (718) 681-6000.</p>
+        <p>ART REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

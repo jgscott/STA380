@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Corrections</title>
+    <meta content="10" name="publication_day_of_month"/>
+    <meta content="12" name="publication_month"/>
+    <meta content="1995" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="The City Weekly Desk" name="dsk"/>
+    <meta content="4" name="print_page_number"/>
+    <meta content="13" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Corrections; New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="814962"/>
+      <doc.copyright holder="The New York Times" year="1995"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ART</classifier>
+        <classifier class="indexing_service" type="descriptor">CORRECTION STORIES</classifier>
+        <location class="indexing_service">MIDDLE EAST</location>
+        <location class="indexing_service">ISRAEL</location>
+        <org class="indexing_service">QUEENS MUSEUM OF ART (NYC)</org>
+        <person class="indexing_service">RABIN, YITZHAK</person>
+        <classifier class="online_producer" type="types_of_material">Correction</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region/The City</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Corrections</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Middle East</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Middle East/Israel</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19951210T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D06E6DC1639F933A25751C1A963958260" item-length="82" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Corrections</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>An article in the Neighborhood Report last Sunday about a dispute over whether a naked statue of Zeus at the Queens Museum of Art should be displayed during a memorial service for the slain Israeli Prime Minister, Yitzhak Rabin, misstated the role of the Metropolitan Museum. The Metropolitan lent the statue  to the Queens Museum, but was not involved in the decision to leave the statue undraped and move the memorial service to another part of the museum.</p>
+      </block>
+      <block class="full_text">
+        <p>An article in the Neighborhood Report last Sunday about a dispute over whether a naked statue of Zeus at the Queens Museum of Art should be displayed during a memorial service for the slain Israeli Prime Minister, Yitzhak Rabin, misstated the role of the Metropolitan Museum. The Metropolitan lent the statue  to the Queens Museum, but was not involved in the decision to leave the statue undraped and move the memorial service to another part of the museum.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

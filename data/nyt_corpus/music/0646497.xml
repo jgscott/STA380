@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Classical Music in Review</title>
+    <meta content="2" name="publication_day_of_month"/>
+    <meta content="11" name="publication_month"/>
+    <meta content="1993" name="publication_year"/>
+    <meta content="Tuesday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="19" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="2" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="646497"/>
+      <doc.copyright holder="The New York Times" year="1993"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MUSIC</classifier>
+        <classifier class="indexing_service" type="descriptor">CONCERTS AND RECITALS</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <org class="indexing_service">CHAMBER MUSIC SOCIETY OF LINCOLN CENTER</org>
+        <person class="indexing_service">KOZINN, ALLAN</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19931102T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9F0CE7DF1039F931A35752C1A965958260" item-length="246" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Classical Music in Review</hl1>
+      </hedline>
+      <byline class="print_byline">By ALLAN KOZINN</byline>
+      <byline class="normalized_byline">KOZINN, ALLAN</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Chamber Music Society of Lincoln Center  Alice Tully Hall</p>
+        <p>The Chamber Music Society of Lincoln Center had it easy on Sunday afternoon: the Beaux-Arts Trio played the second half of the program. On the first half, members of the trio collaborated with the society's string players, and at times one almost needed a scorecard to keep the alliances straight.</p>
+      </block>
+      <block class="full_text">
+        <p>Chamber Music Society of Lincoln Center  Alice Tully Hall</p>
+        <p>The Chamber Music Society of Lincoln Center had it easy on Sunday afternoon: the Beaux-Arts Trio played the second half of the program. On the first half, members of the trio collaborated with the society's string players, and at times one almost needed a scorecard to keep the alliances straight.</p>
+        <p>Ani Kavafian, a Chamber Music Society violinist whose sister Ida was once also in the society but is now in the Beaux-Arts Trio, joined Menahem Pressler, the trio's pianist, for an invigoratingly melodramatic reading of Beethoven's Sonata in C minor (Op. 30, No. 2). And both Kavafians, the society's violists, Walter Trampler and Steven Tenenbom, and the trio's cellist, Peter Wiley, banded together for a warm-toned, beautifully shaded account of Mozart's Quintet in G minor (K. 516), in which passion and philosophical introspection were sensibly balanced.</p>
+        <p>Ned Rorem's "Spring Music," composed for the Beaux-Arts players in 1990, has everything Mr. Rorem is known for: sweetly inflected lyricism in the Bagatelle, harmonic invention within the bounds of tonality in the Aubade and Fantasy, and dramatic energy in the Toccata and Presto. The trio gave the piece a polished, vital reading, and did the same for Beethoven's "Kakadu" Variations, which closed the program.</p>
+        <p>The concert is to be repeated tonight at 7:30, with a discussion between Mr. Rorem and Bruce Adolphe at 7. ALLAN KOZINN</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

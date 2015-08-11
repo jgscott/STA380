@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Art in Review; Interstate</title>
+    <meta content="16gall-1" name="slug"/>
+    <meta content="16" name="publication_day_of_month"/>
+    <meta content="9" name="publication_month"/>
+    <meta content="2005" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Leisure/Weekend Desk" name="dsk"/>
+    <meta content="40" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1702504"/>
+      <doc.copyright holder="The New York Times" year="2005"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Mcewen, Adam</person>
+        <person class="indexing_service">Smith, Roberta</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20050916T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9806E5D81E31F935A2575AC0A9639C8B63" item-length="608" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Art in Review; Interstate</hl1>
+      </hedline>
+      <byline class="print_byline">By ROBERTA SMITH</byline>
+      <byline class="normalized_byline">Smith, Roberta</byline>
+      <abstract>
+        <p>Roberta Smith reviews group show organized by Adam McEwen at Nicole Klagsbrun gallery; photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Nicole Klagsbrun  526 West 26th Street, Chelsea  Through Oct. 1</p>
+        <p>''Interstate'' continues this summer's Boys in Black trend of smart, dystopian group shows that rage against the status quo with counter-culture bravado but include far too few artists of the opposite sex. This show numbers 3 women among 22 artists and one collective, which is shameful, but at least Adam McEwen, the artist who organized it, has curbed the enthusiastic machismo that pervaded several of the summer's efforts.</p>
+      </block>
+      <block class="full_text">
+        <p>Nicole Klagsbrun  526 West 26th Street, Chelsea  Through Oct. 1</p>
+        <p>''Interstate'' continues this summer's Boys in Black trend of smart, dystopian group shows that rage against the status quo with counter-culture bravado but include far too few artists of the opposite sex. This show numbers 3 women among 22 artists and one collective, which is shameful, but at least Adam McEwen, the artist who organized it, has curbed the enthusiastic machismo that pervaded several of the summer's efforts.</p>
+        <p>The show cross-references current art with the relentlessly valorized Conceptual-leaning art of the late 1960's and early 70's, viewing the United States, land of the interstate highway, with unmistakable discontent. The prevailing tactic, and larger theme, is subversive traffic between different realms -- bodily, artistic, topographical or political.</p>
+        <p>A little-known Vietnam-era protest by Donald Judd inverts the American flag into orange, green and black fabric, looking back to Jasper Johns and forward to David Hammons. Ulay's ''S'He,'' a 1975 Polaroid triptych of himself, a Yugoslavian performance artist, presents male and female profiles and their androgynous, full-face fusion. Hugo Markl's 2005 ''Nosy,'' a large color photograph of a bathtub of oatmeal, suggests vomit or decomposing flesh..</p>
+        <p>Traffic between sex, painting and language fuels a sequence of works by Ed Ruscha, Lucio Fontana, Dan Graham, Dash Snow, Lynda Benglis (a luscious early wax piece) and Josh Smith. A fittingly triangulated, amusingly site-specific piece from 1970 by Gino De Dominicis intimates the world's vastness.</p>
+        <p>Across the gallery, this vastness, and its ruination, are evoked in the wry landscape photography of the Center for Land Use Interpretation, an invaluable Los Angeles collective. Each photo records some egregious bit of topographical human folly that usually resembles an earthwork. Interspersed with this are more private transgressions: three of Lucas Samara's 1976 ''Photo-Transformations'' in which he resembles, respectively, a homeless person, a pile of sludge and a hallucination.</p>
+        <p>In unlikely shades of pink, Mike Kelley's large photo-diptych ''Chainsaw Sculpture of Big Foot and Plaster Statue of John Glenn'' contrasts nature and culture as well as mythic monster and mythic hero. Similarly, a 1970 video of Joseph Beuys by the artist Rory McEwen, the curator's father, contrasts the artist as shaman and as family man.</p>
+        <p>Larry Johnson and Dan Colen use cloying illustrational styles to insinuate bits of color, narrative and sexual innuendo, while four sculptures volley references off the walls. Sam Durant's crude model of a modernist house echoes the Los Angeles collective's scenes of desolation. Rob Pruitt's ''Minimalist Sculpture for my Dad'' contrasts weight and featherweight, butch and femme, with a Juddian plywood box piled with potato chips. The English artist Jeremy Deller succinctly tackles American power, Texas-style, with ''Memory Bucket,'' a video that won the 2004 Turner Prize. Traveling the short distances from Waco to Crawford to San Antonio, it evokes a history of governmental machismo and trigger-happiness. In the gallery's opposite corner, Nate Lowman counters cryptically with an enlarged image of a bullet hole.</p>
+        <p>At the center, Sue Williams pays homage to Ms. Benglis's Process Art with an update on her infamous 1993 vomit sculpture -- perhaps an appropriate response to her surroundings, whether general or immediate.</p>
+        <p>ROBERTA SMITH</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

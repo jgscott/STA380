@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Art in Review</title>
+    <meta content="RV003350" name="slug"/>
+    <meta content="14" name="publication_day_of_month"/>
+    <meta content="2" name="publication_month"/>
+    <meta content="1997" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Weekend Desk" name="dsk"/>
+    <meta content="32" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="Art in Review" name="column_name"/>
+    <docdata>
+      <doc-id id-string="908851"/>
+      <doc.copyright holder="The New York Times" year="1997"/>
+      <series series.name="Art in Review"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Glueck, Grace</person>
+        <person class="indexing_service">Averbuch, Ilan</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19970214T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9F05E6D6143FF937A25751C0A961958260" item-length="297" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Art in Review</hl1>
+      </hedline>
+      <byline class="print_byline">By Grace Glueck</byline>
+      <byline class="normalized_byline">Glueck, Grace</byline>
+      <abstract>
+        <p>Grace Glueck reviews sculptures by Ilan Averbuch, at Nancy Hoffman Gallery (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Ilan Averbuch  Nancy Hoffman Gallery  429 West Broadway (near Prince Street)  SoHo  Through Feb. 25</p>
+        <p>On a recent trip to India, where New York City manhole covers are made, Ilan Averbuch, an Israeli-born sculptor, discovered the virtues of cast iron. And he has managed to work this solid, raw structural material into several vigorous sculptural arrangements. For the best of them, ''The River,'' he has cast in iron the goatskins used in India for carrying water; they take a kind of ghostly form of the animal itself.</p>
+      </block>
+      <block class="full_text">
+        <p>Ilan Averbuch  Nancy Hoffman Gallery  429 West Broadway (near Prince Street)  SoHo  Through Feb. 25</p>
+        <p>On a recent trip to India, where New York City manhole covers are made, Ilan Averbuch, an Israeli-born sculptor, discovered the virtues of cast iron. And he has managed to work this solid, raw structural material into several vigorous sculptural arrangements. For the best of them, ''The River,'' he has cast in iron the goatskins used in India for carrying water; they take a kind of ghostly form of the animal itself.</p>
+        <p>Two rows of goatskins are divided by a horizontal line of heavy stone paving materials. On the top row, the animal forms trot along right side up; on the bottom, they are suspended upside down in mirror image, like reflections in a river. A number of long ''bamboo'' poles, also cast in iron, support the entire structure, so that it appears to be on stilts.</p>
+        <p>A preindustrial, primitive age is tellingly evoked, and it gives you a shiver or two.</p>
+        <p>A very large piece, ''Air,'' is made of more conventional materials: wood, stone and glass. Taking the form of an inflated balloon lying on its side, its stone-capped wooden tail saucily flipped up, it's made of a gridded wood framework with glass panes. A playful caricature of a real hot-air balloon, it's appealing in its scale and klutziness.</p>
+        <p>As a sculptor, Mr. Averbuch is not one for elegant refinements, but rawness is his strength.</p>
+        <p>GRACE GLUECK</p>
+        <p>Art in Review</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

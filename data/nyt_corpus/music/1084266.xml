@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>FOOTLIGHTS</title>
+    <meta content="11FOOT" name="slug"/>
+    <meta content="11" name="publication_day_of_month"/>
+    <meta content="2" name="publication_month"/>
+    <meta content="1999" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1084266"/>
+      <doc.copyright holder="The New York Times" year="1999"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Dancing</classifier>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Recordings (Audio)</classifier>
+        <classifier class="indexing_service" type="descriptor">Biographical Information</classifier>
+        <classifier class="indexing_service" type="descriptor">Awards, Decorations and Honors</classifier>
+        <classifier class="indexing_service" type="descriptor">Samuel H Scripps American Dance Festival Award</classifier>
+        <classifier class="indexing_service" type="descriptor">Blacks</classifier>
+        <org class="indexing_service">Tanztheater Wuppertal Dance Company</org>
+        <org class="indexing_service">Corcoran Gallery of Art (Washington, DC)</org>
+        <person class="indexing_service">Oliveira, Elmar</person>
+        <person class="indexing_service">Bausch, Pina</person>
+        <person class="indexing_service">Sargent, John Singer (1856-1925)</person>
+        <person class="indexing_service">Van Gelder, Lawrence</person>
+        <person class="indexing_service">Quivar, Florence</person>
+        <person class="indexing_service">Stradivari, Antonio (c1644-1737)</person>
+        <person class="indexing_service">Guarneri Del Gesu, Giuseppe (1698-1744)</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="general_descriptor">Blacks</classifier>
+        <classifier class="online_producer" type="general_descriptor">Recordings (Audio)</classifier>
+        <classifier class="online_producer" type="general_descriptor">American Dance Festival (Durham, NC)</classifier>
+        <classifier class="online_producer" type="general_descriptor">Awards, Decorations and Honors</classifier>
+        <classifier class="online_producer" type="general_descriptor">Dancing</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19990211T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D05E2D6113BF932A25751C0A96F958260" item-length="708" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>FOOTLIGHTS</hl1>
+      </hedline>
+      <byline class="print_byline">By LAWRENCE VAN GELDER</byline>
+      <byline class="normalized_byline">Van Gelder, Lawrence</byline>
+      <abstract>
+        <p>Violinist Elmar Oliveira will play five of world's most precious violins, made by Antonio Stradivari and Giuseppe Guarneri, at special concert at Steinway Hall; Pina Bausch, who achieved international fame as director and choreographer of Tanztheater Wuppertal of Germany, is named winner of 1999 Samuel H Scripps American Dance Festival Award honoring lifetime achievement in modern dance; photo; Corcoran Gallery of Art in Washington will open exhibition on February 13 of more than 70 drawings by John Singer Sargeant; classical composers of African heritage will be focus of concert at 92d Street Y Tisch Center for the Arts on February 14; concert will feature mezzo-soprano Florence Quivar; photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>NEWS</p>
+        <p>Violin Virtuosos  Two units at a time, in unmarked vans and limousines, the cargo was transported to the Performing Arts Center at Purchase College in Purchase, N.Y. Heavily insured, the cargo consisted of 30 of the world's most precious violins -- 15 by Antonio Stradivari (1644-1737) and 15 by Giuseppe Guarneri, known as del Gesu (1698-1744). In late 1994, the concert violinist Elmar Oliveira was recorded, playing 15 pieces by composers like Bloch, J. S. Bach, Brahms and Paganini, first on a Stradivari and then on a Guarneri. Afterward he played all 30 instruments sequentially in an excerpt from Sibelius's Violin Concerto in D minor. This evening at Steinway Hall in Manhattan, at a gathering to celebrate the release of the CD's, ''The Miracle Makers,'' by Bein &amp; Fushi, the Chicago dealers and restorers who organized the project, Mr. Oliveira will play five of the violins.</p>
+      </block>
+      <block class="full_text">
+        <p>NEWS</p>
+        <p>Violin Virtuosos  Two units at a time, in unmarked vans and limousines, the cargo was transported to the Performing Arts Center at Purchase College in Purchase, N.Y. Heavily insured, the cargo consisted of 30 of the world's most precious violins -- 15 by Antonio Stradivari (1644-1737) and 15 by Giuseppe Guarneri, known as del Gesu (1698-1744). In late 1994, the concert violinist Elmar Oliveira was recorded, playing 15 pieces by composers like Bloch, J. S. Bach, Brahms and Paganini, first on a Stradivari and then on a Guarneri. Afterward he played all 30 instruments sequentially in an excerpt from Sibelius's Violin Concerto in D minor. This evening at Steinway Hall in Manhattan, at a gathering to celebrate the release of the CD's, ''The Miracle Makers,'' by Bein &amp; Fushi, the Chicago dealers and restorers who organized the project, Mr. Oliveira will play five of the violins.</p>
+        <p>Honor Bound  Pina Bausch, who achieved international fame as the director and choreographer of the Tanztheater Wuppertal of Germany, has been named the winner of the 1999 Samuel H. Scripps American Dance Festival Award honoring lifetime achievement in modern dance. The $25,000 prize will be presented by Harvey Lichtenstein, president of the Brooklyn Academy of Music, in ceremonies on June 20 at Duke University in Durham, N.C., the home of the American Dance Festival. Among past recipients of the award are Martha Graham, Merce Cunningham and Alvin Ailey.</p>
+        <p>Time for Sargents  Tapping its permanent collection, the Corcoran Gallery of Art in Washington will open an exhibition on Saturday of more than 70 drawings by John Singer Sargent (1856-1925). Rare early drawings, several large-scale portraits and preparatory studies for late murals in Boston are features of this show, continuing through May 9 and timed to coincide with a major retrospective of Sargent's paintings and watercolors from Feb. 21 to May 31 in Washington at the National Gallery of Art.</p>
+        <p>Leading Lights  Classical composers of African heritage will be the focus of a concert at the 92d Street Y Tisch Center for the Arts at 3 P.M. on Sunday as part of ''The Singer's Art'' series and as a commemorative event in Black History Month. Featuring the mezzo-soprano Florence Quivar and the pianist Wayne Sanders, ''A Celebration of Black Composers'' will comprise works in the classical, operatic and art-song styles, as well as modern arrangements of spirituals. Among the composers are England's Samuel Coleridge-Taylor; Henry Thacker Burleigh, whose mentor was Dvorak, and William Grant Still, the first African-American to have a symphony performed by a major orchestra.</p>
+        <p>LAWRENCE VAN GELDER</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>MUSIC: Operas and Organ Recitals</title>
+    <meta content="11" name="publication_day_of_month"/>
+    <meta content="9" name="publication_month"/>
+    <meta content="1988" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="The New Season Magazine" name="dsk"/>
+    <meta content="14" name="print_page_number"/>
+    <meta content="6" name="print_section"/>
+    <meta content="2" name="print_column"/>
+    <meta content="Magazine" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="178569"/>
+      <doc.copyright holder="The New York Times" year="1988"/>
+      <series series.name="BRAVE NEW SPACES"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MUSIC</classifier>
+        <classifier class="indexing_service" type="descriptor">OPERA</classifier>
+        <classifier class="indexing_service" type="descriptor">SPECIAL SECTIONS</classifier>
+        <org class="indexing_service">ST JOHN THE DIVINE, CATHEDRAL CHURCH OF (MANHATTAN)</org>
+        <org class="indexing_service">MAJESTIC THEATER (BROOKLYN, NY)</org>
+        <person class="indexing_service">ROCKWELL, JOHN</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Magazine</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Opera</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19880911T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=940DE2D6163CF932A2575AC0A96E948260" item-length="221" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>MUSIC: Operas and Organ Recitals</hl1>
+      </hedline>
+      <byline class="print_byline">By JOHN ROCKWELL</byline>
+      <byline class="normalized_byline">ROCKWELL, JOHN</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: When Harvey Lichtenstein opened the refurbished Majestic Theater last fall, two blocks from the Brooklyn Academy of Music, it was perceived as a New York home for Peter Brook and other innovative theater directors. But now it is emerging as a concert hall and opera house as well. Pierre Boulez's appearances there in June with the Ensemble Intercontemporain proved the excellence of its acoustics, and now a number of other musical and operatic events are being negotiated, not the least of which are the Metropolitan Opera's Brooklyn experimental seasons, starting in 1991.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: When Harvey Lichtenstein opened the refurbished Majestic Theater last fall, two blocks from the Brooklyn Academy of Music, it was perceived as a New York home for Peter Brook and other innovative theater directors. But now it is emerging as a concert hall and opera house as well. Pierre Boulez's appearances there in June with the Ensemble Intercontemporain proved the excellence of its acoustics, and now a number of other musical and operatic events are being negotiated, not the least of which are the Metropolitan Opera's Brooklyn experimental seasons, starting in 1991.</p>
+        <p>When Harvey Lichtenstein opened the refurbished Majestic Theater last fall, two blocks from the Brooklyn Academy of Music, it was perceived as a New York home for Peter Brook and other innovative theater directors. But now it is emerging as a concert hall and opera house as well. Pierre Boulez's appearances there in June with the Ensemble Intercontemporain proved the excellence of its acoustics, and now a number of other musical and operatic events are being negotiated, not the least of which are the Metropolitan Opera's Brooklyn experimental seasons, starting in 1991.</p>
+        <p>Majestic Theater, 651 Fulton Street, 718 636-4100.</p>
+        <p>In Manhattan, the Church of St. John the Evangelist at 55th Street and First Avenue has become a leading venue for evening organ recitals. Despite awkward sightlines, the church has established itself because of the unusually high quality of its Baroque-flavored Hellmuth Wolff organ and the impresario hustle of Donald Joyce, himself a notable artist and organist at the church. Recitals are scheduled for Oct. 5, Nov. 2 and Dec. 4. The church presents its International Organ Recitals series every Monday at 8 P.M. in May and June. Suggested contributions are $7, $5 for students and senior citizens.</p>
+        <p>Church of St. John the Evangelist, 348 East 55th Street, 675-3652 or 753-8418.</p>
+        <p>BRAVE NEW SPACES</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

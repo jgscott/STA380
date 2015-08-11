@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Mark Morris Presents an Early Love</title>
+    <meta content="04WATS$02" name="slug"/>
+    <meta content="4" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="2001" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Arts and Leisure Desk" name="dsk"/>
+    <meta content="22" name="print_page_number"/>
+    <meta content="2" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2001/03/04/arts/04WATS.html" name="alternate_url"/>
+    <meta content="Correction Appended" name="banner"/>
+    <meta content="20010311T000000" name="correction_date"/>
+    <docdata>
+      <doc-id id-string="1275138"/>
+      <doc.copyright holder="The New York Times" year="2001"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Dancing</classifier>
+        <org class="indexing_service">Morris, Mark, Dance Group</org>
+        <person class="indexing_service">Watson, Steven</person>
+        <person class="indexing_service">Morris, Mark</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Spain</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe/Spain</classifier>
+        <classifier class="online_producer" type="descriptor">dancing</classifier>
+        <classifier class="online_producer" type="descriptor">music</classifier>
+        <classifier class="online_producer" type="descriptor">tests_and_testing</classifier>
+        <classifier class="online_producer" type="general_descriptor">Dancing</classifier>
+        <classifier class="online_producer" type="general_descriptor">Tests and Testing</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+        <location class="online_producer">Murray Hill</location>
+        <location class="online_producer">Manhattan</location>
+        <location class="online_producer">Brooklyn</location>
+        <location class="online_producer">London</location>
+        <location class="online_producer">Spain</location>
+        <org class="online_producer">act</org>
+        <person class="online_producer">Gilman, Howard</person>
+        <person class="online_producer">Wilson, Robert</person>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20010304T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E04E6DE1738F937A35750C0A9679C8B63" item-length="1346" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Mark Morris Presents an Early Love</hl1>
+      </hedline>
+      <byline class="print_byline">By STEVEN WATSON</byline>
+      <byline class="normalized_byline">Watson, Steven</byline>
+      <abstract>
+        <p>Steven Watson article on choreographer Mark Morris, in light of opening this week of Mark Morris Dance Group's 20th-anniversary season; photos (L)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>ON a recent afternoon, the sound of a Scarlatti sonata, accompanied by energetic whistling, drifted down a nondescript hallway in the Murray Hill section of Manhattan. The music was courtesy of the choreographer Mark Morris, who stood in the doorway of his modest apartment, which is being renovated. His boxes of books and his lovingly jumbled collection of objects have no place to rest, but Mr. Morris is never without music -- whether played on records, whistled or as part of the ''musical yardage'' that runs constantly through his head.</p>
+        <p>The Mark Morris Dance Group's 20th-anniversary season will begin on Tuesday, when the company returns to Mr. Morris's favorite New York theater, the Howard Gilman Opera House at the Brooklyn Academy of Music. (Mr. Morris's company of about 18 dancers will soon move into its new home across the street in a building that is also under construction.) The BAM program opens with ''Falling Down Stairs'' and other dances. It closes on March 25 with Mr. Morris's 1988 evening-length ''L'Allegro, il Penseroso ed il Moderato,'' widely acknowledged as his masterwork and the subject of a book of the same name (Marlowe &amp; Company), possibly the most exhaustive examination of a single dance work ever published.</p>
+      </block>
+      <block class="full_text">
+        <p>ON a recent afternoon, the sound of a Scarlatti sonata, accompanied by energetic whistling, drifted down a nondescript hallway in the Murray Hill section of Manhattan. The music was courtesy of the choreographer Mark Morris, who stood in the doorway of his modest apartment, which is being renovated. His boxes of books and his lovingly jumbled collection of objects have no place to rest, but Mr. Morris is never without music -- whether played on records, whistled or as part of the ''musical yardage'' that runs constantly through his head.</p>
+        <p>The Mark Morris Dance Group's 20th-anniversary season will begin on Tuesday, when the company returns to Mr. Morris's favorite New York theater, the Howard Gilman Opera House at the Brooklyn Academy of Music. (Mr. Morris's company of about 18 dancers will soon move into its new home across the street in a building that is also under construction.) The BAM program opens with ''Falling Down Stairs'' and other dances. It closes on March 25 with Mr. Morris's 1988 evening-length ''L'Allegro, il Penseroso ed il Moderato,'' widely acknowledged as his masterwork and the subject of a book of the same name (Marlowe &amp; Company), possibly the most exhaustive examination of a single dance work ever published.</p>
+        <p>The most eagerly anticipated of the 15 dances the Morris company will perform is the New York premiere of his 70-minute adaptation of ''Four Saints in Three Acts,'' the legendary opera by Gertrude Stein and Virgil Thomson. The opera's ebullience and all-American outrageousness suit Mr. Morris perfectly.</p>
+        <p>''It is exultant, celebratory,'' he says. ''In Stein's version of heaven,  nothing happens. It's just fabulous all the time.''</p>
+        <p>Mr. Morris, who is 44, heard the opera's most famous passage -- ''Pigeons on the grass alas'' -- in his late adolescence and was immediately intrigued. He lost no time in finding  Thomson's 1948 RCA Victor abridged recording, the version he is using with some additions of his own.  But mostly he knew the 90-minute opera by its reputation.</p>
+        <p>When it was first produced in 1934, ''Four Saints'' received more press attention than any other American cultural event of the era. Such unlikely fascination with an avant-garde work was fueled by the revolutionary practice of casting African-Americans in an opera; by the mania for Stein in the wake of her best-selling ''Autobiography of Alice B. Toklas''; and by the chic buzz coming from high bohemia. As a succès de scandale, its first performances at the Wadsworth Atheneum in Hartford ranked alongside the Armory Show, ''Le Sacre du Printemps'' or George Antheil's ''Ballet Méchanique.''</p>
+        <p>After it moved to Broadway for a six-week run, a record for an opera (''Porgy and Bess'' surpassed it a few years later), ''Four Saints'' fell into a long period of invisibility among major companies, despite periodic talk of revivals. In 1996, Robert Wilson directed the first large-scale production in more than 40 years. ''It was musically impeccable,'' Mr. Morris says, ''but I thought the production was static.''</p>
+        <p>Then came his brainstorm: he would choreograph a danced version of the opera -- about an hour -- coupled with his 1988 danced version of ''Dido and Aeneas,'' Henry Purcell's hourlong opera. The resulting pairing, which had its premiere in London last June, starred two of Mr. Morris's new dancers (John Heginbotham and Michelle Yard) in ''Saints,'' and the two oldest (himself and Guillermo Resto) in ''Dido.'' The juxtaposition of operas and performers reflected two different periods in the Morris company and two different eras in opera. (In Brooklyn, ''Four Saints'' will be staged with Lou Harrison's 1995 work ''World Power.'')</p>
+        <p>Mr. Morris says he steeped himself in ''Four Saints'' and its creators. Cheered on by his friend, the librettist and poet Alice Goodman, he tackled such forbidding Stein works as ''Tender Buttons'' and ''A Novel of Thank You.'' He read Thomson's autobiography, finding it ''mendacious, fabulous, witty'' and perfectly complemented by Anthony Tommasini's recent biography, ''Composer on the Aisle.''</p>
+        <p>He studied Thomson's score, and in its mock simplicity he found an energetic pastiche of hymns both black and white, scary fairground marches, plainchant and Eastern Orthodox chant. ''It's accumulative, and wonderful the way it stacks up, because it is so seemingly simple and basic,'' Mr. Morris says. ''It has the exact cadence of American conversation. And the chords he repeats most often -- 1, 4 and 5 -- are the same as those in rock 'n' roll and gospel.''</p>
+        <p>Mr. Morris's dance, which is performed to live music with eight soloists and a chorus in the pit with the orchestra, evokes characters and even presents a relationship between the central figures, St. Teresa and St. Ignatius. (The historical figures actually lived in different centuries.) St. Teresa pursued a private relationship with God through hermeticism, while St. Ignatius was buoyed by missionary gregariousness, and their different drives -- one inward, one outward -- are reflected in Mr. Morris's choreography.</p>
+        <p>Such important principal roles are rare in a company devoted largely to ensemble dances. ''The joke in the company is that a giant solo is about four bars long,'' Mr. Morris says. ''It's very strict musically and choreographically. The effect is that it looks improvised, like a spontaneous emanation. You are not waiting to be led by music or accompanied by music; you are music. It's a little trick, and that's the way I choose to work.''</p>
+        <p>Extensive research has gone into his choreography. His version of Spain, for example, is evoked by quick quotations from regional folk dances -- a jota, a sevillana, a farruca, a sardana. Stein described her libretto as a ''landscape,'' and Mr. Morris describes his choreography as ''very weathery.''</p>
+        <p>''It's filled with night and day, windy and calm, dry and wet,'' he says. ''You can't just have exultation, you have to build to it. There is a calm before the storm. Also in the eye of the storm.''</p>
+        <p>Mr. Morris faces inevitable comparisons with the original production of ''Four Saints in Three Acts.'' He chose not to follow Thomson's 1934 plan to cast the work entirely with African-Americans, for that would suggest something quite different in 2001. But he incorporated a variety of the African-American movement vocabulary that was part of Thomson's world: high-stepping, cakewalking and vaudeville dance. When Frederic Ashton created the opera's dances in 1934, he called them a mixture of ''Snake Hips and Gothic.''</p>
+        <p>Those who recall Florine Stettheimer's otherworldly sets of cellophane and feather trees will be surprised by the simplicity of the current décor. Mr. Morris initially envisioned ''Four Saints'' populated with elaborate props like a Picassoid guitar, flowers and disposable cameras. But he gradually stripped all such extras away, employing the low-tech approach that characterizes many of his productions. Once, when asked what were the most important qualities in a choreographer, Mr. Morris replied: ''Imagination and knowing when to stop. Just because you think it's interesting doesn't mean it actually is interesting.''</p>
+        <p>He ended up with four sunny flats painted by Maira Kalman, one for each act -- the opera's title misstates the number of both the saints (more than a dozen) and the acts -- complemented by a front drop curtain covered with Stein's text. Looking back on the two decades of his company, Mr. Morris says, ''Years ago, I would have kept more of those props, I would have been more florid.'' Now just a single prop remains: a simple swing downstage to evoke heaven.</p>
+        <p>Steven Watson is the author of ''Prepare for Saints: Gertrude Stein, Virgil Thomson and the Mainstreaming of American Modernism.''</p>
+        <p>Correction:  March 11, 2001, Sunday  An article last Sunday about the choreographer Mark Morris's adaptation of the Virgil Thomson opera ''Four Saints in Three Acts,'' which has its New York premiere this week at the Brooklyn Academy of Music, misspelled the given name of the choreographer of the opera's original dances in 1934. He was Frederick Ashton, not Frederic.</p>
+      </block>
+      <block class="correction_text">
+        <p>Correction: March 11, 2001, Sunday</p>
+        <p>An article last Sunday about the choreographer Mark Morris's adaptation of the Virgil Thomson opera ''Four Saints in Three Acts,'' which has its New York premiere this week at the Brooklyn Academy of Music, misspelled the given name of the choreographer of the opera's original dances in 1934. He was Frederick Ashton, not Frederic.</p>
+      </block>
+    </body.content>
+    <body.end>
+      <tagline class="author_info">Steven Watson is the author of ''Prepare for Saints: Gertrude Stein, Virgil Thomson and the Mainstreaming of American Modernism.''</tagline>
+    </body.end>
+  </body>
+</nitf>

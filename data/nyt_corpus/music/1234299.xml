@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Tale Told by an Ingenue: Theater Showcase Returns</title>
+    <meta content="28PLAY$02" name="slug"/>
+    <meta content="28" name="publication_day_of_month"/>
+    <meta content="9" name="publication_month"/>
+    <meta content="2000" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Arts; Theater" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2000/09/28/arts/28PLAY.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1234299"/>
+      <doc.copyright holder="The New York Times" year="2000"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <classifier class="indexing_service" type="descriptor">Young Playwrights Festival</classifier>
+        <person class="indexing_service">Mckinley, Jesse</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Theater</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20000928T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9C03EEDD113AF93BA1575AC0A9669C8B63" item-length="792" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Tale Told by an Ingenue: Theater Showcase Returns</hl1>
+      </hedline>
+      <byline class="print_byline">By JESSE McKINLEY</byline>
+      <byline class="normalized_byline">Mckinley, Jesse</byline>
+      <abstract>
+        <p>Young Playwrights Festival returns to Cherry Lane Alternative Theater in Greenwich Village after three-year hiatus; photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>An Eisenhower-era mother with a penchant for eating cat food. Her daughter, who is so obsessed with getting a puppy that she simply barks as an introduction. And the mysterious Dr. Phallus, an erudite quipster whose sole mission in life is to educate the hero about his true sexual desires (as if the Judy Garland poster was not signal enough).</p>
+        <p>Those are some of the dramatic inventions on display during this month's Young Playwrights Festival, which has returned after a three-year hiatus to stage the work of a clutch of precocious playwrights.</p>
+      </block>
+      <block class="full_text">
+        <p>An Eisenhower-era mother with a penchant for eating cat food. Her daughter, who is so obsessed with getting a puppy that she simply barks as an introduction. And the mysterious Dr. Phallus, an erudite quipster whose sole mission in life is to educate the hero about his true sexual desires (as if the Judy Garland poster was not signal enough).</p>
+        <p>Those are some of the dramatic inventions on display during this month's Young Playwrights Festival, which has returned after a three-year hiatus to stage the work of a clutch of precocious playwrights.</p>
+        <p>This year's slate, which runs through Saturday at the Cherry Lane Alternative Theater, at 38 Commerce Street in Greenwich Village, includes four one-acts in a range of genres, from Caroline Noble Whitbeck's absurdist comedy ''Woof,'' to Gemma Cooper-Novack's story of young love, and death, ''I'm Coming In Soon.'' Also represented are a coming-of-age tale (Adam Feldman's ''A Mind of Its Own'') and Sherry Ou-yang's sweetly surreal family comedy ''Fish-Eye View.''</p>
+        <p>The festival was founded in 1981 by Stephen Sondheim as a means of developing new voices for the theater. In its first 15 years it produced the early works of writers like Kenneth Lonergan (''The Rennings Children''), Jonathan Marc Sherman (''Women &amp; Wallace''), and Rebecca Gilman (''Always Open'').</p>
+        <p>But in 1997 the festival ran into financial trouble and was forced to cancel that year's series of productions planned for the Joseph Papp Public Theater. Now, after three years of fund-raising and with the help of supporting grants from Universal Pictures and the Douglas Cramer Foundation, the festival has returned, with a slimmed-down budget and at a new location.</p>
+        <p>This year's winners were culled from submissions received during the festival's lengthy hibernation.</p>
+        <p>''I'd forgotten I'd submitted it,'' said Ms. Whitbeck, a 21-year-old Harvard senior, who submitted ''Woof'' when she was 18. ''I'd assumed I'd never hear from them again.''</p>
+        <p>Like most of the chosen writers Ms. Whitbeck says she began writing when she was very young, scribbling poetry and short stories while still in grade school. Ms. Cooper-Novack says she first submitted a play to the festival when she was 8.</p>
+        <p>''I was a theater brat,'' said Ms. Cooper-Novack, now 18. She said her fascination with plays began when her mother, a theatrical casting agent, was explaining what various show people did.</p>
+        <p>''She mentioned the director,'' she recalled. ''And I said, 'Is he the one who makes up the story?' And she said, 'No, that's the playwright.' And I thought, 'Wow.' ''</p>
+        <p>The others said they came to writing slightly later. Ms. Ou-yang, 22, who was born on Taiwan and grew up in Honolulu, said that her play developed out of a single scene written when she was 14.</p>
+        <p>''I don't have the attention span for more than 30 pages,'' she said, laughing. ''But this just happened.''</p>
+        <p>Ms. Whitbeck began work on ''Woof,'' about that cat-food-nibbling mother and dog-crazy daughter, as part of a playwriting class in her freshman year of college.</p>
+        <p>''The teacher wanted us to do a student-teacher play, but I couldn't,'' she said. ''But mother and daughter? I went off.'' Her teacher gave her a B, but the festival gave her this year's opening slot.</p>
+        <p>Each play receives a complete production cycle, including a professional director and dramaturge, an audition process, production meetings, weeks of rehearsal, a preview period and of course an opening night.</p>
+        <p>''It really gives you a feeling of being omnipotent,'' said Mr. Feldman, 21, a drama writing student at Purchase College of the State University of New York. ''I mean when you see actors you've seen on Broadway coming into audition for you -- a little 21-year-old -- that's as about as omnipotent as you can get.''</p>
+        <p>Despite their early success, only Mr. Feldman seems completely sold on the idea of a theater career. Ms. Ou-Yang is studying international relations at Boston University, and Ms. Whitbeck is majoring in classics at Harvard. Ms. Cooper-Novack, meanwhile, is pursuing a double major of anthropology and linguistics at the University of Chicago.</p>
+        <p>Whatever their eventual destinies, Sheri M. Goldhirsch, the festival's artistic director, says the experience is worth it.</p>
+        <p>''A poem or short story you can do alone, and it's done,'' she said. ''A play really isn't finished until it's onstage.''</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

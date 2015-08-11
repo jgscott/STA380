@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Maximizing Mozart And Taking On Verdi</title>
+    <meta content="18RIGO$01" name="slug"/>
+    <meta content="18" name="publication_day_of_month"/>
+    <meta content="11" name="publication_month"/>
+    <meta content="1996" name="publication_year"/>
+    <meta content="Monday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="13" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="OPERA REVIEW" name="column_name"/>
+    <docdata>
+      <doc-id id-string="890559"/>
+      <doc.copyright holder="The New York Times" year="1996"/>
+      <series series.name="OPERA REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Opera</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <org class="indexing_service">Metropolitan Opera</org>
+        <person class="indexing_service">Tommasini, Anthony</person>
+        <person class="indexing_service">Flemming, Renee</person>
+        <object.title class="indexing_service">Cosi Fan Tutte (Opera)</object.title>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Opera</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19961118T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=940DE6DC123AF93BA25752C1A960958260" item-length="577" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Maximizing Mozart And Taking On Verdi</hl1>
+      </hedline>
+      <byline class="print_byline">By ANTHONY TOMMASINI</byline>
+      <byline class="normalized_byline">Tommasini, Anthony</byline>
+      <abstract>
+        <p>Anthony Tommasini reviews Metropolitan Opera's performance of Mozart's Cosi Fan Tutte; soprano Renee Fleming photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Right now, Renee Fleming seems to be doing just about everything right. On Saturday evening the American soprano sang Fiordiligi in the Metropolitan Opera's first performance this season of Mozart's ''Cosi Fan Tutte.'' Her lustrous, nuanced performance was a demonstration of what is possible when a gifted singer nurtures her voice, chooses roles wisely and takes chances without being reckless.</p>
+        <p>Ms. Fleming has said she wants to sing as much Mozart as possible while she still can. What she means is that her vibrant voice is gaining weight and richness as she matures, which is not uncommon and not necessarily unwelcome. Where it will take her is not yet clear, but the profile of her career is beginning to resemble that of the great Eleanor Steber.</p>
+      </block>
+      <block class="full_text">
+        <p>Right now, Renee Fleming seems to be doing just about everything right. On Saturday evening the American soprano sang Fiordiligi in the Metropolitan Opera's first performance this season of Mozart's ''Cosi Fan Tutte.'' Her lustrous, nuanced performance was a demonstration of what is possible when a gifted singer nurtures her voice, chooses roles wisely and takes chances without being reckless.</p>
+        <p>Ms. Fleming has said she wants to sing as much Mozart as possible while she still can. What she means is that her vibrant voice is gaining weight and richness as she matures, which is not uncommon and not necessarily unwelcome. Where it will take her is not yet clear, but the profile of her career is beginning to resemble that of the great Eleanor Steber.</p>
+        <p>For now, however, Ms. Fleming is a superb Mozartean. In the daunting aria ''Come scoglio,'' Fiordiligi's suspiciously vehement assertion that her faithfulness to her fiance is as solid as a boulder, Ms. Fleming deftly scaled the clifftop highs and valley lows of the vocal line.</p>
+        <p>The sense she conveys of a searching artist working with confidence is what was missing from the performance by Roberto Alagna in the Saturday matinee as the Duke in Verdi's ''Rigoletto,'' his first at the Met. Mr. Alagna's tenor is dusky and warm, and his singing was sensitively phrased and stylistically informed. He has the looks and swagger to make an alluring and menacing seducer. But he leaped at high notes with bravado though not much security, causing sharp pitch and tightness. This proudly self-taught singer sounds as if he could use some vocal advice.</p>
+        <p>Lesley Koenig's ''Cosi Fan Tutte'' production, introduced last season, is a striking achievement. This is Mozart's most extended ensemble piece, and the cast had impressive musical and dramatic cohesion.</p>
+        <p>Susanne Mentzer was a plucky, vocally resourceful Dorabella; she and Ms. Fleming looked like the chatty sisters they were supposed to be. Though her singing was uneven, Marie McLaughlin was delightful as the street-smart maid Despina. The baritone William Shimell was the elegantly cynical Don Alfonso. The robust baritone Dwayne Croft, who sang Guglielmo when this production was introduced, has found even more complexity in the role.</p>
+        <p>The young tenor Paul Groves, as Ferrando, still seems to be searching for his vocal bearings. The audience responded to his exceptionally sweet voice and pliant phrasing. But in places his sound was patchy and his pitch wavery. James Levine conducted a richly varied performance, by turns fleet, expansive and sublime.</p>
+        <p>In ''Rigoletto,'' Juan Pons sang the title role with impassioned intensity and stentorian vocal power. But he has a blustery way of beginning and clipping off phrases for dramatic effect that becomes mannered. The mezzo-soprano Robynne Redmon had a solid Met debut as Maddalena. And Ruth Ann Swenson was an exquisite Gilda. The beauty, poignancy and freedom of her pianissimo singing will not soon be forgotten. Here is another singer who knows herself and just gets better and better.</p>
+        <p>OPERA REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

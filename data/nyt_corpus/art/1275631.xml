@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>In Hollywood, Strike Planning Turns From 'If' to 'When'</title>
+    <meta content="05STRIK" name="slug"/>
+    <meta content="5" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="2001" name="publication_year"/>
+    <meta content="Monday" name="publication_day_of_week"/>
+    <meta content="Business/Financial Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="2" name="print_column"/>
+    <meta content="Movies; Business" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2001/03/05/business/05STRIK.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1275631"/>
+      <doc.copyright holder="The New York Times" year="2001"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Motion Pictures</classifier>
+        <classifier class="indexing_service" type="descriptor">Labor</classifier>
+        <classifier class="indexing_service" type="descriptor">Strikes</classifier>
+        <classifier class="indexing_service" type="descriptor">Television</classifier>
+        <classifier class="indexing_service" type="descriptor">Television and Radio Programming</classifier>
+        <org class="indexing_service">Writers Guild of America</org>
+        <org class="indexing_service">Alliance of Motion Picture and Television Producers</org>
+        <org class="indexing_service">Screen Actors Guild</org>
+        <org class="indexing_service">American Federation of Television and Radio Artists</org>
+        <person class="indexing_service">Lyman, Rick</person>
+        <person class="indexing_service">Rutenberg, Jim</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Business/Media and Advertising</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Sports/Baseball</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies/News and Features/Advertising and Marketing</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies/News and Features/Organizations/Screen Actors Guild</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies/News and Features/Organizations/Writers Guild of America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies/News and Features/Organizations/American Federation of Television and Radio Artists</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Media, Entertainment and Publishing</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Marketing, Advertising and PR</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Movies/News and Features/Organizations/Alliance of Motion Picture and Television Producers</classifier>
+        <classifier class="online_producer" type="descriptor">Art</classifier>
+        <classifier class="online_producer" type="descriptor">Company and Organization Profiles</classifier>
+        <classifier class="online_producer" type="descriptor">Baseball</classifier>
+        <classifier class="online_producer" type="descriptor">Advertising</classifier>
+        <classifier class="online_producer" type="general_descriptor">Strikes</classifier>
+        <classifier class="online_producer" type="general_descriptor">Company and Organization Profiles</classifier>
+        <classifier class="online_producer" type="general_descriptor">Radio</classifier>
+        <classifier class="online_producer" type="general_descriptor">Motion Pictures</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Television</classifier>
+        <classifier class="online_producer" type="general_descriptor">Advertising and Marketing</classifier>
+        <classifier class="online_producer" type="general_descriptor">Corporations</classifier>
+        <classifier class="online_producer" type="general_descriptor">Baseball</classifier>
+        <classifier class="online_producer" type="general_descriptor">Labor</classifier>
+        <location class="online_producer">Hollywood</location>
+        <location class="online_producer">America</location>
+        <location class="online_producer">Liberty</location>
+        <org class="online_producer">the gap</org>
+        <org class="online_producer">CBS</org>
+        <org class="online_producer">NBC</org>
+        <org class="online_producer">ABC</org>
+        <org class="online_producer">WB</org>
+        <person class="online_producer">Moonves, Leslie</person>
+        <person class="online_producer">Carey, Drew</person>
+        <person class="online_producer">Katzenberg, Jeffrey</person>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20010305T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=980CE5D8123BF936A35750C0A9679C8B63" item-length="1931" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>In Hollywood, Strike Planning Turns From 'If' to 'When'</hl1>
+      </hedline>
+      <byline class="print_byline">By RICK LYMAN and JIM RUTENBERG</byline>
+      <byline class="normalized_byline">Lyman, Rick; Rutenberg, Jim</byline>
+      <abstract>
+        <p>Movie and television industries brace for strikes by writers and actors, which promises to be bruising for studios, strikers and production workers caught in middle; effects of impending strikes have been masked by rush to production, as studios have attempted to get as many films finished as possible before strike deadlines, but that surge is beginning to dry up; strike could allow news and reality programs to make further inroads with television viewers; photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>For some in Hollywood, the long-feared strikes of the spring and summer of 2001 are already beginning.</p>
+        <p>''The town is really starting to quiet down from a production standpoint,'' said Amir Malin, chairman of Artisan Entertainment, an independent film production and distribution company. ''Right now, almost all of us are on hold.''</p>
+      </block>
+      <block class="full_text">
+        <p>For some in Hollywood, the long-feared strikes of the spring and summer of 2001 are already beginning.</p>
+        <p>''The town is really starting to quiet down from a production standpoint,'' said Amir Malin, chairman of Artisan Entertainment, an independent film production and distribution company. ''Right now, almost all of us are on hold.''</p>
+        <p>When negotiations broke down last week between the Writers Guild of America and representatives of the major Hollywood studios and television networks, even those who had been trying to ignore the prospect of potential strikes this spring and summer by writers and actors were finally left staring the catastrophe square in the face. It has caused many in the entertainment industry to go beyond wondering whether a strike will occur and instead begin calculating who will be hurt the worst: the television and movie studios, the strikers or the production workers caught in the middle.</p>
+        <p>''You cannot emphasize enough the amount of damage that the strikes would do to the production industry in this country,'' said Bob Solomon, a senior vice president at Liberty Live Wire, which provides  post-production services for film and television and has warned its workers to expect layoffs if the strikes occur. ''I am talking about personal devastation for people who can't afford to go two months without a paycheck, as well as a flight of intellectual know-how from which I am not sure the industry will ever recover.''</p>
+        <p>The 11,000 members of the Writers Guild, whose contract with the Alliance of Motion Picture and Television Producers expires at midnight May 1, had been in early negotiations for almost six weeks before the talks were suspended over the issue of residuals -- how much the writers will be paid under the new contract for use of their work beyond the first run in movie theaters and the first broadcast on television. While both sides said they remained open to new talks and were hopeful of a settlement, the guild decided that the gap between them was too large to continue talking at the moment.</p>
+        <p>Even more threatening to Hollywood is the prospect of a second strike by the 135,000 members of the Screen Actors Guild and the American Federation of Television and Radio Artists, which represent actors in films and on most television programs like sitcoms and dramatic series. Their contract expires on June 30, and while the studios and networks could probably weather a writers strike for several months before feeling a pinch, a walkout by actors would shut down production overnight and force others, from directors to editors to the people who serve meals on the set, out of work.</p>
+        <p>''There are two aspects to it,'' said Nick Counter, chief negotiator for the producers. ''One is, what is the impact if the writers go out on strike and the other is, what if the actors go out, too? There's a substantial difference between the two.''</p>
+        <p>If only the writers go out on strike, little impact would be felt until August, he said, when it would be time to begin production for the fall television season.</p>
+        <p>If the actors go out, though, it would be time to close up the shop. News programs, reality shows like ''Survivor'' and others that do not use actors would be able to continue producing episodes (the writers for those shows are covered by a separate contract that expires in November, so they could continue working, too). But sitcoms, dramatic series, television movies and virtually all theatrical film production would cease in an instant.</p>
+        <p>Until now, the effects of the impending strikes have been masked by a rush to production, as studios have attempted to get as many films finished as possible before the June 30 deadline. But that surge is beginning to dry up. Films that do not begin principal photography by early April have little chance of finishing by the deadline, and there is usually a month or more of preproduction work.</p>
+        <p>Entertainment consumers will first feel the impact on television.</p>
+        <p>Among the programs that would be affected earliest are live late-night comedy shows like CBS's ''Late Show with David Letterman'' and NBC's ''Tonight'' show.</p>
+        <p>During the last strike, when the writers walked out in 1988, NBC's ''Late Night with David Letterman'' and the ''Tonight'' show both went into reruns for several weeks. But then the ''Tonight'' host, Johnny Carson, decided to go back into production under a special exemption from the union and Mr. Letterman followed suit.</p>
+        <p>Maria Pope, the executive producer of ''Late Show,'' said she and Mr. Letterman had not yet decided what to do this time. And NBC said Mr. Leno has told it that he would respect a strike and would not produce new shows.</p>
+        <p>During a conference call with reporters last week, Leslie Moonves, the president of CBS Television, said that in the event of a strike the network could rely on a schedule heavy in reality programs like ''Survivor'' and news magazines like ''60 Minutes II'' and ''48 Hours.''</p>
+        <p>Bruce Helford, who is currently producing four half-hour, network comedies -- including ''The Drew Carey Show'' and ''Norm'' for ABC -- said the recent success of reality programs had made the timing of the labor negotiations unfortunate, and had put writers at a disadvantage.</p>
+        <p>He said a strike would have longer-term implications as well, giving reality and news programs a fresh opportunity to make inroads with audiences, and perhaps making it even harder for comedy and dramatic series to recapture viewers and broadcast time after a settlement was reached.</p>
+        <p>Since new series will not be announced by the networks until mid-May, and production work on them would not begin until early August, a strike longer than three months would make it impossible to get them on the air in the fall. Most current programs that are being carried to next season will conclude production in April and then begin shooting next season in August, so they, too, would not be ready for the fall.</p>
+        <p>But some producers have agreed to requests to make extra episodes of their series this season. These extra shows, could be held over until the fall. This might be enough to provide a bit of a buffer and give the network, if it wishes, the appearance of a limited fall season.</p>
+        <p>The WB, for instance, which does not have a news division that it can rely on to fill open time slots, ordered extra episodes of ''The Steve Harvey Show'' and ''For Your Love,'' which will be shown in the fall. It also held back a new drama, ''Dead Last,'' and will show it in the fall.</p>
+        <p>Likewise, TNT delayed the showing of the second season of its drama set on Wall Street, ''Bull,'' pushing it back to the fall.</p>
+        <p>To say the timing of the guild strike deadline is bad for the networks is a Super Bowl-size understatement. May 1 comes just weeks before the big television sponsors make their advanced advertising purchases for the new fall prime-time schedules.</p>
+        <p>Just how badly that will affect the networks' bottom lines is unclear. Each will unveil a fully developed fall schedule in May, and try to sell ads for it, regardless of the strike threat. But whether advertisers would be confident in the networks' ability to deliver is another question. It is anybody's guess as to whether ad sales could hold up this spring, longtime advertising and network executives said.</p>
+        <p>Wall Street analysts warned last week that the Writers Guild's strike deadline raised the possibility for the first time in years that the networks would record negative growth in their annual May advance advertising sales period.</p>
+        <p>During the 1988 strike, the networks actually had slightly more revenue during the May advance sales period than they had the year before, but the gains dwindled later in the year. At the strike's conclusion, in August, the networks were slow to get their shows back on track. With rushed and late starts to their biggest hits, the networks lost as much as 10 percent of their overall ratings and were forced to compensate their sponsors with millions of dollars' worth of free ad time.</p>
+        <p>Tim Spengler, executive vice president and director of national broadcast at Initiative Media, a media buying firm, said he was still not sure what his strategy will be. ''It's tricky,'' he said. ''We're not going to know what's going to happen, so how much do you want to divert from the networks? And then, what if you find out the strike got settled in two months and they're fine?''</p>
+        <p>Still, he predicted that any reduction in network television ad buying this spring will have more to do with the soft economy than the threatened strike.</p>
+        <p>By contrast, the major movie studios have been able to produce enough films to keep them in business well into 2002. A few studio officials even said they believed there would be enough films in the can by the strike deadline to last into early 2003. Indeed, the studios may see a boost in profits from the strike as they reap profits from previously produced films without shouldering the costs of new ones.</p>
+        <p>Certainly, the impact on the film studios will not be as immediate or, initially, as severe as what the television networks and cable channels will feel.</p>
+        <p>''But I think its naïve to believe that it would be a very long time before the impact is felt in movies,'' said Jeffrey Katzenberg, one of the founders of the DreamWorks studio and a member of the producers' negotiating team.</p>
+        <p>Indeed, he said, the effect could be felt as early as the summer of 2002, a long way away in television thinking but right around the corner in the movie world. ''I think in terms of the larger, event movies, the ones that take a lot of time and a lot of preparation, they are going to be the ones where there will be the most immediate impact,'' Mr. Katzenberg said.</p>
+        <p>While the studios have been rushing films through production in anticipation of a strike, he said, a look at the kinds of movies that are being made reveals a relative dearth of the kind of big-budget, event-type films that have been Hollywood's bread-and-butter for a quarter century.</p>
+        <p>''Most of the volume of production that has been taking place recently has been the small movies that could be rushed into production on a very short schedule,'' Mr. Katzenberg said. ''Interestingly enough, one of the results of all of this is that there will be more of that kind of product in the short term than maybe we have experienced in a while. I don't know if that's good or bad.''</p>
+        <p>John McLean, the executive director of the Writers Guild, said he did not want to discuss how a strike might affect his members, because he wanted everyone to focus instead on forging an agreement and averting the strike.</p>
+        <p>''My concern is that I'm still trying to make a deal,'' he said. ''There are a lot of options other than a strike. We are eight to nine weeks away from the deadline on this contract and I've tried to stay away from the word strike.''</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

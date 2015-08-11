@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Footlights</title>
+    <meta content="06FOOT" name="slug"/>
+    <meta content="6" name="publication_day_of_month"/>
+    <meta content="9" name="publication_month"/>
+    <meta content="2000" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2000/09/06/arts/06FOOT.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1228463"/>
+      <doc.copyright holder="The New York Times" year="2000"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Quilts</classifier>
+        <classifier class="indexing_service" type="descriptor">Opera</classifier>
+        <classifier class="indexing_service" type="descriptor">Appointments and Executive Changes</classifier>
+        <classifier class="indexing_service" type="descriptor">Glyndebourne Festival</classifier>
+        <classifier class="indexing_service" type="descriptor">downtown arts festival</classifier>
+        <classifier class="indexing_service" type="descriptor">Culture</classifier>
+        <location class="indexing_service">France</location>
+        <org class="indexing_service">Brandywine River Museum (Chadds Ford, Pa)</org>
+        <org class="indexing_service">Wadsworth Atheneum (Hartford, Conn)</org>
+        <person class="indexing_service">Van Gelder, Lawrence</person>
+        <person class="indexing_service">jurowski, vladimir</person>
+        <person class="indexing_service">Davis, Andrew</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/France</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe/France</classifier>
+        <classifier class="online_producer" type="general_descriptor">Handicrafts</classifier>
+        <classifier class="online_producer" type="general_descriptor">Appointments and Executive Changes</classifier>
+        <classifier class="online_producer" type="general_descriptor">Festivals</classifier>
+        <classifier class="online_producer" type="general_descriptor">Opera</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Culture</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20000906T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=950DEED61F30F935A3575AC0A9669C8B63" item-length="398" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Footlights</hl1>
+      </hedline>
+      <byline class="print_byline">By LAWRENCE VAN GELDER</byline>
+      <byline class="normalized_byline">Van Gelder, Lawrence</byline>
+      <abstract>
+        <p>Exhibition of political quilts is set for Brandywine River Museum, Chadds Ford, Pa; exhibition on birth of impressionist art is set for Wadsworth Atheneum Museum of Art, Hartford; Vladimir Jurowski is named Glyndebourne Festival music director, succeeding Andrew Davis; Downtown Arts Festival is set for over 40 galleries and 10 performance sites in downtown Manhattan; will present over 300 emerging New York artists and cross-section of artists and arts presenters working in France; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>NEWS</p>
+        <p>Needlework</p>
+        <p>Isn't that Jimmy Carter as Mr. Peanut? Yes, it is. The art of politics is shaping the exhibition that begins on Saturday at the Brandywine River Museum in Chadds Ford, Pa. Motifs from American politics color ''The Fabric of Persuasion: 200 Years of Political Quilts,'' a display of more than 20 quilts made between 1789 and 1986. Besides the quilts, the show, continuing past Election Day to Nov. 19, consists of political keepsakes.</p>
+      </block>
+      <block class="full_text">
+        <p>NEWS</p>
+        <p>Needlework</p>
+        <p>Isn't that Jimmy Carter as Mr. Peanut? Yes, it is. The art of politics is shaping the exhibition that begins on Saturday at the Brandywine River Museum in Chadds Ford, Pa. Motifs from American politics color ''The Fabric of Persuasion: 200 Years of Political Quilts,'' a display of more than 20 quilts made between 1789 and 1986. Besides the quilts, the show, continuing past Election Day to Nov. 19, consists of political keepsakes.</p>
+        <p>Impressionist Dawn</p>
+        <p>An exhibition inspired by Renoir's portrait of Monet painting in his garden in Argenteuil opens on Saturday in the museum that houses the picture. The exhibition, ''Impressionists at Argenteuil,'' which traces the birth of Impressionism through more than 50 canvases, will run through Dec. 3 at the Wadsworth Atheneum Museum of Art in Hartford. First seen at the National Gallery of Art in Washington, the show includes four paintings never previously exhibited in the United States.</p>
+        <p>Looking Ahead</p>
+        <p>From Glyndebourne in East Sussex, England, comes news that the Russian conductor Vladimir Jurowski is to become the Glyndebourne Festival's music director. Mr. Jurowski, who will succeed Andrew Davis, will take up his post in January and make his debut in 2002 conducting Benjamin Britten's ''Albert Herring.'' Glyndebourne will make its first visit to the United States in February, when it will present four performances of Janacek's ''Makropulos Affair'' at the Brooklyn Academy of Music. Next year's festival will open on May 17 with a new production of Beethoven's ''Fidelio,'' conducted by Simon Rattle and will include Glyndebourne's first staging of Verdi's ''Otello,'' conducted by Valery Gergiev and directed by Peter Hall.</p>
+        <p>Emerging Art</p>
+        <p>French artists and art are the new component of this year's Downtown Arts Festival. Starting on Friday and ending on Sept. 24,  theater, concerts, screenings and special events will be held in more than 40 galleries and 10 performance sites in downtown Manhattan. The festival will present more than 300 emerging New York artists. And the new Contemporary French Art and Performance Series will present a cross-section of artists and arts presenters working in France. Among them are the artists' collective Glassbox; two evenings of electronic music and culture; and a visual, theatrical and sonic installation performance by Compagnie Faim de Siecle.</p>
+        <p>LAWRENCE VAN GELDER</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

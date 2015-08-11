@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Museum in a Vienna Palace, Fitted Out by a Prince</title>
+    <meta content="28VIEN" name="slug"/>
+    <meta content="28" name="publication_day_of_month"/>
+    <meta content="6" name="publication_month"/>
+    <meta content="2004" name="publication_year"/>
+    <meta content="Monday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2004/06/28/arts/design/28VIEN.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1592858"/>
+      <doc.copyright holder="The New York Times" year="2004"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <location class="indexing_service">Vienna (Austria)</location>
+        <location class="indexing_service">Liechtenstein</location>
+        <org class="indexing_service">Liechtenstein Museum (Vienna, Austria)</org>
+        <person class="indexing_service">Hans-Adam II (Prince of Liechtenstein)</person>
+        <person class="indexing_service">Riding, Alan</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Austria</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Liechtenstein</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Plains</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe/Liechtenstein</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe/Austria/Vienna</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/Europe/Austria</classifier>
+        <classifier class="online_producer" type="descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <location class="online_producer">Vienna (Austria)</location>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20040628T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E03EFD81738F93BA15755C0A9629C8B63" item-length="1129" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Museum in a Vienna Palace, Fitted Out by a Prince</hl1>
+        <hl2 class="online_headline">Museum in a Vienna Palace, Fitted Out by a Prince</hl2>
+      </hedline>
+      <byline class="print_byline">By ALAN RIDING</byline>
+      <byline class="normalized_byline">Riding, Alan</byline>
+      <dateline>VIENNA</dateline>
+      <abstract>
+        <p>Article on restoration and reopening as museum of one of two remaining palaces in Vienna belonging to Prince Hans-Adam 2nd, current head of Liechtenstein dynasty; princely collections, last seen by public at Metropolitan Museum of Art in New York in 1985, are on view in Vienna for first time in almost 70 years; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>The mid-20th century was not kind to the Liechtensteins. Long a pillar of the Austro-Hungarian empire, owner of some 30 castles and palaces across Europe, the family was forced by World War II and the Soviet era to retreat to the tiny principality tucked between Austria and Switzerland that carries its name. In the 1950's and 60's, it was even obliged to sell off part of its vast art collection to make ends meet.</p>
+        <p>But the new millennium has begun well for Prince Hans-Adam II, 59, the current head of the Liechtenstein dynasty. The family's finances have recovered enough for him to spend $28 million of his own money on refurbishing one of his two remaining palaces in Vienna and on restoring it to its 19th-century vocation as a museum. The princely collections, last seen by the public at the Metropolitan Museum of Art in New York in 1985, are on view in Vienna for the first time in almost 70 years.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>A newly restored palace in Vienna is now the home of the Liechtenstein Museum, which contains one of the world's largest private collections.</p>
+      </block>
+      <block class="full_text">
+        <p>The mid-20th century was not kind to the Liechtensteins. Long a pillar of the Austro-Hungarian empire, owner of some 30 castles and palaces across Europe, the family was forced by World War II and the Soviet era to retreat to the tiny principality tucked between Austria and Switzerland that carries its name. In the 1950's and 60's, it was even obliged to sell off part of its vast art collection to make ends meet.</p>
+        <p>But the new millennium has begun well for Prince Hans-Adam II, 59, the current head of the Liechtenstein dynasty. The family's finances have recovered enough for him to spend $28 million of his own money on refurbishing one of his two remaining palaces in Vienna and on restoring it to its 19th-century vocation as a museum. The princely collections, last seen by the public at the Metropolitan Museum of Art in New York in 1985, are on view in Vienna for the first time in almost 70 years.</p>
+        <p>Does Vienna, already crowded with some 160 museums, need one more? The Liechtenstein Museum is different, not only because it can tap one of the world's largest private collections, but also because it reflects the idiosyncrasies of generations of private collectors. Further, the museum, which opened in March, contains works by Raphael, Rubens, Rembrandt, Frans Hals, van Dyck and others.</p>
+        <p>''The prince knows it is not possible to make money out of a museum,'' said Johann Kraftner, the museum's director and curator of the collection. ''But we hope to cover our running costs from ticket sales. We think we can break even with 300,000 to 400,000 visitors per year.''</p>
+        <p>The Garden Palace, which houses the museum, is itself part of the show. A neo-Classical structure built at the turn of the 17th century, it became Vienna's first museum in 1807 and showed the princely collections until Germany annexed Austria in 1938. After World War II, with the collection safely stored in the principality of Liechtenstein, the building first became a food distribution center and later a wholesale outlet for building materials.</p>
+        <p>From the early 1970's until 2001, as the family fortunes recovered, helped by Liechtenstein's status as a tax haven, Vienna rented the palace as its Museum of Modern Art. Then, when Vienna built its new modern art museum, the Liechtenstein family decided to recover the palace for its own collection. Much of its 18th-century glory was restored, including fine frescoes that had long been hidden by plaster. Part of its English-style landscape gardens were also returned to their original Baroque look.</p>
+        <p>Still, the clock has not been turned back entirely. In the 18th and 19th centuries, almost every inch of wall was covered with paintings -- and with some 1,700 works in the collection, this approach would again be possible. But it is no longer in vogue. Instead, just 150 works make up the new permanent collection, which is spread over eight galleries on the first floor. Naturally, they include only the best.</p>
+        <p>''We want to guide people through all the important periods of the collection, which covers from the 13th to the 19th centuries,'' Mr. Kraftner said.</p>
+        <p>Peter Paul Rubens is the museum's main star. Works by the Flemish old master include his last ''Assumption of the Virgin,'' painted around 1635; the so-called ''Decius Mus Cycle,'' eight large paintings that served as designs for tapestries and that now occupy the Grand Gallery; ''Venus in Front of the Mirror,'' one of his finest mythological works; and several portraits of children, including his own chubby-cheeked daughter, Clara Serena.</p>
+        <p>Most of the display, though, is presented in a loosely chronological manner, starting with early Italian religious painting and leading to the Renaissance and the artistic flowering in northern Europe. Some of the finest works are portraits by Raphael, Bernhard Strigel, Lucas Cranach the Elder, Francesco di Cristofano and Paris Bordone. The Baroque era is represented by Italians like Paolo Pagani and Sebastiano Ricci and northerners like van Dyck, Hals and Rubens himself.</p>
+        <p>The galleries also present sculptures, notably some exceptional bronzes by Mantegna, Sansovino and Benzi, as well as furniture and porcelain. Frescoes reinforce the mood of Baroque luxury, nowhere more than in the magnificent Hercules Hall, the largest secular Baroque room in Vienna, where the story of Hercules is recounted in a vast ceiling fresco painted between 1704 and 1708 by the Italian Andrea Pozzo.</p>
+        <p>A reward for the palace's restoration was the rediscovery of frescoes painted in the early 18th century by Johann Michael Rottmayr for the ground floor and staircases. These were plastered over in the 19th century to make room for a ceiling painting from another Liechtenstein palace. Now they, too, have been restored.</p>
+        <p>On the ground floor of the palace, Prince Hans-Adam has reconstructed the library in the former Gentlemen's Apartment by bringing large numbers of leather-bound books from his hilltop palace in Vaduz, the capital of Liechtenstein. A golden carriage used by one of his forefathers on a royal mission to Paris in 1738 stands in the palace's main foyer. In the other wing, the former Ladies' Apartment has been designated for temporary exhibitions.</p>
+        <p>The opening show, ''Neo-Classic and Biedermeier,'' which runs through Nov. 7, dwells on the 19th-century neo-Classical movement in northern Europe and its accompanying Biedermeier style, which celebrated bourgeois devotion to music, dance and poetry through painting and furniture.</p>
+        <p>The decision to reopen a museum in the Garden Palace prompted Prince Hans-Adam to resume collecting. For instance, he bought back a still life by Jan van Huysum and a portrait by Bernardo Zaganelli, both sold by his father a half-century ago. Other recent purchases include Frans Hals's ''Portrait of a Man,'' Frans Snyders's ''Recumbent Lioness'' and two sculptures by Mollinarolo. One art market expert estimated the prince was spending up to $18 million a year on art.</p>
+        <p>''We'd like to buy back more works sold in the 1950's, or at least find replacements that fill the gaps,'' Mr. Kraftner said. ''We also want more 18th-century Viennese paintings and more 19th-century international.''</p>
+        <p>In the meantime, through an association called Private Art Collections, the Liechtenstein Museum plans to share some of its space with other well-known Austrian family collections, notably the Schönborn-Buchheim Collection and the Count Harrach Family Collection. Joint exhibitions with other partner collections are also scheduled for 2006. The message is clear: privately owned art is also for public enjoyment.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

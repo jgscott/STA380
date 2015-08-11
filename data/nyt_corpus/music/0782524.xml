@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Oh Yes, Pots and Pans, But No Kitchen Sink</title>
+    <meta content="15" name="publication_day_of_month"/>
+    <meta content="8" name="publication_month"/>
+    <meta content="1995" name="publication_year"/>
+    <meta content="Tuesday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="15" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="782524"/>
+      <doc.copyright holder="The New York Times" year="1995"/>
+      <series series.name="MUSIC REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MUSIC</classifier>
+        <classifier class="indexing_service" type="descriptor">FESTIVALS</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <location class="indexing_service">DAMROSCH PARK (NYC)</location>
+        <org class="indexing_service">LINCOLN CENTER FOR THE PERFORMING ARTS (NYC)</org>
+        <person class="indexing_service">BRANT, HENRY</person>
+        <person class="indexing_service">TOMMASINI, ANTHONY</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York</classifier>
+        <classifier class="online_producer" type="general_descriptor">Festivals</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19950815T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=990CE7D91139F936A2575BC0A963958260" item-length="541" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Oh Yes, Pots and Pans, But No Kitchen Sink</hl1>
+      </hedline>
+      <byline class="print_byline">By ANTHONY TOMMASINI</byline>
+      <byline class="normalized_byline">TOMMASINI, ANTHONY</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>The music history texts usually cite the German composer Karlheinz Stockhausen as the pioneer of spatial music, music that uses the space between separated groups of instruments as a defining compositional component. But the American experimental composer Henry Brant was there first. His breakthrough spatial work, "Antiphony 1," from 1953, predates Stockhausen's more intellectually touted "Gruppen" by five years. And ever since, Mr. Brant, like some compositional ringmaster, has been gathering large groups of people together in public spaces and surrounding them with strategically positioned batteries of instruments and sound-producing gadgets.</p>
+        <p>Mr. Brant was at it again on Sunday evening at Damrosch Park at Lincoln Center, where "Dormant Craters," his latest spatial composition, a one-movement, 30-minute work for 16 percussionists commissioned by Lincoln Center for its Out of Doors festival, was given its premiere.</p>
+      </block>
+      <block class="full_text">
+        <p>The music history texts usually cite the German composer Karlheinz Stockhausen as the pioneer of spatial music, music that uses the space between separated groups of instruments as a defining compositional component. But the American experimental composer Henry Brant was there first. His breakthrough spatial work, "Antiphony 1," from 1953, predates Stockhausen's more intellectually touted "Gruppen" by five years. And ever since, Mr. Brant, like some compositional ringmaster, has been gathering large groups of people together in public spaces and surrounding them with strategically positioned batteries of instruments and sound-producing gadgets.</p>
+        <p>Mr. Brant was at it again on Sunday evening at Damrosch Park at Lincoln Center, where "Dormant Craters," his latest spatial composition, a one-movement, 30-minute work for 16 percussionists commissioned by Lincoln Center for its Out of Doors festival, was given its premiere.</p>
+        <p>Like Mr. Brant's other spatial pieces, "Dormant Craters" comes in a direct line from Charles Ives, who as a boy loved to hear the way the sounds of outdoor bands and carousels and crowd noise would mingle as he stood in the center of a public square. Ives tried to evoke this riotous mix of sounds in his compositions. So does Mr. Brant, who, unlike Stockhausen, favors mixing stylistically different elements.</p>
+        <p>"Dormant Craters" presented an abundance of defiantly low-tech, unamplified, nonelectronic sounds. There were two jazz drummers (Panama Francis and Warren I. Smith), a gamelan ensemble (Gamelan Son of Lion), a steel-drum group (Pandemonium Steelband), timpani, chimes galore, glockenspiel, cowbells, Chinese wood blocks, bass drums, snare drums (all played by the Pulse Percussion Ensemble), and a gadget fair of everyday items: kitchen pan covers, tin pots, saws. The performers wore crazily mismatched outfits: exotic dresses, ponchos, costumes pieced together from Greenwich Village thrift shops. Mr. Brant, a spry 82, who conducted, made his fashion statement in baggy red pants with matching suspenders and a plum-purple shirt.</p>
+        <p>Yet "Dormant Craters" was not just a lark. Every bit of the score was notated by Mr. Brant, though coordinations between the various groups are sometimes allowed to be approximate. Given the size of the assembled forces, the music was often surprisingly delicate and distinct. Sputterings of wood blocks and choruses of softly chiming bells would alternate with rat-a-tat drum riffs, outbursts of timpani and clashing onslaughts of metallic noise. The occasional sounds of trucks air-breaking to a stop on West 62d Street and overhead helicopters seemed not intrusions, but part of the ambiance.</p>
+        <p>Whether "Dormant Craters" will be a lasting contribution to music history was probably the last thing on Mr. Brant's mind. On its title page the work is called a "spatial event." And an event it was. But if a composition's communicative power can be measured by the audience's attentiveness, then "Dormant Craters" was a success. The audience was large, diverse and involved. Many people remained to hear the repeat performance.</p>
+        <p>This was not a time for pronouncements about a composition's importance. Just being there listening, you felt like a participant.  MUSIC REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

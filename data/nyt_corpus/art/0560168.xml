@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Art in Review</title>
+    <meta content="2" name="publication_day_of_month"/>
+    <meta content="10" name="publication_month"/>
+    <meta content="1992" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Weekend Desk" name="dsk"/>
+    <meta content="27" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="560168"/>
+      <doc.copyright holder="The New York Times" year="1992"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ART</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <classifier class="indexing_service" type="descriptor">ART SHOWS</classifier>
+        <person class="indexing_service">SMITH, ROBERTA</person>
+        <person class="indexing_service">DIAMOND, STUART</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19921002T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E0CE3DA133CF931A35753C1A964958260" item-length="489" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Art in Review</hl1>
+      </hedline>
+      <byline class="print_byline">By ROBERTA SMITH</byline>
+      <byline class="normalized_byline">SMITH, ROBERTA</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Stuart Diamond McKee Gallery 745 Fifth Avenue (near 58th Street) Through Oct. 10</p>
+        <p>Over the last few years Stuart Diamond has moved from making painted wood reliefs to painting on big wood panels. The change from a shallow three-dimensionality to true flatness has improved and clarified his art without eliminating its basic problem, which is an incipient academicism.</p>
+      </block>
+      <block class="full_text">
+        <p>Stuart Diamond McKee Gallery 745 Fifth Avenue (near 58th Street) Through Oct. 10</p>
+        <p>Over the last few years Stuart Diamond has moved from making painted wood reliefs to painting on big wood panels. The change from a shallow three-dimensionality to true flatness has improved and clarified his art without eliminating its basic problem, which is an incipient academicism.</p>
+        <p>His new paintings resemble civic-minded W.P.A. murals forced through the skeptical sieve of pictorial simultaneity that Sigmar Polke, Julian Schnabel and David Salle made famous in the 1980's. Mr. Diamond's astoundingly clogged, robustly painted version of this simultaneity telegraphs big elementary-school ideas -- "science," "art," "nature," "technology" and "military might" -- but in ambiguous ways, which suggest that human progress isn't necessarily so great or even so possible.</p>
+        <p>In "Deceptions Lures and Lies in a Technological Space," images of fish, fish lures, a galleon, a locomotive and much, much else share the surface, overlapping and menacing one another like the prisoners of a crazed, overcrowded museum diorama. In "Furor Arma Ministrat," the forms include grimacing African heads and masks, snakes, a shark and a World War II jet fighter whose nose is painted, as they often were, to resemble a shark's toothy snout. Elsewhere, the prow of an aircraft carrier merges with the face of a sting ray, although this fusion seems to be the artist's own concoction.</p>
+        <p>A degree of monstrousness, natural or man-made, deadly or recreational, connects these forms, which are rendered for the most part in shades of gray and a reddish brown. Many of them also reflect a certain primal fear -- whether of nature, of the spirit world or of one's fellow humans -- and Mr. Diamond implies that it has remained constant throughout history. This is perhaps clearest in "Man's Progress at Problem Solving," which includes, in more breathing room than usual, a voodoo sculpture, two jets, a naval destroyer, the fragments of a coat of armor and several squid.</p>
+        <p>The main problem is that while these paintings are full of different signs of life (and death) they lack immediate pictorial life. Although Mr. Diamond paints with authoritative flair, his titles and subjects are ultimately more gripping and more varied than anything he does with paint or color. (The exception is "Thank Goodness for the Experts," whose colors and surfaces emit a degree of visual presence otherwise lacking.)</p>
+        <p>Part of the dazzling effect of 80's simultaneity was the way its juxtaposition of images also made styles collide. So far, Mr. Diamond has succeeded only in making worlds collide. It's no small feat and it seems especially appropriate to the confusion and doubt that hang over the planet at the end of the second millennium. But it is also primarily a narrative effect that only momentarily disguises the essential monotony of his pictorial vision.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Cultivating Young Audiences</title>
+    <meta content="MB120559" name="slug"/>
+    <meta content="13" name="publication_day_of_month"/>
+    <meta content="2" name="publication_month"/>
+    <meta content="2000" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="New Jersey Weekly Desk" name="dsk"/>
+    <meta content="11" name="print_page_number"/>
+    <meta content="14NJ" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Theater; New York and Region" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1176115"/>
+      <doc.copyright holder="The New York Times" year="2000"/>
+      <series series.name="JERSEY FOOTLIGHTS"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <classifier class="indexing_service" type="descriptor">Prices (Fares, Fees and Rates)</classifier>
+        <classifier class="indexing_service" type="descriptor">Discount Selling</classifier>
+        <classifier class="indexing_service" type="descriptor">Children and Youth</classifier>
+        <org class="indexing_service">New Jersey Theater Group</org>
+        <person class="indexing_service">Mcnamara, Kristen</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/New York and Region/New Jersey</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Family</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Prices (Fares, Fees and Rates)</classifier>
+        <classifier class="online_producer" type="general_descriptor">Discount Selling</classifier>
+        <classifier class="online_producer" type="general_descriptor">Theater</classifier>
+        <classifier class="online_producer" type="general_descriptor">Children and Youth</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20000213T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D0DE0D8113EF930A25751C0A9669C8B63" item-length="321" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Cultivating Young Audiences</hl1>
+      </hedline>
+      <byline class="print_byline">By KRISTEN McNAMARA</byline>
+      <byline class="normalized_byline">Mcnamara, Kristen</byline>
+      <abstract>
+        <p>New Jersey Theater Group schedules third annual AT&amp;T Family Week at the Theater, featuring free and discounted performances for children and adults, for March 4 to 12; photo (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Adults and children can attend free and discounted performances, classes and tours at theaters throughout New Jersey during the third annual AT&amp;T Family Week at the Theater, from March 4-12.</p>
+        <p>In an effort to cultivate a younger audience of theater goers, the New Jersey Theater Group, the alliance of the state's professional theaters, created this event in 1998 to provide an affordable way for families with children to attend performances.</p>
+      </block>
+      <block class="full_text">
+        <p>Adults and children can attend free and discounted performances, classes and tours at theaters throughout New Jersey during the third annual AT&amp;T Family Week at the Theater, from March 4-12.</p>
+        <p>In an effort to cultivate a younger audience of theater goers, the New Jersey Theater Group, the alliance of the state's professional theaters, created this event in 1998 to provide an affordable way for families with children to attend performances.</p>
+        <p>''We want kids to see how much fun it is to go to the theater and how much fun it is to do something together as a family,'' said Laura Aden, executive director of the New Jersey Theater Group. ''It's important for families to talk about what they've seen and to share their experiences together. Unlike television or movies, theater is a very interactive art form.''</p>
+        <p>This year's program includes: ''The Lion, the Witch and the Wardrobe,'' ''The Glass Menagerie'' and ''Romeo and Juliet.'' The week, which offers more than 100 performances and events, also features acting workshops, backstage tours and meetings with cast members.</p>
+        <p>''Regional art is alive and well in New Jersey,'' said Charlene Brown, the New Jersey director of corporate affairs for AT&amp;T, which finances the program. ''You don't have to go to New York to see good theater.''</p>
+        <p>Reservations are required for all events and should be made through individual theaters. A complete schedule and theater information is available at (800) 843-2787 or on the Web at www.familyweek.com.</p>
+        <p>KRISTEN McNAMARA</p>
+        <p>JERSEY FOOTLIGHTS</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

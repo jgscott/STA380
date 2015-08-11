@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>'Blood Brothers' Closing</title>
+    <meta content="13" name="publication_day_of_month"/>
+    <meta content="4" name="publication_month"/>
+    <meta content="1995" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="16" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts; Theater" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="754845"/>
+      <doc.copyright holder="The New York Times" year="1995"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">THEATER</classifier>
+        <object.title class="indexing_service">BLOOD BROTHERS (PLAY)</object.title>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/Plays</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="general_descriptor">Theater</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19950413T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=990CE1D6133AF930A25757C0A963958260" item-length="52" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>'Blood Brothers' Closing</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>"Blood Brothers," a musical with book, music and lyrics by Willy Russell, is to close after the matinee on Sunday, April 30, at the Music Box Theater, 239 West 45th Street, Manhattan. The matinee of the play, directed by Bill Kenwright and Bob Tomson, will be its 839th regular performance; it had 15 previews.</p>
+      </block>
+      <block class="full_text">
+        <p>"Blood Brothers," a musical with book, music and lyrics by Willy Russell, is to close after the matinee on Sunday, April 30, at the Music Box Theater, 239 West 45th Street, Manhattan. The matinee of the play, directed by Bill Kenwright and Bob Tomson, will be its 839th regular performance; it had 15 previews.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

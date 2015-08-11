@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Unforgettable</title>
+    <meta content="LTR034834" name="slug"/>
+    <meta content="6" name="publication_day_of_month"/>
+    <meta content="12" name="publication_month"/>
+    <meta content="1998" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Arts and Leisure Desk" name="dsk"/>
+    <meta content="4" name="print_page_number"/>
+    <meta content="2" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts; Opinion" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1067511"/>
+      <doc.copyright holder="The New York Times" year="1998"/>
+      <series series.name="LATE-NIGHT BANDS"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Television</classifier>
+        <person class="indexing_service">statter, david</person>
+        <person class="indexing_service">keepnews, peter</person>
+        <person class="indexing_service">rosengarden, bobby</person>
+        <classifier class="online_producer" type="types_of_material">Letter</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Television</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19981206T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9904E6DD133BF935A35751C1A96E958260" item-length="143" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Unforgettable</hl1>
+      </hedline>
+      <abstract>
+        <p>David Statter letter on Peter Keepnews's article on late-night talk show bands cites 1970's band fronted by Bobby Rosengarden (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>To the Editor:</p>
+        <p>It was nice to see Peter Keepnews give credit to the bandleaders who brighten up the talk show circuit with witty musical choices. Mr. Keepnews, though, wrote that the idea of picking relevant song titles ''seems to have originated'' with Paul Shaffer ''back in the early days of Mr. Letterman's late-night show.''</p>
+      </block>
+      <block class="full_text">
+        <p>To the Editor:</p>
+        <p>It was nice to see Peter Keepnews give credit to the bandleaders who brighten up the talk show circuit with witty musical choices. Mr. Keepnews, though, wrote that the idea of picking relevant song titles ''seems to have originated'' with Paul Shaffer ''back in the early days of Mr. Letterman's late-night show.''</p>
+        <p>Surely Mr. Keepnews is familiar with the band fronted by the drummer Bobby Rosengarden for the ''Dick Cavett Show'' in the early 1970's. As a teen-aged saxophone player at the time, I paid close attention any time the band played. Rosengarden was more subtle, and humorous, in his choices than much of what you hear on today's talk shows.</p>
+        <p>My favorite was the entrance for a sex-therapist guest. The band played Ira Gershwin and Vernon Duke's ''I Can't Get Started.''</p>
+        <p>DAVID STATTER  Falls Church, Va.</p>
+        <p>LATE-NIGHT BANDS</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

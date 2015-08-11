@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>The Man Who Makes a Ruckus of New York</title>
+    <meta content="11HOVINGL" name="slug"/>
+    <meta content="11" name="publication_day_of_month"/>
+    <meta content="7" name="publication_month"/>
+    <meta content="2004" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Book Review Desk" name="dsk"/>
+    <meta content="10" name="print_page_number"/>
+    <meta content="7" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts; Books" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2004/07/11/books/review/11HOVINGL.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1595645"/>
+      <doc.copyright holder="The New York Times" year="2004"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Books and Literature</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Hoving, Thomas</person>
+        <person class="indexing_service">Danto, Arthur C</person>
+        <person class="indexing_service">Hyman, Timothy</person>
+        <person class="indexing_service">Livingstone, Marco</person>
+        <person class="indexing_service">Grooms, Red</person>
+        <object.title class="indexing_service">Red Grooms (Book)</object.title>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Books/Book Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Books</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="descriptor">Art</classifier>
+        <classifier class="online_producer" type="descriptor">Books and Literature</classifier>
+        <classifier class="online_producer" type="descriptor">Biographical Information</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Books and Literature</classifier>
+        <person class="online_producer">Grooms, Red</person>
+        <person class="online_producer">Danto, Arthur C</person>
+        <object.title class="online_producer">Red Grooms (Book)</object.title>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20040711T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=990DEEDE1038F932A25754C0A9629C8B63" item-length="1741" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>The Man Who Makes a Ruckus of New York</hl1>
+        <hl2 class="online_headline">'Red Grooms': The Man Who Makes a Ruckus of New York</hl2>
+      </hedline>
+      <byline class="print_byline">By Thomas Hoving</byline>
+      <byline class="normalized_byline">Hoving, Thomas</byline>
+      <abstract>
+        <p>Thomas Hoving reviews book Red Grooms by Arthur C Danto, Timothy Hyman and Marco Livingstone; drawings (L)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>RED GROOMS</p>
+        <p>By Arthur C. Danto, Timothy Hyman</p>
+        <p>and Marco Livingstone.</p>
+        <p>Illustrated. 240 pp. Rizzoli. $65.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>For half a century, Red Grooms has redeemed New York by poking fun at it; now a glorious fat art book joins the party.</p>
+      </block>
+      <block class="full_text">
+        <p>RED GROOMS</p>
+        <p>By Arthur C. Danto, Timothy Hyman</p>
+        <p>and Marco Livingstone.</p>
+        <p>Illustrated. 240 pp. Rizzoli. $65.</p>
+        <p>Red Grooms so perfectly captures New York City in his art that at times we may forget it is art we are experiencing and not the city itself. But grand art it is. Its comedy, gentleness, warmth and inescapable busyness vibrate with the life of the place. Like members of the Ashcan School, and to an extent Reginald Marsh, Grooms captures the brawly, filthy, exciting, open-at-all-hours-of-the-year, disorganized nature of New York with a startling immediacy -- and with an attention to detail that renders the subject virtually sacred and an affection that brings tears to the eyes.</p>
+        <p>For more than 47 years this immigrant from Nashville, who is part Thomas Rowlandson and part Daumier, has been turning the city into a raucous, tumultuous, Rabelaisian world of wonder. This new book -- with hundreds of pictures, a couple of lively essays on the art and a penetrating interview of Grooms by another artist -- is the best account of his accomplishment we have had. Even his most passionate admirers may be impressed by the sheer range of his work -- in wood, metal and fabric constructions ranging from toy-size to gigantic; in oil and glass, in acrylics and other chemically based new materials; in film and drama (he's a deft writer) and stage design. The creativity is almost overwhelming. There are few regular shapes or flat surfaces. People, cars, lampposts and skyscrapers bend over us, sway around us, swipe at our ankles. We can walk through subway cars, buses and tunnels or ride a carousel.</p>
+        <p>Grooms's portraits of other artists, and witty re-creations of some masterpieces, remind us of the depth of his knowledge of art history. And his depictions of life around the world -- from Japan to Morocco to Moscow -- let us know that he has always had a lot more than New York on his mind.</p>
+        <p>In an essay called ''Seeing Red: Reasons to Be Cheerful,'' the art scholar Marco Livingstone notes that Grooms, who arrived here wide-eyed at 20 and ate up the Happenings scene and the new Pop Art of the 50's, has a powerful talent for drawing and a foundation in classical painting. Livingstone finds the soul of Grooms's style in an ungainliness that is, somehow, elegantly stylized, a visual language as colorful as the splash of cartoons of the old Sunday comics.</p>
+        <p>The young artist may or may not have come across Claes Oldenburg's killer call ''for an art that embroils itself with the everyday crap and still comes out on top. . . . I am for an art that takes its form from the lines of life itself, that twists and extends and accumulates and splits and drips, and is heavy and coarse and blunt and sweet and stupid as life itself.'' But it was Grooms who best realized that dream. Of course, he has a secret. Livingstone points out that ''seeing red'' is not for Red Grooms: ''Anger is almost never a motivating force for him. Instead he responds with affection and good humor, with a backslapping bonhomie for his heroes, with nostalgia for the recent or historical past -- be it Hollywood or the Wild West -- and with a daydreamer's enthusiasm for exotic places.'' Grooms has said that in his youth in Tennessee he was captivated by the vision of local untaught folk artists; perhaps he picked up some of their characteristic gentle humor as well.</p>
+        <p>An essay by Arthur C. Danto, a Columbia University philosopher who is the art critic of The Nation, zeroes in on Grooms's comedy; it is a very thoughtful meditation (I assure you I would have said that even if Danto had not positively reviewed one of my books in these pages 11 years ago) that forms a kind of conversation with Livingstone. Right off, Danto cites Hegel: ''The modern world has developed a type of comedy which is truly comical and truly poetic. . . . The keynote is good humor . . . exuberance and the audacity of a fundamentally happy craziness.'' Hegel was writing about Shakespeare, but for Danto the remark ''fits Red Grooms to perfection, as artist and as man. Who but he would have used the 'exuberant and audacious' term ruckus for the work that might be regarded as his masterpiece, 'Ruckus Manhattan'?''</p>
+        <p>Danto defines a ruckus as ''a limited upheaval, a disturbance in the established order, a breaking -- in the case of art -- of the aesthetic peace.'' He speculates that Grooms may have heard ''ruction,'' one of the possible roots of ''ruckus,'' in ''construction'' and then had ''the inspired thought of a ruckus being constructed rather than merely breaking out or erupting. Hence 'The Ruckus Construction Company' that raised rumpus-like installations.''</p>
+        <p>He epitomizes his own response to Grooms by recalling his instant impression (always best when it comes to art) when the elevator doors in the Whitney Museum opened on a 1987 retrospective of Grooms's work: ''I felt such an inrush of pleasure that I could not help but think . . . of Thomas Hobbes's piquant definition of laughter in 'The Leviathan': laughter is 'sudden glory.' '' The glory of Grooms, to Danto, is that he is ''a very deep comedian.'' Like Saul Steinberg, he pokes fun in such a way that the world he is making fun of is redeemed. Danto judges that ''Ruckus Manhattan,'' and most of Grooms's work, ridicules the pervasive rot, dirt, disorder, menace and sourness of the city, making it all funny. ''His wonderful comic style was not intended at any point to degrade or ridicule its subjects but to present them with warmth by removing what might have been taken as fearful.''</p>
+        <p>In the book, Grooms himself talks about ''Ruckus'' in a sharp interview conducted by the British artist Timothy Hyman, and in doing so he sums up his life's work: ''What I wanted to do was a novelistic portrait of Manhattan from Battery Park to Grant's Tomb. I also felt it had to include the dark sides of life as well as the lighter ones: prostitutes, thieves and gamblers, tourists, shoppers, babies, moms and dads. I wanted to get it all in, it got quite busy.''</p>
+        <p>The horde of pictures here, intelligently laid out by the designers, will reward readers thousands of times over; in every work there is always something new to discover no matter how many times you revisit it. My own favorites are many, but to mention a few:</p>
+        <p>The roar of traffic in ''Times Square in the Rain'' (1976) is palpable, and I love the single limousine with a richie in shades inside and the lone city bus that break the yellow rapids of taxis. All the cabs are full, naturally, and one poor slob without a raincoat flailing his arms at them doesn't have a chance. I read all the signs, and studied every rushing citizen and every cop, of which there is a multitude. This is Broadway in its good old uncleaned manifestation, the one I know best and long for still.</p>
+        <p>In ''Looking Along Broadway Towards Grace Church'' (1981), Grooms must be looking north from the corner of Walker Street, where he has a studio. It is 3 p.m. on a fall day. A city bus, an M3 Limited, races toward us, passing all other vehicles as Limiteds always do. A crane, a cement mixer gaily decorated with polka dots and an 18-wheeler carrying automobiles pass on Canal Street. The tin entablatures of the old buildings sag out precariously -- as a native I always look up at these in high winds ready to hit the deck. On the roofs are the city's most ubiquitous bits of architecture, wooden round water towers. The verisimilitude here is of almost unforgiving energy. I hear, smell and see New York as I know it: banal, hurried, noisy, cluttered, infinitely varied.</p>
+        <p>''Rear Window'' (2002) presents a brick building with a painter's studio on the second floor. The artist, looking like a dancer about to pirouette, fixes a preparatory cartoon to a canvas. The welter-skelter of the studio surrounds him, anchored on the right by a red-painted chest of drawers and on the left by a sink filled with stagnant liquid, paint cans and brushes. Downstairs in a clinical ''designer's'' space is an art gallery with a fatuous show of what happened to be trendy that week -- with, of course, a fellow in the corner with a cellphone glued to his ear. In the book, this three-dimensional constructed piece appears against a background photograph of Grooms in his own studio, just as cluttered as the one in the artwork, and Grooms's presence is itself a wry comment on what art really is as opposed to what many people think it is.</p>
+        <p>And ''Manet at the Met'' (2003) touches me deeply. I only wish the Met owned the Manet at the rear of the gallery here -- Execution of the Emperor Maximilian,'' which I believe is in Germany -- but much of the grand Manet collection is dreamily depicted. I love the crowd of tourists, guards and art lovers wearing audiotapes. I just know what the two guards are giggling to each other about on their walkie-talkies: something about wacko art lovers. I can hear the lecture by the docent, who gestures at ''The Dead Toreador.'' And in the foreground, signing autographs, is a figure who makes a fine joke of the title of this work -- you have to see it. Only Red Grooms could have picked up the bustle, the naïve excitement of some, the disguised boredom of others, the puzzlement of a few and the utter fascination of even fewer.</p>
+        <p>Every time I look at a Red Grooms, I too get the feeling of ''sudden glory.'' So, I expect, will every reader of this artful and joyful book.</p>
+        <p>Thomas Hoving, the New York City parks commissioner in 1966-67 and director of the Metropolitan Museum of Art from 1967 to 1977, is the author of many books on art and several memoirs.</p>
+      </block>
+    </body.content>
+    <body.end>
+      <tagline class="author_info">Thomas Hoving, the New York City parks commissioner in 1966-67 and director of the Metropolitan Museum of Art from 1967 to 1977, is the author of many books on art and several memoirs.</tagline>
+    </body.end>
+  </body>
+</nitf>

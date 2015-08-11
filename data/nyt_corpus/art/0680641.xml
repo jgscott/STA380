@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Art in Review</title>
+    <meta content="15" name="publication_day_of_month"/>
+    <meta content="4" name="publication_month"/>
+    <meta content="1994" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="26" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="680641"/>
+      <doc.copyright holder="The New York Times" year="1994"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ART</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <classifier class="indexing_service" type="descriptor">SHOWS (EXHIBITS)</classifier>
+        <person class="indexing_service">SMITH, ROBERTA</person>
+        <person class="indexing_service">ORTH, DIETRICH</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Trade Shows and Fairs</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19940415T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E0CE4DB1F3EF936A25757C0A962958260" item-length="286" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Art in Review</hl1>
+      </hedline>
+      <byline class="print_byline">By ROBERTA SMITH</byline>
+      <byline class="normalized_byline">SMITH, ROBERTA</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Elizabeth Murray</p>
+        <p>Paula Cooper Gallery  149 Wooster Street (at Houston Street)  SoHo  Through April 23</p>
+        <p>Elizabeth Murray's faith in the complete malleability of paint and painting continues unabated in this small, impressive show. Over the course of only five canvases, she puts her art through its paces, going from flat to shaped surfaces and shifting her semi-abstract narratives from human to animal to architecture, all without missing a beat.</p>
+      </block>
+      <block class="full_text">
+        <p>Elizabeth Murray</p>
+        <p>Paula Cooper Gallery  149 Wooster Street (at Houston Street)  SoHo  Through April 23</p>
+        <p>Elizabeth Murray's faith in the complete malleability of paint and painting continues unabated in this small, impressive show. Over the course of only five canvases, she puts her art through its paces, going from flat to shaped surfaces and shifting her semi-abstract narratives from human to animal to architecture, all without missing a beat.</p>
+        <p>It helps that Ms. Murray has downsized things a bit, giving these works a compressed clarity of shape, color and paint handling that her larger, more looming efforts can sometimes lack. This is especially the case with "Arm-Ear" and "The Unscrew Painting," whose shaped and stepped surfaces mirror each other but whose images do not. "Arm-Ear" depicts a restless red chair in the corner of a red, yellow and green room; "The Unscrew Painting" shows a green figure sandwiched between two mazelike energy fields.</p>
+        <p>"Bounding Dog," the largest painting here, is also the flattest, and one of the few conventionally rectangular works Ms. Murray has made in recent years. Framed by such wonderful details as a fuzzy magenta sun, a blue tree and three yellow leaves, a red biomorphic dog with big bloblike front paws hurtles through space in Miroesque slow motion, the epitome of canine joie de vivre. The scene is set against a creamy white ground whose wrinkles and undulating edges suggests a flimsy rubbery surface caught in the act of contracting, like a balloon losing its air. Behind this luminous expanse, which confirms Ms. Murray's ability to shape even the flattest surface, are glimmers of golden light, and more painting. ROBERTA SMITH</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

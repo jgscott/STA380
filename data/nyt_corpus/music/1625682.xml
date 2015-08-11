@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>High Energy in High Volume</title>
+    <meta content="08ESAR$02" name="slug"/>
+    <meta content="8" name="publication_day_of_month"/>
+    <meta content="11" name="publication_month"/>
+    <meta content="2004" name="publication_year"/>
+    <meta content="Monday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="8" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2004/11/08/arts/music/08esar.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1625682"/>
+      <doc.copyright holder="The New York Times" year="2004"/>
+      <series series.name="CLASSICAL MUSIC REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <org class="indexing_service">Esart Trio Berlin (Music Group)</org>
+        <person class="indexing_service">Holland, Bernard</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews/Classical</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="descriptor">Music</classifier>
+        <classifier class="online_producer" type="descriptor">Classical Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Classical Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+        <org class="online_producer">Carnegie Hall</org>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20041108T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9501E1D6123CF93BA35752C1A9629C8B63" item-length="354" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>High Energy in High Volume</hl1>
+        <hl2 class="online_headline">High Energy in High Volume</hl2>
+      </hedline>
+      <byline class="print_byline">By BERNARD HOLLAND</byline>
+      <byline class="normalized_byline">Holland, Bernard</byline>
+      <abstract>
+        <p>Bernard Holland reviews performance by Esart Trio Berlin at Weill Recital Hall (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>The Esart Trio Berlin has come across the Atlantic to take part in Carnegie Hall's Distinctive Debuts series, a kind of foreign-exchange program that sets up two-way traffic of young artists between the United States and Europe. A raw, big-boned profile and fierce musical energy propel this group: sometimes in the right directions, sometimes not. The Esart played at Weill Recital Hall on Friday night.</p>
+        <p>The players chose their music wisely. Beethoven's Piano Trio in E flat (Op. 70, No. 2) finds the great man investing countrified, almost rude musical humor with sophisticated jokes of his own: altered phrase lengths, rhythmic surprises and sudden harmonic transformations. This is the world of Haydn, but with less of Haydn's irony and a more direct application of muscle. The Esart Trio attacked it accordingly.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>A fierce musical energy propels this group, which played at Weill Recital Hall on Friday: sometimes in the right directions, sometimes not.</p>
+      </block>
+      <block class="full_text">
+        <p>The Esart Trio Berlin has come across the Atlantic to take part in Carnegie Hall's Distinctive Debuts series, a kind of foreign-exchange program that sets up two-way traffic of young artists between the United States and Europe. A raw, big-boned profile and fierce musical energy propel this group: sometimes in the right directions, sometimes not. The Esart played at Weill Recital Hall on Friday night.</p>
+        <p>The players chose their music wisely. Beethoven's Piano Trio in E flat (Op. 70, No. 2) finds the great man investing countrified, almost rude musical humor with sophisticated jokes of his own: altered phrase lengths, rhythmic surprises and sudden harmonic transformations. This is the world of Haydn, but with less of Haydn's irony and a more direct application of muscle. The Esart Trio attacked it accordingly.</p>
+        <p>Wolfgang Rihm's ''Fremde Szene II'' seemed to gratify every urge and ambition of this young group. Forward, aggressive, filled with big gestures, Mr. Rihm's piece sounds like Schumann heard through a closed door. The familiar Schumanesque signatures fade in and out of tonality; the composer seems to be telling us that even when his language is farthest from major and minor keys, the grammar and sentence structure of his writing always refer back to them.</p>
+        <p>In both these pieces, the Esart players were not afraid to be loud; indeed, they appeared to enjoy it. Dvorak's ''Dumky'' Trio steered them toward their better instincts and allowed some lovely, touching solo playing. The musicians are Nurit Stark, violinist; Hila Karni, cellist; and Cedric Pescia, pianist.</p>
+        <p>What they might try to develop is a sound of their own. This need not be something sleek and uniform but rather a point at which three individual sounds can create a fourth: a conjunction of personalities that preserves the current energies but observes them with a touch of detachment.</p>
+        <p>The Daedalus Quartet will appear at the next Distinctive Debuts concert on Dec. 10.</p>
+        <p>CLASSICAL MUSIC REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

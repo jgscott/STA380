@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Daumier's Domain</title>
+    <meta content="21TUE3" name="slug"/>
+    <meta content="21" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="2000" name="publication_year"/>
+    <meta content="Tuesday" name="publication_day_of_week"/>
+    <meta content="Editorial Desk" name="dsk"/>
+    <meta content="22" name="print_page_number"/>
+    <meta content="A" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Opinion" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1185570"/>
+      <doc.copyright holder="The New York Times" year="2000"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Editorials</classifier>
+        <classifier class="indexing_service" type="descriptor">Biographical Information</classifier>
+        <org class="indexing_service">Phillips Collection (Washington, DC)</org>
+        <person class="indexing_service">Daumier, Honore (1808-79)</person>
+        <classifier class="online_producer" type="types_of_material">Editorial</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion/Editorials</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20000321T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9400EFDE113AF932A15750C0A9669C8B63" item-length="370" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Daumier's Domain</hl1>
+      </hedline>
+      <abstract>
+        <p>Editorial praises exhibit of works of 19th-century French painter Honore Daumier at Phillips Collection in Washington (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Behind Honore Daumier lies 19th-century Paris -- a city of bourgeois assurance and political uncertainty, stolid and histrionic. Like every great city, it breathed self-awareness. No one contributed more in midcentury to that collective Parisian sense of self than Daumier, who died at age 70 in 1879. The exhibition of his work at the Phillips Collection in Washington, on view until May 14, suggests the range of his artistic expression, if not its utter immensity. Daumier worked in unfired clay and oil paints, in bronze, plaster and watercolor. But his innumerable impressions of Paris are literally that -- drawings made directly on lithographic stone and printed for immediate use in one newspaper or another.</p>
+      </block>
+      <block class="full_text">
+        <p>Behind Honore Daumier lies 19th-century Paris -- a city of bourgeois assurance and political uncertainty, stolid and histrionic. Like every great city, it breathed self-awareness. No one contributed more in midcentury to that collective Parisian sense of self than Daumier, who died at age 70 in 1879. The exhibition of his work at the Phillips Collection in Washington, on view until May 14, suggests the range of his artistic expression, if not its utter immensity. Daumier worked in unfired clay and oil paints, in bronze, plaster and watercolor. But his innumerable impressions of Paris are literally that -- drawings made directly on lithographic stone and printed for immediate use in one newspaper or another.</p>
+        <p>Daumier's Paris is not a cityscape. The broad views are missing. In his lithographs he alludes only to the passing moment, and the same is true of the city he reveals. Occasionally a cobbled square can be glimpsed, a placard, a shop window, a brief stretch of skyline through the window of a moon-gazing bluestocking. But the architecture Daumier loves is that of the cravat, the chapeau, the crinoline. His idea of urban scenery is the faces of lawyers, actors and legislators, of clients and audiences, men and women of flamboyant features that a caricaturist could urge into satire.</p>
+        <p>The result is a sense of unassuming intimacy, a feeling, as you look from face to face, that Paris lies right before you, even though the city is rarely visible. In their time, Daumier's lithographs came and went the way the newspaper does, day after day. To create the intangible effect of the metropolis, its hauteur as well as its domesticity, Daumier did not need to show Paris to the Parisians. He needed only to show the Parisians to themselves.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

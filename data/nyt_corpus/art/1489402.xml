@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>'Off the Record'</title>
+    <meta content="RV010133" name="slug"/>
+    <meta content="16" name="publication_day_of_month"/>
+    <meta content="5" name="publication_month"/>
+    <meta content="2003" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Leisure/Weekend Desk" name="dsk"/>
+    <meta content="36" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1489402"/>
+      <doc.copyright holder="The New York Times" year="2003"/>
+      <series series.name="ART IN REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Cotter, Holland</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20030516T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9F0CE7DA173EF935A25756C0A9659C8B63" item-length="374" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>'Off the Record'</hl1>
+      </hedline>
+      <byline class="print_byline">By HOLLAND COTTER</byline>
+      <byline class="normalized_byline">Cotter, Holland</byline>
+      <abstract>
+        <p>Holland Cotter reviews group show Off the Record at Skylight Gallery (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Skylight Gallery  1368 Fulton Street  Bedford-Stuyvesant, Brooklyn  Through May 24</p>
+        <p>The show's curators, Kambui Olujimi and Nykia Omphroy, invited 13 artists, some well known, others with building reputations, to give form to a fantasy hero of the future. The results are sharply imagined, though seldom heroic in any idealistic way.</p>
+      </block>
+      <block class="full_text">
+        <p>Skylight Gallery  1368 Fulton Street  Bedford-Stuyvesant, Brooklyn  Through May 24</p>
+        <p>The show's curators, Kambui Olujimi and Nykia Omphroy, invited 13 artists, some well known, others with building reputations, to give form to a fantasy hero of the future. The results are sharply imagined, though seldom heroic in any idealistic way.</p>
+        <p>Pépon Osorio contributes a series of small identical busts of a young African-American or Latino man; the image is generically handsome, but in each case accompanied by a different identifying label and attribute: a head labeled ''Victim'' wears a crown of thorns; another, ''Cry Baby,'' sheds silver tears.</p>
+        <p>The heroic and the personal ambiguously merge in Jeff Sonhouse's ''Pastor Prince,'' a self-portrait of the artist as a black preacher in white-face. Nayland Blake also offers self-portraits of a kind, in the form of cartoon rabbits that double as homages to the determinedly antiheroic artist Ray Johnson.</p>
+        <p>Women have particularly diverse approaches to the heroic image. The three-artist team of Dayo Harewood, Sharan Strange and Deborah Willis use photographs of pumped-up female body-builders to illustrate a text in praise of an African god of healing, while Wangechi Mutu turns cut-up images of fashion models into burlesque vamp-goddesses. Adia Millet, in ''My Hero Watches Cartoons,'' creates an all-American macho image of red-white-and-blue men's briefs in the form of a stitched sampler, while Yolande Daniels embosses child-size T-shirts with the names of prisons and urban ghettoes.</p>
+        <p>Men also make emblemetic use of clothes. In a digital print by Marc Robinson, ''Heroes Dress,'' a black, lacey scoop-neck gown turns out to be formed from hundreds of tiny silhouetted figures falling into a deep pit and strugglng to climb out. Christopher Myer's installation, ''A Small Museum for William Henry Johnson,'' turns a slice of African-American history into a fantastically spacey fashion show, part tribal mask, part ''Clockwork Orange.''</p>
+        <p>I look forward to seeing more of Mr. Myer's work, along with that of other participants, including Lisa Corinne Davis and Coby Kennedy. It is worth noting that one of the artists, Ms. Willis, has organized with Lisa Henry an engrossing photography exhibition titled ''Saturday Night/Sunday Morning'' at Leica Gallery in SoHo through tomorrow. Mr. Olujimi is among the artists.</p>
+        <p>HOLLAND COTTER</p>
+        <p>ART IN REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

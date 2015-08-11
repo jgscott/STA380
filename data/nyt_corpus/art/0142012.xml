@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Modern Art By Russians In Capital</title>
+    <meta content="5" name="publication_day_of_month"/>
+    <meta content="5" name="publication_month"/>
+    <meta content="1988" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="23" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="142012"/>
+      <doc.copyright holder="The New York Times" year="1988"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ART</classifier>
+        <classifier class="indexing_service" type="descriptor">CULTURAL RELATIONS</classifier>
+        <location class="indexing_service">UNION OF SOVIET SOCIALIST REPUBLICS</location>
+        <org class="indexing_service">CORCORAN GALLERY OF ART (WASHINGTON, DC)</org>
+        <person class="indexing_service">GAMAREKIAN, BARBARA</person>
+        <person class="indexing_service">UGAROV, BORIS</person>
+        <person class="indexing_service">SALAKHOV, TAIR</person>
+        <person class="indexing_service">BISTI, DMITRI</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Countries and Territories/Russia and the Former Soviet Union</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="general_descriptor">Cultural Relations</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19880505T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=940DEED6153BF936A35756C0A96E948260" item-length="445" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Modern Art By Russians In Capital</hl1>
+      </hedline>
+      <byline class="print_byline">By BARBARA GAMAREKIAN; Special to The New York Times</byline>
+      <byline class="normalized_byline">GAMAREKIAN, BARBARA</byline>
+      <dateline>WASHINGTON, May 4</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: The first major United States exhibition of the work of three contemporary Soviet artists will open at the Corcoran Gallery of Art on Thursday.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: The first major United States exhibition of the work of three contemporary Soviet artists will open at the Corcoran Gallery of Art on Thursday.</p>
+        <p>The first major United States exhibition of the work of three contemporary Soviet artists will open at the Corcoran Gallery of Art on Thursday.</p>
+        <p>The exhibition, ''Three Soviet Artists,'' comprises 180 works in oil, watercolor and wood-block printing by Boris Ugarov, Tair Salakhov and Dmitri Bisti, all members of the Academy of the Arts of the Soviet Union. Dr. Christina Orr-Cahall, director of the Corcoran, characterized the academy as ''the center of Soviet practice and theory in the fine arts.''</p>
+        <p>At a press preview this afternoon, Galina Zaykina of the academy explained that the artists were selected because each represented different styles and subject matter. ''Each has a very strong artistic personality,'' she said, ''and we thought it would be interesting to gather them all together to show the difference in style and their different attitudes toward life.''</p>
+        <p>The exhibition was organized by the academy in exchange for the exhibition ''An American Vision: Three Generations of Wyeth Art,'' organized by the Brandywine River Museum in Chadds Ford, Pa., that traveled to Leningrad and Moscow in the spring of 1987. Both traveling exhibitions resulted from the General Exchange Agreement signed by the United States and the Soviet Union in Geneva in 1985.</p>
+        <p>The Soviet show, which was on view at the Brandywine before coming here, moves to the Trenton City Museum after it closes at the Corcoran on June 5, said Miss Zaykina.</p>
+        <p>Mr. Bisti, vice president of the academy, was the only artist to travel to Washington. ''Salakhov is in Italy,'' he explained, ''and Ugarov is in China signing a cultural agreement; they have us in all parts of the world.''</p>
+        <p>The artist is well known in his own country for his woodcuts and as an illustrator of Soviet translations of ''The Iliad,'' ''The Odyessy'' and Irving Stone's ''Lust for Life.''</p>
+        <p>Mr. Salakhov is known for his series of paintings based on his experiences in Spain, Mexico, Italy and the United States. Among his watercolors in the Corcoran show are renderings of the Empire State Building and the Golden Gate Bridge. Mr. Ugarov, president of the Academy, is known for his portraits, still lifes and moody landscapes.</p>
+        <p>''We have seen a great upsurge in all the representational arts,'' Mr. Bisti said, ''and today we have everything from the most avant-garde abstract expressionism to the Russian natural-realistic school. I was always able to do what I wanted to do because I was in the forefront of realistic artists, so for me very little has changed. But artists are now in control of what they want to show and paint and that applies to those who are experimenting on the very fringes of art.''</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

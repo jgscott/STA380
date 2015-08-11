@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Heavy on the Nonsense And Hold the Syrup</title>
+    <meta content="05MIDL" name="slug"/>
+    <meta content="5" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="2004" name="publication_year"/>
+    <meta content="Monday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="1" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2004/01/05/arts/music/05MIDL.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1548294"/>
+      <doc.copyright holder="The New York Times" year="2004"/>
+      <series series.name="POP REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Sanneh, Kelefa</person>
+        <person class="indexing_service">Midler, Bette</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="descriptor">Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+        <org class="online_producer">Nassau Coliseum</org>
+        <person class="online_producer">Midler, Bette</person>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20040105T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9C01E6DE1531F936A35752C0A9629C8B63" item-length="736" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Heavy on the Nonsense And Hold the Syrup</hl1>
+        <hl2 class="online_headline">Heavy on the Nonsense and Hold the Syrup</hl2>
+      </hedline>
+      <byline class="print_byline">By KELEFA SANNEH</byline>
+      <byline class="normalized_byline">Sanneh, Kelefa</byline>
+      <dateline>UNIONDALE, N.Y., Jan. 3</dateline>
+      <abstract>
+        <p>Kelefa Sanneh reviews concert by Bette Midler at Nassau Coliseum; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Most pop stars seem hellbent on convincing listeners that they mean what they sing. But Bette Midler couldn't care less. She's best known for her sentimental ballads, but her current show, ''Kiss My Brass,'' is a delirious, freewheeling celebration of phoniness.</p>
+        <p>Ms. Midler has mastered the art of pastiche, and when she performed at Nassau Coliseum tonight, she put on a show that was both enormously entertaining and, in its own cheerful way, unsettling.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Bette Midlers current show, "Kiss My Brass," as seen at the Nassau Coliseum on Saturday, is a delirious, freewheeling celebration of phoniness.</p>
+      </block>
+      <block class="full_text">
+        <p>Most pop stars seem hellbent on convincing listeners that they mean what they sing. But Bette Midler couldn't care less. She's best known for her sentimental ballads, but her current show, ''Kiss My Brass,'' is a delirious, freewheeling celebration of phoniness.</p>
+        <p>Ms. Midler has mastered the art of pastiche, and when she performed at Nassau Coliseum tonight, she put on a show that was both enormously entertaining and, in its own cheerful way, unsettling.</p>
+        <p>Syrupy standards gave way to wisecracks and gentle antiwar slogans; familiar show tunes crash-landed in the middle of surreal skits. Ms. Midler constantly juxtaposed nonsense and sentiment, until it became hard to tell the two apart.</p>
+        <p>The centerpiece of the show was ''Fish Tales,'' Ms. Midler's long-running story of a singing mermaid with dreams of, um, making a splash. The skit gives her a chance to roast some Broadway chestnuts; if you're wondering exactly how shameless she can be, the words ''All That Shad'' should tell you all you need to know.</p>
+        <p>Ms. Midler has been performing ''Fish Tales'' for decades, yet the skit's central gag is as funny and as startling as ever. Squeezed into skin-tight mermaid costumes, Ms. Midler and her three backup singers can't walk, so they flop and crawl and drag themselves across the stage.</p>
+        <p>As anyone who has ever seen Ms. Midler knows, these mermaids have a secret weapon: motorized wheelchairs. In their chairs, the mermaids became suddenly graceful and playful, zooming around as if they were back in the sea. The unforgettable image of four mermaids in wheelchairs hints at the complicated relationship between ability and disability, between beauty and vulnerability, but to her credit Ms. Midler drew no such conclusions herself -- she merely made lots of piscatorial puns and moved on to the next number.</p>
+        <p>A few months ago she released ''Bette Midler Sings the Rosemary Clooney Songbook'' (Columbia), a less-than-satisfying tribute album, and tonight's performance included a rather blank, if sturdy, rendition of ''Tenderly.'' But Ms. Midler wisely decided not to lean too heavily on the Clooney catalog.</p>
+        <p>By contrast, another tribute was unexpectedly moving. She sang a gentle song called ''I Like to Be Told'' with an image of Fred Rogers -- the late children's television star Mister Rogers -- projected behind her. Compared with his effusive partner, Mr. Rogers was deliciously inscrutable; when he sang ''I like to be told if it's going to hurt,'' he seemed to be impersonating both a precocious child and a desperate lover. But the duet also emphasized his subtle flamboyance. To see his image on Ms. Midler's stage was to notice, for the first time, the brightness of his cardigan, the ostentatious way he changed his shoes. In Ms. Midler's world, everyone's a diva.</p>
+        <p>The show didn't shy away from current events, not all of them momentous. The star earned only muted applause when she joked about ''certain world leaders'' who don't explain things because they can't pronounce them, and she sang a dovish ballad that asked, ''Will we keep reliving September/ Or will we learn?''</p>
+        <p>She sounded more defiant when chronicling another war: the struggle over ''Bette,'' her failed CBS sitcom. ''Who loves me, even though I'm canceled?,'' she sang, and then she answered her own question: ''Nobody but the Jews.''</p>
+        <p>And so, when it finally came time for the tear-jerking ballads, it was impossible to hear them the same way. ''Wind Beneath My Wings'' is generally interpreted as an inspirational ode to friendship, but Ms. Midler made it seem more like a witty portrait of self-absorption, sung by a star who thinks she's paying tribute to a friend when she's really just showing off. As her voice soared higher and higher, there could be no mistaking who had the wings and who was merely wind.</p>
+        <p>The show ended with an encore, a reprise of ''Friends.'' Ms. Midler noted that she has been singing this song forever but said, ''I never meant it any more than I mean it tonight.'' And her huge, sly smile invited listeners to finish the thought: ''. . . or any less.''</p>
+        <p>POP REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

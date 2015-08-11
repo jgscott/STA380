@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>He Wrote of Time Running Out, and It Did</title>
+    <meta content="10AUBU$04" name="slug"/>
+    <meta content="10" name="publication_day_of_month"/>
+    <meta content="6" name="publication_month"/>
+    <meta content="2001" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Arts and Leisure Desk" name="dsk"/>
+    <meta content="5" name="print_page_number"/>
+    <meta content="2" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts; Theater" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2001/06/10/arts/10AUBU.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1300290"/>
+      <doc.copyright holder="The New York Times" year="2001"/>
+      <series series.name="THEATER"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Theater</classifier>
+        <person class="indexing_service">Larson, Jonathan (1960-96)</person>
+        <person class="indexing_service">Auburn, David</person>
+        <object.title class="indexing_service">Tick, Tick...boom! (Play)</object.title>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/News and Features</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Theater/Plays</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="descriptor">Music</classifier>
+        <classifier class="online_producer" type="descriptor">Editorials</classifier>
+        <classifier class="online_producer" type="descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Theater</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+        <org class="online_producer">New York Theater Workshop</org>
+        <org class="online_producer">Jane Street Theater</org>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20010610T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9404E1D7133FF933A25755C0A9679C8B63" item-length="987" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>He Wrote of Time Running Out, and It Did</hl1>
+      </hedline>
+      <byline class="print_byline">By DAVID AUBURN</byline>
+      <byline class="normalized_byline">Auburn, David</byline>
+      <abstract>
+        <p>David Auburn article on revival of late Jonathan Larson's first produced musical play, Tick, Tick...Boom!; Auburn helped turned what was originally a solo vehicle into one with three performers; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>WHEN Jonathan Larson first performed the show that was to become ''Tick, Tick . . . Boom!'' on May 18, 1990, he had been struggling for eight years to establish a career in the theater.</p>
+        <p>Workshops of ''Superbia,'' the futuristic rock musical he had spent five years writing, had recently failed to attract backers for a full production. Hoping he might have better luck with something smaller and cheaper to produce, he devised a new solo vehicle. He called it ''30/90'' (he had just turned 30), and the piece that the small group assembled in his agent's office heard that May 18 was autobiographical and angry, reflecting Jonathan's frustration at not getting ahead with the work he was so devoted to. It also signaled his anxiety about leaving his 20's behind.</p>
+      </block>
+      <block class="full_text">
+        <p>WHEN Jonathan Larson first performed the show that was to become ''Tick, Tick . . . Boom!'' on May 18, 1990, he had been struggling for eight years to establish a career in the theater.</p>
+        <p>Workshops of ''Superbia,'' the futuristic rock musical he had spent five years writing, had recently failed to attract backers for a full production. Hoping he might have better luck with something smaller and cheaper to produce, he devised a new solo vehicle. He called it ''30/90'' (he had just turned 30), and the piece that the small group assembled in his agent's office heard that May 18 was autobiographical and angry, reflecting Jonathan's frustration at not getting ahead with the work he was so devoted to. It also signaled his anxiety about leaving his 20's behind.</p>
+        <p>More birthdays came and went before he performed the retitled ''Tick, Tick . . . Boom!'' in front of a paying audience at New York Theater Workshop in 1993. By then, the piece had developed into a hybrid -- part performance-art monologue, part rock recital.</p>
+        <p>It was also, judging from existing tapes, tough to perform. Jonathan had to execute long Bogosian-style monologues (often playing several characters), and sing musical numbers that themselves often represented multiple points of view -- all the while accompanying himself on the piano and directing the band that accompanied him.</p>
+        <p>He never quite resolved all the problems, and that is reflected in the scripts that survive. There are at least five versions and a variety of song lists. In time, he came to feel that his energy might be better spent on a full-scale show after all, and he turned his attention to ''Rent,'' which was in part a fictionalization and expansion of many of the themes in ''Tick, Tick . . . Boom!''</p>
+        <p>Jonathan, of course, did not live to experience the enormous success of ''Rent,'' or the fulfillment of the hopes he expressed so fervently in his monologue. He died of an undiagnosed aortic aneurysm on Jan. 25, 1996, at the age of 35.</p>
+        <p>Last October, the producers Victoria Leacock, a longtime friend of Jonathan's, and Robyn Goodman, who had worked with him on his early versions of ''Tick, Tick . . . Boom!'' began meeting with the Larson family about reviving the show. Ms. Leacock and Ms. Goodman first recruited the director Scott Schwartz, who proposed remaking the show as a three-hander, with one actor playing Jonathan and two others taking the multiple roles -- including those of Jonathan's girlfriend, Susan, and his best friend, Michael. Ms. Goodman, who knew me from my work on ''Proof,'' asked me to look at the scripts.</p>
+        <p>I had never met Jonathan, and I had concerns about working from his unproduced drafts. But I found all the material vivid, funny, and rich; and the music erased any doubts. As one listen made clear, this was not a collection of leftovers or B-side material but a complete score of first-rate songs. They were more self-contained than those in the sung-through ''Rent,'' but equally strong and anchored to a clear story line.</p>
+        <p>The musical director, Stephen Oremus, began rearranging the songs for three voices. My job was to perform an analogous task with the monologue sections, so that the character of Jonathan could interact with those the author used to play himself. The larger effort was an editorial one -- assembling a ''new'' performance version out of Jonathan's earlier drafts.</p>
+        <p>More difficult was deciding what to do with the thematic material. As the title suggests, ''Tick, Tick . . . Boom!'' is all about the fear of running out of time: to succeed, to be the artist and the person you want to be. The monologues are full of warnings about selling out -- a danger that Jonathan saw in terms so stark as to be occasionally puzzling, even to his family and friends. This motif might seem clichéd (or worse, ironic) without some knowledge of how truly devoted Jonathan was to a highly romantic view of bohemia. But since this comes across strongly in all his work, including ''Rent,'' it clearly belonged in our ''Tick, Tick . . . Boom!''</p>
+        <p>Most troubling, Jonathan's drafts return obsessively to his terror of growing older, to his feeling of being under so much pressure that his heart is about to burst in his chest. Given our retrospective knowledge of what happened to him, how could these references seem anything but cruelly manipulative? With the family's permission, we cut almost all of them.</p>
+        <p>The final result -- in previews at the Jane Street Theater, where it opens on Wednesday with Raúl Esparza (who plays the character based on Jonathan), Amy Spanger and Jerry Dixon -- is not exactly the ''Tick, Tick . . . Boom!'' that Jonathan envisioned. But it is still very much his show, the words and notes he wrote and played.</p>
+        <p>And because it is, it gives audiences a chance to experience again, in a new context, the strengths of Jonathan's work: his warmth; his uncanny feel for the frustrations and pleasures of artists' lives in the city; his hard verbal wit; and above all, his songs, which are living testaments to a melodic gift so fluent and euphoric that it seemed -- at least for a while -- to be endless.</p>
+        <p>THEATER David Auburn's play ''Proof'' won the Tony Award and the Pulitzer Prize this year.</p>
+      </block>
+    </body.content>
+    <body.end>
+      <tagline class="author_info">David Auburn's play ''Proof'' won the Tony Award and the Pulitzer Prize this year.</tagline>
+    </body.end>
+  </body>
+</nitf>

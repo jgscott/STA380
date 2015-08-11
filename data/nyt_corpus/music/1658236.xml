@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Canadian Rock Climbing</title>
+    <meta content="TT1533$01" name="slug"/>
+    <meta content="20" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="2005" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="T: Travel Magazine" name="dsk"/>
+    <meta content="24" name="print_page_number"/>
+    <meta content="6" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Travel; Style; Magazine" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2005/03/20/travel/20TCANADA.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1658236"/>
+      <doc.copyright holder="The New York Times" year="2005"/>
+      <series series.name="The Remix"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <location class="indexing_service">Canada</location>
+        <location class="indexing_service">Montreal (Quebec)</location>
+        <location class="indexing_service">Toronto (Canada)</location>
+        <person class="indexing_service">Durbin, Jonathan</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Style</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Style/Fashion and Style/T: Style Magazine</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Magazine</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Music, Theater and Dance</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Hospitality, Restaurant and Travel</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/Canada</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/Canada/Ontario/Toronto</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/Canada/Quebec/Montreal</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/Canada/Quebec</classifier>
+        <classifier class="online_producer" type="descriptor">Travel and Vacations</classifier>
+        <classifier class="online_producer" type="descriptor">Russian Language</classifier>
+        <classifier class="online_producer" type="general_descriptor">Russian Language</classifier>
+        <classifier class="online_producer" type="general_descriptor">Travel and Vacations</classifier>
+        <classifier class="online_producer" type="general_descriptor">Language and Languages</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+        <location class="online_producer">Canada</location>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20050320T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=940CE5DF143DF933A15750C0A9639C8B63" item-length="448" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Canadian Rock Climbing</hl1>
+        <hl2 class="online_headline">Canadian Rock Climbing</hl2>
+      </hedline>
+      <byline class="print_byline">By Jonathan Durbin</byline>
+      <byline class="normalized_byline">Durbin, Jonathan</byline>
+      <abstract>
+        <p>Slew of Canadian bands from Montreal and Toronto have caught fire in United States; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>What happens in Canada tends to stay in Canada. Except when it comes to music. Recently, a slew of bands from Montreal and Toronto have caught fire in the United States, which suggests a trek north of the border for an authentic music-heavy weekend. Remember, the dollar is strong, and they can cuss in English.</p>
+        <p>MONTREAL  Bands: the Arcade Fire (above), for poignant pop-rock; the Dears, for melancholy orchestral arrangements with a touch of noir; the Stills, for songs with a New Romantic twist.  Venues: Cafe Campus (57 Prince Arthur East; 514-844-1010). Club Metropolis (59 Rue St. Catherine East; for tickets, call 514-908-9090).  Bar: Le Pistol (3723 Boulevard St. Laurent; 514-847-2222). Good for late-night pub fare, foosball and local-musician sightings.  Restaurants: Casa del Popolo (4873 Boulevard St. Laurent; 514-284-3804) is a popular band hangout. La Sala Rossa (4848 Boulevard St. Laurent; 514-844-4227) is another musicians' favorite. Fameux Viande Fumée et Charcuterie (4500 Saint-Denis; 514-845-8732) dishes up Montreal's best poutine (a mix of fries, cheese curd and gravy). Toqué (900 Place Jean-Paul-Riopelle; 514-499-2084) serves Normand Laprise's high-end cuisine.  Where to stay: the boutique-y W Montreal, at far right (901 Victoria Square; 514-395-3100).  Record store: CD Esoterik (1841 Rue St. Catherine West; 514-937-5192).  Bonus: the Pop Montreal festival (Sept. 28 through Oct. 2; go to www.popmontreal.com).</p>
+        <p>TORONTO  Bands: Metric approaches melody the new-wave way; the rapper k-os (above right) bridges reggae, old-school hip-hop and R &amp; B; for atmosphere, check out Broken Social Scene, the city's 10-plus-member post-rock collective.  Venues: Lee's Palace (529 Bloor Street West; 416-532-1598). The Horseshoe Tavern (370 Queen Street West; 416-598-4753).  Bar: Communist's Daughter (1149 Dundas Street West; 647-435-0103). A stellar jukebox and great pickled eggs.  Restaurants: Susur (601 King Street West; 416-603-2205) and Lee (603 King Street West; 416-504-7867) both serve the critically acclaimed fare of Susur Lee, a Hong Kong chef.  Where to stay: Drake Hotel (1150 Queen Street West; 416-531-5042). In a burgeoning gallery district, it was recently redone and has a minimally designed bar, restaurant and performance space that attracts hockey fans. Hôtel Le Germain (30 Mercer Street; 416-345-9500) embodies casual chic.  Record store: Rotate This (620 Queen Street West; 416-504-8447).  Bonus: the North by Northeast Music and Film Festival (June 9 through 11; go to www.nxne.com).</p>
+        <p>JONATHAN DURBIN</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Recently, a slew of bands from Montreal and Toronto have caught fire in the United States, which suggests a trek north of the border for an authentic music-heavy weekend.</p>
+      </block>
+      <block class="full_text">
+        <p>What happens in Canada tends to stay in Canada. Except when it comes to music. Recently, a slew of bands from Montreal and Toronto have caught fire in the United States, which suggests a trek north of the border for an authentic music-heavy weekend. Remember, the dollar is strong, and they can cuss in English.</p>
+        <p>MONTREAL  Bands: the Arcade Fire (above), for poignant pop-rock; the Dears, for melancholy orchestral arrangements with a touch of noir; the Stills, for songs with a New Romantic twist.  Venues: Cafe Campus (57 Prince Arthur East; 514-844-1010). Club Metropolis (59 Rue St. Catherine East; for tickets, call 514-908-9090).  Bar: Le Pistol (3723 Boulevard St. Laurent; 514-847-2222). Good for late-night pub fare, foosball and local-musician sightings.  Restaurants: Casa del Popolo (4873 Boulevard St. Laurent; 514-284-3804) is a popular band hangout. La Sala Rossa (4848 Boulevard St. Laurent; 514-844-4227) is another musicians' favorite. Fameux Viande Fumée et Charcuterie (4500 Saint-Denis; 514-845-8732) dishes up Montreal's best poutine (a mix of fries, cheese curd and gravy). Toqué (900 Place Jean-Paul-Riopelle; 514-499-2084) serves Normand Laprise's high-end cuisine.  Where to stay: the boutique-y W Montreal, at far right (901 Victoria Square; 514-395-3100).  Record store: CD Esoterik (1841 Rue St. Catherine West; 514-937-5192).  Bonus: the Pop Montreal festival (Sept. 28 through Oct. 2; go to www.popmontreal.com).</p>
+        <p>TORONTO  Bands: Metric approaches melody the new-wave way; the rapper k-os (above right) bridges reggae, old-school hip-hop and R &amp; B; for atmosphere, check out Broken Social Scene, the city's 10-plus-member post-rock collective.  Venues: Lee's Palace (529 Bloor Street West; 416-532-1598). The Horseshoe Tavern (370 Queen Street West; 416-598-4753).  Bar: Communist's Daughter (1149 Dundas Street West; 647-435-0103). A stellar jukebox and great pickled eggs.  Restaurants: Susur (601 King Street West; 416-603-2205) and Lee (603 King Street West; 416-504-7867) both serve the critically acclaimed fare of Susur Lee, a Hong Kong chef.  Where to stay: Drake Hotel (1150 Queen Street West; 416-531-5042). In a burgeoning gallery district, it was recently redone and has a minimally designed bar, restaurant and performance space that attracts hockey fans. Hôtel Le Germain (30 Mercer Street; 416-345-9500) embodies casual chic.  Record store: Rotate This (620 Queen Street West; 416-504-8447).  Bonus: the North by Northeast Music and Film Festival (June 9 through 11; go to www.nxne.com).</p>
+        <p>JONATHAN DURBIN</p>
+        <p>The Remix</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

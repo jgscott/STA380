@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Proustian Idylls Of the Good Life</title>
+    <meta content="06COTT$04" name="slug"/>
+    <meta content="6" name="publication_day_of_month"/>
+    <meta content="7" name="publication_month"/>
+    <meta content="2001" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Leisure/Weekend Desk" name="dsk"/>
+    <meta content="29" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="5" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2001/07/06/arts/06COTT.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1307136"/>
+      <doc.copyright holder="The New York Times" year="2001"/>
+      <series series.name="ART REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <org class="indexing_service">Metropolitan Museum of Art (NYC)</org>
+        <person class="indexing_service">Bonnard, Pierre (1867-1947)</person>
+        <person class="indexing_service">Vuillard, Edouard (1868-1940)</person>
+        <person class="indexing_service">Denis, Maurice (1870-1943)</person>
+        <person class="indexing_service">Roussel, Ker Xavier (1867-1944)</person>
+        <person class="indexing_service">Cotter, Holland</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20010706T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9F01E4D91738F935A35754C0A9679C8B63" item-length="1563" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Proustian Idylls Of the Good Life</hl1>
+        <hl2 class="online_headline">French Paintings Embody Proustian Idylls of the Good Life</hl2>
+      </hedline>
+      <byline class="print_byline">By HOLLAND COTTER</byline>
+      <byline class="normalized_byline">Cotter, Holland</byline>
+      <abstract>
+        <p>Holland Cotter reviews Metropolitan Museum's exhibit of decorative paintings by Bonnard, Vuillard, Denis and Roussel; photos (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>BEYOND THE EASEL: Decorative Painting by Bonnard, Vuillard, Denis and Roussel, 1890-1930'' at the Metropolitan Museum of Art is, for better and for worse, just the show for a New York City summer.</p>
+        <p>On the one hand, the themes of the 80 or so French paintings couldn't be more lightweight or stress-free. Made to adorn haut-bourgeois homes, they embody an ideal of the best life new money could buy, one filled with verdant parks and country gardens, gift-wrapped tots and fusspot nannies, with a classical nymph thrown in here and there for tone.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>"Beyond the Easel: Decorative Painting by Bonnard, Vuillard, Denis and Roussel, 1890-1930" at the Metropolitan Museum of Art is just the show for a New York City summer</p>
+      </block>
+      <block class="full_text">
+        <p>BEYOND THE EASEL: Decorative Painting by Bonnard, Vuillard, Denis and Roussel, 1890-1930'' at the Metropolitan Museum of Art is, for better and for worse, just the show for a New York City summer.</p>
+        <p>On the one hand, the themes of the 80 or so French paintings couldn't be more lightweight or stress-free. Made to adorn haut-bourgeois homes, they embody an ideal of the best life new money could buy, one filled with verdant parks and country gardens, gift-wrapped tots and fusspot nannies, with a classical nymph thrown in here and there for tone.</p>
+        <p>Yet as physical objects most of these paintings are the opposite of breezy. With their clotted textures and mildewy palettes of puce, mauve and brown, they look leaden and suffocating, as if they were made of loam. The Met's decision to show them against walls painted ''period'' colors doesn't help. A visit to the show feels like wandering around in Central Park in off-the-charts humidity, or slogging through Proust in mid-August when the air-conditioning is down to a brownout crawl.</p>
+        <p>All the work was produced by four French artists of greater and lesser renown: Pierre Bonnard, Édouard Vuillard, Maurice Denis and Ker Xavier Roussel. Distinctive as personalities, for a few years around 1890 they shared strong views about art and its purpose, and were like-minded enough to adopt a collective label, the Nabis, deriving from a Hebrew word for prophet. As the name suggests, they thought of themselves as vanguard figures. And, to a degree, they were.</p>
+        <p>The concept of decorative art as they used it had potentially radical implications. It wasn't about color chips and fabric swatches. It was about blurring aesthetic hierarchies -- art and craft, high and low -- and integrating art into the flow of everyday life.</p>
+        <p>If the Nabis were intent on reshaping cultural ideals, they did so through the filter of Symbolism, a free-floating movement -- a mood, really -- that emphasized subjectivity, intimacy, imagination, dreams. Symbolism had a wild edge; Gauguin, who influenced the Nabis profoundly, was out there on it. But in its more sedate, popular form, the one the Nabis favored, it offered permission to withdraw from the stresses of the modern world, to turn the lights down, shut out the racket.</p>
+        <p>Partly as a result of this concern with interiority, new art tended increasingly to be produced for private rather than public display, for apartments rather than academic salons, for the ''feminine'' rather than the ''masculine'' realm. Large-scale formats once used primarily for civic murals and history painting now served as pictorial cocoons for domestic life. This softer, gentler monumentalism was the Nabis' specialty.</p>
+        <p>The Met exhibition, which runs more or less chronologically, begins with Bonnard, who was in experimental mode early on. His three-panel folding screen ''Ducks, Heron and Pheasants'' from 1889 adheres closely to Japanese models. But he soon made the format entirely his own. A second screen done just a year later is painted with  figures of fashionable Parisian belles dressed in snappy patterns and set within leafy parks.</p>
+        <p>Studies for that screen, ''Women in a Garden,'' are in the show, and they are key works. In their adaptation of a functional medium for painting, in the way they merge concrete shapes and abstract patterns, and in their use of images drawn from contemporary life, they virtually define the signature Nabi style, one that Bonnard would expand upon in the years that followed.</p>
+        <p>This path led him over some bumpy ground. Take a look, for example, at the three huge paintings he did as a decorative ensemble for the dining room of his friend and patron Misia Natanson Edwards. With their zany colors, Virgilian idylls and Mogul borders, they're preposterous things, little more than giant cartoons. By the end of the show, though, in a painting like ''Terrace at Vernon'' (1920-1939), the Bonnard we know best is present.</p>
+        <p>Of all the Nabis, his art changed the most in the 40 years covered by the show. By contrast, the characteristic features of Vuillard's work -- the close-brushed textures, the oxygen-starved atmosphere of his interiors -- seem to have been in place from the start, and were transferred intact from the easel to the decorative sphere.</p>
+        <p>In much of his painting, Vuillard manages to make outdoors and indoors feel interchangeable. In five decorative panels titled ''The Album'' (1895), he depicted salon interiors as smothering overgrown gardens. And in his ''Five-Panel Screen for Miss Marguerite Chapin: Place Vintimille'' (1911), he made the little park across from his Paris studio look like a piece of padded furniture, a tufted settee with protective railings, as removed from the gray city around it as if it were in a cork-lined room.</p>
+        <p>This screen, in the collection of the National Gallery of Art in Washington, is in pretty good physical shape, though by no means do all the Vuillards in the show look so fresh. He and his Nabis colleagues favored the glue-based distemper medium for their decorative work, believing it to have unusual durability. They were wrong. Distemper not only cracks easily and discolors with exposure to light, but also is resistant to restoration.</p>
+        <p>Even with this handicap Vuillard, along with Bonnard, is the reason to see the show. About the other two painters, there is less to recommend. Denis was the most ideological and assertive of the Nabis, and he used his energy and personal charm to promote the group. He was the idea man, the frontman.</p>
+        <p>But his painting style wasn't that of his colleagues. It was unpainterly, linear, illustrational, Fra Angelico-plus-Nazarenes, and tends to look resolutely old-fashioned now. His ''Decorations for the Bedroom of a Young Girl'' (1895-1900), done mostly in blues and grays, has a folkish sweetness. It nicely captures a Symbolist mood of somnolence. But the Neo-Classicism of his later painting is just bizarre. A 1914 ''Return of Ulysses'' looks like the ''Sur la Plage'' number from ''The Boy Friend.''</p>
+        <p>What Denis, an ardent Roman Catholic, really wanted to do was religious art. He eventually landed some church commissions, but they do not figure in the exhibition, which was organized by Gloria Groom, a curator at the Art Institute of Chicago, and coordinated in New York by Rebecca A. Rabinow, an assistant research curator at the Met.</p>
+        <p>Of the original Nabis, Roussel is the least known, which is in part his own doing. Always insecure about his art, he destroyed many of his paintings and compulsively reworked others, leaving relatively little to judge him by.</p>
+        <p>Early on, he dabbled in a range of media; two 1894 studies for stained-glass windows are in the show. But like Denis and Bonnard, after the turn of the century he focused on painting classical, old masterish themes, producing jittery Poussin esque fantasies in a high-key palette inherited from Gauguin.</p>
+        <p>Such themes were demanded by the rich industrialists who were the  chief patrons of the Nabis, and the artists gave them what they wanted.  But by World War I, such work assumed a distinct political dimension. Classical motifs were being read as assertions of French cultural superiority, and decorative painting as a genre became associated with a reactionary nationalism. The erstwhile prophets were now establishment functionaries.</p>
+        <p>In a way, they always had been. The multimedia ensembles the Nabis concocted for well-heeled homes in the 1890's were just as surely promotional statements about social stability, collective prosperity, and what it meant to be French as any of their later mythological works, and similarly marked a retreat from the challenges of the modern world. (Only Vuillard, in his small, obsessive depictions of the home he shared with his mother, took retreat itself in a radical direction.)</p>
+        <p>Maybe that's why the Met show feels so inert, closed-in, exhausted. Much of its art was already trapped in the past when it was made, damp with a nostalgia-in-advance. It took an artist like Matisse to generate some fresh, dry modernist air. He learned a lot from the example set by the Nabis, including the necessity of departing from it. He, too, produced a decorative art with classical themes. But he made it shocking, not soothing, a call to life rather than an invitation to sleep, something as sharp, urban and in-the-now as a late-night espresso, a page of Gertrude Stein, a sudden blast of car-radio salsa on a New York street.</p>
+        <p>''Beyond the Easel: Decorative Painting by Bonnard, Vuillard, Denis and Roussel, 1890-1930'' remains at the Metropolitan Museum of Art, Fifth Avenue at 82nd Street, (212) 535-7710, through Sept. 9.</p>
+        <p>ART REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

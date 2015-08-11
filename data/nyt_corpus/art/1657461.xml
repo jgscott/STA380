@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Landmarks Panel Questions Whitney Plan</title>
+    <meta content="16WHIT$02" name="slug"/>
+    <meta content="16" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="2005" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="7" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2005/03/16/arts/design/16whit.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1657461"/>
+      <doc.copyright holder="The New York Times" year="2005"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Demolition</classifier>
+        <classifier class="indexing_service" type="descriptor">Historic Buildings and Sites</classifier>
+        <location class="indexing_service">New York City</location>
+        <org class="indexing_service">Whitney Museum of American Art (NYC)</org>
+        <org class="indexing_service">Landmarks Preservation Commission (NYC)</org>
+        <person class="indexing_service">Piano, Renzo</person>
+        <person class="indexing_service">Pogrebin, Robin</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./U.S. States, Territories and Possessions/New York</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/U.S./Mid-Atlantic</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/United States/New York/New York City</classifier>
+        <classifier class="online_producer" type="descriptor">Art</classifier>
+        <classifier class="online_producer" type="descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Museums</classifier>
+        <classifier class="online_producer" type="general_descriptor">Historic Buildings and Sites</classifier>
+        <classifier class="online_producer" type="general_descriptor">Machinery and Equipment</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <org class="online_producer">Whitney Museum of American Art</org>
+        <org class="online_producer">Landmarks Preservation Commission</org>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20050316T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E02E4DD133CF935A25750C0A9639C8B63" item-length="827" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Landmarks Panel Questions Whitney Plan</hl1>
+        <hl2 class="online_headline">Landmarks Panel Questions Whitney Plan</hl2>
+      </hedline>
+      <byline class="print_byline">By ROBIN POGREBIN</byline>
+      <byline class="normalized_byline">Pogrebin, Robin</byline>
+      <abstract>
+        <p>Members of New York City Landmarks Preservation Commission, calling public hearing, suggest that Whitney Museum has so far failed to persuade commission of necessity of razing two Madison Avenue brownstones to make way for new, 32-foot-wide entrance designed by architect Renzo Piano; buildings lie within protected Upper East Side Historic District, one of which has been deemed so-called contributing building--of artistic, historic or cultural importance to district; photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Members of the Landmarks Preservation Commission suggested at a public hearing yesterday that the Whitney Museum of American Art had so far failed to persuade them of the need to demolish two Madison Avenue brownstones to make way for a museum expansion designed by the architect Renzo Piano.</p>
+        <p>''When we are being asked to demolish a historic building, I think we should be shown that it is really necessary for the programmatic function -- not just a design function,'' Roberta Brandes Gratz, a commission member, said. The Whitney, she added, ''doesn't seem to be making a compelling case for the loss.''</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>Tuesday's public hearing revealed that the Whitney Museum faces a tougher battle than it had expected in gaining the Landmarks Preservation Commission's approval for its expansion.</p>
+      </block>
+      <block class="full_text">
+        <p>Members of the Landmarks Preservation Commission suggested at a public hearing yesterday that the Whitney Museum of American Art had so far failed to persuade them of the need to demolish two Madison Avenue brownstones to make way for a museum expansion designed by the architect Renzo Piano.</p>
+        <p>''When we are being asked to demolish a historic building, I think we should be shown that it is really necessary for the programmatic function -- not just a design function,'' Roberta Brandes Gratz, a commission member, said. The Whitney, she added, ''doesn't seem to be making a compelling case for the loss.''</p>
+        <p>Mr. Piano's design includes a 172-foot tower that would rise behind a row of six brownstones next to the Whitney's current 1966 Marcel Breuer building on Madison Avenue and connect to the original with a series of glass bridges. The design would require razing two of the brownstones to make way for a new, 32-foot-wide entrance that would lead to a public piazza. The new entrance is to be used for the general public, and the original one for school groups.</p>
+        <p>The commission called the hearings because the buildings that would be razed lie within the protected Upper East Side Historic District. One of those brownstones, two doors to the right of the Breuer, is a so-called contributing building: one that has been deemed to be of artistic, historic or cultural importance. Approval of the Whitney plan would mark the first time that the commission had issued a ''certificate of appropriateness'' allowing the demolition of a contributing brownstone in a historic district.</p>
+        <p>Robert B. Tierney, the chairman of the commission, said that another public meeting would be held in the next few weeks before the commission votes on whether to approve the expansion.</p>
+        <p>Ms. Gratz suggested that the Whitney seek an alternative plan that would preserve the entire street front of brownstones and have visitors pass through one of them to enter the museum.</p>
+        <p>Visibly agitated, Mr. Piano countered that retaining the brownstones would undermine the essential notion of his design, which is to open the Whitney to the street and invite people into the piazza. ''I'm a bit at a loss,'' he said. ''How can you make a piazza -- create a sense of connection -- if you have to enter through a shop window?''</p>
+        <p>''It's not going to work,'' he said. ''You need somebody who will invent something else, because I don't see how to solve the problem.''</p>
+        <p>Mr. Piano also argued that retaining the brownstones would disrupt the balance between the Breuer building, the brownstones and his new nine-story addition, making the new tower essentially ''disappear.''</p>
+        <p>The exchange suggested that the Whitney faces a tougher battle than it had expected in gaining the commission's approval for the design, the third expansion plan it has commissioned since the 1980's. The museum previously abandoned two other plans, one by Michael Graves and another by Rem Koolhaas.</p>
+        <p>The Whitney addition would give the cramped museum more space to display its collection and to provide education programs.</p>
+        <p>Members of the commission questioned the advisability of creating a second entrance, suggesting that the new one would compete with the old one.</p>
+        <p>''I'm concerned that the iconographic entrance will be a relic that will not be functional,'' Pablo E. Vengoechea, the commission's vice chairman, said of the Breuer entrance.</p>
+        <p>Rather than building a new entrance, Christopher Moore, another commission member, asked whether adjustments could be made to the original to better accommodate crowds. ''I'm not convinced you really have explained how to make the Breuer entrance useful,'' he said.</p>
+        <p>Adam D. Weinberg, the director of the museum, said that the Breuer entrance, roughly six feet wide, was routinely congested by the mix of large school groups and the general public, and that he did not feel the new entrance would undermine the original. ''I don't think people are going to say, 'Gee, this one is the busy entrance and this is the lonely entrance,''' he said.</p>
+        <p>When Mr. Piano first drafted plans for the Whitney's two entrances, Mr. Weinberg said, he drew an apple and a pear side by side, with a space between them. ''The idea was, let Breuer be Breuer,'' Mr. Weinberg said. ''It doesn't lessen one or the other. It just gives them two different functions. It lets the apple be the apple and the pear be the pear.''</p>
+        <p>Mr. Piano's current projects in Manhattan also include a new building for the New York Times Company, an expansion of the Columbia University campus and an addition to the Pierpont Morgan Library.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

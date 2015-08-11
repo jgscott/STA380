@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Review/Music;   'La Wally,' a Cult Classic, Edges Closer to the Spotlight</title>
+    <meta content="21" name="publication_day_of_month"/>
+    <meta content="4" name="publication_month"/>
+    <meta content="1990" name="publication_year"/>
+    <meta content="Saturday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="14" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="345664"/>
+      <doc.copyright holder="The New York Times" year="1990"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">OPERA</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <org class="indexing_service">OPERA ORCHESTRA OF NEW YORK</org>
+        <person class="indexing_service">CATALANI, ALFREDO</person>
+        <person class="indexing_service">KOZINN, ALLAN</person>
+        <object.title class="indexing_service">WALLY, LA (OPERA)</object.title>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Opera</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19900421T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9C0CE4DF153DF932A15757C0A966958260" item-length="596" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Review/Music;   'La Wally,' a Cult Classic, Edges Closer to the Spotlight</hl1>
+      </hedline>
+      <byline class="print_byline">By ALLAN KOZINN</byline>
+      <byline class="normalized_byline">KOZINN, ALLAN</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: ''La Wally,'' Alfredo Catalani's final opera, was a hit when it had its La Scala premiere in 1892, but began a descent into obscurity - along with the rest of Catalani's works - soon after the composer's death the next year. In the United States, ''La Wally'' has been a rarity since the last Metropolitan Opera staging in 1909.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: ''La Wally,'' Alfredo Catalani's final opera, was a hit when it had its La Scala premiere in 1892, but began a descent into obscurity - along with the rest of Catalani's works - soon after the composer's death the next year. In the United States, ''La Wally'' has been a rarity since the last Metropolitan Opera staging in 1909.</p>
+        <p>''La Wally,'' Alfredo Catalani's final opera, was a hit when it had its La Scala premiere in 1892, but began a descent into obscurity - along with the rest of Catalani's works - soon after the composer's death the next year. In the United States, ''La Wally'' has been a rarity since the last Metropolitan Opera staging in 1909. But recordings pirated from Italian performances and a commercial set starring Renata Tebaldi have made it a cult classic, high on many an operaphile's list of unjustly neglected works.</p>
+        <p>Lately, ''La Wally'' has been edging into the spotlight. Last year, the Sarasota Opera offered the work as its season's drawing card. And on Tuesday evening, Eve Queler led the Opera Orchestra of New York in a concert version at Carnegie Hall.</p>
+        <p>''La Wally,'' which has a libretto by Luigi Illica (who went on to more durable collaborations with Puccini), is set in the Swiss Alps and is about Wally, a headstrong woman who is in love with Hagenbach, a hunter from the next village. Hagenbach and Stromminger, Wally's father, loathe each other, however, and when Wally refuses her father's demand that she marry Gellner, her father's bailiff, she leaves home.</p>
+        <p>Hagenbach falls tentatively into her grasp later, and survives Gellner's attempt (at Wally's behest) to kill him. In the final act, he and Wally finally get together, but only momentarily: After they declare their mutual love, Hagenbach is killed by an avalanche and Wally leaps to her death.</p>
+        <p>Catalani's response to this is an exquisite score that melds the lyricism of the Italian vocal style with a Wagnerian kind of detailed, pictorial orchestral writing. The returning huntsmen, Hagenbach's battle with a bear, the swirling snowstorms and the final avalanche are all depicted vividly, and the work's many preludes, interludes and choruses are both lovely and functional.</p>
+        <p>Ms. Queler and her soloists hinted at the score's charms, but came well short of realizing them fully. Aprile Millo, in the title role, presented her familiar diva imitation, a melodramatic posturing in the Sarah Bernhardt style, tempered by the studied poise of gestures that look copied from ancient Roman murals.</p>
+        <p>One could not fault her on purely vocal grounds: the role's range is easily at her command, and she glided through her arias with an elegant legato line and some modest embellishments, adhering closely to the contours of the Tebaldi recording. She did not go much beneath the surface, though, and for all her mugging, one waited in vain for her to bring some dimension to the emotionally complex role. She also bobbled her big first-act aria, ''Ebben? Ne andro lontana,'' losing her place early on and lagging behind the orchestra elsewhere. Still, her partisans cheered her loudly.</p>
+        <p>Kristjan Johannsson was a steely, stentorian Hagenbach. His tenor is powerful and not unattractive, but particularly in the first act, he showed an unfortunate tendency to shout. Matteo Manuguerra used his still strong baritone artfully as Gellner, and Dawn Kotoski sang Walter's music attractively. The cast also included two young, rich-toned basses, Richard Zeller as the Old Soldier and Max Wittges as Stromminger.</p>
+        <p>Ms. Queler drew a lovely, robust choral sound from the Schola Cantorum. But the work's important orchestral underpinning was without subtlety. In passages that, in the score, vacillate between mezzo forte and pianissimo, for example, Ms. Queler's players chugged along at a steady dynamic. Ensemble problems plagued the performance, too, particularly in the preludes to the first and last movements.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

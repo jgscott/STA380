@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Popping The Cork On Fizzy Nostalgia</title>
+    <meta content="20SULL" name="slug"/>
+    <meta content="20" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="2002" name="publication_year"/>
+    <meta content="Wednesday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="4" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2002/03/20/arts/music/20SULL.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1377204"/>
+      <doc.copyright holder="The New York Times" year="2002"/>
+      <series series.name="CABARET REVIEW"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Music</classifier>
+        <classifier class="indexing_service" type="descriptor">Reviews</classifier>
+        <person class="indexing_service">Holden, Stephen</person>
+        <person class="indexing_service">Sullivan, Kt</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews/Cabaret</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="descriptor">Music</classifier>
+        <classifier class="online_producer" type="descriptor">Nightclubs and Cabarets</classifier>
+        <classifier class="online_producer" type="general_descriptor">Nightclubs and Cabarets</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+        <person class="online_producer">Sullivan, KT</person>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20020320T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9406E7DE1238F933A15750C0A9649C8B63" item-length="319" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Popping The Cork On Fizzy Nostalgia</hl1>
+        <hl2 class="online_headline">Popping the Cork on Fizzy Nostalgia</hl2>
+      </hedline>
+      <byline class="print_byline">By STEPHEN HOLDEN</byline>
+      <byline class="normalized_byline">Holden, Stephen</byline>
+      <abstract>
+        <p>Stephen Holden reviews KT Sullivan cabaret performance at Algonquin's Oak Room; photo (M)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>A peaches-and-cream vision of Broadway's Ziegfeld era in glamorous bloom, KT Sullivan is as airy as a bubble in a glass of pink champagne in her new cabaret show, ''Scandals and Follies,'' at the Oak Room of the Algonquin. Airy, however, does not mean air-headed. That glittering bubble is also a nostalgic crystal ball into which Ms. Sullivan and her sidekick, the pianist and singer Larry Woodard, peer and revisit the byways of Broadway past with a refined blend of scholarship and wit.</p>
+        <p>''Scandals and Follies,'' which plays through March 30 at the hotel (59 West 44th Street), gathers fragments of nearly 50 songs introduced in Broadway revues (including several Ziegfeld ''Follies'') from 1902 to 1952. The program is a musical scrapbook whose selections are captioned by Ms. Sullivan's revealing, often funny asides. Ms. Sullivan, whose singing stretches from a hard, bright Fanny Brice imitation to a fluttery semi-operatic register, flavors everything with a tongue-in-cheek attitude of wonder.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>KT Sullivan is as airy as a bubble in a glass of pink champagne in her new cabaret show, "Scandals and Follies," at the Oak Room of the Algonquin.</p>
+      </block>
+      <block class="full_text">
+        <p>A peaches-and-cream vision of Broadway's Ziegfeld era in glamorous bloom, KT Sullivan is as airy as a bubble in a glass of pink champagne in her new cabaret show, ''Scandals and Follies,'' at the Oak Room of the Algonquin. Airy, however, does not mean air-headed. That glittering bubble is also a nostalgic crystal ball into which Ms. Sullivan and her sidekick, the pianist and singer Larry Woodard, peer and revisit the byways of Broadway past with a refined blend of scholarship and wit.</p>
+        <p>''Scandals and Follies,'' which plays through March 30 at the hotel (59 West 44th Street), gathers fragments of nearly 50 songs introduced in Broadway revues (including several Ziegfeld ''Follies'') from 1902 to 1952. The program is a musical scrapbook whose selections are captioned by Ms. Sullivan's revealing, often funny asides. Ms. Sullivan, whose singing stretches from a hard, bright Fanny Brice imitation to a fluttery semi-operatic register, flavors everything with a tongue-in-cheek attitude of wonder.</p>
+        <p>She tells us about Nora Bayes, the Ziegfeld star and composer of ''Shine On, Harvest Moon,'' who complained that Gershwin's piano accompaniment on the stage was ''too diverting.'' A comparison of two Cole Porter songs, the starchy ''Old Fashioned Garden'' and the naughty ''I'm a Gigolo'' (robustly sung by Mr. Woodard), illustrates how Porter found his voice between 1919 and 1929. Broadway revues have traditionally featured topical songs, and in 1919 you couldn't get more au courant than Irving Berlin in his jaunty, pre-Prohibition warning, ''You Can't Make Your Shimmy Shake on Tea.''</p>
+        <p>Even the show's more pensive moments, like a torch medley of ''Moanin' Low'' and ''Body and Soul,'' are treated lightly, with Ms. Sullivan's thumbnail sketch of Libby Holman, the scandal-ridden singer who made them popular, offering a can-you-top-this tidbit. Effervescent is the word.</p>
+        <p>CABARET REVIEW</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

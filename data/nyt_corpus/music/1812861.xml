@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Critics' Choice: New CDs</title>
+    <meta content="18choi-4" name="slug"/>
+    <meta content="18" name="publication_day_of_month"/>
+    <meta content="12" name="publication_month"/>
+    <meta content="2006" name="publication_year"/>
+    <meta content="Monday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="3" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="1812861"/>
+      <doc.copyright holder="The New York Times" year="2006"/>
+      <identified-content>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Recordings (Audio)</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20061218T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=950DE6DA1331F93BA25751C1A9609C8B63" item-length="297" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Critics' Choice: New CDs</hl1>
+      </hedline>
+      <byline class="print_byline">By KELEFA SANNEH</byline>
+      <byline class="normalized_byline">Sanneh, Kelefa</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>D J Clue  ''The Professional 3''  (Roc-A-Fella/Island Def Jam)</p>
+        <p>For years D J Clue was one of the leading mixtape D.J.'s in New York; on Canal Street, on 125th Street, on Fulton Street Mall, his name on the cover was a good reason to part with $5. His reputation had more to do with connections than turntable skill: he got good songs and exclusives, and he got them early. But the mixtape world is a ruthless place; as D J Clue went mainstream (he helped turn his protégé Fabolous into a hip-hop star, and he turned himself into an MTV personality), the mixtape world moved on without him.</p>
+      </block>
+      <block class="full_text">
+        <p>D J Clue  ''The Professional 3''  (Roc-A-Fella/Island Def Jam)</p>
+        <p>For years D J Clue was one of the leading mixtape D.J.'s in New York; on Canal Street, on 125th Street, on Fulton Street Mall, his name on the cover was a good reason to part with $5. His reputation had more to do with connections than turntable skill: he got good songs and exclusives, and he got them early. But the mixtape world is a ruthless place; as D J Clue went mainstream (he helped turn his protégé Fabolous into a hip-hop star, and he turned himself into an MTV personality), the mixtape world moved on without him.</p>
+        <p>Now he's back with ''The Professional 3,'' his fourth major-label album and his first in five years. And it's pretty good: full of verses from scowling New Yorkers and their out-of-town counterparts. The Harlem rapper Cam'ron shows up to scramble some syllables: ''We whippin' whenever/Whips? We whip 'em though weather/Snow, rain, sleet -- get it together.'' And when Juelz Santana collides with Young Jeezy, one result is a high-spirited (and mainly unprintable) three minutes of trash talk.</p>
+        <p>There's something gently nostalgic about this disc, which celebrates a (slightly) earlier era in hip-hop. The Game and Mario Winans collaborate on a two-part song, ''A Week Ago,'' which takes its inspiration from a 1998 Jay-Z album track of the same name. And in a lighthearted track called, ''Like This,'' Fabolous and Kanye West trade lines, clearly enjoying the one-upmanship. ''My flow got teethmarks in it, and I know who the biters is,'' Fabolous says, complaining about copycats. Mr. West adds a rhyming affirmation: ''Get your own style -- don't Winona-Ryder his.'' At $13.98, this CD might not be a bargain, but at $5, it would be a steal.</p>
+        <p>KELEFA SANNEH</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

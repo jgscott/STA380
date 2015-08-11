@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Pier Is Losing a Sculpture</title>
+    <meta content="24PIER$04" name="slug"/>
+    <meta content="24" name="publication_day_of_month"/>
+    <meta content="10" name="publication_month"/>
+    <meta content="1996" name="publication_year"/>
+    <meta content="Thursday" name="publication_day_of_week"/>
+    <meta content="Home Desk" name="dsk"/>
+    <meta content="9" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Home and Garden; Style" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="885264"/>
+      <doc.copyright holder="The New York Times" year="1996"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">Art</classifier>
+        <classifier class="indexing_service" type="descriptor">Pier 32 (NYC)</classifier>
+        <org class="indexing_service">Goethe House</org>
+        <org class="indexing_service">Hudson River Park Conservancy</org>
+        <person class="indexing_service">Colman, David</person>
+        <person class="indexing_service">Kuhn, Hans Peter</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Home and Garden</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Style</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="general_descriptor">Boats and Boating</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19961024T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9D00EEDE1330F937A15753C1A960958260" item-length="248" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Pier Is Losing a Sculpture</hl1>
+      </hedline>
+      <byline class="print_byline">By DAVID COLMAN</byline>
+      <byline class="normalized_byline">Colman, David</byline>
+      <abstract>
+        <p>Massive public sculpture on Pier 32 in TriBeCa will come down unless someone is found to pay the $12,000-a-week maintenance for its sophisticated sound system; it was designed by Hans Peter Kuhn, German artist, and sponsored by Goethe House and Hudson River Park Conservancy; photo (S)</p>
+      </abstract>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>How's this for an art-world rarity? A public sculpture that no one wants removed.</p>
+        <p>The piece, ''Pier Project,'' by Hans Peter Kuhn, the German composer and light and sound artist, is a long row of 9 plywood square pillars 81 feet apart, 15 feet tall, with each side 9 feet wide. Their painted surfaces seem to glow from within at night when they are illuminated by colored lights, which are at their base.</p>
+      </block>
+      <block class="full_text">
+        <p>How's this for an art-world rarity? A public sculpture that no one wants removed.</p>
+        <p>The piece, ''Pier Project,'' by Hans Peter Kuhn, the German composer and light and sound artist, is a long row of 9 plywood square pillars 81 feet apart, 15 feet tall, with each side 9 feet wide. Their painted surfaces seem to glow from within at night when they are illuminated by colored lights, which are at their base.</p>
+        <p>The work, on Pier 32 just south of Canal Street in TriBeCa, also has a high-tech sound system that emits noises redolent of the waterfront, recalling foghorns, breaking waves and whale songs. Sponsored by Goethe House, the German cultural center, and the Hudson River Park Conservancy, the sculpture is scheduled to come down this weekend. It has been in place for about two weeks and has cost more than $100,000 to install and to run, said Reinhard Maiworm, the director of the program department at Goethe House. He added that the piece could remain in place if he could find someone to pay the $12,000-a-week maintenance, much of the money going to the renting and running of the sophisticated sound system.</p>
+        <p>DAVID COLMAN</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Review/Music; VibraphonistWith Pianist And Bassist</title>
+    <meta content="11" name="publication_day_of_month"/>
+    <meta content="11" name="publication_month"/>
+    <meta content="1989" name="publication_year"/>
+    <meta content="Saturday" name="publication_day_of_week"/>
+    <meta content="Cultural Desk" name="dsk"/>
+    <meta content="18" name="print_page_number"/>
+    <meta content="1" name="print_section"/>
+    <meta content="6" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="299849"/>
+      <doc.copyright holder="The New York Times" year="1989"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MUSIC</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <person class="indexing_service">CHIASSON, WARREN</person>
+        <person class="indexing_service">WILSON, JOHN S</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19891111T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=950DE0DA1E31F932A25752C1A96F948260" item-length="275" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Review/Music; VibraphonistWith Pianist And Bassist</hl1>
+      </hedline>
+      <byline class="print_byline">By John S. Wilson</byline>
+      <byline class="normalized_byline">WILSON, JOHN S</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: Over the last half-century, the ranks of outstanding jazz vibraphonists have grown slowly. One or two each decade seems to be the norm - Lionel Hampton and Red Norvo in the 1930's (although Mr. Norvo was playing xylophone at that time), Milt Jackson and Terry Gibbs in the 1940's, Gary Burton in the 1960's.</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: Over the last half-century, the ranks of outstanding jazz vibraphonists have grown slowly. One or two each decade seems to be the norm - Lionel Hampton and Red Norvo in the 1930's (although Mr. Norvo was playing xylophone at that time), Milt Jackson and Terry Gibbs in the 1940's, Gary Burton in the 1960's.</p>
+        <p>Over the last half-century, the ranks of outstanding jazz vibraphonists have grown slowly. One or two each decade seems to be the norm - Lionel Hampton and Red Norvo in the 1930's (although Mr. Norvo was playing xylophone at that time), Milt Jackson and Terry Gibbs in the 1940's, Gary Burton in the 1960's. The apparent gap in the 1950's was actually filled by Warren Chiasson, a Canadian vibraphonist who joined George Shearing's quintet in 1958 and who has been a quietly provocative presence on the instrument ever since.</p>
+        <p>Mr. Chiasson is at the Fortune Garden Pavilion, 209 East 49th Street, through tomorrow, leading a trio with Kirk Lightsey on piano and the bassist Cecil McBee, a group that points up the kind of balance in which Mr. Chiasson plays most effectively. His approach is generally light and airy. Even in as swinging a piece as Frank Foster's ''Shiny Stockings,'' Mr. Chiasson moves in gently, almost dreamily, leaving the energizing elements that made this tune a favorite in Count Basie's repertory to the strongly outgoing Mr. Lightsey and Mr. McBee. With Mr. McBee's bass as a dark, emphatic foundation and Mr. Lightsey's piano rolling expansively, Mr. Chiasson can spin gossamer webs, float on a melody or, occasionally, dive in with sudden accents.</p>
+        <p>He remembers ''I'll Remember April,'' a jazz favorite of the 50's when he first reached New York, and he pulls all the romantic nuances out of a ballad like Johnny Mandel's ''Emily.''</p>
+        <p>In the context of Mr. Chiasson's style and choice of material, his own composition, ''Bravel,'' a waltz based on themes of Brahms and Ravel, is a delicate and interesting change of pace</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

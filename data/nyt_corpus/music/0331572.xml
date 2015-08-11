@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Not Just A Few Prudes . . .</title>
+    <meta content="4" name="publication_day_of_month"/>
+    <meta content="3" name="publication_month"/>
+    <meta content="1990" name="publication_year"/>
+    <meta content="Sunday" name="publication_day_of_week"/>
+    <meta content="Arts and Leisure Desk" name="dsk"/>
+    <meta content="3" name="print_page_number"/>
+    <meta content="2" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts; Opinion" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="331572"/>
+      <doc.copyright holder="The New York Times" year="1990"/>
+      <series series.name="LABELING RECORDS"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">MUSIC</classifier>
+        <classifier class="indexing_service" type="descriptor">RECORDINGS (AUDIO)</classifier>
+        <classifier class="indexing_service" type="descriptor">LABELING AND LABELS</classifier>
+        <person class="indexing_service">METZ, DAVID J (DR)</person>
+        <person class="indexing_service">PARELES, JON</person>
+        <classifier class="online_producer" type="types_of_material">Letter</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Opinion/Opinion</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Music</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Music</classifier>
+        <classifier class="online_producer" type="general_descriptor">Recordings (Audio)</classifier>
+        <classifier class="online_producer" type="general_descriptor">Labeling and Labels</classifier>
+        <classifier class="online_producer" type="general_descriptor">Music</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19900304T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9C0CE2DC1E3AF937A35750C0A966958260" item-length="502" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Not Just A Few Prudes . . .</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>LEAD: To the Editor:</p>
+      </block>
+      <block class="full_text">
+        <p>LEAD: To the Editor:</p>
+        <p>To the Editor:</p>
+        <p>Jon Pareles's column against labeling recordings with parental advisories [''Legislating the Imagination,'' Feb. 11]  is disturbing at several levels. First, he is correct in stating that it is unfair to equate murder, illegal drug and alcohol use, and bestiality in a blanket sticker. He also points out the difficulty in determining what is obscenity and the fact that an album would have to be categorized by its ''nastiest moment,'' leading to misleading labeling. He could have mentioned that the proposed labels make no mention of sexism, racism or homophobic gay bashing. He could have added the chilling effect such labels would have on creativity, pitting artists against businessmen at record companies.</p>
+        <p>He then weakens his position by raising nonsensical arguments about the yellow color of the stickers (''scary in themselves'') and the look they would give to the records (''like radioactive waste barrels'') and the record stores (''awfully forbidding''). And Mr. Pareles is, I believe, a bit disingenuous when he denies understanding the difference between morbid violence and other kinds.</p>
+        <p>Ultimately, however, my main objection to his column is the fact that it never once addresses the concerns of the parents and legislators who support these bills - and it is precisely because industry representatives are guilty of that disregard that such bills may become law. Choosing to portray the labeling movement as intended to ''regulate imagination'' rather than providing parents with information as to their children's exposure to things that many, not just a few prudes or crazies, find offensive, is both dishonest and a tactical error. Such remarks as ''Any leftover stickers could be used on books'' are not helpful and merely demagogic. As a lifelong liberal I oppose censorship, but I have not found movie rating to be onerous or unfair, even though far from perfect. Moreover, Mr. Pareles intentionally blurs the line between general censorship and that directed at children. Again, very few liberals find it inappropriate to keep certain magazines and video tapes out of the reach of children while opposing a blanket ban on their sale. The issue is not one of lyrics sending an ''impressionable child down the road to perdition'' but of responsible parents' concern about what their children are listening to when the lyrics are not available without buying the product.</p>
+        <p>As with so many difficult issues today, the extremists should recognize that their positions alienate moderates and give aid and comfort to their opponents. I do not like the proposed labels, but as a parent I find them preferable to the total lack of self-regulation offered by Mr. Pareles and the pop music industry. Labeling contents is not censorship, no matter how you make it try to fit that Procrustean bed, and the industry would do itself and everyone else a service by taking the lead in this issue, while it still has the chance to do so.</p>
+        <p>DAVID J. MELTZ, M.D.</p>
+        <p>Newton, N.J.</p>
+        <p>LABELING RECORDS</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

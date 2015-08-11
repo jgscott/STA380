@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>At Bridge Championship, Familiar Winners</title>
+    <meta content="24CARD$02" name="slug"/>
+    <meta content="24" name="publication_day_of_month"/>
+    <meta content="7" name="publication_month"/>
+    <meta content="2001" name="publication_year"/>
+    <meta content="Tuesday" name="publication_day_of_week"/>
+    <meta content="The Arts/Cultural Desk" name="dsk"/>
+    <meta content="6" name="print_page_number"/>
+    <meta content="E" name="print_section"/>
+    <meta content="1" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <meta content="http://www.nytimes.com/2001/07/24/arts/dailyarts/24CARD.html" name="alternate_url"/>
+    <docdata>
+      <doc-id id-string="1311722"/>
+      <doc.copyright holder="The New York Times" year="2001"/>
+      <identified-content>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/World/Americas</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/Canada/Ontario/Toronto</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/Canada</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Destinations/North America/Canada/Ontario</classifier>
+        <classifier class="online_producer" type="descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <location class="online_producer">Toronto (Ontario)</location>
+        <person class="online_producer">Levin, Robert</person>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="20010724T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9F01EEDD113AF937A15754C0A9679C8B63" item-length="296" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>At Bridge Championship, Familiar Winners</hl1>
+        <hl2 class="online_headline">At Bridge Championship, Familiar Winners</hl2>
+      </hedline>
+      <byline class="print_byline">By ALAN TRUSCOTT</byline>
+      <dateline>TORONTO, July 23</dateline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>One of the world's most successful partnerships won another major title here on Sunday night at the American Contract Bridge League's Summer National Championships.</p>
+        <p>The Life Master Pairs, which has a 72-year history, was won, by a wide margin, by Robert Levin of Riverdale, N.Y., and Steve Weinstein of Glen Ridge, N.J. Both have won the event with other partners, and together they won the 1999 Cavendish Pairs in Las Vegas.</p>
+      </block>
+      <block class="online_lead_paragraph">
+        <p>One of the world's most successful partnerships won another major title at the American Contract Bridge League's Summer National Championships</p>
+      </block>
+      <block class="full_text">
+        <p>One of the world's most successful partnerships won another major title here on Sunday night at the American Contract Bridge League's Summer National Championships.</p>
+        <p>The Life Master Pairs, which has a 72-year history, was won, by a wide margin, by Robert Levin of Riverdale, N.Y., and Steve Weinstein of Glen Ridge, N.J. Both have won the event with other partners, and together they won the 1999 Cavendish Pairs in Las Vegas.</p>
+        <p>These were the final standings:</p>
+        <p>First: Levin and Weinstein, 2,579.23 match points.</p>
+        <p>Second: Gary Cohler of Highland Park, Ill., and Ralph Katz of Hinsdale, Ill., 2,504.02.</p>
+        <p>Third: Robert Gookin of Falls Church, Va., and Earl Glickstein of Gaithersburg, Md., 2,472.63.</p>
+        <p>Fourth: Fred Stewart of Kingston, N.Y., and Kit Woolsey of Kensington, Calif., 2,413.19.</p>
+        <p>The Spingold Knockout Teams began this afternoon with an entry of 137 teams. The top-seeded teams by captain are, in descending order, Rose Meltzer of Los Gatos, Calif.; Nick Nickell of Manhattan; George Jacobs of Burr Ridge, Ill.; James Cayne of Manhattan; Rita Shugart of Pebble Beach, Calif.; Steve Robinson of Arlington, Va.; Richard Schwartz of East Elmhurst, N.Y.; and George Rosenkranz of Mexico City.</p>
+        <p>Thirty-three teams are entered in the Women's Knockout Teams. Top-seeded by captain are Kathie Wei-Sender of Nashville; Pam Wittes of Venice, Calif.; Petra Hamman of Dallas; Jill Meyers of Santa Monica, Calif.; Laurie Vogel of Manhattan; Hjordis Eythorsdottir of Huntsville, Ala.; Lynn Baker of Austin, Tex.; and Jan Martel of Davis, Calif.</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>In This Exhibition, Athletes Are the Trophies</title>
+    <meta content="6" name="publication_day_of_month"/>
+    <meta content="1" name="publication_month"/>
+    <meta content="1992" name="publication_year"/>
+    <meta content="Monday" name="publication_day_of_week"/>
+    <meta content="Sports Desk" name="dsk"/>
+    <meta content="2" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="4" name="print_column"/>
+    <meta content="Sports" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="498440"/>
+      <doc.copyright holder="The New York Times" year="1992"/>
+      <series series.name="SIDELINES: PERSPIRATION, A RETROSPECTIVE"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ART</classifier>
+        <classifier class="indexing_service" type="descriptor">ATHLETICS AND SPORTS</classifier>
+        <org class="indexing_service">INTERNATIONAL BUSINESS MACHINES CORP (IBM)</org>
+        <person class="indexing_service">ESKENAZI, GERALD</person>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Sports</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/News/Sports/Other Sports</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Classifieds/Job Market/Job Categories/Art and Design</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Athletics and Sports</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19920106T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9E0CE3D91238F935A35752C0A964958260" item-length="148" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>In This Exhibition, Athletes Are the Trophies</hl1>
+      </hedline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Sport and art have a long tradition beyond the reporter's eye and the photographer's lens. In fact, WINSLOW HOMER painted a croquet match, HENRI ROUSSEAU depicted rugby players and ANDY WARHOL took a look at KAREEM ABDUL-JABBAR and CHRIS EVERT.</p>
+        <p>Now, United States museums are yielding up their cache of fine sports art, from ceramics to water colors to sculptures, for an exhibit at I.B.M.'s Gallery of Science and Art at 590 Madison Avenue. The exhibit will run from Jan. 14 to March 28.</p>
+      </block>
+      <block class="full_text">
+        <p>Sport and art have a long tradition beyond the reporter's eye and the photographer's lens. In fact, WINSLOW HOMER painted a croquet match, HENRI ROUSSEAU depicted rugby players and ANDY WARHOL took a look at KAREEM ABDUL-JABBAR and CHRIS EVERT.</p>
+        <p>Now, United States museums are yielding up their cache of fine sports art, from ceramics to water colors to sculptures, for an exhibit at I.B.M.'s Gallery of Science and Art at 590 Madison Avenue. The exhibit will run from Jan. 14 to March 28.</p>
+        <p>But artists often idealize their subjects, and so in many of these offerings, the athletes don't sweat as much as they pose. Still, Warhol's sense of who still will be famous 15 minutes from now was uncanny: In 1978, he did a silkscreen-on-canvas series he called "Athletes." All have retained a measure of fame. Only one, though -- JACK NICKLAUS -- still beats his current competition.</p>
+        <p>SIDELINES: PERSPIRATION, A RETROSPECTIVE</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>

@@ -55,8 +55,8 @@ currency_codes
 View(currency_codes)
 
 # Compare with factor analysis
-
-fa_fx = factanal(FXmonthly[-outlier,], 3, scores='regression')
+Y = scale(FXmonthly[-outlier,], center=TRUE, scale=FALSE)
+fa_fx = factanal(Y, 3, scores='regression')
 print(fa_fx)
 
 # The loadings
@@ -67,6 +67,7 @@ barplot(fa_fx$loadings[,3], las=2, cex.names=0.8)
 # The variances of the idiosyncratic noise terms
 barplot(fa_fx$uniquenesses, las=2, cex.names=0.8)
 
+# Scatter plot of first two factor scores
 plot(fa_fx$scores[,1:2], pch=21,
      bg=terrain.colors(119)[119:1],
      main="Currency factor scores")

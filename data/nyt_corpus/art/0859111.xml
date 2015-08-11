@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nitf SYSTEM "http://www.nitf.org/IPTC/NITF/3.3/specification/dtd/nitf-3-3.dtd">
+<nitf change.date="June 10, 2005" change.time="19:30" version="-//IPTC//DTD NITF 3.3//EN">
+  <head>
+    <title>Art in Review</title>
+    <meta content="21" name="publication_day_of_month"/>
+    <meta content="6" name="publication_month"/>
+    <meta content="1996" name="publication_year"/>
+    <meta content="Friday" name="publication_day_of_week"/>
+    <meta content="Weekend Desk" name="dsk"/>
+    <meta content="19" name="print_page_number"/>
+    <meta content="C" name="print_section"/>
+    <meta content="3" name="print_column"/>
+    <meta content="Arts" name="online_sections"/>
+    <docdata>
+      <doc-id id-string="859111"/>
+      <doc.copyright holder="The New York Times" year="1996"/>
+      <identified-content>
+        <classifier class="indexing_service" type="descriptor">ART</classifier>
+        <classifier class="indexing_service" type="descriptor">REVIEWS</classifier>
+        <person class="indexing_service">SMITH, ROBERTA</person>
+        <person class="indexing_service">NEWMAN, LAURA</person>
+        <classifier class="online_producer" type="types_of_material">Review</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design/Reviews</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Arts/Art and Design</classifier>
+        <classifier class="online_producer" type="taxonomic_classifier">Top/Features/Travel/Guides/Activities and Interests/Art</classifier>
+        <classifier class="online_producer" type="general_descriptor">Art</classifier>
+      </identified-content>
+    </docdata>
+    <pubdata date.publication="19960621T000000" ex-ref="http://query.nytimes.com/gst/fullpage.html?res=9803EFDF1539F932A15755C0A960958260" item-length="306" name="The New York Times" unit-of-measure="word"/>
+  </head>
+  <body>
+    <body.head>
+      <hedline>
+        <hl1>Art in Review</hl1>
+      </hedline>
+      <byline class="print_byline">By Roberta Smith</byline>
+      <byline class="normalized_byline">SMITH, ROBERTA</byline>
+    </body.head>
+    <body.content>
+      <block class="lead_paragraph">
+        <p>Laura Newman Tenri Cultural Institute 575 Broadway, at Prince Street SoHo Through July 13</p>
+      </block>
+      <block class="full_text">
+        <p>Laura Newman Tenri Cultural Institute 575 Broadway, at Prince Street SoHo Through July 13</p>
+        <p>Laura Newman's new paintings, while still lacking in originality, are a big improvement over her earlier landscapelike abstractions, which often seemed forced and heavy-handed. The hints of landscapes remain, but the pale colors and map-like compositions suggest a realm high above the earth, or that of the imagination. A clear source is 70's New Image painting, modified with a loose, childlike rendering, and with half-buried feminist subject matter that seems pure 90's. One can imagine Ms. Newman learning from such seemingly unrelated precedents as Sue Williams and Dona Nelson.</p>
+        <p>In "Phrenology," crudely rendered circles topped off by weird blobs of color come to read as the heads of little girls with varying hairstyles. In other paintings, these heads drift across fields of scumbled color, or, in "Pearl River," command a little red rocket, evoking Nancy, the comic-strip character. In "Learning to Draw," fragments of the heads' outlines suggest a kind of lexicon, a not-quite-formed alphabet.</p>
+        <p>Nearly everywhere, the heads seem to function as crude signs of female psyche in formation. Meanwhile, the painting's space is often animated by seemingly finger-painted spirals of color that burrow across the surface like tunneling moles -- or the drawings of rebellious children. These corral chunks of territory, or sometimes, as in "Totem," frame a second vista of space.</p>
+        <p>Like a number of women painting today, Ms. Newman seems intent on a kind of anecdotal or narrative abstraction that implies meaning without pinning it down. This is sometimes weakened by a formal indecisiveness that can strike the eye as too self-consciously unskilled. But generally Ms. Newman is aiming at a target much closer to home.</p>
+        <p>ROBERTA SMITH</p>
+      </block>
+    </body.content>
+  </body>
+</nitf>
