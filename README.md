@@ -89,7 +89,7 @@ Scripts and data:
 
 Readings:  
 - ISL Section 10.2 for the basics  
-- Shalizi Chapters 18 and 19 (more advanced)    
+- Shalizi Chapters 18 and 19 (more advanced).  In particular, Chapter 19 has a lot more advanced material on factor analysis, beyond what we covered in class.      
 - Elements Chapter 14.5 (more advanced)  
 
 
@@ -99,7 +99,7 @@ Co-occurrence statistics; TF-IDF; topic models; vector-space models of text (if 
 
 Scripts and data:  
 - [textutils.R](R/textutils.R) 
-- [nyt_stories.R](R/nyt_stories.R) and [selections from the New York Times](../data/nyt_corpus/)  
+- [nyt_stories.R](R/nyt_stories.R) and [selections from the New York Times](https://github.com/jgscott/STA380/tree/master/data/nyt_corpus).
 
 Readings: TBA
 
