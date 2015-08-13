@@ -8,35 +8,35 @@ Important: Use the subject line "STA 380 Homework 2: Lastname, Firstname" so tha
 
 Consider the data in [ABIA.csv](../data/ABIA.csv), which contains information on every commercial flight in 2008 that either departed from or landed at Austin-Bergstrom Interational Airport.  The variable codebook is as follows: 
 
-1   Year    all 2008
-2   Month   1-12
-3   DayofMonth  1-31
-4   DayOfWeek   1 (Monday) - 7 (Sunday)
-5   DepTime actual departure time (local, hhmm)
-6   CRSDepTime  scheduled departure time (local, hhmm)
-7   ArrTime actual arrival time (local, hhmm)
-8   CRSArrTime  scheduled arrival time (local, hhmm)
-9   UniqueCarrier   unique carrier code
-10  FlightNum   flight number
-11  TailNum plane tail number
-12  ActualElapsedTime   in minutes
-13  CRSElapsedTime  in minutes
-14  AirTime in minutes
-15  ArrDelay    arrival delay, in minutes
-16  DepDelay    departure delay, in minutes
-17  Origin  origin IATA airport code
-18  Dest    destination IATA airport code
-19  Distance    in miles
-20  TaxiIn  taxi in time, in minutes
-21  TaxiOut taxi out time in minutes
-22  Cancelled   was the flight cancelled?
-23  CancellationCode    reason for cancellation (A = carrier, B = weather, C = NAS, D = security)
-24  Diverted    1 = yes, 0 = no
-25  CarrierDelay    in minutes
-26  WeatherDelay    in minutes
-27  NASDelay    in minutes
-28  SecurityDelay   in minutes
-29  LateAircraftDelay   in minutes
+- Year    all 2008  
+- Month   1-12  
+- DayofMonth  1-31
+- DayOfWeek   1 (Monday) - 7 (Sunday)
+- DepTime actual departure time (local, hhmm)
+- CRSDepTime  scheduled departure time (local, hhmm)
+- ArrTime actual arrival time (local, hhmm)
+- CRSArrTime  scheduled arrival time (local, hhmm)
+- UniqueCarrier   unique carrier code
+- FlightNum   flight number
+- TailNum plane tail number
+- ActualElapsedTime   in minutes
+- CRSElapsedTime  in minutes
+- AirTime in minutes
+- ArrDelay    arrival delay, in minutes
+- DepDelay    departure delay, in minutes
+- Origin  origin IATA airport code
+- Dest    destination IATA airport code
+- Distance    in miles
+- TaxiIn  taxi in time, in minutes
+- TaxiOut taxi out time in minutes
+- Cancelled   was the flight cancelled?
+- CancellationCode    reason for cancellation (A = carrier, B = weather, C = NAS, D = security)
+- Diverted    1 = yes, 0 = no
+- CarrierDelay    in minutes
+- WeatherDelay    in minutes
+- NASDelay    in minutes 
+- SecurityDelay   in minutes  
+- LateAircraftDelay   in minutes  
 
 Your task is to create a figure, or set of related figures, that tell an interesting story about flights into and out of Austin.  You can annotate the figure and briefly describe it, but strive to make it as stand-alone as possible.  It shouldn't need many, many paragraphs to convey its meaning.  Rather, the figure should speak for itself as far as possible.  For example, you might consider one of the following questions: 
 
