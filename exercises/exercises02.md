@@ -50,8 +50,15 @@ But anything interesting will fly.
 
 ## Author attribution
 
-Revisit the Reuters C50 corpus that we explored in class.  Your task is to build a model (using any combination of tools you see fit) for predicting the author of an article on the basis of that article's textual content.  (Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning!)
+Revisit the Reuters C50 corpus that we explored in class.  Your task is to build _two_ separate models (using any combination of tools you see fit) for predicting the author of an article on the basis of that article's textual content.  Describe clearly what models you are using, how you constructed features, and so forth.  (Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning!)
 
-In the C50train directory, you have ~50 articles from each of 50 different authors.  Use this data, and this data alone, to build the models.  Then apply your model to the articles by the same authors in the C50test directory (which is about the same size as the training set).  How well does your classifier do at predicting the author identities in this out-of-sample setting?  Are there any sets of authors whose articles seem difficult to distinguish from one another? 
+In the C50train directory, you have ~50 articles from each of 50 different authors (one author per directory).  Use this training data (and this data alone) to build the two models.  Then apply your model to the articles by the same authors in the C50test directory, which is about the same size as the training set.  How well do your models do at predicting the author identities in this out-of-sample setting?  Are there any sets of authors whose articles seem difficult to distinguish from one another?  Which model do you prefer?  
 
 Note: you will need to figure out a way to deal with words in the test set that you never saw in the training set.  This is a nontrivial aspect of the modeling exercise.  
+
+
+## Practice with association rule mining
+
+Read the notes on [association rule mining](../notes/lec-AssociationRules.pdf), and walk through the R example on music playlists: [playlists.R](../R/playlists.R) and [playlists.csv](../data/playlists.csv).  Then use the data on grocery purchases in [groceries.txt](../data/groceries.txt) and find some interesting association rules for these shopping baskets.  The data file is a list of baskets: one row per basket, with multiple items per row separated by commas -- you'll have to cobble together a few utilities for processing this into the format expected by the "arules" package.  Pick your own thresholds for lift and confidence; just be clear what these thresholds are and how you picked them.  Do your discovered item sets make sense?  Present your discoveries in an interesting and concise way.  
+
+Note: we didn't spend much time on this class, so this is a "practice" problem -- still graded, but a lot less open-ended than the other two, and it should be pretty straightforward in execution.

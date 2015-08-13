@@ -104,12 +104,20 @@ Scripts and data:
 - [naive_bayes.R](R/naive_bayes.R)  
 - [congress109_topics.R](R/congress109_topics.R)
 
-Readings: TBA
+Readings: 
+- [Stanford NLP notes](http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html) on vector-space models of text, TF-IDF weighting, and so forth.  
+- (Using the tm package)[http://cran.r-project.org/web/packages/tm/vignettes/tm.pdf] for text mining in R.  
+- [Dave Blei's survey of topic models](https://www.cs.princeton.edu/~blei/papers/Blei2012.pdf).  
+- [A pretty long blog post on naive-Bayes classification](https://www.bionicspirit.com/blog/2012/02/09/howto-build-naive-bayes-classifier.html).  
 
 
 ### (7) Miscellaneous
 
 Coverage of these topics will depend on the time available.  Possibilities include: anomaly detection; label propagation; learning association rules; graph partitioning; partial least squares.  
 
-Readings: TBA
+Scripts and data: 
+- [playlists.R](R/playlists.R) and [playlists.csv](data/playlists.csv)  
+
+Readings: 
+- [Pradeep Ravikumar's notes on association rule mining](notes/lec-AssociationRules.pdf)  
 
