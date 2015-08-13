@@ -102,6 +102,7 @@ Scripts and data:
 - [nyt_stories.R](R/nyt_stories.R) and [selections from the New York Times](https://github.com/jgscott/STA380/tree/master/data/nyt_corpus).
 - [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50).
 - [naive_bayes.R](R/naive_bayes.R)  
+- [simple_mixture.R](R/simple_mixture.R)
 - [congress109_topics.R](R/congress109_topics.R)
 
 Readings: 
