@@ -15,7 +15,7 @@ curve(dnorm(x, mu2, sigma2), from=0, to=100, n=1001, col='blue', add=TRUE)
 curve(dnorm(x, mu1, sigma1), from=0, to=100, n=1001, col='grey', add=TRUE)
 
 # Now a mixture
-weights = c(0.3, 0.6, 0.1)
+weights = c(0.9, 0.05, 0.05)
 
 curve(weights[1]*dnorm(x, mu1, sigma1) + weights[2]*dnorm(x, mu2, sigma2)  + weights[3]*dnorm(x, mu3, sigma3),
 	from=0, to=100, ylab='Probability', n=1001)

@@ -41,5 +41,24 @@ Note: my "module numbering scheme" was ambiguous.  Thus Module 2 and 3 are actua
 
 [Module 12](https://github.com/jck2156/STA380/blob/master/2015_08_06_ScribeNotes.pdf) on PCA, continued, by Bonnie Daniel, James Krach, and Francisco Sananez.
 
+### Exercises 1 Review
+
+[Module 13](https://github.com/danalyst/ScribeModule1_10Aug15/blob/master/Scribe_Nalini_Dan_Bob.pdf) by Nalini Agrawal, Bob Cook, and Dan Zalewski
+
+[Module 14](https://github.com/lchen3170/STA-380/blob/master/Chen-Cheng-Reuben-Module%2014%20Scribe.pdf) by Chen, Cheung, and Reuben.
+
+
+### More on latent feature models
+
+[Module 15](https://github.com/abhisheksanghavi/Scribe/blob/master/scribe_PCR.pdf) on principal component regression, by Shrihari Hudli, Abhishek Sanghavi, Gabriel Urrutia, Jingshen Zhao.
+
+[Module 16](https://github.com/vicher37/scribe/blob/master/Aug11-Session2.pdf) on factor analysis and canonical correlation analysis, by Wenyue Shi, Carlton Washburn, and Qijing Zhang.  
+
+### Text data
+
+[Module 17](https://github.com/samruddhisomani/STA380.SS/blob/master/Somani_Wu_Barton_Scribe.pdf) on the representation of documents and bag-of-words, by Samruddhi Somani, Julia Wu, and Jace Burton.
+
+
+
 
 

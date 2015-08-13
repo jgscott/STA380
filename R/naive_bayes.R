@@ -20,7 +20,7 @@ names(all_docs) = file_list
 names(all_docs) = sub('.txt', '', names(all_docs))
 
 my_corpus = Corpus(VectorSource(all_docs))
-names(my_corpus) = names(my_corpus)
+names(my_corpus) = file_list
 
 # Preprocessing
 my_corpus = tm_map(my_corpus, content_transformer(tolower)) # make everything lowercase
