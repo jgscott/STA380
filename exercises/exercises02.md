@@ -47,3 +47,11 @@ Your task is to create a figure, or set of related figures, that tell an interes
 
 But anything interesting will fly.
 
+
+## Author attribution
+
+Revisit the Reuters C50 corpus that we explored in class.  Your task is to build a model (using any combination of tools you see fit) for predicting the author of an article on the basis of that article's textual content.  (Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning!)
+
+In the C50train directory, you have ~50 articles from each of 50 different authors.  Use this data, and this data alone, to build the models.  Then apply your model to the articles by the same authors in the C50test directory (which is about the same size as the training set).  How well does your classifier do at predicting the author identities in this out-of-sample setting?  Are there any sets of authors whose articles seem difficult to distinguish from one another? 
+
+Note: you will need to figure out a way to deal with words in the test set that you never saw in the training set.  This is a nontrivial aspect of the modeling exercise.  
