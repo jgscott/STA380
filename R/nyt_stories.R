@@ -35,7 +35,7 @@ art_stories_DTM_TFIDF = idf.weight(art_stories_DTM_TF)
 
 lsi_art = prcomp(art_stories_DTM_TFIDF, scale.=FALSE)
 
-sort(lsi_art$rotation[,1], decreasing=FALSE)
+head(sort(lsi_art$rotation[,1], decreasing=FALSE), 20)
 
 # Scores on the first two PCs
 plot(lsi_art$x[,1:2])
