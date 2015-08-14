@@ -58,6 +58,9 @@ Note: my "module numbering scheme" was ambiguous.  Thus Module 2 and 3 are actua
 
 [Module 17](https://github.com/samruddhisomani/STA380.SS/blob/master/Somani_Wu_Barton_Scribe.pdf) on the representation of documents and bag-of-words, by Samruddhi Somani, Julia Wu, and Jace Burton.
 
+[Module 19](https://github.com/zahref/scribe_notes/blob/master/scribe_8_13.pdf) on the bag of words model, by Zahref Beyabani, Sadavath Sharma, and Suraj Prasad.  Download the raw PDF as it may not display properly in GitHub.
+
+[Module 20](https://github.com/sanchitshaleen/STA380/blob/master/Scribe_Module19.pdf) by Anchit Singh, Vijai K. Rangan, and Sanchit Shaleen on naive Bayes classification and a short introduction to topic models.  
 
 
 
