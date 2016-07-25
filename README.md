@@ -10,9 +10,7 @@ The first set of exercises is [available here](exercises/exercises01.md).
 
 ## Topics 
 
-The readings listed below are not yet complete, but the topics list is accurate.
-
-### (1) The data scientist's toolbox
+### (0) The data scientist's toolbox
 
 Good data-curation and data-analysis practices; R; Markdown and RMarkdown; the importance of replicable analyses; version control with Git and Github.
 
@@ -21,6 +19,12 @@ Readings:
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [Introduction to GitHub](https://help.github.com/articles/set-up-git/)    
+
+### (1) Foundations of probability  
+
+Basic probability, and some fun examples.  Random variables, probability distributions, expected value.  Joint, marginal, and conditional probability.  Independence.  Bayes' rule.  
+
+Reading: [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
 
 
 ### (2) Exploratory analysis
@@ -32,6 +36,7 @@ Scripts and data:
 - [titanic.R](R/titanic.R) and [TitanicSurvival](data/TitanicSurvival.csv)  
 
 Readings:  
+- [excerpts](notes/DataExploration.pdf) from my course notes on statistical modeling  
 - NIST Handbook, Chapter 1.  
 - R walkthroughs on basic EDA: [contingency tables](http://jgscott.github.io/teaching/r/titanic/titanic.html), [histograms](http://jgscott.github.io/teaching/r/citytemps/citytemps.html), and [scatterplots/lattice plots](http://jgscott.github.io/teaching/r/sat/sat.html). 
 - [Bad graphics ](notes/badgraphics.pdf)
@@ -40,7 +45,7 @@ Readings:
 
 ### (3) Resampling methods
 
-The bootstrap and the permutation test; joint distributions; basic moment identities for linear combinations; using the bootstrap to approximate value at risk (VaR). 
+The bootstrap and the permutation test; joint distributions; using the bootstrap to approximate value at risk (VaR). 
 
 Scripts:  
 - [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv) 
@@ -49,7 +54,8 @@ Scripts:
 
 Readings:  
 - ISL Section 5.2 for a basic overview.  
-- [These notes](http://jgscott.github.io/SDS325H_Spring2015/files/05-QuantifyingUncertaintyPart1.pdf), pages 99-111.  This is an introduction to the bootstrap from the (by now familiar) perspective of linear regression modeling, but it conveys the essential idea.  
+- [These notes](notes/QuantifyingUncertainty.pdf) on bootstrapping and the permutation test.  
+- [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
 - [This R walkthrough](http://jgscott.github.io/teaching/r/creatinine/creatinine_bootstrap.html) on using the bootstrap to estimate the variability of a sample mean.  
 - [Another R walkthrough](http://jgscott.github.io/teaching/r/titanic/titanic_permtest.html) on the permutation test in a simple 2x2 table.  
 - Any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf).
@@ -57,9 +63,9 @@ Readings:
 Optionally, Shalizi (Chapter 6) has a much lengthier treatment of the bootstrap, should you wish to consult it.    
 
 
-### (4) Latent classes
+### (4) Clustering
 
-Basics of clustering; K-means clustering; mixture models; hierarchical clustering.
+Basics of clustering; K-means clustering; hierarchical clustering.
 
 Scripts and data:  
 - [protein.R](R/protein.R) and [protein.csv](data/protein.csv) 
@@ -76,7 +82,7 @@ Readings:
 
 ### (5) Latent features and structure
 
-Principal component analysis (PCA); factor analysis; canonical correlation analysis; multi-dimensional scaling.
+Principal component analysis (PCA).  If time: canonical correlation analysis; multi-dimensional scaling.
 
 Scripts and data:  
 - [pca_2D.R](R/pca_2D.R)  

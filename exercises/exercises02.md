@@ -1,6 +1,6 @@
 # STA 380, Part 2: Exercises 2
 
-Turn these in by 12 PM on Wednesday, August 19th.  As before, prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.  You should submit your work by sending me a link to a GitHub page where the final report has been stored -- preferably in Markdown/HTML format but PDF is OK too.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  _Do not send a PDF or Rmd file as an attachment._
+Turn these in by 12 PM on Tuesday, August 16th.  As before, prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.  You should submit your work by sending me a link to a GitHub page where the final report has been stored -- preferably in Markdown/HTML format but PDF is OK too.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  _Do not send a PDF or Rmd file as an attachment._
 
 Important: Use the subject line "STA 380 Homework 2: Lastname, Firstname" so that I can sort my inbox easily.  (Obviously use your own first and last names in the subject.)
 
