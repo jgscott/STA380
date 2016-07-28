@@ -2,6 +2,10 @@
 
 Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
+## Office hours
+
+On Friday, July 29th, I will hold office hours from 10am to 12pm (normal class time).  I will start in my office (CBA 6.478), but if a lot of folks show up at once, we'll move to the regular classroom.
+
 ## Scribe notes and exercises
 
 You can find the up-to-date collection of [scribe notes here](scribe/).
@@ -24,7 +28,9 @@ Readings:
 
 Basic probability, and some fun examples.  Random variables, probability distributions, expected value.  Joint, marginal, and conditional probability.  Independence.  Bayes' rule.  
 
-Reading: [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
+Reading:
+- [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
+- [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
 
 
 ### (2) Exploratory analysis

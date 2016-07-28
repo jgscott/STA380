@@ -3,7 +3,6 @@
 ## Course details
 
 * Instructor: James Scott (james.scott@mccombs.utexas.edu)
-* Office hours: Monday, Tuesday, and Wednesday 12-1 PM (immediately after class, except on Thursday)
 * Office: CBA 6.478
 * Course website: http://www.github.com/jgscott/STA380/
 
