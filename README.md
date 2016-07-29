@@ -32,6 +32,7 @@ Basic probability, and some fun examples.  Random variables, probability distrib
 
 Readings:
 - [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
+ 
 Some optional stuff:  
 - [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
 - [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.  
