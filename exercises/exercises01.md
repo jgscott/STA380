@@ -1,8 +1,10 @@
 # STA 380, Part 2: Exercises 1
 
-Turn these in by the start of class on Monday, August 8th.  Prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.  You should submit your work by sending me a link to a GitHub page where the final report has been stored -- preferably in Markdown format but PDF is OK too, especially if you want to include mathematical expressions in the manner [described here](http://rmarkdown.rstudio.com/authoring_basics.html), since GitHub doesn't do math very well.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.
+Turn these in by the start of class on Monday, August 8th.  Prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  If you're working in a group, please turn in a single submission with all of your names attached.
 
-Please e-mail a link to "STA 380 Homework 1: Lastname, Firstname" so that I can sort my inbox easily.  (Obviously use your own first and last names in the subject.)
+To submit, please e-mail a link to <statdropbox@gmail.com> with the subject line "STA 380 Homework 1: name here."  (Obviously use your own name in the subject, or the names of all your group members if applicable.)  This link should be to a GitHub page where the final report has been stored -- preferably in Markdown format but PDF is OK too, especially if you want to include mathematical expressions in the manner [described here](http://rmarkdown.rstudio.com/authoring_basics.html), since GitHub doesn't do math very well.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  To include math in your report, you can use Markdown's [math syntax](https://github.com/cben/mathdown/wiki/math-in-markdown).  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.
+
+Note: LaTeX is an acceptable alternative to Markdown.  If you wish to typeset your reports in Latex, either use Sweave, or send a link to an R file that replicates every analysis you include in your report (including the figures).
 
 Note: I want your report to be fully reproducible.  Of course, it would seem that, by its very nature, one thing that cannot be reproduced exactly is a Monte Carlo simulation.  But in fact you _can_ reproduce such a simulation, if you specify a "seed" to the underlying random number generator.  Thus these two sets of 10 normal random numbers are different (try copying and pasting to an R console):
 ```
@@ -20,6 +22,7 @@ rnorm(10)
 ```
 
 You can use this fact to your advantage to create fully reproducible Monte Carlo simulations in RMarkdown, by setting the seed at the very beginning of the file.
+
 
 ## Probability practice
 

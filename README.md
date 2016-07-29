@@ -8,7 +8,9 @@ On Friday, July 29th, I will hold office hours from 10am to 12pm (normal class t
 
 ## Scribe notes and exercises
 
-You can find the up-to-date collection of [scribe notes here](scribe/).
+To submit your scribe report, please e-mail me link to a .pdf or .md file on your own GitHub page (james.scott at mccombs.utexas.edu).  Do not send an attachment.
+
+You can find the up-to-date collection of [scribe notes here](scribe/).  
 
 The first set of exercises is [available here](exercises/exercises01.md).
 
@@ -26,11 +28,14 @@ Readings:
 
 ### (1) Foundations of probability  
 
-Basic probability, and some fun examples.  Random variables, probability distributions, expected value.  Joint, marginal, and conditional probability.  Independence.  Bayes' rule.  
+Basic probability, and some fun examples.  Random variables, probability distributions, expected value.  Joint, marginal, and conditional probability.  Independence. Law of total probability.  Bayes' rule.  
 
-Reading:
+Readings:
 - [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
+Some optional stuff:  
 - [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
+- [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.  
+- [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!  
 
 
 ### (2) Exploratory analysis
