@@ -6,7 +6,7 @@ Scribe notes will be posted here as they arrive.  Remember, please e-mail a link
 
 July 27th, 2nd half: [probability foundations](https://github.com/AmandaCoker/Scribe-Notes-July-27-2016), by Coker, Drakou, and Moran.  
 
-July 28th, 1st half: [probability foundations, continued](empty), by Nelson and Chou  
+July 28th, 1st half: [probability foundations, continued](https://github.com/Caroline-Nelson/Module-2/blob/master/Module2.pdf), by Nelson and Chou  
 
 July 28th, 2nd half: [exploratory data analysis](https://github.com/DavisTownsend/Scribe-Notes/blob/master/Scribe_Notes.pdf), by Townsend, Bilderback, and Beckelman  
 
