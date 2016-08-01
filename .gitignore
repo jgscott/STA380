@@ -11,5 +11,4 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
-misc/big_syllabus.md
-misc/big_syllabus.pdf
+titanic.pdf

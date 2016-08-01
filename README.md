@@ -2,17 +2,21 @@
 
 Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
+## Office hours 
+
+On Friday, July 29th, I will hold office hours from 10am to 12pm (normal class time).  I will start in my office (CBA 6.478), but if a lot of folks show up at once, we'll move to the regular classroom.
+
 ## Scribe notes and exercises
 
-You can find the up-to-date collection of [scribe notes here](scribe/).
+To submit your scribe report, please e-mail me link to a .pdf or .md file on your own GitHub page (james.scott at mccombs.utexas.edu).  Do not send an attachment.
+
+You can find the up-to-date collection of [scribe notes here](scribe/).  
 
 The first set of exercises is [available here](exercises/exercises01.md).
 
 ## Topics 
 
-The readings listed below are not yet complete, but the topics list is accurate.
-
-### (1) The data scientist's toolbox
+### (0) The data scientist's toolbox
 
 Good data-curation and data-analysis practices; R; Markdown and RMarkdown; the importance of replicable analyses; version control with Git and Github.
 
@@ -21,6 +25,18 @@ Readings:
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [Introduction to GitHub](https://help.github.com/articles/set-up-git/)    
+
+### (1) Foundations of probability  
+
+Basic probability, and some fun examples.  Random variables, probability distributions, expected value.  Joint, marginal, and conditional probability.  Independence. Law of total probability.  Bayes' rule.  
+
+Readings:
+- [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
+ 
+Some optional stuff:  
+- [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
+- [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.  
+- [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!  
 
 
 ### (2) Exploratory analysis
@@ -32,6 +48,7 @@ Scripts and data:
 - [titanic.R](R/titanic.R) and [TitanicSurvival](data/TitanicSurvival.csv)  
 
 Readings:  
+- [excerpts](notes/DataExploration.pdf) from my course notes on statistical modeling  
 - NIST Handbook, Chapter 1.  
 - R walkthroughs on basic EDA: [contingency tables](http://jgscott.github.io/teaching/r/titanic/titanic.html), [histograms](http://jgscott.github.io/teaching/r/citytemps/citytemps.html), and [scatterplots/lattice plots](http://jgscott.github.io/teaching/r/sat/sat.html). 
 - [Bad graphics ](notes/badgraphics.pdf)
@@ -40,7 +57,7 @@ Readings:
 
 ### (3) Resampling methods
 
-The bootstrap and the permutation test; joint distributions; basic moment identities for linear combinations; using the bootstrap to approximate value at risk (VaR). 
+The bootstrap and the permutation test; joint distributions; using the bootstrap to approximate value at risk (VaR). 
 
 Scripts:  
 - [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv) 
@@ -49,7 +66,8 @@ Scripts:
 
 Readings:  
 - ISL Section 5.2 for a basic overview.  
-- [These notes](http://jgscott.github.io/SDS325H_Spring2015/files/05-QuantifyingUncertaintyPart1.pdf), pages 99-111.  This is an introduction to the bootstrap from the (by now familiar) perspective of linear regression modeling, but it conveys the essential idea.  
+- [These notes](notes/QuantifyingUncertainty.pdf) on bootstrapping and the permutation test.  
+- [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
 - [This R walkthrough](http://jgscott.github.io/teaching/r/creatinine/creatinine_bootstrap.html) on using the bootstrap to estimate the variability of a sample mean.  
 - [Another R walkthrough](http://jgscott.github.io/teaching/r/titanic/titanic_permtest.html) on the permutation test in a simple 2x2 table.  
 - Any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf).
@@ -57,9 +75,9 @@ Readings:
 Optionally, Shalizi (Chapter 6) has a much lengthier treatment of the bootstrap, should you wish to consult it.    
 
 
-### (4) Latent classes
+### (4) Clustering
 
-Basics of clustering; K-means clustering; mixture models; hierarchical clustering.
+Basics of clustering; K-means clustering; hierarchical clustering.
 
 Scripts and data:  
 - [protein.R](R/protein.R) and [protein.csv](data/protein.csv) 
@@ -76,7 +94,7 @@ Readings:
 
 ### (5) Latent features and structure
 
-Principal component analysis (PCA); factor analysis; canonical correlation analysis; multi-dimensional scaling.
+Principal component analysis (PCA).  If time: canonical correlation analysis; multi-dimensional scaling.
 
 Scripts and data:  
 - [pca_2D.R](R/pca_2D.R)  
