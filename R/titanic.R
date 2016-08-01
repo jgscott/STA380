@@ -1,4 +1,5 @@
 library(mosaic)
+library(foreach)
 TitanicSurvival = read.csv('../data/TitanicSurvival.csv')
 
 # A 2x2 contingency table

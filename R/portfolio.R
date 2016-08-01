@@ -4,7 +4,7 @@ library(foreach)
 
 # Import a few stocks
 mystocks = c("MRK", "JNJ", "SPY")
-myprices = yahooSeries(mystocks, from='2011-01-01', to='2015-07-30')
+myprices = yahooSeries(mystocks, from='2012-01-01', to='2016-07-30')
 # The first few rows
 head(myprices)
 
@@ -76,7 +76,7 @@ holdings = weights * totalwealth
 #### With more stocks
 
 mystocks = c("WMT", "TGT", "XOM", "MRK", "JNJ")
-myprices = yahooSeries(mystocks, from='2011-01-01', to='2015-07-30')
+myprices = yahooSeries(mystocks, from='2012-01-01', to='2016-07-30')
 
 # Compute the returns from the closing prices
 myreturns = YahooPricesToReturns(myprices)

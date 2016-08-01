@@ -6,6 +6,9 @@ Welcome to part 2 of STA 380, a course on predictive modeling in the MS program 
 
 On Friday, July 29th, I will hold office hours from 10am to 12pm (normal class time).  I will start in my office (CBA 6.478), but if a lot of folks show up at once, we'll move to the regular classroom.
 
+On Tuesday (8/2) and Thursday (8/4), I will hold office hours from 9-10 AM in CBA 6.478.
+
+
 ## Scribe notes and exercises
 
 To submit your scribe report, please e-mail me link to a .pdf or .md file on your own GitHub page (james.scott at mccombs.utexas.edu).  Do not send an attachment.

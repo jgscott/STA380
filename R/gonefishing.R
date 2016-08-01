@@ -13,7 +13,7 @@ mean_weight_pop
 
 # Take a random sample from the population of fish in the lake
 n_fish = 30
-fishing_trip = sample(gonefishing, n_fish)
+fishing_trip = mosaic::sample(gonefishing, n_fish)
 # Look at the measurements of the first five fish we caught
 head(fishing_trip, 5)
 
@@ -24,14 +24,14 @@ mean_weight_sample
 
 # Repeat 25 times
 do(25)*{
-  fishing_trip = sample(gonefishing, n_fish)
+  fishing_trip = mosaic::sample(gonefishing, n_fish)
   mean_weight_sample = mean(fishing_trip$weight)
   mean_weight_sample
 }
 
 # Using the more flexible "foreach" construction
 foreach(i = 1:25, .combine='c') %do% {
-  fishing_trip = sample(gonefishing, n_fish)
+  fishing_trip = mosaic::sample(gonefishing, n_fish)
   mean_weight_sample = mean(fishing_trip$weight)
   mean_weight_sample
 }
@@ -39,7 +39,7 @@ foreach(i = 1:25, .combine='c') %do% {
 
 # Simulate a whole year of 30-fish days
 my_fishing_year = foreach(i = 1:365, .combine='c') %do% {
-  fishing_trip = sample(gonefishing, n_fish)
+  fishing_trip = mosaic::sample(gonefishing, n_fish)
   mean_weight_sample = mean(fishing_trip$weight)
   mean_weight_sample
 }
@@ -52,7 +52,7 @@ sd(my_fishing_year)
 # Now try bootstrapping
 
 # First take a single sample
-fishing_trip = sample(gonefishing, n_fish)
+fishing_trip = mosaic::sample(gonefishing, n_fish)
 mean_weight_sample = mean(fishing_trip$weight)
 mean_weight_sample
 

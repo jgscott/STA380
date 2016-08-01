@@ -4,7 +4,7 @@
 
 Scribe notes will be posted here as they arrive.  Remember, please e-mail a link to the PDF (or .md) file that you've posted on your own GitHub page.  (This is a lot easier for me than if I receive a bunch of attachments.)  
 
-July 27th, 2nd half: [probability foundations](https://github.com/AmandaCoker/Scribe-Notes-July-27-2016), by Coker, Drakou, and Moran.  
+July 27th, 2nd half: [probability foundations](https://github.com/AmandaCoker/Scribe-Notes-July-27-2016), by Coker, Drakou, and Mohan.  
 
 July 28th, 1st half: [probability foundations, continued](https://github.com/Caroline-Nelson/Module-2/blob/master/Module2.pdf), by Nelson and Chou  
 
