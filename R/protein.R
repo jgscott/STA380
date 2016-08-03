@@ -1,7 +1,7 @@
 # Old-school european protein consumption,
 # in grams/person-day from various sources
 protein <- read.csv("../data/protein.csv", row.names=1)
-head(protein)
+head(protein, 10)
 
 # Center/scale the data
 protein_scaled <- scale(protein, center=TRUE, scale=TRUE) 

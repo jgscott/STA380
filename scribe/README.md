@@ -10,3 +10,10 @@ July 28th, 1st half: [probability foundations, continued](https://github.com/Car
 
 July 28th, 2nd half: [exploratory data analysis](https://github.com/DavisTownsend/Scribe-Notes/blob/master/Scribe_Notes.pdf), by Townsend, Bilderback, and Beckelman  
 
+August 1st, 1st half: [sampling distributions and the bootstrap](https://github.com/stuti-madaan/STA380_SM/blob/stuti-madaan-scribe/Scribe_Module4_first_Half.pdf), by Lakhotia, Bhuta, and Madaan.
+
+August 1st, 2nd half: [permutation tests, bootstrapping a financial portfolio](https://github.com/anuragchilukuri/STATS380/blob/master/Module_5.pdf), by Chilukuri, Varma, and Amlathe.
+
+August 2nd, 1st half: [introduction to clustering](https://github.com/emilygraves/STA-380/blob/master/Clustering%20Notes.pdf), by Graves and Regan.  
+
+August 2nd, 2nd half: [k-means for clustering]().
