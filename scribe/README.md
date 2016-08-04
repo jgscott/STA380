@@ -16,4 +16,4 @@ August 1st, 2nd half: [permutation tests, bootstrapping a financial portfolio](h
 
 August 2nd, 1st half: [introduction to clustering](https://github.com/emilygraves/STA-380/blob/master/Clustering%20Notes.pdf), by Graves and Regan.  
 
-August 2nd, 2nd half: [k-means for clustering]().
+August 2nd, 2nd half: [k-means for clustering](https://github.com/lindsaytober/STA380Scribing/blob/master/K-means_for_clustering.pdf), by Hausman, Sheline, and Tober.  

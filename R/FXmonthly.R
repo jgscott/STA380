@@ -23,8 +23,8 @@ mtext(side=1, "Currency Difference Principle Components",  line=1, font=2)
 fx_scores = predict(fxpca)  # same as fxpca$x
 
 # Color each point so that they get darker over time
-plot(fx_scores[,1:2], pch=21, bg=terrain.colors(120)[120:1], main="Currency PC scores")
-legend("topleft", fill=terrain.colors(3),
+plot(fx_scores[,1:2], pch=21, bg=cm.colors(120)[120:1], main="Currency PC scores")
+legend("topleft", fill=cm.colors(3),
        legend=c("2010","2005","2001"), bty="n", cex=0.75)
 outlier = identify(fx_scores[,1:2], n=1)
 
@@ -52,9 +52,12 @@ barplot(fxpca$rotation[,2], las=2)
 barplot(fxpca$rotation[,3], las=2)
 
 currency_codes
-View(currency_codes)
 
-# Compare with factor analysis
+
+####
+# Compare with factor analysis (optional)
+####
+
 Y = scale(FXmonthly[-outlier,], center=TRUE, scale=FALSE)
 fa_fx = factanal(Y, 3, scores='regression')
 print(fa_fx)

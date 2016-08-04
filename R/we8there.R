@@ -10,7 +10,7 @@ X_freq = we8thereCounts/rowSums(we8thereCounts)
 Z = scale(X_freq)
 
 # Run k means
-kmeans_we8there <- kmeans(Z, 4)  
+kmeans_we8there <- kmeans(Z, 4, nstart = 10)  
 
 # The first centroid
 head(sort(kmeans_we8there$centers[1,], decreasing=TRUE), 10)
@@ -52,6 +52,6 @@ kpp_residualss = foreach(i=1:nrow(Z), .combine='c') %do% {
 }
 
 sum(kpp_residualss)
-kmeans_we8there$tot.withinss
+sum(kmeans_we8there$withinss)
 
 
