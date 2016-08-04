@@ -17,3 +17,8 @@ August 1st, 2nd half: [permutation tests, bootstrapping a financial portfolio](h
 August 2nd, 1st half: [introduction to clustering](https://github.com/emilygraves/STA-380/blob/master/Clustering%20Notes.pdf), by Graves and Regan.  
 
 August 2nd, 2nd half: [k-means for clustering](https://github.com/lindsaytober/STA380Scribing/blob/master/K-means_for_clustering.pdf), by Hausman, Sheline, and Tober.  
+
+August 3rd, 1st half: [further details on k-means](https://github.com/ehonore/Scribe/blob/master/ScribeGonzalesKesselHonore.pdf), by Honore, Kessel, and Gonzalez.  
+
+August 3rd, 2nd half: [hierarchical clustering](https://github.com/AnyingLi/Hierarchical-clustering/blob/master/rmd-scribe-anying.pdf), by He, Yu, and Li.  
+

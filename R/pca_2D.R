@@ -75,3 +75,11 @@ var(alpha_best)/sum(var_bycomponent)  # as a ratio
 par(mfrow=c(1,1))
 plot(pc1)
 pc1$sdev^2  # the standard deviation, rather than the variance
+
+
+v_best2 = pc1$rotation[,2]
+
+# The two PCs
+v_best
+v_best2
+
