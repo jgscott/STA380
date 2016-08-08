@@ -142,5 +142,10 @@ Scripts and data:
 - [playlists.R](R/playlists.R) and [playlists.csv](data/playlists.csv)  
 
 Readings: 
-- [Pradeep Ravikumar's notes on association rule mining](notes/lec-AssociationRules.pdf)  
+- [Pradeep Ravikumar's notes on association rule mining](notes/association_rules.pdf)    
+- [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
+
+Miscellaneous:  
+- a little Python utility for [scraping Spotify playlists](https://github.com/nithinphilips/spotifyscrape)  
+
 

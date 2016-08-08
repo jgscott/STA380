@@ -22,3 +22,10 @@ August 3rd, 1st half: [further details on k-means](https://github.com/ehonore/Sc
 
 August 3rd, 2nd half: [hierarchical clustering](https://github.com/AnyingLi/Hierarchical-clustering/blob/master/rmd-scribe-anying.pdf), by He, Yu, and Li.  
 
+August 4th, 1st half: [introduction to PCA](https://github.com/Green-Guo/MSBA/blob/master/Scribe_Notes_Module10_Huang_Yu_Guo.pdf), by Huang, Yu, and Guo.  
+
+August 4th, 2nd half: [PCA, continued](https://github.com/chasejslocum/MSBA-STA-380/blob/master/PCA_2_Liu_Slocum_Wang.pdf), by Liu, Slocum, and Wang.
+
+
+
+

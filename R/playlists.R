@@ -3,14 +3,21 @@
 library(arules)  # has a big ecosystem of packages built around it
 
 # Read in playlists from users
-playlists <- read.csv("../data/playlists.csv")
-playlists$user <- factor(playlists$user)
+playlists_raw <- read.csv("../data/playlists.csv")
+
+str(playlists_raw)
+summary(playlists_raw)
+
+# Turn user into a factor
+playlists_raw$user <- factor(playlists_raw$user)
 
 # First create a list of baskets: vectors of items by consumer
 # Analagous to bags of words
 
+# apriori algorithm expects a list of baskets in a special format
+# In this case, one "basket" of songs per user
 # First split data into a list of artists for each user
-playlists <- split(x=playlists$artist, f=playlists$user)
+playlists <- split(x=playlists_raw$artist, f=playlists_raw$user)
 
 ## Remove duplicates ("de-dupe")
 playlists <- lapply(playlists, unique)
