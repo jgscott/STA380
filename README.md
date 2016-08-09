@@ -19,6 +19,8 @@ You can find the up-to-date collection of [scribe notes here](scribe/).
 
 The first set of exercises is [available here](exercises/exercises01.md).
 
+The second set of exercises is [available here](exercises/exercises02.md).  
+
 ## Topics 
 
 ### (0) The data scientist's toolbox
