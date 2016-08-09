@@ -29,7 +29,7 @@ art_stories_DTM = make.BoW.frame(art_stories_vec_std)
 # Think about stemming?
 art_stories_DTM[1:10,1:100]
 
-# Run PCA on Term-frequency matrix
+# Run PCA on Term-frequency matrix (TF_IDF weights)
 art_stories_DTM_TF = art_stories_DTM / rowSums(art_stories_DTM)
 art_stories_DTM_TFIDF = idf.weight(art_stories_DTM_TF)
 
@@ -50,4 +50,5 @@ identify(lsi_art$x[,1:2], n=2)
 
 art_stories[[12]]
 art_stories[[17]]
+
 

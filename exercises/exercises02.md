@@ -1,8 +1,10 @@
 # STA 380, Part 2: Exercises 2
 
-Turn these in by 12 PM on Tuesday, August 16th.  As before, prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.  You should submit your work by sending me a link to a GitHub page where the final report has been stored -- preferably in Markdown/HTML format but PDF is OK too.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  _Do not send a PDF or Rmd file as an attachment._
+Turn these in by 12 PM on Tuesday, August 16th.  As before, prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.
 
-Important: Use the subject line "STA 380 Homework 2: Lastname, Firstname" so that I can sort my inbox easily.  (Obviously use your own first and last names in the subject.)
+As before, you should submit your work to <statdropbox@gmail.com>.  Send a link to a GitHub page where the final report has been stored -- preferably in Markdown (.md) format but PDF is OK too.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  _Do not send a PDF or Rmd file as an attachment._
+
+Important: Use the subject line "STA 380 Homework 2: Name" so that I can sort my inbox easily.  (Obviously use your own first and last names in the subject, or the names of all your group members if applicable.)
 
 ## Flights at ABIA
 
@@ -59,6 +61,5 @@ Note: you will need to figure out a way to deal with words in the test set that 
 
 ## Practice with association rule mining
 
-Read the notes on [association rule mining](../notes/lec-AssociationRules.pdf), and walk through the R example on music playlists: [playlists.R](../R/playlists.R) and [playlists.csv](../data/playlists.csv).  Then use the data on grocery purchases in [groceries.txt](../data/groceries.txt) and find some interesting association rules for these shopping baskets.  The data file is a list of baskets: one row per basket, with multiple items per row separated by commas -- you'll have to cobble together a few utilities for processing this into the format expected by the "arules" package.  Pick your own thresholds for lift and confidence; just be clear what these thresholds are and how you picked them.  Do your discovered item sets make sense?  Present your discoveries in an interesting and concise way.  
+Revisit the notes on [association rule mining](../notes/association_rules.pdf), and walk through the R example on music playlists: [playlists.R](../R/playlists.R) and [playlists.csv](../data/playlists.csv).  Then use the data on grocery purchases in [groceries.txt](../data/groceries.txt) and find some interesting association rules for these shopping baskets.  The data file is a list of baskets: one row per basket, with multiple items per row separated by commas -- you'll have to cobble together a few utilities for processing this into the format expected by the "arules" package.  Pick your own thresholds for lift and confidence; just be clear what these thresholds are and how you picked them.  Do your discovered item sets make sense?  Present your discoveries in an interesting and concise way.  
 
-Note: we didn't spend much time on this class, so this is a "practice" problem -- still graded, but a lot less open-ended than the other two, and it should be pretty straightforward in execution.

@@ -23,10 +23,10 @@ file_list = Sys.glob('../data/ReutersC50/C50train/SimonCowell/*.txt')
 simon = lapply(file_list, readerPlain) 
 
 # Some more concise document names via basic string manipulation
+# really should be using regex's for this
 names(simon) = file_list
 names(simon) = substring(names(simon),first=41)
 names(simon) = sub('.txt', '', names(simon))
-
 
 
 

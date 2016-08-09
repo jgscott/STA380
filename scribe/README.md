@@ -26,6 +26,8 @@ August 4th, 1st half: [introduction to PCA](https://github.com/Green-Guo/MSBA/bl
 
 August 4th, 2nd half: [PCA, continued](https://github.com/chasejslocum/MSBA-STA-380/blob/master/PCA_2_Liu_Slocum_Wang.pdf), by Liu, Slocum, and Wang.
 
+August 8th, 1st half: [homework review]()
 
+August 8th, 2nd half: [association rule mining](https://github.com/yaweny2/yawen_Yiqing_scribe/blob/master/8_8_2016_Ye_Zhu.pdf), by Ye and Zhu.
 
-
+August 9th, 1st half: [introduction to text analysis](https://github.com/ryan-maas/STA380-Exercises/blob/master/Scribe_Notes_08_09_16.pdf), by Griffin, Maas, and Zeller. 

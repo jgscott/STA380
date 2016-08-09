@@ -8,6 +8,8 @@ On Friday, July 29th, I will hold office hours from 10am to 12pm (normal class t
 
 On Tuesday (8/2) and Thursday (8/4), I will hold office hours from 9-10 AM in CBA 6.478.
 
+On Friday (8/12), I will hold office hours from 2:30-4 PM in CBA 6.478, or in our usual classroom if it gets too crowded.
+
 
 ## Scribe notes and exercises
 
