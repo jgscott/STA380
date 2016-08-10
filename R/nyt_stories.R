@@ -46,7 +46,7 @@ query_vec[c(4937, 5224)] = 1
 # Cosine of angle between two vectors:
 # Inner product of query vector with all documents, standardized by lengths
 my_cosine = function(v1, v2) {
-  v1 %*% v2 / {sqrt(sum(v1)^2) * sqrt(sum(v2^2))}
+  sum(v1*v2) / {sqrt(sum(v1)^2) * sqrt(sum(v2^2))}
 }
 
 my_cosine(query_vec, art_stories_DTM_TFIDF[1,])
@@ -56,7 +56,7 @@ my_cosine(query_vec, art_stories_DTM_TFIDF[2,])
 query_angles = apply(art_stories_DTM_TFIDF, 1, function(x) my_cosine(x, query_vec))
 which.max(query_angles)
 
-art_stories[[37]]
+art_stories[[16]]
 
 
 # Now a different vector-space representation: LSI/LSA
