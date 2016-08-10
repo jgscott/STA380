@@ -29,10 +29,37 @@ art_stories_DTM = make.BoW.frame(art_stories_vec_std)
 # Think about stemming?
 art_stories_DTM[1:10,1:100]
 
-# Run PCA on Term-frequency matrix (TF_IDF weights)
+# Construct term-frequency matrix
 art_stories_DTM_TF = art_stories_DTM / rowSums(art_stories_DTM)
+
+# TF-IDF weights
 art_stories_DTM_TFIDF = idf.weight(art_stories_DTM_TF)
 
+# Construct a hypothetical query vector
+D = ncol(art_stories_DTM_TFIDF)
+which(colnames(art_stories_DTM_TFIDF) == 'museum')
+which(colnames(art_stories_DTM_TFIDF) == 'opening')
+
+query_vec = rep(0, D)
+query_vec[c(4937, 5224)] = 1
+
+# Cosine of angle between two vectors:
+# Inner product of query vector with all documents, standardized by lengths
+my_cosine = function(v1, v2) {
+  v1 %*% v2 / {sqrt(sum(v1)^2) * sqrt(sum(v2^2))}
+}
+
+my_cosine(query_vec, art_stories_DTM_TFIDF[1,])
+my_cosine(query_vec, art_stories_DTM_TFIDF[2,])
+
+# calculate for all documents
+query_angles = apply(art_stories_DTM_TFIDF, 1, function(x) my_cosine(x, query_vec))
+which.max(query_angles)
+
+art_stories[[37]]
+
+
+# Now a different vector-space representation: LSI/LSA
 lsi_art = prcomp(art_stories_DTM_TFIDF, scale.=FALSE)
 
 head(sort(lsi_art$rotation[,1], decreasing=FALSE), 20)
