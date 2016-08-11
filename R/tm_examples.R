@@ -86,13 +86,20 @@ pca_simon$rotation[order(abs(pca_simon$rotation[,2]),decreasing=TRUE),2][1:25]
 
 
 ## Plot the first two PCs..
-plot(pca_simon$x[,1:2], col='grey', pch=19, xlab="PCA 1 direction", ylab="PCA 2 direction", bty="n")
+plot(pca_simon$x[,1:2], xlab="PCA 1 direction", ylab="PCA 2 direction", bty="n",
+     type='n')
+text(pca_simon$x[,1:2], labels = 1:length(simon), cex=0.7)
 identify(pca_simon$x[,1:2], n=4)
 
 # Both about "Scottish Amicable"
-simon[[46]]
-simon[[48]]
+content(simon[[46]])
+content(simon[[48]])
 
-simon[[25]]
-simon[[26]]
+# Both about genetic testing
+content(simon[[25]])
+content(simon[[26]])
+
+# Both about Ladbroke's merger
+content(simon[[10]])
+content(simon[[11]])
 

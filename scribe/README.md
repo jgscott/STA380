@@ -32,3 +32,9 @@ August 8th, 2nd half: [association rule mining](https://github.com/yaweny2/yawen
 
 August 9th, 1st half: [introduction to text analysis](https://github.com/ryan-maas/STA380-Exercises/blob/master/Scribe_Notes_08_09_16.pdf), by Griffin, Maas, and Zeller. 
 
+August 9th, 2nd half: [tokenization and text pipelines](https://github.com/hiteshprabhu92/STA380-ScribeNotes-Aug9/blob/master/ScribeNotes_Aug9.pdf), by Graves and Prabhu  
+
+August 10th, 1st half: [vector space models of text, intro to LSA](https://github.com/TylerNicholas22/Unsupervised-Learning/blob/master/Vector%20Space%20Model%20Using%20Distance.pdf), by Yuan, Staton, and Nicholas.  
+
+August 10th, 2nd half: [more on LSA](https://github.com/nicole-erich/MSBA-Summer/blob/master/Scribe%20Notes%20-%20August%2010%202016%20-%202nd%20Half.pdf), by Erich, Hong, and Lundy.   
+
