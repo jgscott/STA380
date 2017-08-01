@@ -4,18 +4,10 @@ Welcome to part 2 of STA 380, a course on predictive modeling in the MS program 
 
 ## Office hours 
 
-On Friday, July 29th, I will hold office hours from 10am to 12pm (normal class time).  I will start in my office (CBA 6.478), but if a lot of folks show up at once, we'll move to the regular classroom.
-
-On Tuesday (8/2) and Thursday (8/4), I will hold office hours from 9-10 AM in CBA 6.478.
-
-On Friday (8/12), I will hold office hours from 2:30-4 PM in CBA 6.478, or in our usual classroom if it gets too crowded.
+On Tuesday-Thursday, August 8-10 and August 15-17, I will hold office hours from 9-10 AM in CBA 6.478.  
 
 
-## Scribe notes and exercises
-
-To submit your scribe report, please e-mail me link to a .pdf or .md file on your own GitHub page (james.scott at mccombs.utexas.edu).  Do not send an attachment.
-
-You can find the up-to-date collection of [scribe notes here](scribe/).  
+## Exercises
 
 The first set of exercises is [available here](exercises/exercises01.md).
 
@@ -35,15 +27,17 @@ Readings:
 
 ### (1) Foundations of probability  
 
-Basic probability, and some fun examples.  Random variables, probability distributions, expected value.  Joint, marginal, and conditional probability.  Independence. Law of total probability.  Bayes' rule.  
+Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Independence. Law of total probability.  Bayes' rule.  Random variables, probability distributions, expected value.  
 
 Readings:
+- [basic set notation](https://en.wikipedia.org/wiki/Set_(mathematics)#Basic_operations): unions, intersections, etc.   
 - [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
  
 Some optional stuff:  
+- [some more technical notes of probability, for reference](notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  
 - [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
-- [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.  
-- [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!  
+- [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.   
+<!-- - [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!   -->
 
 
 ### (2) Exploratory analysis
@@ -93,8 +87,7 @@ Scripts and data:
 - [hclust_examples.R](R/hclust_examples.R)   
 
 Readings:  
-- ISL Section 10.1 and 10.3  
-- Elements Chapter 14.3 (more advanced)    
+- ISL Section 10.1 and 10.3 or Elements Chapter 14.3 (more advanced)    
 - [K means examples](notes/kmeans_examples.pdf): a few stylized examples to build your intuition for how k-means behaves.  
 - [Hierarchical clustering examples](notes/hclust_examples.pdf): ditto for hierarchical clustering.  
 - K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
@@ -102,7 +95,7 @@ Readings:
 
 ### (5) Latent features and structure
 
-Principal component analysis (PCA).  If time: canonical correlation analysis; multi-dimensional scaling.
+Principal component analysis (PCA).  
 
 Scripts and data:  
 - [pca_2D.R](R/pca_2D.R)  
@@ -114,12 +107,26 @@ Scripts and data:
 
 
 Readings:  
-- ISL Section 10.2 for the basics  
-- Shalizi Chapters 18 and 19 (more advanced).  In particular, Chapter 19 has a lot more advanced material on factor analysis, beyond what we covered in class.      
-- Elements Chapter 14.5 (more advanced)  
+- ISL Section 10.2 for the basics or Elements Chapter 14.5 (more advanced)  
+- Shalizi Chapters 18 and 19 (more advanced).  In particular, Chapter 19 has a lot more advanced material on factor models, beyond what we covered in class.      
+
+### (6) Networks and Association Rules  
+
+Networks and association rule mining.  
+
+Scripts and data: 
+- [playlists.R](R/playlists.R) and [playlists.csv](data/playlists.csv)  
+
+Readings: 
+- [Pradeep Ravikumar's notes on association rule mining](notes/association_rules.pdf)    
+- [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
+
+Miscellaneous:  
+- a little Python utility for [scraping Spotify playlists](https://github.com/nithinphilips/spotifyscrape)  
 
 
-### (6) Text data
+
+### (7) Text data
 
 Co-occurrence statistics; naive Bayes; TF-IDF; topic models; vector-space models of text (if time allows).
 
@@ -139,18 +146,5 @@ Readings:
 - [A pretty long blog post on naive-Bayes classification](https://www.bionicspirit.com/blog/2012/02/09/howto-build-naive-bayes-classifier.html).  
 
 
-### (7) Miscellaneous
-
-Coverage of these topics will depend on the time available.  Possibilities include: anomaly detection; label propagation; learning association rules; graph partitioning; partial least squares.  
-
-Scripts and data: 
-- [playlists.R](R/playlists.R) and [playlists.csv](data/playlists.csv)  
-
-Readings: 
-- [Pradeep Ravikumar's notes on association rule mining](notes/association_rules.pdf)    
-- [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
-
-Miscellaneous:  
-- a little Python utility for [scraping Spotify playlists](https://github.com/nithinphilips/spotifyscrape)  
 
 

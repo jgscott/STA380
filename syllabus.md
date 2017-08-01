@@ -23,9 +23,7 @@ The course is intended as an overview, rather than an in-depth treatment of any 
 
 ## Grading  
 
-The bulk of your grade will come from two long homework assignments (40% each), in which you will analyze some data, create a fully reproducible report using RMarkdown, and submit your report through GitHub.  The first assignment will be due on August 8th, and the second on August 16th.
-
-The remaining 20% of your grade will come from submitting a high-quality scribe report for a single lecture.  I'll explain more about this in class, but the idea is simple: each day, someone takes detailed notes and makes them available to their classmates.  These notes are supposed to be definitive, by which I mean: comprehensive, mistake-free, and easily understood by any of your classmates who paid attention that day.  You only have to do this once, but you'll be repaid with a set of high-quality crowdsourced lecture notes.  I'll circulate a sign-up sheet for scribing on the first day of class.  
+Your grade for this half of the course will come from two homework assignments (50% each), in which you will analyze some data, create a fully reproducible report using RMarkdown, and submit your report through GitHub.   
 
 
 ## Readings

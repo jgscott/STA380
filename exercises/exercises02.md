@@ -1,6 +1,6 @@
 # STA 380, Part 2: Exercises 2
 
-Turn these in by 12 PM on Tuesday, August 16th.  As before, prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.
+Turn these in by 5 PM on Friday, August 18th.  As before, prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.
 
 As before, you should submit your work to <statdropbox@gmail.com>.  Send a link to a GitHub page where the final report has been stored -- preferably in Markdown (.md) format but PDF is OK too.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  _Do not send a PDF or Rmd file as an attachment._
 
@@ -47,7 +47,7 @@ Your task is to create a figure, or set of related figures, that tell an interes
 - How do patterns of flights to different destinations or parts of the country change over the course of the year?  
 - What are the bad airports to fly to?  
 
-But anything interesting will fly.
+But anything interesting will fly.  
 
 
 ## Author attribution
