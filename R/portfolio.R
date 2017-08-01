@@ -40,43 +40,12 @@ acf(myreturns[,3])
 # The sample correlation matrix
 cor(myreturns)
 
-#######
-# A classical way to estimate portfolio variability: use the CAPM
-#######
-
-# First fit the market model to each stock
-lm_MRK = lm(myreturns[,1] ~ myreturns[,4])
-lm_JNJ = lm(myreturns[,2] ~ myreturns[,4])
-
-# The estimated beta for each stock based on daily returns
-coef(lm_MRK); coef(lm_JNJ)
-
-
-# A problem...
-# What about the residuals?
-myresiduals = cbind(resid(lm_ORCL), resid(lm_MRK), resid(lm_JNJ))
-
-# Sample correlation matrix
-cor(myresiduals)
-
-# Compute the moments of a one-day change in your portfolio
-totalwealth = 10000
-weights = c(0.5, 0.25, 0.25) 	# What percentage of your wealth will you put in each stock?
-
-mu_SPY = mean(myreturns[,4])
-sigma_SPY = sd(myreturns[,4])
-
-
-
-# How much money do we have in each stock?
-holdings = weights * totalwealth
-
 
 #### Now use a bootstrap approach
 #### With more stocks
 
 mystocks = c("WMT", "TGT", "XOM", "MRK", "JNJ")
-myprices = yahooSeries(mystocks, from='2012-01-01', to='2016-07-30')
+myprices = yahooSeries(mystocks, from='2013-01-01', to='2017-07-30')
 
 # Compute the returns from the closing prices
 myreturns = YahooPricesToReturns(myprices)
@@ -111,7 +80,7 @@ totalwealth
 plot(wealthtracker, type='l')
 
 
-# Now simulate many different possible trading years!
+# Now simulate many different possible scenarios  
 sim1 = foreach(i=1:5000, .combine='rbind') %do% {
 	totalwealth = 10000
 	weights = c(0.2, 0.2, 0.2, 0.2, 0.2)
