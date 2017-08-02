@@ -25,22 +25,9 @@ Readings:
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [Introduction to GitHub](https://help.github.com/articles/set-up-git/)    
 
-### (1) Foundations of probability  
-
-Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Independence. Law of total probability.  Bayes' rule.  Random variables, probability distributions, expected value.  
-
-Readings:
-- [basic set notation](https://en.wikipedia.org/wiki/Set_(mathematics)#Basic_operations): unions, intersections, etc.   
-- [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
- 
-Some optional stuff:  
-- [some more technical notes of probability, for reference](notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  
-- [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
-- [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.   
-<!-- - [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!   -->
 
 
-### (2) Exploratory analysis
+### (1) Exploratory analysis
 
 Contingency tables; basic plots (scatterplot, boxplot, histogram); lattice plots; basic measures of association (relative risk, odds ratio, correlation, rank correlation)
 
@@ -54,6 +41,21 @@ Readings:
 - R walkthroughs on basic EDA: [contingency tables](http://jgscott.github.io/teaching/r/titanic/titanic.html), [histograms](http://jgscott.github.io/teaching/r/citytemps/citytemps.html), and [scatterplots/lattice plots](http://jgscott.github.io/teaching/r/sat/sat.html). 
 - [Bad graphics ](notes/badgraphics.pdf)
 - Good graphics: scan through some of the New York Times' best [data visualizations](http://www.nytimes.com/interactive/2014/12/29/us/year-in-interactive-storytelling.html?_r=0#data-visualization)
+
+
+### (2) Foundations of probability  
+
+Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Law of total probability.  Bayes' rule.  Independence.  [These are videos on UT Box.](https://utexas.box.com/s/pl09u645n2mzx03nndw2kkc2kftznllu).  You will need to sign up for UT Box with your UT e-mail account in order to access these.  Please watch these videos before class on Tuesday, 8/8.  
+
+Readings:
+- [basic set notation](https://en.wikipedia.org/wiki/Set_(mathematics)#Basic_operations): unions, intersections, etc.   
+- [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
+ 
+Some optional stuff:  
+- [some more technical notes of probability, for reference](notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  
+- [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
+- [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.   
+<!-- - [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!   -->
 
 
 ### (3) Resampling methods
