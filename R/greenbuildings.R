@@ -42,10 +42,6 @@ hist(boot1$result, 30)
 confint(boot1, level=0.95)
 xbar + c(-1.96,1.96)*se_hat
 
-# Compare the CDFs
-plot(ecdf(boot1$result))
-curve(pnorm(x, mean= mean(boot1$result), sd = sd(boot1$result)),
-	add=TRUE, col='red')
 
 ####
 # Bootstrap the median

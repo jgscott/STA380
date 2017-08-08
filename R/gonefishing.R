@@ -48,6 +48,8 @@ my_fishing_year = foreach(i = 1:365, .combine='c') %do% {
 hist(my_fishing_year, 25)
 sd(my_fishing_year)
 
+# the theoretical standard deviation:
+sd(gonefishing$weight)/sqrt(30)
 
 # Now try bootstrapping
 
@@ -65,9 +67,13 @@ boot1 = foreach(i = 1:2500, .combine='c') %do% {
 
 # Compare the true sampling distribution with the bootstrapped sampling distribution
 par(mfrow=c(2,1))
-hist(my_fishing_year, 25)
-hist(boot1, 25)
+hist(my_fishing_year, 25, xlim=c(350, 700))
+hist(boot1, 25, xlim=c(350, 700))
 
 # True versus bootstrapped standard error
 sd(my_fishing_year)
 sd(boot1)
+
+# the theoretical standard deviation again:
+sd(gonefishing$weight)/sqrt(30)
+
