@@ -70,6 +70,7 @@ abline(v=10000 * (1+ReturnAvg)^40, col='red', lwd=3)
 
 # We can easily calculate expected value from the MC simulation.
 # Just take a simple average of the simulated futures.
+# Law of large numbers!
 mean(sim1)
 sd(sim1)
 
@@ -100,7 +101,7 @@ lines(1:Horizon, sim1[3,], type='l')
 plot(1:Horizon, colMeans(sim1), type='l', col='red',
 	las=1, xlab='Year', ylab='Value',
 	main='A 40-year portfolio: uncertainty over time', cex.axis=0.8)
-for(sim in 1:nrow(sim1)) {
+for(sim in 1:200) {
   lines(1:Horizon, sim1[sim,], type='l', col=rgb(0,0,0.5,0.05))
 }
 lines(1:Horizon, colMeans(sim1), col='red', lwd=2)

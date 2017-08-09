@@ -40,7 +40,7 @@ Readings:
 - NIST Handbook, Chapter 1.  
 - R walkthroughs on basic EDA: [contingency tables](http://jgscott.github.io/teaching/r/titanic/titanic.html), [histograms](http://jgscott.github.io/teaching/r/citytemps/citytemps.html), and [scatterplots/lattice plots](http://jgscott.github.io/teaching/r/sat/sat.html). 
 - [Bad graphics ](notes/badgraphics.pdf)
-- Good graphics: scan through some of the New York Times' best [data visualizations](http://www.nytimes.com/interactive/2014/12/29/us/year-in-interactive-storytelling.html?_r=0#data-visualization)
+- Good graphics: scan through some of the New York Times' best [data visualizations](https://www.nytimes.com/interactive/2016/12/28/us/year-in-interactive-graphics.html).  Lots of good stuff here but for our purposes, the best things to look at are those in the "Data Visualizations" section, about 60% of the way down the page.  Control-F for "Data Visualization" and you'll find it.  
 
 
 ### (2) Foundations of probability  
@@ -68,15 +68,19 @@ Scripts:
 - [montecarlo.R](R/montecarlo.R)  
 - [portfolio.R](R/portfolio.R)  
 
+If time:  
+- [An R walkthrough](https://github.com/jgscott/learnR/blob/master/hyptest/hyptest.md) on an introduction to hypothesis testing.    
+- [Another R walkthrough](https://github.com/jgscott/learnR/blob/master/titanic/titanic_permtest.md) on the permutation test in a simple 2x2 table.  
+
 Readings:  
 - ISL Section 5.2 for a basic overview.  
 - [These notes](notes/QuantifyingUncertainty.pdf) on bootstrapping and the permutation test.  
 - [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
-- [This R walkthrough](http://jgscott.github.io/teaching/r/creatinine/creatinine_bootstrap.html) on using the bootstrap to estimate the variability of a sample mean.  
-- [Another R walkthrough](http://jgscott.github.io/teaching/r/titanic/titanic_permtest.html) on the permutation test in a simple 2x2 table.  
+- [This R walkthrough](https://github.com/jgscott/learnR/blob/master/gonefishing/gonefishing.md) on using the bootstrap to estimate the variability of a sample mean.  
 - Any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf).
 
-Optionally, Shalizi (Chapter 6) has a much lengthier treatment of the bootstrap, should you wish to consult it.    
+
+Shalizi (Chapter 6) also has a much lengthier treatment of the bootstrap, should you wish to consult it.    
 
 
 ### (4) Clustering
