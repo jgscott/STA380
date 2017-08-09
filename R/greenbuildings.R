@@ -33,10 +33,11 @@ head(green_only_boot)
 
 # Now repeat 2500 times
 boot1 = do(2500)*{
-	mean(resample(green_only_boot)$Rent)
+	mean(resample(green_only)$Rent)
 }
 head(boot1)
 hist(boot1$result, 30)
+sd(boot1$result)
 
 # Extract the confidence interval from the bootstrapped samples
 confint(boot1, level=0.95)
@@ -47,9 +48,10 @@ xbar + c(-1.96,1.96)*se_hat
 # Bootstrap the median
 ####
 
+median(green_only$Rent)
 # Now repeat 2500 times
 boot2 = do(2500)*{
-	median(resample(green_only_boot)$Rent)
+	median(resample(green_only)$Rent)
 }
 head(boot2)
 

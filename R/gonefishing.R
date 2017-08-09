@@ -18,7 +18,7 @@ fishing_trip = mosaic::sample(gonefishing, n_fish)
 head(fishing_trip, 5)
 
 # Sample mean with a new sample
-fishing_trip = sample(gonefishing, n_fish)
+fishing_trip = mosaic::sample(gonefishing, n_fish)
 mean_weight_sample = mean(fishing_trip$weight)
 mean_weight_sample
 
@@ -38,7 +38,7 @@ foreach(i = 1:25, .combine='c') %do% {
 
 
 # Simulate a whole year of 30-fish days
-my_fishing_year = foreach(i = 1:365, .combine='c') %do% {
+my_fishing_year = foreach(i = 1:36500, .combine='c') %do% {
   fishing_trip = mosaic::sample(gonefishing, n_fish)
   mean_weight_sample = mean(fishing_trip$weight)
   mean_weight_sample
