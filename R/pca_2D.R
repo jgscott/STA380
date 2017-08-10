@@ -1,12 +1,15 @@
 # Load a toy data and peak at the numbers
 data(iris)
+head(iris)
 
-# Pick out the first two columns
+# Pick out two columns
 Z = iris[,c(1,4)]
 
 # Clearly a lot of correlation structure in the measurements 
 plot(Z)
 
+
+# Center the data (not scaling here)
 Z_centered = scale(Z, center=TRUE, scale=FALSE)
 plot(Z_centered)
 
@@ -15,7 +18,7 @@ v_try = rnorm(2)
 v_try = v_try/sqrt(sum(v_try^2))
 slope = v_try[2]/v_try[1]
 
-plot(Z_centered)
+plot(Z_centered, pch=19, col=rgb(0.3,0.3,0.3,0.3))
 abline(0, slope)
 segments(0, 0, v_try[1], v_try[2], col='red', lwd=4)
 
@@ -28,7 +31,8 @@ slope = v_try[2]/v_try[1]  # intercept = 0, slope = rise/run
 
 # Show the subspace
 par(mfrow=c(1,2))
-plot(Z_centered, xlim=c(-2.5,2.5), ylim=c(-2.5,2.5))
+plot(Z_centered, pch=19, col=rgb(0.3,0.3,0.3,0.3),
+     xlim=c(-2.5,2.5), ylim=c(-2.5,2.5))
 abline(0, slope)  # plot the subspace as a line
 
 # Project the points onto that subspace

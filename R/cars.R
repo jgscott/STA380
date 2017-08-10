@@ -58,5 +58,7 @@ clust1$withinss
 clust2$withinss
 sum(clust1$withinss)
 sum(clust2$withinss)
-
-
+clust1$tot.withinss
+clust2$tot.withinss
+clust1$betweenss
+clust2$betweenss

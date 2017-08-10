@@ -96,7 +96,7 @@ Scripts and data:
 Readings:  
 - ISL Section 10.1 and 10.3 or Elements Chapter 14.3 (more advanced)    
 - [K means examples](notes/kmeans_examples.pdf): a few stylized examples to build your intuition for how k-means behaves.  
-- [Hierarchical clustering examples](notes/hclust_examples.pdf): ditto for hierarchical clustering.  
+- [Hierarchical clustering notes](notes/hierarchical_clustering.pdf): some slides on hierarchical clustering.  
 - K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
 
 
