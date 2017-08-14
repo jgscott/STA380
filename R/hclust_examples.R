@@ -26,12 +26,17 @@ which(cluster1 == 3)
 
 
 # Using single ("single") linkage instead
-hier_protein2 = hclust(protein_distance_matrix, method='single')
+hier_protein2 = hclust(protein_distance_matrix, method='complete')
 
 # Plot the dendrogram
 plot(hier_protein2, cex=0.8)
 cluster2 = cutree(hier_protein2, k=5)
 summary(factor(cluster2))
+
+# Examine the cluster members
+which(cluster2 == 1)
+which(cluster2 == 2)
+which(cluster2 == 3)
 
 
 ## Now the cars data

@@ -38,14 +38,14 @@ Scripts and data:
 Readings:  
 - [excerpts](notes/DataExploration.pdf) from my course notes on statistical modeling  
 - NIST Handbook, Chapter 1.  
-- R walkthroughs on basic EDA: [contingency tables](http://jgscott.github.io/teaching/r/titanic/titanic.html), [histograms](http://jgscott.github.io/teaching/r/citytemps/citytemps.html), and [scatterplots/lattice plots](http://jgscott.github.io/teaching/r/sat/sat.html). 
+- R walkthroughs on basic EDA: see the three walkthroughs in the [Exploratory Data Analysis section here.](https://github.com/jgscott/learnR)  
 - [Bad graphics ](notes/badgraphics.pdf)
 - Good graphics: scan through some of the New York Times' best [data visualizations](https://www.nytimes.com/interactive/2016/12/28/us/year-in-interactive-graphics.html).  Lots of good stuff here but for our purposes, the best things to look at are those in the "Data Visualizations" section, about 60% of the way down the page.  Control-F for "Data Visualization" and you'll find it.  
 
 
 ### (2) Foundations of probability  
 
-Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Law of total probability.  Bayes' rule.  Independence.  [These are videos on UT Box.](https://utexas.box.com/s/pl09u645n2mzx03nndw2kkc2kftznllu).  You will need to sign up for UT Box with your UT e-mail account in order to access these.  Please watch these videos before class on Tuesday, 8/8.  
+Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Law of total probability.  Bayes' rule.  Independence.  [These are videos on UT Box.](https://utexas.box.com/s/pl09u645n2mzx03nndw2kkc2kftznllu).  You will need to sign up for UT Box with your UT e-mail account in order to access these.  
 
 Readings:
 - [basic set notation](https://en.wikipedia.org/wiki/Set_(mathematics)#Basic_operations): unions, intersections, etc.   
@@ -109,6 +109,9 @@ Scripts and data:
 - [pca_intro.R](R/pca_intro.R)  
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
 - [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)  
+- [congress109_regression.R](R/congress109_regression.R)  
+
+If time:  
 - [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)  
 - [cca_intro.R](R/cca_intro.R), [mmreg.csv](data/mmreg.csv), and [mouse_nutrition.csv](data/mouse_nutrition.csv)  
 
@@ -125,7 +128,7 @@ Scripts and data:
 - [playlists.R](R/playlists.R) and [playlists.csv](data/playlists.csv)  
 
 Readings: 
-- [Pradeep Ravikumar's notes on association rule mining](notes/association_rules.pdf)    
+- [Notes on association rule mining](notes/association_rules.pdf)    
 - [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
 
 Miscellaneous:  
