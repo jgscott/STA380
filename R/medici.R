@@ -24,6 +24,8 @@ sort(degree(marriage))
 
 ## calculate and color a couple shortest paths
 PtoA = get.shortest.paths(marriage, from="Peruzzi", to="Acciaiuoli")
+allPtoA = all_shortest_paths(marriage, from="Peruzzi", to="Acciaiuoli")
+
 
 # Somewhat confusing return value
 # vpath is a list of the shortest paths 
