@@ -1,10 +1,11 @@
 ## The tm library and related plugins comprise R's most popular text-mining stack.
 ## See http://cran.r-project.org/web/packages/tm/vignettes/tm.pdf
 library(tm) 
+library(magrittr)
 
 ## tm has many "reader" functions.  Each one has
 ## arguments elem, language, id (see ?readPlain,?readPDF,etc)
-## This wraps another function around readPlan to read
+## This wraps another function around readPlain to read
 ## plain text documents in English.
 readerPlain = function(fname){
 				readPlain(elem=list(content=readLines(fname)), 
@@ -24,20 +25,28 @@ simon = lapply(file_list, readerPlain)
 
 # Some more concise document names via basic string manipulation
 # really should be using regex's for this
-names(simon) = file_list
-names(simon) = substring(names(simon),first=41)
-names(simon) = sub('.txt', '', names(simon))
+file_list
 
-
+# Clean up the file names
+# This uses the piping operator from magrittr
+# Also uses anonymous functions.
+# See https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html
+mynames = file_list %>%
+	{ strsplit(., '/', fixed=TRUE) } %>%
+	{ lapply(., tail, n=2) } %>%
+	{ lapply(., paste0, collapse = '') } %>%
+	unlist
+	
+mynames
+names(simon) = mynames
 
 ## once you have documents in a vector, you 
 ## create a text mining 'corpus' with: 
 my_documents = Corpus(VectorSource(simon))
-names(my_documents) = names(simon) # come on, tm! this should just happen.
-
 
 ## Some pre-processing/tokenization steps.
 ## tm_map just maps some function to every document in the corpus
+
 my_documents = tm_map(my_documents, content_transformer(tolower)) # make everything lowercase
 my_documents = tm_map(my_documents, content_transformer(removeNumbers)) # remove numbers
 my_documents = tm_map(my_documents, content_transformer(removePunctuation)) # remove punctuation

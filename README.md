@@ -125,9 +125,11 @@ Readings:
 Networks and association rule mining.  
 
 Scripts and data: 
+- [medici.R](R/medici.R) and [medici.txt](data/medici.txt)  
 - [playlists.R](R/playlists.R) and [playlists.csv](data/playlists.csv)  
 
 Readings: 
+- [Intro slides on networks](notes/networks_intro.pdf)  
 - [Notes on association rule mining](notes/association_rules.pdf)    
 - [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
 
@@ -141,14 +143,15 @@ Miscellaneous:
 Co-occurrence statistics; naive Bayes; TF-IDF; topic models; vector-space models of text (if time allows).
 
 Scripts and data:  
-- [textutils.R](R/textutils.R) 
-- [nyt_stories.R](R/nyt_stories.R) and [selections from the New York Times](https://github.com/jgscott/STA380/tree/master/data/nyt_corpus).
+<!-- - [textutils.R](R/textutils.R) 
+- [nyt_stories.R](R/nyt_stories.R) and [selections from the New York Times](https://github.com/jgscott/STA380/tree/master/data/nyt_corpus). -->
 - [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50).
 - [naive_bayes.R](R/naive_bayes.R)  
 - [simple_mixture.R](R/simple_mixture.R)
 - [congress109_topics.R](R/congress109_topics.R)
 
 Readings: 
+- [Intro slides on text](notes/text_intro.pdf)  
 - [Stanford NLP notes](http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html) on vector-space models of text, TF-IDF weighting, and so forth.  
 - [Great blog post about word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/).  
 - [Using the tm package](http://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for text mining in R.  
