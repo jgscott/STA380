@@ -4,7 +4,8 @@ library(tm)
 library(magrittr)
 
 ## tm has many "reader" functions.  Each one has
-## arguments elem, language, id (see ?readPlain,?readPDF,etc)
+## arguments elem, language, id
+## (see ?readPlain, ?readPDF, ?readXML, etc)
 ## This wraps another function around readPlain to read
 ## plain text documents in English.
 readerPlain = function(fname){
@@ -13,23 +14,20 @@ readerPlain = function(fname){
 							
 ## Test it on Adam Smith
 adam = readerPlain("../data/division_of_labor.txt")
-adam # this is the tm 'PlainTextDocument'
+adam
 content(adam)
-
-
 
 ## apply to all of Simon Cowell's articles
 ## (probably not THE Simon Cowell: https://twitter.com/simoncowell)
+## "globbing" = expanding wild cards in filename paths
 file_list = Sys.glob('../data/ReutersC50/C50train/SimonCowell/*.txt')
 simon = lapply(file_list, readerPlain) 
 
-# Some more concise document names via basic string manipulation
-# really should be using regex's for this
+# The file names are ugly...
 file_list
 
 # Clean up the file names
 # This uses the piping operator from magrittr
-# Also uses anonymous functions.
 # See https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html
 mynames = file_list %>%
 	{ strsplit(., '/', fixed=TRUE) } %>%
