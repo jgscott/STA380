@@ -20,8 +20,6 @@ The second set of exercises will be posted shortly.
 
 Good data-curation and data-analysis practices; R; Markdown and RMarkdown; the importance of replicable analyses; version control with Git and Github.
 
-Hey, I just made a change!
-
 Readings:  
 - [a few introductory slides](notes/STA380intro.pdf)
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
