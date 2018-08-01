@@ -8,12 +8,15 @@
 
 ## Overview
 
-This is the second half of a two-part introductory course on predictive modeling for students in the MS program in Business Analytics at UT-Austin.  In the first half of the course, you learned about predictive models for labeled data (i.e. regression, or supervised learning).  In the second half, about 75% of our time will be spent learning to model structure in _unlabeled_ data (i.e. unsupervised learning).  There are also a few other miscellaneous topics that will round out your introduction to predictive modeling:  
-- foundations of probability  
-- exploratory data analysis  
-- resampling methods for uncertainty quantification  
+This is the second half of a two-part introductory course on predictive modeling for students in the MS program in Business Analytics at UT-Austin.  In the first half of the course, you learned about predictive models for labeled data (i.e. regression, or supervised learning).  In the second half, we will turn to the following topics:  
+- a refresher of some important probability concepts.    
+- exploratory data analysis.   
+- resampling methods for uncertainty quantification.  
+- unsupervised learnig, i.e. learning to model structure in _unlabeled_ data.  
 
 The course is intended as an overview, rather than an in-depth treatment of any particular topic.  We will move fast and cover a lot, but will focus on practical applications rather than theory.
+
+[The course homepage](README.md) has a detailed outline of topics, together with topic-by-topic reading lists.
 
 ## Software
 
@@ -23,7 +26,7 @@ The course is intended as an overview, rather than an in-depth treatment of any 
 
 ## Grading  
 
-Your grade for this half of the course will come from two homework assignments (50% each), in which you will analyze some data, create a fully reproducible report using RMarkdown, and submit your report through GitHub.   
+Your grade for this half of the course will come from two homework assignments (50% each), which mainly consist of analyzing some data, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
 
 
 ## Readings

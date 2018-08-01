@@ -1,8 +1,10 @@
 # STA 380, Part 2: Exercises 1
 
-Turn these in by the end of the day (5 PM) on Friday, August 11.  Prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  If you're working in a group, please turn in a single submission with all of your names attached.
+Due: by end of the day (5 PM) on Friday, August 10.
 
-To submit, please e-mail a link to <statdropbox@gmail.com> with the subject line "STA 380 Homework 1: name here."  (Obviously use your own name in the subject, or the names of all your group members if applicable.)  This link should be to a GitHub page where the final report has been stored -- preferably in Markdown or HTML format but PDF is OK too, especially if you want to include mathematical expressions in the manner [described here](http://rmarkdown.rstudio.com/authoring_basics.html), since GitHub doesn't do math very well.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  If you need to include mathematical expressions in your report, you can use Markdown's [math syntax](https://github.com/cben/mathdown/wiki/math-in-markdown).  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.
+Prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  If you're working in a group, please turn in a single submission with all of your names attached.
+
+To submit, please e-mail a link to <statdropbox@gmail.com> with the subject line "STA 380 Homework 1: name here."  (Obviously use your own name in the subject, or the names of all your group members if applicable.)  This link should be to a GitHub page where the final report has been stored -- preferably in Markdown or HTML format but PDF is OK too, especially if you want to include mathematical expressions in the manner [described here](http://rmarkdown.rstudio.com/authoring_basics.html). Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  If you need to include mathematical expressions in your report, you can use Markdown's [math syntax](https://github.com/cben/mathdown/wiki/math-in-markdown).  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.
 
 Note 1: LaTeX is an acceptable alternative to Markdown.  If you wish to typeset your reports in Latex, either use Sweave, or send a link to an R file that replicates every analysis you include in your report (including the figures).
 
@@ -110,7 +112,7 @@ The developer listened to this recommendation, understood the analysis, and stil
 
 Do you agree with the conclusions of her on-staff stats guru?  If so, point to evidence supporting his case.  If not, explain specifically where and why the analysis goes wrong, and how it can be improved.  (For example, do you see the possibility of confounding variables for the relationship between rent and green status?)
 
-Note: while you should feel free to use any of the tools from the "supervised learning" half of the course, this is intended mainly as an exercise in visual and numerical story-telling. Tell your story primarily in plots, and don't feel like you have to run a dozen different regression models.  Keep it concise.   
+Note: this is intended mainly as an exercise in visual and numerical story-telling. Tell your story primarily in plots, and while you can run a regression model if you want, that's not the goal here.  Keep it concise.   
 
 
 ## Bootstrapping
@@ -124,7 +126,7 @@ Consider the following five asset classes, together with the ticker symbol for a
 
 If you're unfamiliar with exchange-traded funds, you can read a bit about them [here](http://www.investopedia.com/terms/e/etf.asp).
 
-Download several years of daily data on these ETFs, using the functions in the `fFimport` package.  Go back far enough historically so that you get both good runs and bad runs of stock-market performance.   Now explore the data and come to an understanding of the risk/return properties of these assets.  Then consider three portfolios: 
+Download several years of daily data on these ETFs, using the functions in the `quantmod` package, as we used in class.  Go back far enough historically so that you get both good runs and bad runs of stock-market performance.   Now explore the data and come to an understanding of the risk/return properties of these assets.  Then consider three portfolios: 
 - the even split: 20% of your assets in each of the five ETFs above.    
 - something that seems safer than the even split, comprising investments in at least three classes.  You choose the allocation, and you can certainly invest in more than three assets if you want.  (You can even choose different ETFs if you want.)  
 - something more aggressive (again, you choose the allocation) comprising investments in at least two classes/assets.  By more aggressive, I mean a portfolio that looks like it has a chance at higher returns, but also involves more risk of loss.  

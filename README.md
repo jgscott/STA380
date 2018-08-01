@@ -4,16 +4,17 @@ Welcome to part 2 of STA 380, a course on predictive modeling in the MS program 
 
 ## Office hours 
 
-On Tuesday-Thursday, August 8-10 and August 15-17, I will hold office hours from 9-10 AM in CBA 6.478.  
+I will hold office hours on Tuesdays and Thursdays, 3:20 to 4:30 PM, in CBA 6.478.
 
 
 ## Exercises
 
-The first set of exercises is [available here](exercises/exercises01.md).
+The first set of exercises is [available here](exercises/exercises01.md).  These are due Friday, August 10th at 5 PM.
+ 
+The second set of exercises will be posted shortly.  
 
-The second set of exercises is [available here](exercises/exercises02.md).  
 
-## Topics 
+## Outline of topics  
 
 ### (0) The data scientist's toolbox
 
@@ -31,28 +32,29 @@ Readings:
 
 Contingency tables; basic plots (scatterplot, boxplot, histogram); lattice plots; basic measures of association (relative risk, odds ratio, correlation, rank correlation)
 
-Scripts and data: 
-- [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)   
-- [titanic.R](R/titanic.R) and [TitanicSurvival](data/TitanicSurvival.csv)  
+Some (optional) software walkthroughs: 
+- [Survival on the Titanic](https://github.com/jgscott/learnR/blob/master/titanic/titanic.md): summarizing variation in categorical variables  
+- [City temperatures](https://github.com/jgscott/learnR/blob/master/citytemps/citytemps.md): measuring and visualizing dispersion in one numerical variable.  
+- [Test scores and GPA for UT grads](https://github.com/jgscott/learnR/blob/master/sat/sat.md): association between numerical and categorical variables.  
 
 Readings:  
 - [excerpts](notes/DataExploration.pdf) from my course notes on statistical modeling  
 - NIST Handbook, Chapter 1.  
-- R walkthroughs on basic EDA: see the three walkthroughs in the [Exploratory Data Analysis section here.](https://github.com/jgscott/learnR)  
-- [Bad graphics ](notes/badgraphics.pdf)
-- Good graphics: scan through some of the New York Times' best [data visualizations](https://www.nytimes.com/interactive/2016/12/28/us/year-in-interactive-graphics.html).  Lots of good stuff here but for our purposes, the best things to look at are those in the "Data Visualizations" section, about 60% of the way down the page.  Control-F for "Data Visualization" and you'll find it.  
+- [Bad graphics ](notes/badgraphics.pdf)  
+- Good graphics: scan through some of the New York Times' best [data visualizations](https://www.nytimes.com/interactive/2017/12/21/us/2017-year-in-graphics.html).  Lots of good stuff here but for our purposes, the best things to look at are those in the "Data Visualizations" section, about 60% of the way down the page.  Control-F for "Data Visualization" and you'll find it.  Here are three examples:  
+1) [Low-income students in college](https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html)  
+2) [The French presidential election](https://www.nytimes.com/interactive/2017/04/23/world/europe/french-election-results-maps.html)  
+3) [LeBron James's playoff scoring record](https://www.nytimes.com/interactive/2017/05/25/sports/basketball/lebron-career-playoff-points-record.html)  
 
 
 ### (2) Foundations of probability  
 
-Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Law of total probability.  Bayes' rule.  Independence.  [These are videos on UT Box.](https://utexas.box.com/s/pl09u645n2mzx03nndw2kkc2kftznllu).  You will need to sign up for UT Box with your UT e-mail account in order to access these.  
+Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Law of total probability.  Bayes' rule.  Independence.  
 
 Readings:
-- [basic set notation](https://en.wikipedia.org/wiki/Set_(mathematics)#Basic_operations): unions, intersections, etc.   
-- [excerpts](notes/probability_book_excerpt.pdf) from an in-progress book on probability.  
- 
-Some optional stuff:  
-- [some more technical notes of probability, for reference](notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  
+- [Chapter 1 of these course notes.](notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf).  There's a lot more technical stuff in here, but Chapter 1 really covers the basics.  
+
+Optional but interesting:  
 - [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
 - [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.   
 <!-- - [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!   -->
@@ -63,14 +65,10 @@ Some optional stuff:
 The bootstrap and the permutation test; joint distributions; using the bootstrap to approximate value at risk (VaR). 
 
 Scripts:  
-- [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv) 
+- [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv)  
+- [R walkthrough on Monte Carlo simulation](https://github.com/jgscott/learnR/blob/master/montecarlo/montecarlo_intro.md)  
 - [greenbuildings.R](R/greenbuildings.R) and [greenbuildings.csv](data/greenbuildings.csv)  
-- [montecarlo.R](R/montecarlo.R)  
 - [portfolio.R](R/portfolio.R)  
-
-If time:  
-- [An R walkthrough](https://github.com/jgscott/learnR/blob/master/hyptest/hyptest.md) on an introduction to hypothesis testing.    
-- [Another R walkthrough](https://github.com/jgscott/learnR/blob/master/titanic/titanic_permtest.md) on the permutation test in a simple 2x2 table.  
 
 Readings:  
 - ISL Section 5.2 for a basic overview.  
@@ -81,6 +79,10 @@ Readings:
 
 
 Shalizi (Chapter 6) also has a much lengthier treatment of the bootstrap, should you wish to consult it.    
+
+If time:  
+- [An R walkthrough](https://github.com/jgscott/learnR/blob/master/hyptest/hyptest.md) on an introduction to hypothesis testing.    
+- [Another R walkthrough](https://github.com/jgscott/learnR/blob/master/titanic/titanic_permtest.md) on the permutation test in a simple 2x2 table.  
 
 
 ### (4) Clustering
