@@ -53,6 +53,7 @@ Basic probability, and some fun examples.  Joint, marginal, and conditional prob
 
 Readings:
 - [Chapter 1 of these course notes.](notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf).  There's a lot more technical stuff in here, but Chapter 1 really covers the basics.  
+- In class, we will look at some pictures and tables [from this packet of course notes](notes/DataScience.pdf).  
 
 Optional but interesting:  
 - [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
