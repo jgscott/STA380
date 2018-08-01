@@ -20,6 +20,8 @@ The second set of exercises will be posted shortly.
 
 Good data-curation and data-analysis practices; R; Markdown and RMarkdown; the importance of replicable analyses; version control with Git and Github.
 
+Hey, I just made a change!
+
 Readings:  
 - [a few introductory slides](notes/STA380intro.pdf)
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
@@ -38,8 +40,8 @@ Some (optional) software walkthroughs:
 - [Test scores and GPA for UT grads](https://github.com/jgscott/learnR/blob/master/sat/sat.md): association between numerical and categorical variables.  
 
 Readings:  
-- [excerpts](notes/DataExploration.pdf) from my course notes on statistical modeling  
-- NIST Handbook, Chapter 1.  
+- [excerpts](notes/DataScience.pdf) from my course notes on data science.  We'll look at some example graphics in Chapter 1.  
+- Another interesting (if aesthetically dated) reference is the NIST Handbook, Chapter 1.  
 - [Bad graphics ](notes/badgraphics.pdf)  
 - Good graphics: scan through some of the New York Times' best [data visualizations](https://www.nytimes.com/interactive/2017/12/21/us/2017-year-in-graphics.html).  Lots of good stuff here but for our purposes, the best things to look at are those in the "Data Visualizations" section, about 60% of the way down the page.  Control-F for "Data Visualization" and you'll find it.  Here are three examples:  
 1) [Low-income students in college](https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html)  
