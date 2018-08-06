@@ -69,6 +69,7 @@ Scripts:
 - [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv)  
 - [R walkthrough on Monte Carlo simulation](https://github.com/jgscott/learnR/blob/master/montecarlo/montecarlo_intro.md)  
 - [greenbuildings.R](R/greenbuildings.R) and [greenbuildings.csv](data/greenbuildings.csv)  
+- [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)  
 - [portfolio.R](R/portfolio.R)  
 
 Readings:  
