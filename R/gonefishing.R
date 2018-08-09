@@ -38,7 +38,8 @@ foreach(i = 1:25, .combine='c') %do% {
 
 
 # Simulate a whole year of 30-fish days
-my_fishing_year = foreach(i = 1:36500, .combine='c') %do% {
+n_fish = 30
+my_fishing_year = foreach(i = 1:1000, .combine='c') %do% {
   fishing_trip = mosaic::sample(gonefishing, n_fish)
   mean_weight_sample = mean(fishing_trip$weight)
   mean_weight_sample

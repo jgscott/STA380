@@ -38,9 +38,6 @@ qplot(Weight, Length, data=cars, color=factor(clust1$cluster))
 qplot(Horsepower, CityMPG, data=cars, color=factor(clust1$cluster))
 
 
-
-
-
 # Using kmeans++ initialization
 clust2 = kmeanspp(X, k=6, nstart=25)
 
@@ -62,3 +59,4 @@ clust1$tot.withinss
 clust2$tot.withinss
 clust1$betweenss
 clust2$betweenss
+

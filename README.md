@@ -109,11 +109,9 @@ Readings:
 Principal component analysis (PCA).  
 
 Scripts and data:  
-- [pca_2D.R](R/pca_2D.R)  
 - [pca_intro.R](R/pca_intro.R)  
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
 - [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)  
-- [congress109_regression.R](R/congress109_regression.R)  
 
 If time:  
 - [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)  

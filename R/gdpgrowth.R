@@ -59,3 +59,4 @@ boot2 = foreach(i=1:NMC, .combine='c') %do% {
 } 
 
 hist(boot2)
+confint(boot2)

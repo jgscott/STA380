@@ -119,3 +119,4 @@ hist(sim1[,n_days]- initial_wealth, breaks=30)
 
 # Calculate 5% value at risk
 quantile(sim1[,n_days], 0.05) - initial_wealth
+initial_wealth - quantile(sim1[,n_days], 0.05)
