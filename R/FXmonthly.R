@@ -1,64 +1,68 @@
-FXmonthly = read.csv('../data/FXmonthly.csv', header=TRUE)
+library(ggplot2)
 
+FXmonthly = read.csv('../data/FXmonthly_ret.csv', header=TRUE)
 summary(FXmonthly)
 
 # USD-GBP
 plot(FXmonthly$exukus)
 
 # Convert everything to returns
-FXmonthly <- (FXmonthly[2:120,]-FXmonthly[1:119,])/(FXmonthly[1:119,]) # proportion change
+FXmonthly_ret = (FXmonthly[2:120,]-FXmonthly[1:119,])/(FXmonthly[1:119,]) # proportion change
+
+plot(FXmonthly_ret$exukus)
 
 # A pairs plot for a few sets of currencies
-pairs(FXmonthly[,1:5])
-
-cor(FXmonthly[,c('exeuus','exhkus','excaus','exmxus','exukus')])
+pairs(FXmonthly_ret[,1:5])
+cor(FXmonthly_ret[,c('exeuus','exhkus','excaus','exmxus','exukus')])
 
 ## PCA 
-fxpca = prcomp(FXmonthly, scale=TRUE)
-
+fxpca = prcomp(FXmonthly_ret, scale=TRUE, rank=5)
+summary(fxpca)
 plot(fxpca)
-mtext(side=1, "Currency Difference Principle Components",  line=1, font=2)
+mtext(side=1, "Currency Difference: Principal Components",  line=1, font=2)
 
-# Get the principal component scores
+# A different method for extracting the principal component scores
 fx_scores = predict(fxpca)  # same as fxpca$x
 
 # Color each point so that they get darker over time
 plot(fx_scores[,1:2], pch=21, bg=cm.colors(120)[120:1], main="Currency PC scores")
-legend("topleft", fill=cm.colors(3),
+legend("topright", fill=cm.colors(3),
        legend=c("2010","2005","2001"), bty="n", cex=0.75)
 outlier = identify(fx_scores[,1:2], n=1)
 
+# This illustrates a nice application of PCA: multivariate outlier detection
 # Huge outlier (Oct 2008 = month of the Lehman Brothers collapse)
-FXmonthly[outlier,]
+FXmonthly_ret[outlier,]
 
 # Re-run without the outlier
-fxpca = prcomp(FXmonthly[-outlier,], scale=TRUE)
+fxpca = prcomp(FXmonthly_ret[-outlier,], scale=TRUE, rank=5)
+summary(fxpca)
 fx_scores = predict(fxpca)  # same as fxpca$x
 
 plot(fxpca)
 
+# Question 1: where do the original observations end up in PC space?
 plot(fx_scores[,1:2], pch=21, bg=terrain.colors(119)[119:1], main="Currency PC scores")
 legend("bottomleft", fill=terrain.colors(3),
        legend=c("2010","2005","2001"), cex=0.75)
 
-# Look at the loadings
+# Question 2: how are the loadings related to the original variables?
 barplot(fxpca$rotation[,1], las=2)
 
 # Refer to the actual currency/country names
 currency_codes = read.table('../data/currency_codes.txt')
+currency_codes
 
 barplot(fxpca$rotation[,1], las=2)  # USD strength overall
 barplot(fxpca$rotation[,2], las=2)
 barplot(fxpca$rotation[,3], las=2)
-
-currency_codes
 
 
 ####
 # Compare with factor analysis (optional)
 ####
 
-Y = scale(FXmonthly[-outlier,], center=TRUE, scale=FALSE)
+Y = scale(FXmonthly_ret[-outlier,], center=TRUE, scale=FALSE)
 fa_fx = factanal(Y, 3, scores='regression')
 print(fa_fx)
 
