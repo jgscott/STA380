@@ -47,7 +47,7 @@ Your task is to create a figure, or set of related figures, that tell an interes
 - How do patterns of flights to different destinations or parts of the country change over the course of the year?  
 - What are the bad airports to fly to?  
 
-But anything interesting will fly.  
+But anything interesting will fly.  If you want to try your hand at mapping or looking at geography, you can cross-reference the airport codes here: [https://github.com/datasets/airport-codes](https://github.com/datasets/airport-codes).  Combine this with a mapping package like ggmap, and you should have lots of possibilities!
 
 
 ## Author attribution
