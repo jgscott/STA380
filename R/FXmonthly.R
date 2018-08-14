@@ -1,6 +1,6 @@
 library(ggplot2)
 
-FXmonthly = read.csv('../data/FXmonthly_ret.csv', header=TRUE)
+FXmonthly = read.csv('../data/FXmonthly.csv', header=TRUE)
 summary(FXmonthly)
 
 # USD-GBP
@@ -13,6 +13,7 @@ plot(FXmonthly_ret$exukus)
 
 # A pairs plot for a few sets of currencies
 pairs(FXmonthly_ret[,1:5])
+
 cor(FXmonthly_ret[,c('exeuus','exhkus','excaus','exmxus','exukus')])
 
 ## PCA 

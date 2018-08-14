@@ -1,6 +1,6 @@
 # STA 380, Part 2: Exercises 2
 
-Turn these in by 5 PM on Friday, August 18th.  As before, prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.
+Turn these in by 5 PM on Monday, August 20th.  As before, prepare your reports using RMarkdown so that they are fully reproducible, carefully integrating visual and quantitative evidence with prose.
 
 As before, you should submit your work to <statdropbox@gmail.com>.  Send a link to a GitHub page where the final report has been stored -- preferably in Markdown (.md) format but PDF is OK too.  Also include a link to the raw .Rmd file that can be used to reproduce your report from scratch.  _Do not send a PDF or Rmd file as an attachment._
 
@@ -52,11 +52,11 @@ But anything interesting will fly.
 
 ## Author attribution
 
-Revisit the Reuters C50 corpus that we explored in class.  Your task is to build _two_ separate models (using any combination of tools you see fit) for predicting the author of an article on the basis of that article's textual content.  Describe clearly what models you are using, how you constructed features, and so forth.  (Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning!)
+Revisit the Reuters C50 corpus that we explored in class.  Your task is to build _two_ separate models (using any combination of tools you see fit) for predicting the author of an article on the basis of that article's textual content.  Describe clearly what models you are using, how you constructed features, and so forth.  Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning, since constructing features for a document might involve dimensionality reduction.
 
 In the C50train directory, you have ~50 articles from each of 50 different authors (one author per directory).  Use this training data (and this data alone) to build the two models.  Then apply your model to the articles by the same authors in the C50test directory, which is about the same size as the training set.  How well do your models do at predicting the author identities in this out-of-sample setting?  Are there any sets of authors whose articles seem difficult to distinguish from one another?  Which model do you prefer?  
 
-Note: you will need to figure out a way to deal with words in the test set that you never saw in the training set.  This is a nontrivial aspect of the modeling exercise.  
+Note: you will need to figure out a way to deal with words in the test set that you never saw in the training set.  This is a nontrivial aspect of the modeling exercise.  You might, for example, consider adding a pseudo-word to the training set vocabulary, corresponding to "word not seen before," and add a pseudo-count to it so it doesn't look like these out-of-vocabulary words have zero probability on the testing set.
 
 
 ## Practice with association rule mining

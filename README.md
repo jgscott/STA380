@@ -11,8 +11,8 @@ I will hold office hours on Tuesdays and Thursdays, 3:20 to 4:30 PM, in CBA 6.47
 
 The first set of exercises is [available here](exercises/exercises01.md).  These are due Friday, August 10th at 5 PM.
  
-The second set of exercises will be posted shortly.  
-
+The second set of exercises is [available here](exercises/exercises02.md).  These are due Monday, August 20th at 5 PM.  
+ 
 
 ## Outline of topics  
 

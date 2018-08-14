@@ -19,7 +19,7 @@ qplot(scores[,1], scores[,2], color=memberdata$party, xlab='Component 1', ylab='
 # Confusingly, the default color mapping has Democrats as red and republicans as blue.  This might be confusing, so let's fix that:
 qplot(scores[,1], scores[,2], color=memberdata$party, xlab='Component 1', ylab='Component 2') + scale_color_manual(values=c("blue", "grey", "red"))
 
-# Interpretation: the first PC axis primarily gas Republicans as positive numbers and Democrats as negative numbers
+# Interpretation: the first PC axis primarily has Republicans as positive numbers and Democrats as negative numbers
 
 # Question 2: how are the individual PCs loaded on the original variables?
 # The top words associated with each component
