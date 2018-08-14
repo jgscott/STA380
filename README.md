@@ -136,6 +136,8 @@ Readings:
 - [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
 
 Miscellaneous:  
+- [Gephi](https://gephi.org/), a great piece of software for exploring graphs  
+- [The Gephi quick-start tutorial](https://gephi.org/tutorials/gephi-tutorial-quick_start.pdf)  
 - a little Python utility for [scraping Spotify playlists](https://github.com/nithinphilips/spotifyscrape)  
 
 
