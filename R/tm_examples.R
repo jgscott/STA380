@@ -74,7 +74,7 @@ inspect(DTM_simon[1:10,1:20])
 findFreqTerms(DTM_simon, 50)
 
 ## ...or find words whose count correlates with a specified word.
-findAssocs(DTM_simon, "market", .5) 
+findAssocs(DTM_simon, "genetic", .5) 
 
 ## Finally, drop those terms that only occur in one or two documents
 ## This is a common step: the noise of the "long tail" (rare terms)
@@ -101,7 +101,7 @@ content(simon[[2]])
 content(simon[[3]])
 
 # cosine similarity
-i = 2
+i = 1
 j = 3
 sum(tfidf_simon[i,] * (tfidf_simon[j,]))/(sqrt(sum(tfidf_simon[i,]^2)) * sqrt(sum(tfidf_simon[j,]^2)))
 
@@ -119,16 +119,16 @@ content(simon[[17]])
 cosine_sim_mat[17,]
 
 # looks like document 16 has the highest cosine similarity
-sort(cosine_sim_mat[17,], decreasing=TRUE)
-content(simon[[16]])
-content(simon[[13]])
+sort(cosine_sim_mat[18,], decreasing=TRUE)
+content(simon[[18]])
+content(simon[[19]])
 
 #####
 # Cluster documents
 #####
 
 # define the cosine distance
-cosine_dist_mat = dist(as.matrix(tfidf_simon), method='cosine')
+cosine_dist_mat = proxy::dist(as.matrix(tfidf_simon), method='cosine')
 tree_simon = hclust(cosine_dist_mat)
 plot(tree_simon)
 clust5 = cutree(tree_simon, k=5)
@@ -180,3 +180,14 @@ content(simon[[10]])
 content(simon[[11]])
 
 # Conclusion: even just these two-number summaries still preserve a lot of information
+
+
+# Now look at the word view
+# 5-dimensional word vectors
+word_vectors = pca_simon$rotation[,1:5]
+
+word_vectors[982,]
+
+d_mat = dist(word_vectors)
+
+

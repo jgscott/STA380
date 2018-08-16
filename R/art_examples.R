@@ -1,7 +1,7 @@
 library(tm) 
 library(magrittr)
 
-		
+# A wrapper around a tm reader function
 # Read in an XML news story and extract its full text
 # Assumes, but does not test, that the XML is formated the same way as the
 # New York Times Annotated Corpus
@@ -23,25 +23,70 @@ readNYT = function(filename) {
 							id= filename, language='en')
 }
 
+# two lists of files
+files_art = dir('../data/nyt_corpus/art', full.names=TRUE)
+files_music = dir('../data/nyt_corpus/music', full.names=TRUE)
 
-file_list = dir('../data/nyt_corpus/art/', full.names=TRUE)
+example_doc = readNYT(files_art[1])
+content(example_doc)
 
-out1 = readNYT(file_list[1])
-content(out1)
+# let's create a list of all files, together with a vector of class labels
+files_all = c(files_art, files_music)
+class_labels = c(rep('art', length(files_art)), rep('music', length(files_art)))
 
-out2 = lapply(file_list, readNYT)
-file_list
+# split into training and testing sets
+N = length(files_all)
+train_set = sort(sample.int(N, floor(0.8*N)))
+test_set = setdiff(1:N, train_set)
+y_train = class_labels[train_set]
+y_test = class_labels[test_set]
 
-NYT_docs = Corpus(VectorSource(out2))
+# List of training documents
+docs_train = lapply(file_list[train_set], readNYT)
+docs_train
 
-NYT_docs = tm_map(NYT_docs, content_transformer(tolower))
-NYT_docs = tm_map(NYT_docs, content_transformer(removeNumbers))
-NYT_docs = tm_map(NYT_docs, content_transformer(removePunctuation))
-NYT_docs = tm_map(NYT_docs, content_transformer(stripWhitespace))
-NYT_docs = tm_map(NYT_docs, content_transformer(removeWords), stopwords("en"))
+# Create the training corpus, tokenize, preprocess, etc
+corpus_train = Corpus(VectorSource(docs_train))
+corpus_train = tm_map(corpus_train, content_transformer(tolower))
+corpus_train = tm_map(corpus_train, content_transformer(removeNumbers))
+corpus_train = tm_map(corpus_train, content_transformer(removePunctuation))
+corpus_train = tm_map(corpus_train, content_transformer(stripWhitespace))
+corpus_train = tm_map(corpus_train, content_transformer(removeWords), stopwords("en"))
 
-DTM_NYT = DocumentTermMatrix(NYT_docs)
-DTM_NYT # some basic summary statistics
+DTM_train = DocumentTermMatrix(corpus_train)
+DTM_train # some basic summary statistics
 
 ## Work with the corpus
-findFreqTerms(DTM_NYT, 20)
+findFreqTerms(DTM_train, 20)
+
+
+# List of testing documents
+docs_test = lapply(file_list[test_set], readNYT)
+docs_test
+
+# Create the testing corpus, tokenize, preprocess, etc
+corpus_test = Corpus(VectorSource(docs_test))
+corpus_test = tm_map(corpus_test, content_transformer(tolower))
+corpus_test = tm_map(corpus_test, content_transformer(removeNumbers))
+corpus_test = tm_map(corpus_test, content_transformer(removePunctuation))
+corpus_test = tm_map(corpus_test, content_transformer(stripWhitespace))
+corpus_test = tm_map(corpus_test, content_transformer(removeWords), stopwords("en"))
+
+# DTM for testing corpus
+DTM_test = DocumentTermMatrix(corpus_test)
+DTM_test
+
+# uh-oh...
+Terms(DTM_train)
+Terms(DTM_test)
+summary(Terms(DTM_test) %in% Terms(DTM_train))
+
+# A suboptimal but practical solution: ignore words you haven't seen before
+# can do this by pre-specifying a dictionary in the construction of a DTM
+DTM_test2 = DocumentTermMatrix(corpus_test,
+                               control = list(dictionary=Terms(DTM_train)))
+DTM_train
+DTM_test2
+
+summary(Terms(DTM_test2) %in% Terms(DTM_train))
+
