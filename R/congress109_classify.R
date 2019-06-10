@@ -49,7 +49,7 @@ y = {memberdata$party == 'R'}
 out1 = cv.glmnet(X, y, family='binomial', type.measure="class")
 
 # Choose lambda to minimize CV error
-plot(out1$lambda, out1$cvm)
+plot(out1$lambda, out1$cvm, log='x')
 lambda_hat = out1$lambda.min
 
 # refit to the full data set with the "optimal" lambda
@@ -70,7 +70,7 @@ min(out1$cvm)
 
 X_phrases = as.matrix(countdata)
 out2 = cv.glmnet(X_phrases, y, family='binomial', type.measure='class')
-plot(out2$lambda, out2$cvm)
+plot(out2$lambda, out2$cvm, log='x')
 lambda_hat2 = out2$lambda.min
 
 # refit to the full data set
@@ -129,7 +129,7 @@ yhat_test = foreach(i = seq_along(test_set), .combine='c') %do% {
   0 + {logp1 > logp0}
 }
 
-confusion_matrix = xtabs(~y_test + yhat)
+confusion_matrix = xtabs(~y_test + yhat_test)
 confusion_matrix
 
 # overall error rate: comparable to logit model with PCA on TF-IDF weights

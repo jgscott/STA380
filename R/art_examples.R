@@ -42,7 +42,7 @@ y_train = class_labels[train_set]
 y_test = class_labels[test_set]
 
 # List of training documents
-docs_train = lapply(file_list[train_set], readNYT)
+docs_train = lapply(files_all[train_set], readNYT)
 docs_train
 
 # Create the training corpus, tokenize, preprocess, etc
@@ -61,7 +61,7 @@ findFreqTerms(DTM_train, 20)
 
 
 # List of testing documents
-docs_test = lapply(file_list[test_set], readNYT)
+docs_test = lapply(files_all[test_set], readNYT)
 docs_test
 
 # Create the testing corpus, tokenize, preprocess, etc

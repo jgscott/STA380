@@ -106,25 +106,9 @@ j = 3
 sum(tfidf_simon[i,] * (tfidf_simon[j,]))/(sqrt(sum(tfidf_simon[i,]^2)) * sqrt(sum(tfidf_simon[j,]^2)))
 
 
-# the full set of cosine similarities
-# two helper functions that use some linear algebra for the calculations
-cosine_sim_docs = function(dtm) {
-	crossprod_simple_triplet_matrix(t(dtm))/(sqrt(col_sums(t(dtm)^2) %*% t(col_sums(t(dtm)^2))))
-}
-
-# use the function to compute pairwise cosine similarity for all documents
-cosine_sim_mat = cosine_sim_docs(tfidf_simon)
-# Now consider a query document
-content(simon[[17]])
-cosine_sim_mat[17,]
-
-# looks like document 16 has the highest cosine similarity
-sort(cosine_sim_mat[18,], decreasing=TRUE)
-content(simon[[18]])
-content(simon[[19]])
-
 #####
-# Cluster documents
+# Cluster documents using cosine distance
+# cosine distance = 1 - cosine similarity
 #####
 
 # define the cosine distance
@@ -186,8 +170,8 @@ content(simon[[11]])
 # 5-dimensional word vectors
 word_vectors = pca_simon$rotation[,1:5]
 
-word_vectors[982,]
+word_vectors[984,]
 
-d_mat = dist(word_vectors)
+d_mat = dist(t(word_vectors))
 
 

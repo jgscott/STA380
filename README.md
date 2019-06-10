@@ -7,16 +7,9 @@ Welcome to part 2 of STA 380, a course on predictive modeling in the MS program 
 I will hold office hours on Tuesdays and Thursdays, 3:20 to 4:30 PM, in CBA 6.478.
 
 
-## Exercises
-
-The first set of exercises is [available here](exercises/exercises01.md).  These are due Friday, August 10th at 5 PM.
- 
-The second set of exercises is [available here](exercises/exercises02.md).  These are due Monday, August 20th at 5 PM.  
- 
-
 ## Outline of topics  
 
-### (0) The data scientist's toolbox
+### (1) The data scientist's toolbox
 
 Good data-curation and data-analysis practices; R; Markdown and RMarkdown; the importance of replicable analyses; version control with Git and Github.
 
@@ -28,7 +21,7 @@ Readings:
 
 
 
-### (1) Exploratory analysis
+### (2) Exploratory analysis
 
 Contingency tables; basic plots (scatterplot, boxplot, histogram); lattice plots; basic measures of association (relative risk, odds ratio, correlation, rank correlation)
 
@@ -47,7 +40,7 @@ Readings:
 3) [LeBron James's playoff scoring record](https://www.nytimes.com/interactive/2017/05/25/sports/basketball/lebron-career-playoff-points-record.html)  
 
 
-### (2) Foundations of probability  
+### (3) Foundations of probability  
 
 Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Law of total probability.  Bayes' rule.  Independence.  
 
@@ -61,7 +54,7 @@ Optional but interesting:
 <!-- - [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!   -->
 
 
-### (3) Resampling methods
+### (4) Resampling methods
 
 The bootstrap and the permutation test; joint distributions; using the bootstrap to approximate value at risk (VaR). 
 
@@ -87,7 +80,7 @@ If time:
 - [Another R walkthrough](https://github.com/jgscott/learnR/blob/master/titanic/titanic_permtest.md) on the permutation test in a simple 2x2 table.  
 
 
-### (4) Clustering
+### (5) Clustering
 
 Basics of clustering; K-means clustering; hierarchical clustering.
 
@@ -104,7 +97,7 @@ Readings:
 - K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
 
 
-### (5) Latent features and structure
+### (6) Latent features and structure
 
 Principal component analysis (PCA).  
 
@@ -122,7 +115,7 @@ Readings:
 - ISL Section 10.2 for the basics or Elements Chapter 14.5 (more advanced)  
 - Shalizi Chapters 18 and 19 (more advanced).  In particular, Chapter 19 has a lot more advanced material on factor models, beyond what we covered in class.      
 
-### (6) Networks and Association Rules  
+### (7) Networks and Association Rules  
 
 Networks and association rule mining.  
 
@@ -142,7 +135,7 @@ Miscellaneous:
 
 
 
-### (7) Text data
+### (8) Text data
 
 Co-occurrence statistics; naive Bayes; TF-IDF; topic models; vector-space models of text (if time allows).
 
