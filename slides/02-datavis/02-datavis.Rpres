@@ -1,0 +1,144 @@
+Data visualization
+========================================================
+author: James Scott 
+date: UT-Austin
+autosize: false
+font-family: 'Gill Sans'
+
+<style>
+.small-code pre code {
+  font-size: 1em;
+}
+</style>
+
+
+
+Types of features in a data set
+========================================================
+
+Categorical: the answer to a multiple choice question:
+- Chevy/Honday/Tesla
+- ice cream/cake/pie
+
+Ordinal: the answers have an ordering but not a magnitude
+- Poor, Moderate, Good, Great
+- Private, Corporal, Lieutenant, Colonel, General
+
+Numerical: numbers, whether integer or real-valued
+- Beware the "faux numerical" ordinal scale  (CIS!)  
+
+
+Eight building blocks of good data vis
+========================================================
+
+- Tables  
+- Bar graphs  
+- Histograms and density plots
+- Boxplots/dotplots
+
+***
+
+- Scatter plots
+- Line graphs  
+- Maps  
+- Panel plots  
+
+
+Good principles in action: histograms
+========================================================
+class: small-code
+
+Let's load some data on temperatures in Rapid City and San Diego:
+```{r}
+# Use the correct path name
+citytemps = read.csv('data/citytemps.csv')
+summary(citytemps)
+```
+
+
+Histograms
+========================================================
+class: small-code
+
+A simple histogram:
+```{r, fig.width=12, fig.height=6, fig.align='center'}
+hist(citytemps$Temp.SanDiego)
+```
+
+The `breaks` flag
+========================================================
+class: small-code
+
+```{r, fig.width=12, fig.height=6, fig.align='center'}
+hist(citytemps$Temp.SanDiego, breaks=30)
+```
+
+
+Adding bells and whistles
+========================================================
+class: small-code
+
+```{r, fig.width=12, fig.height=6, fig.align='center'}
+muSanDiego = mean(citytemps$Temp.SanDiego)
+hist(citytemps$Temp.SanDiego, breaks=30)
+abline(v=muSanDiego, col='red', lwd=5)
+```
+
+Comparing two histograms
+========================================================
+
+We can make a multi-frame plot.
+```
+par(mfrow=c(2,1))
+hist(citytemps$Temp.SanDiego)
+hist(citytemps$Temp.RapidCity)
+```
+
+R's syntax here is somewhat hacky.  We'll see something better when we learn ggplot!
+
+
+Comparing two histograms
+========================================================
+class: small-code
+
+```{r, fig.width=8, fig.height=8, fig.align='center', echo=FALSE}
+par(mfrow=c(2,1))
+hist(citytemps$Temp.SanDiego)
+hist(citytemps$Temp.RapidCity)
+```
+
+
+What's wrong with this picture?
+========================================================
+class: small-code
+
+Core principle: plots are truthful about magnitude!  Here we have:
+- unequal bin size
+- noncomparable y axes
+- noncomparable x axes
+
+Let's fix these:
+```
+# custom breakpoints
+mybreaks = seq(-20, 92, by=2) 
+par(mfrow=c(2,1))
+hist(citytemps$Temp.SanDiego, breaks=mybreaks,
+  xlim=c(-20,100), ylim=c(0, 760))
+hist(citytemps$Temp.RapidCity, breaks=mybreaks,
+  xlim=c(-20,100), ylim=c(0, 760))
+```
+
+
+
+Comparing two histograms
+========================================================
+
+```{r, fig.width=8, fig.height=8, fig.align='center', echo=FALSE}
+mybreaks = seq(-20, 92, by=2)
+par(mfrow=c(2,1))
+hist(citytemps$Temp.SanDiego, breaks=mybreaks,
+  xlim=c(-20,100), ylim=c(0, 760))
+hist(citytemps$Temp.RapidCity, breaks=mybreaks,
+  xlim=c(-20,100), ylim=c(0, 760))
+```
+

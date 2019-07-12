@@ -2,56 +2,71 @@
 
 Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
-## Office hours 
-
-I will hold office hours on Tuesdays and Thursdays, 3:20 to 4:30 PM, in CBA 6.478.
+Instructors:  
+- Dr. James Scott (morning section).  Office hours on Tuesdays-Thursdays, 3:20 to 4:20 PM, in CBA 6.478.  
+- Dr. Jared Murray (afternoon section).  
 
 
 ## Outline of topics  
 
 ### (1) The data scientist's toolbox
 
+Slides: [The data scientist's toolbox](http://rpubs.com/jgscott/data_science_toolbox)  
 Good data-curation and data-analysis practices; R; Markdown and RMarkdown; the importance of replicable analyses; version control with Git and Github.
 
 Readings:  
-- [a few introductory slides](notes/STA380intro.pdf)
-- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
-- [Introduction to GitHub](https://help.github.com/articles/set-up-git/)    
+- [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
+- [Introduction to GitHub](https://guides.github.com/activities/hello-world/)   
+- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
+
+Your assignment after the first class day:  
+- Create a GitHub account.  
+- Create your first GitHub repository.  
+- Inside that repository (on your local machine), create a toy RMarkdown file that does something---e.g. simulates some normal random variables and plots a histogram.  
+- Knit that RMarkdown file to a Markdown (.md) output.  
+- Push the changes to GitHub and view the final (knitted) .md file.  
+
+These instructions will make sense after you read the tutorials above!  
 
 
+### (2) Probability basics: a refresher  
 
-### (2) Exploratory analysis
+Slides: [Introduction to Probability](http://rpubs.com/jgscott/intro_probability)  
 
-Contingency tables; basic plots (scatterplot, boxplot, histogram); lattice plots; basic measures of association (relative risk, odds ratio, correlation, rank correlation)
-
-Some (optional) software walkthroughs: 
-- [Survival on the Titanic](https://github.com/jgscott/learnR/blob/master/titanic/titanic.md): summarizing variation in categorical variables  
-- [City temperatures](https://github.com/jgscott/learnR/blob/master/citytemps/citytemps.md): measuring and visualizing dispersion in one numerical variable.  
-- [Test scores and GPA for UT grads](https://github.com/jgscott/learnR/blob/master/sat/sat.md): association between numerical and categorical variables.  
-
-Readings:  
-- [excerpts](notes/DataScience.pdf) from my course notes on data science.  We'll look at some example graphics in Chapter 1.  
-- Another interesting (if aesthetically dated) reference is the NIST Handbook, Chapter 1.  
-- [Bad graphics ](notes/badgraphics.pdf)  
-- Good graphics: scan through some of the New York Times' best [data visualizations](https://www.nytimes.com/interactive/2017/12/21/us/2017-year-in-graphics.html).  Lots of good stuff here but for our purposes, the best things to look at are those in the "Data Visualizations" section, about 60% of the way down the page.  Control-F for "Data Visualization" and you'll find it.  Here are three examples:  
-1) [Low-income students in college](https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html)  
-2) [The French presidential election](https://www.nytimes.com/interactive/2017/04/23/world/europe/french-election-results-maps.html)  
-3) [LeBron James's playoff scoring record](https://www.nytimes.com/interactive/2017/05/25/sports/basketball/lebron-career-playoff-points-record.html)  
+Two short pieces that illustrate the "fallacy of mistaken compounding":  
+- [How likely is it that birth control could let you down?](https://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) from the _New York Times_  
+- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](https://github.com/jgscott/ECO394D/blob/master/ref/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.    
 
 
-### (3) Foundations of probability  
-
-Basic probability, and some fun examples.  Joint, marginal, and conditional probability.  Law of total probability.  Bayes' rule.  Independence.  
-
-Readings:
+Optional references:
 - [Chapter 1 of these course notes.](notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf).  There's a lot more technical stuff in here, but Chapter 1 really covers the basics.  
-- In class, we will look at some pictures and tables [from this packet of course notes](notes/DataScience.pdf).  
-
-Optional but interesting:  
 - [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
-- [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.   
-<!-- - [Pretty-but-wrong visualization](http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) by the New York Times on the long-term failure rates of various contraceptive methods, together with [James Trussell's explanation](http://io9.gizmodo.com/what-are-the-real-odds-that-your-birth-control-will-fai-1634707739) of why the 10-year numbers are wrong.  His quote is about halfway down the page.  A great example where assuming independence can lead to trouble!   -->
+- [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.  
+
+
+### (3) Data exploration and visualization
+
+Topics: data visualization and practice with R.  Bar plots; basic plots for numerical data (scatterplots, boxplots, histograms, line graphs); panel plots.  Introduction to ggplot2.  
+
+Examples of [bad graphics](ref/badgraphics.pdf).  
+
+Slides: [Introduction to Data Exploration](http://rpubs.com/jgscott/data_exploration)  
+
+R scripts and data:  
+- [mpg.R](R/mpg.R)  
+- [titanic.R](R/titanic.R) and [TitanicSurvival.csv](data/TitanicSurvival.csv)  
+- [toyimports_linegraph.R](R/toyimports_linegraph.R) and [toyimports.csv](data/toyimports.csv)  
+
+
+Inspiration and further reference:  
+- [excerpts](notes/DataScience.pdf) from my course notes on data science.  You'll find some example figures in Chapter 1.  
+- [50 ggplots](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)  
+- [A map of average ages in Swiss municipalities](https://github.com/grssnbchr/thematic-maps-ggplot2)  
+- [Low-income students in college](https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html)  
+- [The French presidential election](https://www.nytimes.com/interactive/2017/04/23/world/europe/french-election-results-maps.html)  
+- [LeBron James's playoff scoring record](https://www.nytimes.com/interactive/2017/05/25/sports/basketball/lebron-career-playoff-points-record.html)   
+
 
 
 ### (4) Resampling methods
@@ -64,6 +79,7 @@ Scripts:
 - [greenbuildings.R](R/greenbuildings.R) and [greenbuildings.csv](data/greenbuildings.csv)  
 - [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)  
 - [portfolio.R](R/portfolio.R)  
+
 
 Readings:  
 - ISL Section 5.2 for a basic overview.  
@@ -114,6 +130,7 @@ If time:
 Readings:  
 - ISL Section 10.2 for the basics or Elements Chapter 14.5 (more advanced)  
 - Shalizi Chapters 18 and 19 (more advanced).  In particular, Chapter 19 has a lot more advanced material on factor models, beyond what we covered in class.      
+
 
 ### (7) Networks and Association Rules  
 
