@@ -3,8 +3,8 @@
 Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
 Instructors:  
-- Dr. James Scott (morning section).  Office hours on Tuesdays-Thursdays, 3:20 to 4:20 PM, in CBA 6.478.  
-- Dr. Jared Murray (afternoon section).  
+- Dr. James Scott (morning section).  Office hours on Tuesdays and Thursdays, 3:20 to 4:20 PM, in CBA 6.478.  
+- Dr. Jared Fisher (afternoon section).  Office hours on Tuesdays and Thursdays, 12:00 to 1:30 PM, location TBA.  
 
 
 ## Outline of topics  
@@ -18,6 +18,7 @@ Readings:
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
 - [Introduction to GitHub](https://guides.github.com/activities/hello-world/)   
+- [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
 
 Your assignment after the first class day:  
@@ -36,11 +37,11 @@ Slides: [Introduction to Probability](http://rpubs.com/jgscott/intro_probability
 
 Two short pieces that illustrate the "fallacy of mistaken compounding":  
 - [How likely is it that birth control could let you down?](https://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) from the _New York Times_  
-- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](https://github.com/jgscott/ECO394D/blob/master/ref/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.    
+- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](./notes/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.    
 
 
 Optional references:
-- [Chapter 1 of these course notes.](notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf).  There's a lot more technical stuff in here, but Chapter 1 really covers the basics.  
+- [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf).  There's a lot more technical stuff in here, but Chapter 1 really covers the basics.  
 - [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
 - [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.  
 
@@ -49,7 +50,7 @@ Optional references:
 
 Topics: data visualization and practice with R.  Bar plots; basic plots for numerical data (scatterplots, boxplots, histograms, line graphs); panel plots.  Introduction to ggplot2.  
 
-Examples of [bad graphics](ref/badgraphics.pdf).  
+Examples of [bad graphics](./notes/badgraphics.pdf).  
 
 Slides: [Introduction to Data Exploration](http://rpubs.com/jgscott/data_exploration)  
 
