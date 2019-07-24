@@ -1,3 +1,5 @@
+library(tidyverse)
+
 toyimports = read.csv('../data/toyimports.csv')
 
 head(toyimports)
