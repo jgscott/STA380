@@ -1,4 +1,5 @@
 library(tidyverse)
+library(knitr)
 
 TitanicSurvival = read.csv('../data/TitanicSurvival.csv')
 summary(TitanicSurvival)
@@ -12,7 +13,9 @@ t1 = xtabs(~survived + passengerClass, data=TitanicSurvival)
 
 t1 %>%
   prop.table(margin=2) %>%
-  kable
+  round(3) %>%
+  kable 
+
 
 
 
