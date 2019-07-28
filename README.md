@@ -63,7 +63,7 @@ R scripts and data:
 
 
 Inspiration and further reference:  
-- [excerpts](notes/DataScience.pdf) from my course notes on data science.  You'll find some example figures in Chapter 1.  
+- [excerpts](notes/DataScience.pdf) from some course notes on data science.  You'll find some example figures in Chapter 1.  
 - [50 ggplots](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)  
 - [A map of average ages in Swiss municipalities](https://github.com/grssnbchr/thematic-maps-ggplot2)  
 - [Low-income students in college](https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html)  
@@ -78,16 +78,20 @@ The bootstrap; joint distributions; using the bootstrap to approximate value at 
 
 Slides: [Introduction to the bootstrap](http://rpubs.com/jgscott/bootstrap_STA380)  
   
+For the class exercises, you will need to refer to any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
+
 
 R scripts and data:    
 - [creatinine_bootstrap.R](./R/creatinine_bootstrap.R) and [creatinine.csv](data/creatinine.csv)   
+- [portfolio.R](R/portfolio.R)  
 
-Scripts:  
+
+Supplemental R scripts:  
 - [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv)  
 - [R walkthrough on Monte Carlo simulation](https://github.com/jgscott/learnR/blob/master/montecarlo/montecarlo_intro.md)  
 - [greenbuildings.R](R/greenbuildings.R) and [greenbuildings.csv](data/greenbuildings.csv)  
 - [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)  
-- [portfolio.R](R/portfolio.R)  
+
 
 
 Readings:  
@@ -95,11 +99,6 @@ Readings:
 - [These notes](notes/QuantifyingUncertainty.pdf) on bootstrapping and the permutation test.  
 - [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
 - [This R walkthrough](https://github.com/jgscott/learnR/blob/master/gonefishing/gonefishing.md) on using the bootstrap to estimate the variability of a sample mean.  
-- Any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf).
-
-
-Shalizi (Chapter 6) also has a much lengthier treatment of the bootstrap, should you wish to consult it.    
-
 
 
 ### (5) Clustering
@@ -111,8 +110,8 @@ Slides: [Introduction to clustering.](http://rpubs.com/jgscott/clustering)
 Scripts and data:  
 - [cars.R](R/cars.R) and [cars.csv](data/cars.csv) 
 - [hclust_examples.R](R/hclust_examples.R)   
-- [protein.R](R/protein.R) and [protein.csv](data/protein.csv)  
-- [we8there.R](R/we8there.R)  
+- [linkage_minmax.R](R/linkage_minmax.R)   
+<!-- - [we8there.R](R/we8there.R)   -->  
 
 
 Readings:  
@@ -128,9 +127,8 @@ Slides: [Introduction to PCA](http://rpubs.com/jgscott/PCA)
 
 Scripts and data:  
 - [pca_intro.R](R/pca_intro.R)  
-- [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)   
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
-
+- [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)   
 
 If time:  
 - [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)   

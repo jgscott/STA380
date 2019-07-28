@@ -12,7 +12,7 @@ X_freq = we8thereCounts/rowSums(we8thereCounts)
 Z = scale(X_freq)
 
 # Run k means
-kmeans_we8there <- kmeans(Z, 4, nstart = 10)  
+kmeans_we8there <- kmeans(Z, 10, nstart = 10)  
 
 # The first centroid, sorted by word frequency
 head(sort(kmeans_we8there$centers[1,], decreasing=TRUE), 10)
@@ -21,8 +21,8 @@ head(sort(kmeans_we8there$centers[1,], decreasing=TRUE), 10)
 print(apply(kmeans_we8there$centers,1,function(x) colnames(Z)[order(x, decreasing=TRUE)[1:10]]))
 
 # A word cloud
-wordcloud(colnames(Z), kmeans_we8there$centers[1,], min.freq=0, max.words=100)
-wordcloud(colnames(Z), kmeans_we8there$centers[3,], min.freq=0, max.words=100)
+wordcloud(colnames(Z), kmeans_we8there$centers[1,], min.freq=0, max.words=25)
+wordcloud(colnames(Z), kmeans_we8there$centers[7,], min.freq=0, max.words=25)
 
 # The different sums of squares: not great
 kmeans_we8there$totss   # total sums of squares
