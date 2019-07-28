@@ -43,7 +43,7 @@ Two short pieces that illustrate the "fallacy of mistaken compounding":
 
 
 Optional references:
-- [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf).  There's a lot more technical stuff in here, but Chapter 1 really covers the basics.  
+- [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics.  
 - [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
 - [YouTube video](https://www.youtube.com/watch?v=U9-G-noZrwc) on Bayes and the USS Scorpion.   
 
@@ -76,7 +76,7 @@ Inspiration and further reference:
 
 The bootstrap; joint distributions; using the bootstrap to approximate value at risk (VaR).  
 
-Slides: [Introduction to the bootstrap](http://rpubs.com/jgscott/bootstrap)  
+Slides: [Introduction to the bootstrap](http://rpubs.com/jgscott/bootstrap_STA380)  
   
 
 R scripts and data:    

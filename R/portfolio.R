@@ -18,19 +18,24 @@ plot(ClCl(MRKa))
 all_returns = cbind(ClCl(MRKa),ClCl(JNJa),ClCl(SPYa))
 head(all_returns)
 all_returns = as.matrix(na.omit(all_returns))
+N = nrow(all_returns)
 
 # These returns can be viewed as draws from the joint distribution
+# strong correlation, but certainly not Gaussian!  
 pairs(all_returns)
 plot(all_returns[,1], type='l')
 
 # Look at the market returns over time
 plot(all_returns[,3], type='l')
 
+# are today's returns correlated with tomorrow's? 
+# not really!   
+plot(all_returns[1:(N-1),3], all_returns[2:N,3])
+
 # An autocorrelation plot: nothing there
 acf(all_returns[,3])
 
-# The sample correlation matrix
-cor(all_returns)
+
 
 
 #### Now use a bootstrap approach
@@ -41,7 +46,7 @@ myprices = getSymbols(mystocks, from = "2007-01-01")
 
 
 # A chunk of code for adjusting all stocks
-# creates a new object addind 'a' to the end
+# creates a new object adding 'a' to the end
 # For example, WMT becomes WMTa, etc
 for(ticker in mystocks) {
 	expr = paste0(ticker, "a = adjustOHLC(", ticker, ")")
@@ -117,6 +122,3 @@ hist(sim1[,n_days], 25)
 mean(sim1[,n_days])
 hist(sim1[,n_days]- initial_wealth, breaks=30)
 
-# Calculate 5% value at risk
-quantile(sim1[,n_days], 0.05) - initial_wealth
-initial_wealth - quantile(sim1[,n_days], 0.05)
