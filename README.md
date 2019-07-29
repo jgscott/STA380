@@ -9,6 +9,13 @@ Instructors:
 Students in both sections are welcome to attend either set of office hours!  
 
 
+## Exercises
+
+The first set of exercises is [available here](exercises/exercises01.md).  These are due Monday, August 12th at 10 AM.
+ 
+The second set of exercises is [available here](exercises/exercises02.md).  These are due Monday, August 19th at 5 PM.  
+ 
+
 ## Outline of topics  
 
 ### (1) The data scientist's toolbox
@@ -180,7 +187,7 @@ Readings:
 - [Great blog post about word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/).  
 - [Using the tm package](http://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for text mining in R.  
 - [Dave Blei's survey of topic models](https://www.cs.princeton.edu/~blei/papers/Blei2012.pdf).  
-- [A pretty long blog post on naive-Bayes classification](https://www.bionicspirit.com/blog/2012/02/09/howto-build-naive-bayes-classifier.html).  
+- [Some slides on Naive Bayes text classification](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf).  
 
 
 
