@@ -11,9 +11,7 @@ Students in both sections are welcome to attend either set of office hours!
 
 ## Exercises
 
-The first set of exercises is [available here](exercises/exercises01.md).  These are due Monday, August 12th at 10 AM.
- 
-The second set of exercises is [available here](exercises/exercises02.md).  These are due Monday, August 19th at 5 PM.  
+The exercises are [available here](exercises/).  These are due Monday, August 19th at 5 PM.  Pace yourself, and start early on the first couple of problems!  These are long.  
  
 
 ## Outline of topics  
