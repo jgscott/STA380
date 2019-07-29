@@ -90,6 +90,7 @@ For the class exercises, you will need to refer to any basic explanation of the 
 
 R scripts and data:    
 - [creatinine_bootstrap.R](./R/creatinine_bootstrap.R) and [creatinine.csv](data/creatinine.csv)   
+- [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)  
 - [portfolio.R](R/portfolio.R)  
 
 
@@ -97,7 +98,7 @@ Supplemental R scripts:
 - [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv)  
 - [R walkthrough on Monte Carlo simulation](https://github.com/jgscott/learnR/blob/master/montecarlo/montecarlo_intro.md)  
 - [greenbuildings.R](R/greenbuildings.R) and [greenbuildings.csv](data/greenbuildings.csv)  
-- [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)  
+
 
 
 

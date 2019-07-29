@@ -129,6 +129,7 @@ You should assume that your portfolios are rebalanced each day at zero transacti
  
 Notes:
 - Make sure the portfolios are different from each other!  (Maybe one sounds safe, another aggressive, another very diverse, etc...)  You're not being graded on what specific portfolios you choose... just provide some context for your choices.   
-- If you're unfamiliar with value at risk (VaR), see the class website for links to a few different sites that explain the idea.   
+- If you're unfamiliar with value at risk (VaR), you can refer to any basic explanation of the idea, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
+
 
 
