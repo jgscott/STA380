@@ -59,8 +59,8 @@ Optional references:
 
 Topics: data visualization and practice with R.  Bar plots; basic plots for numerical data (scatterplots, boxplots, histograms, line graphs); panel plots.  Introduction to ggplot2.  
 
-Examples of [bad graphics](./notes/badgraphics.pdf).  
-
+Examples of [bad graphics](./notes/badgraphics.pdf).  And [an example from the New York Times](https://www.nytimes.com/interactive/2018/08/30/climate/how-much-hotter-is-your-hometown.html).  
+  
 Slides: [Introduction to Data Exploration](http://rpubs.com/jgscott/data_exploration)  
 
 R scripts and data:  
@@ -85,6 +85,8 @@ The bootstrap; joint distributions; using the bootstrap to approximate value at 
 
 Slides: [Introduction to the bootstrap](http://rpubs.com/jgscott/bootstrap_STA380)  
   
+Reference: ISL Section 5.2 for a basic overview of the bootstrap.    
+
 For the class exercises, you will need to refer to any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
 
 
@@ -100,10 +102,8 @@ Supplemental R scripts:
 - [greenbuildings.R](R/greenbuildings.R) and [greenbuildings.csv](data/greenbuildings.csv)  
 
 
+Supplemental readings:  
 
-
-Readings:  
-- ISL Section 5.2 for a basic overview.  
 - [These notes](notes/QuantifyingUncertainty.pdf) on bootstrapping and the permutation test.  
 - [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
 - [This R walkthrough](https://github.com/jgscott/learnR/blob/master/gonefishing/gonefishing.md) on using the bootstrap to estimate the variability of a sample mean.  
