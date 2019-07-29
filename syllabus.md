@@ -8,7 +8,7 @@ Instructors:
 
 Students in both sections are welcome to attend either set of office hours!  
 
-Course website: http://www.github.com/jgscott/STA380/
+Course website: [http://www.github.com/jgscott/STA380/](http://www.github.com/jgscott/STA380/)  
 
 
 ## Overview
@@ -31,7 +31,9 @@ The course is intended as an overview, rather than an in-depth treatment of any 
 
 ## Grading  
 
-Your grade for this half of the course will come from a long set of exercises, due on Monday, August 19th, which mainly consist of analyzing some data, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
+Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Monday, August 19th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
+
+There is no final exam.  Attendance plays no formal role in grading, although you are unlikely to do well on the exercises if you do not attend class.  
 
 
 ## Readings
@@ -46,5 +48,10 @@ Some supplemental references:
 - NIST Engineering Statistics Handbook, [Chapter 1](http://www.itl.nist.gov/div898/handbook/eda/eda.htm).  Yes, this webpage has a "Geocities circa 1998" look to it, but its discussion of exploratory data analysis is at least as good as anything you have to pay for.   
 - _Elements_: selections from [_Elements of Statistical Learning_](http://statweb.stanford.edu/~tibs/ElemStatLearn/), by Hastie, Tibshirani, and Friedman.  A standard reference on data mining from a more statistical perspective.  Referrered to as "Elements" in the course outline.  
 
+
+
+## Students with disabilities
+
+Upon request, the University of Texas at Austin provides appropriate academic accommodations for qualified students with disabilities. Services for Students with Disabilities (SSD) is housed in the Office of the Dean of Students, located on the fourth floor of the Student Services Building. Information on how to register, downloadable forms, including guidelines for documentation, accommodation request letters, and releases of information are available online at http://deanofstudents.utexas.edu/ssd/index.php. Please do not hesitate to contact SSD at (512) 471-6259, VP: (512) 232-2937 or via e-mail if you have any questions. 
 
 
