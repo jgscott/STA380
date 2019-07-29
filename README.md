@@ -137,6 +137,7 @@ Scripts and data:
 - [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)   
 
 If time:  
+- [NCI60.R](R/NCI60.R)   
 - [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)   
 
 
