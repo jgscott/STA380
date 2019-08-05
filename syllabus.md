@@ -3,7 +3,7 @@
 ## Course details
 
 Instructors:  
-- Dr. James Scott (morning section).  Office hours on Mondays and Wednesdays, 3:20 to 4:20 PM, in GDC 7.516.  
+- Dr. James Scott (morning section).  Office hours on Mondays and Wednesdays, 3:20 to 4:20 PM, in CBA 6.478.  
 - Dr. Jared Fisher (afternoon section).  Office hours on Tuesdays and Thursdays, 12:00 to 1:30 PM, CBA 2.542.   
 
 Students in both sections are welcome to attend either set of office hours!  

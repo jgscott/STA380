@@ -3,7 +3,7 @@
 Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
 Instructors:  
-- Dr. James Scott (morning section).  Office hours on Mondays and Wednesdays, 3:20 to 4:20 PM, in GDC 7.516.  
+- Dr. James Scott (morning section).  Office hours on Mondays and Wednesdays, 3:20 to 4:20 PM, in CBA 6.478.   
 - Dr. Jared Fisher (afternoon section).  Office hours on Tuesdays and Thursdays, 12:00 to 1:30 PM, CBA 2.542.   
 
 Students in both sections are welcome to attend either set of office hours!  
