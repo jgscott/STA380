@@ -115,6 +115,8 @@ summary(TitanicSurvival)
 
 # for now, just remove the NAs (these correspond to missing ages)
 TitanicSurvival = na.omit(TitanicSurvival)
+TitanicSurvival = subset(TitanicSurvival, !is.na(age))
+
 
 d3 = TitanicSurvival %>%
   group_by(sex, passengerClass, agecat) %>%

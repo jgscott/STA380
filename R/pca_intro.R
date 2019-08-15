@@ -1,3 +1,5 @@
+library(ggplot2)
+
 # Load a toy data and peak at the numbers
 data(iris)
 head(iris)

@@ -27,7 +27,8 @@ ggplot(uk_toys_total) +
 # Could also go back to the original (un-summed) data
 # but this is a bit messy!
 ggplot(uk_toys) + 
-  geom_line(aes(x=year, y=US_report_import, color=product_name))
+  geom_line(aes(x=year, y=US_report_import, color=product_name)) +
+  scale_x_continuous(breaks = 1996:2005)
 
 
 # Let's look at three countries

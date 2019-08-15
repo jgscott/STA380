@@ -14,7 +14,7 @@ boot1 = do(1000)*{
   mean(resample(creatinine)$creatclear)
 }
 
-hist(boot1$result)
+hist(boot1$result, 30)
 sd(boot1$result)
 
 # Interpetation: our sample mean is probably off from the true population mean by about 0.95 units
