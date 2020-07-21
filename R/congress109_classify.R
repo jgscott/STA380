@@ -114,7 +114,7 @@ pvec_1 = colSums(X_train[y_train==1,])
 pvec_1 = pvec_1/sum(pvec_1)
 
 # now try a query doc in the test set
-i = 1
+i = 100
 test_doc = X_test[i,]
 sum(test_doc * log(pvec_0))
 sum(test_doc * log(pvec_1))

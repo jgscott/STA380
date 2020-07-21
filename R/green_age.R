@@ -1,3 +1,5 @@
+library(tidyverse)
+
 greenbuildings = read.csv('../data/greenbuildings.csv')
 
 # Step 1: identify possible confounders
@@ -12,6 +14,10 @@ ggplot(greenbuildings) +
 # important for recognizing the second group of older buildings
 # that is largely missing among the green-rated buildings
 
+ggplot(greenbuildings) + 
+  geom_point(aes(x=age, y=Rent))
+ 
+lm(Rent ~ age, data= greenbuildings)
 
 # step 3: try to hold age roughly constant
 

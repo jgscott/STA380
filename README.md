@@ -18,7 +18,7 @@ The exercises are [available here](exercises/).  These are due Monday, August 19
 
 ### (1) The data scientist's toolbox
 
-Slides: [The data scientist's toolbox](http://rpubs.com/jgscott/data_science_toolbox)  
+Slides: [The data scientist's toolbox](slides/01_datascience_toolbox/01_datascience_toolbox.pdf)  
 Good data-curation and data-analysis practices; R; Markdown and RMarkdown; the importance of replicable analyses; version control with Git and Github.
 
 Readings:  
@@ -38,27 +38,24 @@ Your assignment after the first class day:
 These instructions will make sense after you read the tutorials above!  
 
 
-### (2) Probability basics: a refresher  
+### (2) Probability: a refresher  
 
-Slides: [Introduction to Probability](http://rpubs.com/jgscott/intro_probability_STA380)  
+Slides: [Some fun topics in probability](slides/02_probability_refresher/probability_fun_topics)  
 
 Two short pieces that illustrate the "fallacy of mistaken compounding":  
 - [How likely is it that birth control could let you down?](https://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) from the _New York Times_  
 - An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](./notes/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.    
 
 
-Optional references:
-- [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics.  
-- [Bayes and the search for Air France 447](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.2913&rep=rep1&type=pdf).  
+Optional reference: [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. 
+
 
 
 ### (3) Data exploration and visualization
 
-Topics: data visualization and practice with R.  Bar plots; basic plots for numerical data (scatterplots, boxplots, histograms, line graphs); panel plots.  Introduction to ggplot2.  
+Topics: data visualization and practice with R.  
 
-Examples of [bad graphics](./notes/badgraphics.pdf).  And [an example from the New York Times](https://www.nytimes.com/interactive/2018/08/30/climate/how-much-hotter-is-your-hometown.html).  
-  
-Slides: [Introduction to Data Exploration](http://rpubs.com/jgscott/data_exploration)  
+Slides: [Introduction to Data Exploration](slides/03_data_exploration/intro_dataviz_examples.pdf)  
 
 R scripts and data:  
 - [mpg.R](R/mpg.R)  
