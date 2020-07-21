@@ -40,7 +40,7 @@ These instructions will make sense after you read the tutorials above!
 
 ### (2) Probability: a refresher  
 
-Slides: [Some fun topics in probability](slides/02_probability_refresher/probability_fun_topics)  
+Slides: [Some fun topics in probability](slides/02_probability_refresher/probability_fun_topics.pdf)  
 
 Two short pieces that illustrate the "fallacy of mistaken compounding":  
 - [How likely is it that birth control could let you down?](https://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) from the _New York Times_  
