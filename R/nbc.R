@@ -17,12 +17,17 @@ ggplot(shows) +
 survey = read.csv("../data/nbc_pilotsurvey.csv") 
 head(survey)
 
+# there are lots of survey respondents
+# let's calculate an average response for each show, for each question,
+# across all respondents
 pilot_results = survey %>%
 	group_by(Show) %>% 
 	select(-Viewer) %>%
 	summarize_all(mean) %>%
 	column_to_rownames(var="Show")
 
+# now we have a tidy matrix of shows by questions
+# each entry is an average survey response
 head(pilot_results)
 
 # a few quick plots
