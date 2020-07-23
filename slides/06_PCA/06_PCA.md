@@ -10,9 +10,7 @@ transition: none
 }
 </style>
 
-```{r setup, echo=FALSE, display=FALSE}
-opts_chunk$set(cache=TRUE)
-```
+
 
 Reference: Introduction to Statistical Learning Chapter 10.1-10.2
 
@@ -76,13 +74,13 @@ You get summary features for each observation.
 
 Before: raw survey data on a bunch of TV shows
 ```
-                               Entertaining  Engaged  Original  Confusing  Funny  
-30 Rock                        4.2           3.7      4.0       2.2        3.7
-America's Next Top Model       4.2           3.8      3.8       2.0        3.5
-American Chopper               4.2           3.6      3.9       2.1        3.5
-Bones                          4.3           4.1      3.8       1.9        3.4
-Close to Home                  4.1           3.8      3.8       1.9        2.9
-Cold Case                      4.2           3.9      4.0       1.9        3.0
+                     Entertaining  Engaged  Original  Confusing  Funny  
+30 Rock              4.2           3.7      4.0       2.2        3.7
+Next Top Model       4.2           3.8      3.8       2.0        3.5
+American Chopper     4.2           3.6      3.9       2.1        3.5
+Bones                4.3           4.1      3.8       1.9        3.4
+Close to Home        4.1           3.8      3.8       1.9        2.9
+Cold Case            4.2           3.9      4.0       1.9        3.0
 ```
 plus 16 more columns.
 
@@ -95,13 +93,13 @@ You get summary features for each observation.
 
 After: survey data on a bunch of TV shows run through PCA
 ```
-                                 PC1    PC2    
-30 Rock                        -2.64   0.12
-America's Next Top Model       -0.78  -0.19
-American Chopper               -2.31   0.68
-Bones                           3.24   2.22
-Close to Home                  -0.63   2.86
-Cold Case                       1.62   2.88
+                      PC1    PC2    
+30 Rock              -2.64   0.12
+Next Top Model       -0.78  -0.19
+American Chopper     -2.31   0.68
+Bones                 3.24   2.22
+Close to Home        -0.63   2.86
+Cold Case             1.62   2.88
 ```
 From 20 raw variables to 2 summaries. PC1 and PC2 are like "ingredients."  The numbers are "amounts" of each "ingredient."
 
@@ -116,17 +114,7 @@ $$
 \mathcal{V} = \left\{z: z = \alpha_i v, \alpha_i \in \mathbb{R}  \right\}
 $$
 
-```{r, echo=FALSE, message=FALSE, fig.width = 5.5, fig.height = 5.5, fig.align='center'}
-library(tidyverse)
-v_try = c(1, -2)
-v_try = v_try/sqrt(sum(v_try^2))  # normalize to unit length
-
-plot(0, 0, type='n', xlab='X1', ylab='X2', xlim=c(-3,3), ylim=c(-3,3))
-segments(0, 0, v_try[1], v_try[2], col='red', lwd=4)
-
-slope = v_try[2]/v_try[1]
-abline(0, slope)
-```
+<img src="06_PCA-figure/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 
 
 Some linear algebra reminders
@@ -147,31 +135,11 @@ __Let's see a picture.__
 
 The original points
 ==========
-```{r, echo=FALSE, message=FALSE, fig.width = 7, fig.height = 7, fig.align='center'}
-X = matrix(rnorm(15*2, 0, 0.3), nrow=15) +
-  cbind(c(rep(-1.25, 5), rep(1.5, 5), rep(2, 5)), c(rep(1, 5), rep(1, 5), rep(-1, 5)))
-labs = rep(c(2,3,16), 5) %>% sort
-plot(0, 0, type='n', xlab='X1', ylab='X2', xlim=c(-3,3), ylim=c(-3,3))
-segments(0, 0, v_try[1], v_try[2], col='red', lwd=4)
-
-slope = v_try[2]/v_try[1]
-abline(0, slope)
-points(X, pch=labs, cex=2)
-```
+<img src="06_PCA-figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 With the projected points
 ==========
-```{r, echo=FALSE, message=FALSE, fig.width = 7, fig.height = 7, fig.align='center'}
-plot(0, 0, type='n', xlab='X1', ylab='X2', xlim=c(-3,3), ylim=c(-3,3))
-segments(0, 0, v_try[1], v_try[2], col='red', lwd=4)
-
-slope = v_try[2]/v_try[1]
-abline(0, slope)
-points(X, pch=labs, cex=2)
-alpha = X %*% v_try
-X_hat = alpha %*% v_try 
-points(X_hat, pch=labs, col='blue', cex=2)
-```
+<img src="06_PCA-figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 
 Key ideas

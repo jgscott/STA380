@@ -121,13 +121,13 @@ Principal component analysis (PCA).
 Slides: [Introduction to PCA](slides/06_PCA/06_PCA.pdf)      
 
 Scripts and data for class:  
+- [pca_intro.R](R/pca_intro.R)  
 - [nbc.R](R/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv)  
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
 - [ercot_PCA.R](R/ercot_PCA.R), [ercot.zip](data/ercot.zip)  
 
 
 A few other examples we likely won't cover in class:  
-- [pca_intro.R](R/pca_intro.R)  
 - [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)    
 - [NCI60.R](R/NCI60.R)   
 - [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)   
