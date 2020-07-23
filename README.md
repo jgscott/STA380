@@ -147,17 +147,16 @@ Networks and association rule mining.
 
 [Slides on association rules.](https://github.com/jgscott/ECO395M/blob/master/notes/association_rules.pdf)    
 
+Software you'll need:   
+- [Gephi](https://gephi.org/), a great piece of software for exploring graphs  
+- [The Gephi quick-start tutorial](https://gephi.org/tutorials/gephi-tutorial-quick_start.pdf)  
+
 Scripts and data: 
 - [medici.R](R/medici.R) and [medici.txt](data/medici.txt)  
 - [playlists.R](R/playlists.R) and [playlists.csv](data/playlists.csv)  
+- [microfi.R](R/microfi.R), [microfi_households.csv](data/microfi_households.csv), and [microfi_edges.txt](data/microfi_edges.txt).  
 
-Readings: 
-- [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
-
-
-Miscellaneous:  
-- [Gephi](https://gephi.org/), a great piece of software for exploring graphs  
-- [The Gephi quick-start tutorial](https://gephi.org/tutorials/gephi-tutorial-quick_start.pdf)   
+Supplemental resource: [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
 
 
 
