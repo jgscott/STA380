@@ -15,3 +15,8 @@ titanic.pdf
 misc/big_syllabus.md
 misc/big_syllabus.pdf
 *.key
+data/ercot/load_data.csv
+data/ercot/station_data.csv
+data/ercot/dewpoint_impute.csv
+data/ercot/temperature_impute.csv
+data/ercot/zones.csv

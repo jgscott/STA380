@@ -77,7 +77,7 @@ Inspiration and further reference:
 
 The bootstrap; joint distributions; using the bootstrap to approximate value at risk (VaR).  
 
-Slides: [Introduction to the bootstrap](http://rpubs.com/jgscott/bootstrap_STA380)  
+Slides: [Introduction to the bootstrap](slides/04_resampling/bootstrap_STA380.pdf)  
   
 Reference: ISL Section 5.2 for a basic overview of the bootstrap.    
 
@@ -86,18 +86,11 @@ For the class exercises, you will need to refer to any basic explanation of the 
 
 R scripts and data:    
 - [creatinine_bootstrap.R](./R/creatinine_bootstrap.R) and [creatinine.csv](data/creatinine.csv)   
-- [gdpgrowth.R](R/gdpgrowth.R) and [gdpgrowth.csv](data/gdpgrowth.csv)  
 - [portfolio.R](R/portfolio.R)  
 
 
-Supplemental R scripts:  
-- [gonefishing.R](R/gonefishing.R) and [gonefishing.csv](data/gonefishing.csv)  
+Supplemental resources:  
 - [R walkthrough on Monte Carlo simulation](https://github.com/jgscott/learnR/blob/master/montecarlo/montecarlo_intro.md)  
-- [greenbuildings.R](R/greenbuildings.R) and [greenbuildings.csv](data/greenbuildings.csv)  
-
-
-Supplemental readings:  
-
 - [These notes](notes/QuantifyingUncertainty.pdf) on bootstrapping and the permutation test.  
 - [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
 - [This R walkthrough](https://github.com/jgscott/learnR/blob/master/gonefishing/gonefishing.md) on using the bootstrap to estimate the variability of a sample mean.  
@@ -107,7 +100,7 @@ Supplemental readings:
 
 Basics of clustering; K-means clustering; hierarchical clustering.  
 
-Slides: [Introduction to clustering.](http://rpubs.com/jgscott/clustering)    
+Slides: [Introduction to clustering.](slides/05_clustering/05_clustering.pdf)      
 
 Scripts and data:  
 - [cars.R](R/cars.R) and [cars.csv](data/cars.csv) 
@@ -125,14 +118,17 @@ Readings:
 
 Principal component analysis (PCA).  
 
-Slides: [Introduction to PCA](http://rpubs.com/jgscott/PCA)    
+Slides: [Introduction to PCA](slides/06_PCA/06_PCA.pdf)      
 
-Scripts and data:  
-- [pca_intro.R](R/pca_intro.R)  
+Scripts and data for class:  
+- [nbc.R](R/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv)  
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
-- [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)   
+- [ercot_PCA.R](R/ercot_PCA.R), [ercot.zip](data/ercot.zip)  
 
-If time:  
+
+A few other examples we likely won't cover in class:  
+- [pca_intro.R](R/pca_intro.R)  
+- [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)    
 - [NCI60.R](R/NCI60.R)   
 - [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)   
 
