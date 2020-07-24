@@ -1,8 +1,10 @@
 # STA 380, Part 2: Exercises 
 
-Due: by end of the day (5 PM) on Monday, August 19.
+Due: by end of the day (5:00 PM US Central time) on Monday, August 17.
 
 Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  If you're working in a group, please turn in a single submission with all of your names attached.
+
+Note: the option to submit as a group is intended to give you an incentive to get to know some of your classmates, despite the circumstances of having to learn remotely.  The idea is for y'all to work together on all the problems and to learn from each other, not to divide up the individual problems.
 
 To submit, please send an e-mail to <statdropbox@gmail.com> with the subject line "STA 380 Exercises: name here."  (Obviously use your own name in the subject, or the names of all your group members if applicable.)  Your e-mail should include two links:  
   1. A link to a GitHub page where the final report has been knitted and stored _in Markdown (.md) format_.  
@@ -11,7 +13,7 @@ To submit, please send an e-mail to <statdropbox@gmail.com> with the subject lin
 Notes: 
 - Do not knit to .html, which won't render properly on GitHub.  
 - Do not send six different sets of links, one for each problem.  We want a single document.  
-- Do not directly e-mail James or Jared with your reports.  (We get so much e-mail in our usual addresses that we are likely to miss it.)  Use the e-mail address provided above, which we've set up explicitly for this purpose.      
+- Do not directly e-mail the instructor directly with your reports.  (We get so much e-mail in our usual addresses that we are likely to miss it.)  Use the e-mail address provided above, which we've set up explicitly for this purpose.      
 - Do not e-mail an attachment of any kind.  If for whatever reason you cannot get your report to compile correctly to a .md document, compile to a PDF and send a link to the PDF on GitHub instead.  
 - If you need to include mathematical expressions in your report, you can go down the Googling rabbit hole of "math expressions in Github markdown".  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.
 - LaTeX is an acceptable alternative to Markdown.  If you wish to typeset your reports in Latex, either use Sweave or something similar.   
@@ -50,7 +52,7 @@ The columns of the data set are coded as follows:
 - class.a, class.b:  indicators for two classes of building quality (the third is Class C).  These are relative classifications within a specific market.  Class A buildings are generally the highest-quality properties in a given market.  Class B buildings are a notch down, but still of reasonable quality.  Class C buildings are the least desirable properties in a given market.  
 - green.rating:  an indicator for whether the building is either LEED- or EnergyStar-certified.  
 - LEED, Energystar:  indicators for the two specific kinds of green certifications.  
-- net:  an indicator as to whether the rent is quoted on a ``net contract'' basis.  Tenants with net-rental contracts pay their own utility costs, which are otherwise included in the quoted rental price.  
+- net:  an indicator as to whether the rent is quoted on a "net contract" basis.  Tenants with net-rental contracts pay their own utility costs, which are otherwise included in the quoted rental price.  
 - amenities:  an indicator of whether at least one of the following amenities is available on-site: bank, convenience store, dry cleaner, restaurant, retail shops, fitness center.  
 - cd.total.07:  number of cooling degree days in the building's region in 2007.  A degree day is a measure of demand for energy; higher values mean greater demand.  Cooling degree days are measured relative to a baseline outdoor temperature, below which a building needs no cooling.  
 - hd.total07:  number of heating degree days in the building's region in 2007.  Heating degree days are also measured relative to a baseline outdoor temperature, above which a building needs no heating.  
@@ -59,6 +61,7 @@ The columns of the data set are coded as follows:
 - Gas.Costs:  a measure of how much natural gas costs in the building's geographic region.  
 - Electricity.Costs:  a measure of how much electricity costs in the building's geographic region.  
 - cluster.rent:  a measure of average rent per square-foot per calendar year in the building's local market.  
+
 
 ### The goal
 
@@ -73,7 +76,7 @@ The developer has had someone on her staff, who's been described to her as a "to
 
 The developer listened to this recommendation, understood the analysis, and still felt unconvinced.  She has therefore asked you to revisit the report, so that she can get a second opinion.
 
-Do you agree with the conclusions of her on-staff stats guru?  If so, point to evidence supporting his case.  If not, explain specifically where and why the analysis goes wrong, and how it can be improved.  (For example, do you see the possibility of confounding variables for the relationship between rent and green status?)  _Tell your story mainly in pictures, with appropriate introductory and supporting text._  
+Do you agree with the conclusions of her on-staff stats guru?  If so, point to evidence supporting his case.  If not, explain specifically where and why the analysis goes wrong, and how it can be improved.  Do you see the possibility of confounding variables for the relationship between rent and green status?  If so, provide evidence for confounding, and see if you can also make a picture that visually shows how we might "adjust" for such a confounder.    _Tell your story mainly in pictures, with appropriate introductory and supporting text._  
 
 Note: this is intended mainly as an exercise in visual and numerical story-telling. While you can run a regression model if you want, that's not the end goal here.  Telling a story is.  Keep it concise.   
 
@@ -112,9 +115,9 @@ Consider the data in [ABIA.csv](../data/ABIA.csv), which contains information on
 - SecurityDelay   in minutes  
 - LateAircraftDelay   in minutes  
 
-Your task is to create a figure, or set of related figures, that tell an interesting story about flights into and out of Austin.  You can annotate the figure and briefly describe it, but strive to make it as stand-alone as possible.  It shouldn't need many, many paragraphs to convey its meaning.  Rather, the figure should speak for itself as far as possible. 
+Your task is to create a figure, or set of related figures, that tell an interesting story about flights into and out of Austin.  Provide a clear annotation/caption for each figure, but the figure should be more or less stand-alone, in that you shouldn't need many, many paragraphs to convey its meaning.  Rather, the figure together with a concise caption should speak for itself as far as possible. 
 
-You have broad freedom to look at any variables you'd like here -- try to find that sweet spot where you're showing genuinely interesting relationships among more than just two variables, but where the resulting figure or set of figures doesn't become overwhelming/confusing.  (Faceting/panel plots might be especially useful here.) If you want to try your hand at mapping, you can find coordinates for the airport codes here: [https://github.com/datasets/airport-codes](https://github.com/datasets/airport-codes).  Combine this with a mapping package like ggmap, and you should have lots of possibilities!  
+You have broad freedom to look at any variables you'd like here -- try to find that sweet spot where you're showing genuinely interesting relationships among more than just two variables, but where the resulting figure or set of figures doesn't become overwhelming/confusing.  (Faceting/panel plots might be especially useful here.) If you want to try your hand at mapping, you can find coordinates for the airport codes here: [https://github.com/datasets/airport-codes](https://github.com/datasets/airport-codes).  Combine this with a mapping package like ggmap or usmap, and you should have lots of possibilities!  
 
 
 ## Portfolio modeling
@@ -135,10 +138,8 @@ Suppose you have $100,000 in capital.  Your task is to:
 You should assume that your portfolios are rebalanced each day at zero transaction cost.  For example, if you're allocating your wealth evenly among 5 ETFs, you always redistribute your wealth at the end of each day so that the equal five-way split is retained, regardless of that day's appreciation/depreciation.  
  
 Notes:
-- Make sure the portfolios are different from each other!  (Maybe one sounds safe, another aggressive, another very diverse, etc...)  You're not being graded on what specific portfolios you choose... just provide some context for your choices.   
+- Make sure the portfolios are different from each other!  (Maybe one seems safe, another aggressive, another very diverse, etc...)  You're not being graded on what specific portfolios you choose... just provide some context for your choices.   
 - If you're unfamiliar with value at risk (VaR), you can refer to any basic explanation of the idea, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
-
-
 
 
 
@@ -158,13 +159,13 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 
 Revisit the Reuters C50 corpus that we explored in class.  Your task is to build the best model you can, using any combination of tools you see fit, for predicting the author of an article on the basis of that article's textual content.  Describe clearly what models you are using, how you constructed features, and so forth.  Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning, since constructing features for a document might involve dimensionality reduction.
 
-In the C50train directory, you have ~50 articles from each of 50 different authors (one author per directory).  Use this training data (and this data alone) to build the model.  Then apply your model to predict the authorship of the articles in the C50test directory, which is about the same size as the training set.  _Describe your data pre-processing and analysis pipeline in detail._  
+In the C50train directory, you have 50 articles from each of 50 different authors (one author per directory).  Use this training data (and this data alone) to build the model.  Then apply your model to predict the authorship of the articles in the C50test directory, which is about the same size as the training set.  Describe your data pre-processing and analysis pipeline in detail.
 
 Note: you will need to figure out a way to deal with words in the test set that you never saw in the training set.  This is a nontrivial aspect of the modeling exercise.  You might, for example, consider adding a pseudo-word to the training set vocabulary, corresponding to "word not seen before," and add a pseudo-count to it so it doesn't look like these out-of-vocabulary words have zero probability on the testing set.  Or you might simply ignore those new words, at a possible cost in performance.
 
 This question will be graded according to two criteria:    
   1. the clarity of your description.  We will be asking ourselves: could your analysis be reproduced by a competent data scientist based on what you've said?  (That's good.)  Or would that person have to wade into the code in order to understand what, precisely, you've done?  (That's bad.)  
-  2. the test-set performance of your best model, versus the best model that James and Jared can build using tools we have learned in class.   
+  2. the test-set performance of your best model, versus the best model that your instructors can build using tools we have learned in class.   
 
 
 ## Association rule mining
@@ -172,7 +173,5 @@ This question will be graded according to two criteria:
 Use the data on grocery purchases in [groceries.txt](../data/groceries.txt) and find some interesting association rules for these shopping baskets.  Pick your own thresholds for lift and confidence; just be clear what these thresholds are and how you picked them.  Do your discovered item sets make sense?  Present your discoveries in an interesting and concise way.  
 
 Notes: 
-- Like with the first set of exercises: this is an exercise in visual and numerical story-telling.  Do be clear in your description of what you've done, but keep the focus on the data, the figures, and the insights your analysis has drawn from the data.  
-- The data file is a list of baskets: one row per basket, with multiple items per row separated by commas.  You'll have to cobble together a few utilities for processing this into the format expected by the "arules" package.  (This is not intrinsically all that hard, but it is the kind of wrinkle you'll encounter frequently on real problems, where your software package expects data in one format and the data comes in a different format.  Figuring out how to bridge that gap is part of the assignment, and so we won't be giving tips on this front.)   
-
-
+- Like with the first problem: this is an exercise in visual and numerical story-telling.  Do be clear in your description of what you've done, but keep the focus on the data, the figures, and the insights your analysis has drawn from the data.  
+- The data file is a list of baskets: one row per basket, with multiple items per row separated by commas.  You'll have to cobble together a few utilities for processing this into the format expected by the "arules" package.  This is not intrinsically all that hard, but it is the kind of data-cleaning and pre-processing wrinkle you'll encounter frequently on real problems, where your software package expects data in one format and the data comes in a different format.  Figuring out how to bridge that gap is part of the assignment, and so we won't be giving tips on this front.  
