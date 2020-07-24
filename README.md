@@ -145,7 +145,7 @@ Networks and association rule mining.
 
 Slides: [Intro to networks](slides/Networks.pdf).  Note: these slides refer to "lastfm.R" but this is the same thing as "playlists.R" below.  
 
-Some supplemental [slides on association rule mining.](slides/association_rules.pdf) These contain the details of the A-prior algorithm.  If there's time we might cover some of this in class, but mainly we'll focus on the shorter intro slides above, together with the example R scripts below.     
+Some supplemental [slides on association rule mining.](slides/association_rules.pdf) These contain the details of the apriori algorithm.  If there's time we might cover some of this in class, but mainly we'll focus on the shorter intro slides above, together with the example R scripts below.     
 
 Software you'll need:   
 - [Gephi](https://gephi.org/), a great piece of software for exploring graphs  
