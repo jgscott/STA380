@@ -3,8 +3,8 @@
 ## Course details
 
 Instructors:  
-- Dr. James Scott (morning section).  Office hours on Mondays and Wednesdays, 3:20 to 4:20 PM, in CBA 6.478.  
-- Dr. Jared Fisher (afternoon section).  Office hours on Tuesdays and Thursdays, 12:00 to 1:30 PM, CBA 2.542.   
+- Dr. James Scott.  Office hours on Fridays, 6:40am to 7:30am, and 2:00 PM to 3:00 PM, via Zoom.  (All times are US central time.)   
+- Dr. Jennifer Starling.  Office hours TBA.
 
 Students in both sections are welcome to attend either set of office hours!  
 
@@ -23,6 +23,10 @@ The course is intended as an overview, rather than an in-depth treatment of any 
 
 [The course homepage](README.md) has a detailed outline of topics, together with topic-by-topic reading lists.
 
+Owing to the ongoing Covid-19 pandemic, all lectures will be held via Zoom.  Links will be sent out via Canvas.  For those not able to attend lectures "live" (i.e. synchronously), recordings of all lectures will be posted on Canvas as soon as they are available.  (This typically happens within 1-2 hours after the end of the session.)  
+
+Note: you need to sign in to Zoom using your UT zoom account. [See this page](https://zoom.its.utexas.edu/signing-in-and-out-zoom) for further information.  
+
 ## Software
 
 - Statistical computing: [R](http://www.r-project.org), which we will use via [RStudio](http://www.rstudio.com), a free, platform-independent graphical front-end for R.  Make sure you have both installed, along with the [RMarkdown package](http://rmarkdown.rstudio.com).  
@@ -31,9 +35,9 @@ The course is intended as an overview, rather than an in-depth treatment of any 
 
 ## Grading  
 
-Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Monday, August 19th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
+Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Monday, August 17th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
 
-There is no final exam.  Attendance plays no formal role in grading, although you are unlikely to do well on the exercises if you do not attend class.  
+There is no final exam.  Attendance plays no formal role in grading, although you are unlikely to do well on the exercises if you do not attend and follow the examples in class.  
 
 
 ## Readings

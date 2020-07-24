@@ -3,15 +3,15 @@
 Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
 Instructors:  
-- Dr. James Scott (morning section).  Office hours on Mondays and Wednesdays, 3:20 to 4:20 PM, in CBA 6.478.   
-- Dr. Jared Fisher (afternoon section).  Office hours on Tuesdays and Thursdays, 12:00 to 1:30 PM, CBA 2.542.   
+- Dr. James Scott.  Office hours on Fridays, 6:40am to 7:30am, and 2:00 PM to 3:00 PM, via Zoom.  (All times are US central time.)  
+- Dr. Jennifer Starling.  Office hours TBA.
 
 Students in both sections are welcome to attend either set of office hours!  
 
 
 ## Exercises
 
-The exercises are [available here](exercises/).  These are due Monday, August 19th at 5 PM.  Pace yourself, and start early on the first couple of problems!  These are long.  
+The exercises are [available here](exercises/).  These are due Monday, August 17th at 5 PM, U.S central time.  Pace yourself over the next few weeks, and start early on the first couple of problems!  
  
 
 ## Outline of topics  
@@ -143,9 +143,9 @@ Readings:
 
 Networks and association rule mining.  
 
-[Intro slides on networks](notes/networks_intro.pdf).  
+Slides: [Intro to networks](slides/Networks.pdf).  Note: these slides refer to "lastfm.R" but this is the same thing as "playlists.R" below.  
 
-[Slides on association rules.](https://github.com/jgscott/ECO395M/blob/master/notes/association_rules.pdf)    
+Some supplemental [slides on association rule mining.](slides/association_rules.pdf) These contain the details of the A-prior algorithm.  If there's time we might cover some of this in class, but mainly we'll focus on the shorter intro slides above, together with the example R scripts below.     
 
 Software you'll need:   
 - [Gephi](https://gephi.org/), a great piece of software for exploring graphs  
@@ -167,13 +167,13 @@ Co-occurrence statistics; naive Bayes; TF-IDF; topic models; vector-space models
 [Slides on text](notes/text_intro.pdf).   
 
 Scripts and data:  
-<!-- - [textutils.R](R/textutils.R) 
-- [nyt_stories.R](R/nyt_stories.R) and [selections from the New York Times](https://github.com/jgscott/STA380/tree/master/data/nyt_corpus). -->
-- [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50).
-- [congress109_classify.R](R/congress109_classify.R)  
-- [art_examples.R](R/art_examples.R)
+- [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50)  
+- [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
 
-Readings: 
+If time in class, we'll cover this script below.  But if not, it's a useful starting point for your homework anyway:  
+- [congress109_classify.R](R/congress109_classify.R)    
+
+Supplemental material:   
 - [Great blog post about word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/).  
 - [Stanford NLP notes](http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html) on vector-space models of text, TF-IDF weighting, and so forth.  
 - [Using the tm package](http://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for text mining in R.  
