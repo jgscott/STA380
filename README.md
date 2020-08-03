@@ -4,7 +4,7 @@ Welcome to part 2 of STA 380, a course on predictive modeling in the MS program 
 
 Instructors:  
 - Dr. James Scott.  Office hours on Fridays, 6:40am to 7:30am, and 2:00 PM to 3:00 PM, via Zoom.  (All times are US central time.)  
-- Dr. Jennifer Starling.  Office hours TBA.
+- Dr. Jennifer Starling.  Office hours Mondays, 8-8:50 am and 1-2 pm Central US Time.
 
 Students in both sections are welcome to attend either set of office hours!  
 
