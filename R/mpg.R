@@ -1,5 +1,6 @@
 library(mosaic)
 library(tidyverse)
+library(ggplot2)
 
 data(mpg)
 mpg
@@ -29,6 +30,8 @@ boxplot(cty~class, data=mpg)
 # the second line maps displ to x, hwy to y, and draws points
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
+
+
 
 # same basic structure for a boxplot
 ggplot(data=mpg) + 
