@@ -94,10 +94,10 @@ total_wealth
 total_wealth = 10000
 weights = c(0.2, 0.2, 0.2, 0.2, 0.2)
 holdings = weights * total_wealth
-n_days = 10
+n_days = 10  # capital T in the notes
 wealthtracker = rep(0, n_days) # Set up a placeholder to track total wealth
 for(today in 1:n_days) {
-	return.today = resample(all_returns, 1, orig.ids=FALSE)
+	return.today = resample(all_returns, 1, orig.ids=FALSE)  # sampling from R matrix in notes
 	holdings = holdings + holdings*return.today
 	total_wealth = sum(holdings)
 	wealthtracker[today] = total_wealth

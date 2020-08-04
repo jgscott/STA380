@@ -100,7 +100,7 @@ Supplemental resources:
 
 Basics of clustering; K-means clustering; hierarchical clustering.  
 
-Slides: [Introduction to clustering.](slides/05_clustering/05_clustering.pdf)      
+Slides: [Introduction to clustering.](slides/05_clustering/05-clustering.pdf)      
 
 Scripts and data:  
 - [cars.R](R/cars.R) and [cars.csv](data/cars.csv) 
