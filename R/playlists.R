@@ -19,7 +19,7 @@ playlists_raw$artist %>%
 	summary(., maxsum=Inf) %>%
 	sort(., decreasing=TRUE) %>%
 	head(., 20) %>%
-	barplot(., las=2, cex.names=0.6)
+	barplot(., las=2, cex.names=0.6) 
 
 # Turn user into a factor
 playlists_raw$user = factor(playlists_raw$user)

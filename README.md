@@ -1,17 +1,17 @@
-# STA 380: Predictive Modeling
+# STA 380: Intro to Machine Learning  
 
-Welcome to part 2 of STA 380, a course on predictive modeling in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
+Welcome to part 2 of STA 380, a course on machine learning in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
 Instructors:  
-- Dr. James Scott.  Office hours on Fridays, 6:40am to 7:30am, and 2:00 PM to 3:00 PM, via Zoom.  (All times are US central time.)  
-- Dr. Jennifer Starling.  Office hours Mondays, 8-8:50 am and 1-2 pm Central US Time.
+- Dr. James Scott.  Office hours on M T W, 12:30 to 1:20 PM, via Zoom (see Canvas for link).  (All times are US central time.)  
+- Dr. David Puelz.  Office hours TBA.  
 
 Students in both sections are welcome to attend either set of office hours!  
 
 
 ## Exercises
 
-The exercises are [available here](exercises/).  These are due Monday, August 17th at 5 PM, U.S central time.  Pace yourself over the next few weeks, and start early on the first couple of problems!  
+The exercises are [available here](exercises/).  These are due Monday, August 16th at 5 PM, U.S central time.  Pace yourself over the next few weeks, and start early on the first couple of problems!  
  
 
 ## Outline of topics  
@@ -57,14 +57,12 @@ Topics: data visualization and practice with R.
 
 Slides: [Introduction to Data Exploration](slides/03_data_exploration/intro_dataviz_examples.pdf)  
 
-R scripts and data:  
-- [mpg.R](R/mpg.R)  
-- [titanic.R](R/titanic.R) and [TitanicSurvival.csv](data/TitanicSurvival.csv)  
-- [toyimports_linegraph.R](R/toyimports_linegraph.R) and [toyimports.csv](data/toyimports.csv)  
+R materials:  
 
+- in-class: [grammar_graphics.R](R/grammar_graphics.R)  
+- Lessons 4, 5, and 6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
 
 Inspiration and further reference:  
-- [excerpts](notes/DataScience.pdf) from some course notes on data science.  You'll find some example figures in Chapter 1.  
 - [50 ggplots](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)  
 - [A map of average ages in Swiss municipalities](https://github.com/grssnbchr/thematic-maps-ggplot2)  
 - [Low-income students in college](https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html)  
@@ -90,10 +88,8 @@ R scripts and data:
 
 
 Supplemental resources:  
-- [R walkthrough on Monte Carlo simulation](https://github.com/jgscott/learnR/blob/master/montecarlo/montecarlo_intro.md)  
-- [These notes](notes/QuantifyingUncertainty.pdf) on bootstrapping and the permutation test.  
+- Lessons 8 and 9 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/)  
 - [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
-- [This R walkthrough](https://github.com/jgscott/learnR/blob/master/gonefishing/gonefishing.md) on using the bootstrap to estimate the variability of a sample mean.  
 
 
 ### (5) Clustering
@@ -168,17 +164,9 @@ Co-occurrence statistics; naive Bayes; TF-IDF; topic models; vector-space models
 
 Scripts and data:  
 - [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50)  
+- [congress109_bayes.R](R/congress109_bayes.R)  
 - [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
 
 If time in class, we'll cover this script below.  But if not, it's a useful starting point for your homework anyway:  
 - [congress109_classify.R](R/congress109_classify.R)    
-
-Supplemental material:   
-- [Great blog post about word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/).  
-- [Stanford NLP notes](http://nlp.stanford.edu/IR-book/html/htmledition/scoring-term-weighting-and-the-vector-space-model-1.html) on vector-space models of text, TF-IDF weighting, and so forth.  
-- [Using the tm package](http://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) for text mining in R.  
-- [Some slides on Naive Bayes text classification](https://web.stanford.edu/class/cs124/lec/naivebayes.pdf).  
-
-
-
 

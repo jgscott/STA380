@@ -176,7 +176,7 @@ p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC3))
 
 # so if you had to guess, you might expect that:
 # - PC1 + PC2 will be useful for predicting load in the Coast region
-# - PC1 + PC2 will be useful for predicting load in South Texas
+# - PC1 + PC3 will be useful for predicting load in South Texas
 # let's try it!
 
 

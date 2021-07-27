@@ -19,7 +19,7 @@ A mix of practice and principles:
 We’ll learn what to trust, how to use it, and how to learn more.
 
 
-First half: supervised learning.
+Supervised learning.
 ========================================================
 
 - Given past data on outcomes $y$ paired with features $x$, can we
@@ -30,7 +30,7 @@ find patterns that allow us to predict $y$ using $x$?
 In real life, there might be hundreds or thousands of features.  If you know regression: this is like regression on steroids!
 
 
-Second half: unsupervised learning.
+Unsupervised learning.
 ========================================================
 
 - We still have multivariate data and want to find patterns.
@@ -40,19 +40,11 @@ Second half: unsupervised learning.
 
 An alphabet soup of labels...
 ========================================================
-Statistical learning, data mining, data science, ML, AI... there are many labels for what we’re doing!
+Statistical learning, data mining, data science, ML, AI... there are many labels for what we're doing!  
 - Econometrics, statistics: focused on understanding the underlying phenomena and formally quantifying uncertainty.
 - Business analytics, data science, data mining: traditionally focused on pragmatic data-analysis tools for applied prediction problems.
 - Machine learning, pattern recognition, artificial intelligence: focused on algorithms with engineering-style performance guarantees.  
 
-
-An alphabet soup of labels...
-========================================================
-How our goals fit into all this: we keep an eye on what is both _useful_ and _true_:
-- Learn actionable patterns from noisy, complex data (data mining).
-- If at all possible, do so using simple, scalable algorithms (machine learning, AI).
-- If necessary, provide error bars (statistics).
-- Always be aware of the problem context or decision at hand (econometrics).
 
 
 About "data mining"...
@@ -103,6 +95,7 @@ People use these tools everywhere
 - Collaborative filtering: predict preferences from people who do what you do; recommender engines.
 - Text mining: Connect blogs/emails/news to sentiment, beliefs, or intent. Parsing unstructured data, e.g. EMR.
 - Big regression: mining data to predict asset prices; using unstructured data as controls in observational studies.
+
 
 The four pillars of data science
 ========================================================
@@ -176,7 +169,7 @@ Our software toolkit
 R
 ========================================================
 
-R is the real deal: an immensely capable, industrial-strength platform for data analysis.
+R: an immensely capable, industrial-strength platform for data analysis.
 
 It's used everywhere:
 - Academic research (stats, marketing/finance, genetics, engineering)
@@ -195,7 +188,7 @@ A huge strength of R is that it is open-source.  R has a _core_, to which anyone
 
 R has flaws, but so do all options (e.g. Python is great, but the community of stats developers is smaller, interactive data analysis is less slick, and you need to be a more careful and sophisticated programmer.)
 
-Most students prefer to use R via an IDE.  We'll use _RStudio._  It's  awesome.
+Most students prefer to use R via an IDE.  We'll use _RStudio._ 
 
 
 Markdown
@@ -272,4 +265,4 @@ Look through the tutorials on the course website, and:
 - Knit that RMarkdown file to a Markdown (.md) output.  
 - Push the changes to GitHub and view the final (knitted) .md file as a web page.  
 
-These instructions will make sense after you read the tutorials!
+These instructions will make sense after you read the tutorials!  

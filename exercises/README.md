@@ -1,20 +1,20 @@
 # STA 380, Part 2: Exercises 
 
-Due: by end of the day (5:00 PM US Central time) on Monday, August 17.
+Due: by end of the day (5:00 PM US Central time) on Monday, August 16.
 
 Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  If you're working in a group, please turn in a single submission with all of your names attached.
 
-Note: the option to submit as a group is intended to give you an incentive to get to know some of your classmates, despite the circumstances of having to learn remotely.  The idea is for y'all to work together on all the problems and to learn from each other, not to divide up the individual problems.
+Note: the option to submit as a group is intended to give you an incentive to get to know some of your classmates.  The idea is for y'all to work together on _all_ the problems and to learn from each other, not to divide up the individual problems.
 
 To submit, please send an e-mail to <statdropbox@gmail.com> with the subject line "STA 380 Exercises: name here."  (Obviously use your own name in the subject, or the names of all your group members if applicable.)  Your e-mail should include two links:  
-  1. A link to a GitHub page where the final report has been knitted and stored _in Markdown (.md) format_.  
-  2. A link to the raw .Rmd file  that can be used to reproduce your report from scratch.  
+  1. A link to a GitHub repo where the final report has been knitted and stored _in PDF format_.  
+  2. A link to a GitHub repo containing the raw .Rmd file that can be used to reproduce your report from scratch.  
 
 Notes: 
 - Do not knit to .html, which won't render properly on GitHub.  
 - Do not send six different sets of links, one for each problem.  We want a single document.  
 - Do not directly e-mail the instructor directly with your reports.  (We get so much e-mail in our usual addresses that we are likely to miss it.)  Use the e-mail address provided above, which we've set up explicitly for this purpose.      
-- Do not e-mail an attachment of any kind.  If for whatever reason you cannot get your report to compile correctly to a .md document, compile to a PDF and send a link to the PDF on GitHub instead.  
+- Do not e-mail an attachment of any kind.  
 - If you need to include mathematical expressions in your report, you can go down the Googling rabbit hole of "math expressions in Github markdown".  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.
 - LaTeX is an acceptable alternative to Markdown.  If you wish to typeset your reports in Latex, either use Sweave or something similar.   
 - We want your report to be fully reproducible.  Of course, it would seem that, by its very nature, one thing that cannot be reproduced exactly is a Monte Carlo simulation.  That's OK --- you can try figuring out how to set a seed for your simulation so that it is fully reproducible, or you can just accept that it will be a little bit different next time the script is compiled.  

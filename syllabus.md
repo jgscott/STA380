@@ -3,8 +3,9 @@
 ## Course details
 
 Instructors:  
-- Dr. James Scott.  Office hours on Fridays, 6:40am to 7:30am, and 2:00 PM to 3:00 PM, via Zoom.  (All times are US central time.)   
-- Dr. Jennifer Starling.  Office hours TBA.
+- Dr. James Scott.  Office hours on M, T, W 12:30 to 1:20 PM, Zoom link available via Caonvas.  
+
+- Dr. David Puelz.  Office hours TBA.
 
 Students in both sections are welcome to attend either set of office hours!  
 
@@ -23,7 +24,7 @@ The course is intended as an overview, rather than an in-depth treatment of any 
 
 [The course homepage](README.md) has a detailed outline of topics, together with topic-by-topic reading lists.
 
-Owing to the ongoing Covid-19 pandemic, all lectures will be held via Zoom.  Links will be sent out via Canvas.  For those not able to attend lectures "live" (i.e. synchronously), recordings of all lectures will be posted on Canvas as soon as they are available.  (This typically happens within 1-2 hours after the end of the session.)  
+All lectures will be held via Zoom.  Links will be sent out via Canvas.  For those not able to attend lectures "live" (i.e. synchronously), recordings of all lectures will be posted on Canvas as soon as they are available.  (This typically happens within 1-2 hours after the end of the session.)  
 
 Note: you need to sign in to Zoom using your UT zoom account. [See this page](https://zoom.its.utexas.edu/signing-in-and-out-zoom) for further information.  
 
@@ -35,7 +36,7 @@ Note: you need to sign in to Zoom using your UT zoom account. [See this page](ht
 
 ## Grading  
 
-Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Monday, August 17th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
+Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Monday, August 16th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
 
 There is no final exam.  Attendance plays no formal role in grading, although you are unlikely to do well on the exercises if you do not attend and follow the examples in class.  
 

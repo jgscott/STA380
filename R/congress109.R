@@ -8,7 +8,7 @@ memberdata = read.csv("../data/congress109members.csv", header=TRUE, row.names=1
 Z = countdata/rowSums(countdata)
 
 # PCA
-pc2 = prcomp(Z, scale=TRUE, rank=5)
+pc2 = prcomp(Z, scale=TRUE, rank=2)
 loadings = pc2$rotation
 scores = pc2$x
 

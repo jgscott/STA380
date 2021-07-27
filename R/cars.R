@@ -51,7 +51,7 @@ which(clust2$cluster == 2)
 which(clust2$cluster == 3)
 
 # Compare versus within-cluster average distances from the first run
-clust1$withinss
+clust1$withinss  # each summand in SSE_W on slide 28
 clust2$withinss
 sum(clust1$withinss)
 sum(clust2$withinss)
