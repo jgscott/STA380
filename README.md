@@ -2,18 +2,14 @@
 
 Welcome to part 2 of STA 380, a course on machine learning in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
-Hey, here's a test change!
-
 Instructors:  
-- Dr. James Scott.  Office hours on M T W, 12:30 to 1:20 PM, via Zoom (see Canvas for link).  (All times are US central time.)  
+- Dr. James Scott.  Office hours on M T W, 12:30 to 1:15 PM, CBA 6.478.  
 - Dr. David Puelz.  Office hours TBA.  
-
-Students in both sections are welcome to attend either set of office hours!  
 
 
 ## Exercises
 
-The exercises are [available here](exercises/).  These are due Monday, August 16th at 5 PM, U.S central time.  Pace yourself over the next few weeks, and start early on the first couple of problems!  
+The exercises are [available here](exercises/).  These are due Monday, August 15th at 5 PM, U.S central time.  Pace yourself over the next few weeks, and start early on the first couple of problems!  
  
 
 ## Outline of topics  
@@ -44,11 +40,6 @@ These instructions will make sense after you read the tutorials above!
 
 Slides: [Some fun topics in probability](slides/02_probability_refresher/probability_fun_topics.pdf)  
 
-Two short pieces that illustrate the "fallacy of mistaken compounding":  
-- [How likely is it that birth control could let you down?](https://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html) from the _New York Times_  
-- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](./notes/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.    
-
-
 Optional reference: [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsiklis_Introduction_to_probability.pdf)  There's a lot more technical stuff in here, but Chapter 1 really covers the basics of what every data scientist should know about probability. 
 
 
@@ -57,20 +48,13 @@ Optional reference: [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsik
 
 Topics: data visualization and practice with R.  
 
-Slides: [Introduction to Data Exploration](slides/03_data_exploration/intro_dataviz_examples.pdf)  
+Slides:  
+- [Data visualization](slides/03_data_exploration/datavis.pdf)  
 
 R materials:  
 
-- in-class: [grammar_graphics.R](R/grammar_graphics.R)  
-- Lessons 4, 5, and 6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
-
-Inspiration and further reference:  
-- [50 ggplots](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)  
-- [A map of average ages in Swiss municipalities](https://github.com/grssnbchr/thematic-maps-ggplot2)  
-- [Low-income students in college](https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html)  
-- [The French presidential election](https://www.nytimes.com/interactive/2017/04/23/world/europe/french-election-results-maps.html)  
-- [LeBron James's playoff scoring record](https://www.nytimes.com/interactive/2017/05/25/sports/basketball/lebron-career-playoff-points-record.html)   
-
+- Lessons 4-6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
+- [datavis_intro.R](R/datavis_intro.R) and [nycflights_wrangle.R](R/nycflights_wrangle.R).  
 
 
 ### (4) Resampling methods
@@ -125,7 +109,7 @@ Scripts and data for class:
 - [ercot_PCA.R](R/ercot_PCA.R), [ercot.zip](data/ercot.zip)  
 
 
-A few other examples we likely won't cover in class:  
+A few other examples we may or may not have time to cover in class:  
 - [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)    
 - [NCI60.R](R/NCI60.R)   
 - [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)   

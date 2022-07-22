@@ -21,6 +21,10 @@ all_docs = lapply(file_list, readerPlain)
 names(all_docs) = file_list
 names(all_docs) = sub('.txt', '', names(all_docs))
 
+# create the corpus
+my_corpus = Corpus(VectorSource(all_docs))
+
+
 # Preprocessing
 my_corpus = tm_map(my_corpus, content_transformer(tolower)) # make everything lowercase
 my_corpus = tm_map(my_corpus, content_transformer(removeNumbers)) # remove numbers

@@ -24,9 +24,6 @@ The course is intended as an overview, rather than an in-depth treatment of any 
 
 [The course homepage](README.md) has a detailed outline of topics, together with topic-by-topic reading lists.
 
-All lectures will be held via Zoom.  Links will be sent out via Canvas.  For those not able to attend lectures "live" (i.e. synchronously), recordings of all lectures will be posted on Canvas as soon as they are available.  (This typically happens within 1-2 hours after the end of the session.)  
-
-Note: you need to sign in to Zoom using your UT zoom account. [See this page](https://zoom.its.utexas.edu/signing-in-and-out-zoom) for further information.  
 
 ## Software
 
@@ -36,7 +33,7 @@ Note: you need to sign in to Zoom using your UT zoom account. [See this page](ht
 
 ## Grading  
 
-Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Monday, August 16th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
+Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Monday, August 15th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
 
 There is no final exam.  Attendance plays no formal role in grading, although you are unlikely to do well on the exercises if you do not attend and follow the examples in class.  
 
@@ -50,7 +47,6 @@ The main reference is _An Introduction to Statistical Learning_ by James, Witten
 
 Some supplemental references:  
 - _Shalizi_: selections from [Advanced Data Analysis from an Elementary Point of View](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf), by Cosma Shalizi.  Another textbook whose author has kindly posted a free version on the web.  Referred to as "Shalizi" in the course outline.  
-- NIST Engineering Statistics Handbook, [Chapter 1](http://www.itl.nist.gov/div898/handbook/eda/eda.htm).  Yes, this webpage has a "Geocities circa 1998" look to it, but its discussion of exploratory data analysis is at least as good as anything you have to pay for.   
 - _Elements_: selections from [_Elements of Statistical Learning_](http://statweb.stanford.edu/~tibs/ElemStatLearn/), by Hastie, Tibshirani, and Friedman.  A standard reference on data mining from a more statistical perspective.  Referrered to as "Elements" in the course outline.  
 
 

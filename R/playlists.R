@@ -65,7 +65,8 @@ plot(musicrules, method='two-key plot')
 
 # can now look at subsets driven by the plot
 inspect(subset(musicrules, support > 0.035))
-inspect(subset(musicrules, confidence > 0.7))
+inspect(subset(musicrules, confidence > 0.6))
+inspect(subset(musicrules, lift > 20))
 
 
 # graph-based visualization

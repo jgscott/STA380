@@ -77,7 +77,7 @@ findFreqTerms(DTM_simon, 50)
 
 ## ...or find words whose count correlates with a specified word.
 # the top entries here look like they go with "genetic"
-findAssocs(DTM_simon, "genetic", .5)
+findAssocs(DTM_simon, "scottish", .5)
 
 ## Finally, let's drop those terms that only occur in one or two documents
 ## This is a common step: the noise of the "long tail" (rare terms)
