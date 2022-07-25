@@ -48,7 +48,7 @@ Suppose someone tests positive. What is the probability that they have the disea
 
 ## Wrangling the Billboard Top 100  
 
-Consider the data in [billboard.csv](data/billboard.csv) containing every song to appear on the weekly [Billboard Top 100](https://www.billboard.com/charts/hot-100/) chart since 1958, up through the middle of 2021.  Each row of this data corresponds to a single song in a single week.  For our purposes, the relevant columns here are:
+Consider the data in [billboard.csv](../data/billboard.csv) containing every song to appear on the weekly [Billboard Top 100](https://www.billboard.com/charts/hot-100/) chart since 1958, up through the middle of 2021.  Each row of this data corresponds to a single song in a single week.  For our purposes, the relevant columns here are:
 
 - performer: who performed the song
 - song: the title of the song
@@ -65,7 +65,7 @@ Your table should have __10 rows__ and __3 columns__: `performer`, `song`, and `
 (_Note_: you'll want to use both `performer` and `song` in any `group_by` operations, to account for the fact that multiple unique songs can share the same title.)  
 
 ```{r, echo=FALSE}
-billboard = read.csv('data/billboard.csv')
+billboard = read.csv('../data/billboard.csv')
 ```
 
 
@@ -184,7 +184,7 @@ Note: this is intended as an exercise in visual and numerical story-telling. You
 
 ## Visual story telling part 2: Capital Metro data
 
-The file `capmetro_UT.csv` contains data from Austin's own Capital Metro bus network, including shuttles to, from, and around the UT campus. These data track ridership on buses in the UT area. Ridership is measured by an optical scanner that counts how many people embark and alight the bus at each stop. Each row in the data set corresponds to a 15-minute period between the hours of 6 AM and 10 PM, each and every day, from September through November 2018. The variables are:  
+The file [capmetro_UT.csv](../data/capmetro_UT.csv) contains data from Austin's own Capital Metro bus network, including shuttles to, from, and around the UT campus. These data track ridership on buses in the UT area. Ridership is measured by an optical scanner that counts how many people embark and alight the bus at each stop. Each row in the data set corresponds to a 15-minute period between the hours of 6 AM and 10 PM, each and every day, from September through November 2018. The variables are:  
 
 - _timestamp_: the beginning of the 15-minute window for that row of data
 - _boarding_: how many people got on board any Capital Metro bus on the UT campus in the specific 15 minute window
