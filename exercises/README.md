@@ -1,6 +1,6 @@
 # STA 380, Part 2: Exercises 
 
-Due: by end of the working day (5:00 PM US Central time) on Monday, August 16.
+Due: by end of the working day (5:00 PM US Central time) on Monday, August 15.
 
 Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  You can self-organize groups via Canvas.  
 
@@ -15,23 +15,109 @@ Submit via Canvas under the "Assignments" tab. You can submit in one of two ways
 
 Notes: 
 - Do not knit to .html, which won't render properly on GitHub.  
-- Do not include raw R code in your knitted document.  _That's what the .Rmd file is for._  
-- Do not send six different sets of links, one for each problem.  We want a single document.  
+- Do not include raw R code in your knitted document unless explicitly asked for.  _That's what the .Rmd file is for._  
+- Do not create six different sets of links, one for each problem.  We want a single document.  
 - Do not directly e-mail the instructor directly with your reports.  We will ignore any e-mailed submissions.         
-- If you need to include mathematical expressions in your report, you can use LaTeX, which I encourage you to learn anyway.  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.   
-- We want your report to be fully reproducible.  Of course, it would seem that, by its very nature, one thing that cannot be reproduced exactly is a Monte Carlo simulation.  That's OK --- you can try figuring out how to set a seed for your simulation so that it is fully reproducible, or you can just accept that it will be a little bit different next time the script is compiled.  
-- 10 points will be deducted for each day (or partial day) that your submission is late.  One minute late = one day late!    
+- For any mathematical expressions in your report, you can use LaTeX syntax within RMarkdown, which I encourage you to learn anyway.  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.   
+- We want your report to be fully reproducible.  Of course, it would seem that, by its very nature, one thing that cannot be reproduced exactly is a Monte Carlo simulation.  That's OK --- you can try figuring out how to set a seed for your simulation so that it is fully reproducible within RMarkdown, or you can just accept that it will be a little bit different next time the script is compiled (which is OK).   
+- Submissions that are late, but received within 24 hours, will receive a 20% penalty.  Submissions more than 24 hours late will not be considered and will receive a grade of zero.      
 
 Grading criteria:  
 
-- Did you make an honest, concerted attempt at each problem?
-- Did you attempt to address all parts of the question?  
-- Did you include enough detail on what you actually did so that a well-informed reader could understand your analysis in detail?  (You won't receive full credit if it's not clear what steps you actually took in your analysis.)    
+- Did you make an honest, concerted attempt at the problem?
+- Did you address all parts of the question?  
+- Did you include enough detail on what you actually did so that a well-informed reader could understand your analysis in detail?  (You won't receive full credit if it's not clear what steps you actually took in your analysis.)  
 - Did you include properly annotated figures/tables where appropriate?  
 - Did you write up your solution professionally, with an actual narrative flow (good), or did you just copy and paste a bunch of R code without much in the way of explanation (bad)?   
 - Did you use sensible procedures to answer a given question?  
 - Did you make any significant technical mistakes?  
 
+
+## Probability practice
+
+__Part A.__ Visitors to your website are asked to answer a single survey question before they get access to the content on the page. Among all of the users, there are two categories: Random Clicker (RC), and Truthful Clicker (TC). There are two possible answers to the survey: yes and no. Random clickers would click either one with equal probability. You are also giving the information that the expected fraction of random clickers is 0.3.  After a trial period, you get the following survey results: 65\% said Yes and 35\% said No.   What fraction of people who are truthful clickers answered yes?  Hint: use the rule of total probability.  
+
+__Part B.__ Imagine a medical test for a disease with the following two attributes:  
+
+- The sensitivity is about 0.993. That is, if someone has the disease, there is a probability of 0.993 that they will test positive.  
+- The specificity is about 0.9999. This means that if someone doesn't have the disease, there is probability of 0.9999 that they will test negative.  
+- In the general population, incidence of the disease is reasonably rare: about 0.0025% of all people have it (or 0.000025 as a decimal probability).
+
+Suppose someone tests positive. What is the probability that they have the disease?  
+
+
+## Wrangling the Billboard Top 100  
+
+Consider the data in [billboard.csv](data/billboard.csv) containing every song to appear on the weekly [Billboard Top 100](https://www.billboard.com/charts/hot-100/) chart since 1958, up through the middle of 2021.  Each row of this data corresponds to a single song in a single week.  For our purposes, the relevant columns here are:
+
+- performer: who performed the song
+- song: the title of the song
+- year: year (1958 to 2021)
+- week: chart week of that year (1, 2, etc)
+- week_position: what position that song occupied that week on the Billboard top 100 chart.
+
+ Use your skills in data wrangling and plotting to answer the following three questions.   
+
+__Part A__:  Make a table of the top 10 most popular songs since 1958, as measured by the _total number of weeks that a song spent on the Billboard Top 100._  Note that these data end in week 22 of 2021, so the most popular songs of 2021 will not have up-to-the-minute data; please send our apologies to The Weeknd.    
+
+Your table should have __10 rows__ and __3 columns__: `performer`, `song`, and `count`, where `count` represents the number of weeks that song appeared in the Billboard Top 100.  Make sure the entries are sorted in descending order of the `count` variable, so that the more popular songs appear at the top of the table.  Give your table a short caption describing what is shown in the table.  
+
+(_Note_: you'll want to use both `performer` and `song` in any `group_by` operations, to account for the fact that multiple unique songs can share the same title.)  
+
+```{r, echo=FALSE}
+billboard = read.csv('data/billboard.csv')
+```
+
+
+```{r, echo=FALSE, eval=FALSE}
+billboard %>%
+  group_by(song, performer) %>%
+  summarize(n = n()) %>%
+  arrange(desc(n)) 
+```
+
+
+__Part B__: Is the "musical diversity" of the Billboard Top 100 changing over time?  Let's find out.  We'll measure the musical diversity of given year as _the number of unique songs that appeared in the Billboard Top 100 that year._  Make a line graph that plots this measure of musical diversity over the years.  The x axis should show the year, while the y axis should show the number of unique songs appearing at any position on the Billboard Top 100 chart in any week that year.  For this part, please filter the data set so that it excludes the years 1958 and 2021, since we do not have complete data on either of those years.   Give the figure an informative caption in which you explain what is shown in the figure and comment on any interesting trends you see.  
+
+```{r, echo=FALSE, eval=FALSE}
+yearlycounts = billboard %>%
+  filter(year != 1958 & year != 2021) %>%
+  group_by(year, song, performer) %>%
+  summarize(n = n()) %>%
+  group_by(year) %>% summarize(n=n())
+ggplot(yearlycounts) + 
+  geom_line(aes(x=year, y=n))
+```
+
+
+There are number of ways to accomplish the data wrangling here.  We offer you two hints on two possibilities:  
+
+1) You could use two distinct sets of data-wrangling steps.  The first set of steps would get you a table that counts the number of times that a given song appears on the Top 100 in a given year.  The second set of steps operate on the result of the first set of steps; it would count the number of unique songs that appeared on the Top 100 in each year, _irrespective of how many times_ it had appeared.
+2) You could use a single set of data-wrangling steps that combines the `length` and `unique` commands.  
+
+
+__Part C__: Let's define a "ten-week hit" as a single song that appeared on the Billboard Top 100 for at least ten weeks.  There are 19 artists in U.S. musical history since 1958 who have had _at least 30 songs_ that were "ten-week hits."  Make a bar plot for these 19 artists, showing how many ten-week hits each one had in their musical career.   Give the plot an informative caption in which you explain what is shown.
+
+```{r, echo=FALSE, eval=FALSE}
+ten_week_hits = billboard %>%
+  group_by(performer, song) %>%
+  summarize(n = n()) %>%
+  filter(n >= 10) %>%
+  group_by(performer) %>%
+  summarize(n=n()) %>%
+  arrange(desc(n)) %>%
+  filter(n >= 30)
+
+ggplot(ten_week_hits) + 
+  geom_col(aes(x=fct_reorder(performer, n), y=n)) + 
+  coord_flip()
+```
+
+_Notes_:  
+
+1) You might find this easier to accomplish in two distinct sets of data wrangling steps.
+2) Make sure that the individuals names of the artists are readable in your plot, and that they're not all jumbled together.  If you find that your plot isn't readable with vertical bars, you can add a `coord_flip()` layer to your plot to make the bars (and labels) run horizontally instead.
+3) By default a bar plot will order the artists in alphabetical order.  This is acceptable to turn in.  But if you'd like to order them according to some other variable, you can use the `fct_reorder` function, described in [this blog post](https://datavizpyr.com/re-ordering-bars-in-barplot-in-r/).  This is optional.
 
 
 
@@ -90,12 +176,32 @@ The developer has had someone on her staff, who's been described to her as a "to
 
 The developer listened to this recommendation, understood the analysis, and still felt unconvinced.  She has therefore asked you to revisit the report, so that she can get a second opinion.
 
-Do you agree with the conclusions of her on-staff stats guru?  If so, point to evidence supporting his case.  If not, explain specifically where and why the analysis goes wrong, and how it can be improved.  Do you see the possibility of confounding variables for the relationship between rent and green status?  If so, provide evidence for confounding, and see if you can also make a picture that visually shows how we might "adjust" for such a confounder.    _Tell your story mainly in pictures, with appropriate introductory and supporting text._  
+Do you agree with the conclusions of her on-staff stats guru?  If so, point to evidence supporting his case.  If not, explain specifically where and why the analysis goes wrong, and how it can be improved.  Do you see the possibility of confounding variables for the relationship between rent and green status?  If so, provide evidence for confounding, and see if you can also make a picture that visually shows how we might "adjust" for such a confounder.    _Tell your story in pictures, with appropriate introductory and supporting text._  
 
-Note: this is intended mainly as an exercise in visual and numerical story-telling. While you can run a regression model if you want, that's not the end goal here.  Telling a story is.  Keep it concise.   
+Note: this is intended as an exercise in visual and numerical story-telling. Your approach should rely on pictures and/or tables, not a regression model.  Tell a story understandable to a non-technical audience.  Keep it concise.   
 
 
-## Visual story telling part 2: flights at ABIA
+
+## Visual story telling part 2: Capital Metro data
+
+The file `capmetro_UT.csv` contains data from Austin's own Capital Metro bus network, including shuttles to, from, and around the UT campus. These data track ridership on buses in the UT area. Ridership is measured by an optical scanner that counts how many people embark and alight the bus at each stop. Each row in the data set corresponds to a 15-minute period between the hours of 6 AM and 10 PM, each and every day, from September through November 2018. The variables are:  
+
+- _timestamp_: the beginning of the 15-minute window for that row of data
+- _boarding_: how many people got on board any Capital Metro bus on the UT campus in the specific 15 minute window
+- _alighting_: how many people got off ("alit") any Capital Metro bus on the UT campus in the specific 15 minute window
+- _day_of_week_ and _weekend_: Monday, Tuesday, etc, as well as an indicator for whether it's a weekend.
+- _temperature_: temperature at that time in degrees F
+- _hour_of_day_: on 24-hour time, so 6 for 6 AM, 13 for 1 PM, 14 for 2 PM, etc.
+- _month_: July through December
+
+Your task is to create a figure, or set of related figures, that tell an interesting story about Capital Metro ridership patterns around the UT-Austin campus during the semester in question.  Provide a clear annotation/caption for each figure, but the figure(s) should be more or less stand-alone, in that you shouldn't need many, many paragraphs to convey its meaning.  Rather, the figure together with a concise caption should speak for itself as far as possible. 
+
+You have broad freedom to look at any variables you'd like here -- try to find that sweet spot where you're showing genuinely interesting relationships among more than just two variables, but where the resulting figure or set of figures doesn't become overwhelming/confusing.  (Faceting/panel plots might be especially useful here.)  
+
+
+
+
+<!-- ## Visual story telling part 2: flights at ABIA
 
 Consider the data in [ABIA.csv](../data/ABIA.csv), which contains information on every commercial flight in 2008 that either departed from or landed at Austin-Bergstrom Interational Airport.  The variable codebook is as follows: 
 
@@ -131,7 +237,7 @@ Consider the data in [ABIA.csv](../data/ABIA.csv), which contains information on
 
 Your task is to create a figure, or set of related figures, that tell an interesting story about flights into and out of Austin.  Provide a clear annotation/caption for each figure, but the figure should be more or less stand-alone, in that you shouldn't need many, many paragraphs to convey its meaning.  Rather, the figure together with a concise caption should speak for itself as far as possible. 
 
-You have broad freedom to look at any variables you'd like here -- try to find that sweet spot where you're showing genuinely interesting relationships among more than just two variables, but where the resulting figure or set of figures doesn't become overwhelming/confusing.  (Faceting/panel plots might be especially useful here.) If you want to try your hand at mapping, you can find coordinates for the airport codes here: [https://github.com/datasets/airport-codes](https://github.com/datasets/airport-codes).  Combine this with a mapping package like ggmap or usmap, and you should have lots of possibilities!  
+You have broad freedom to look at any variables you'd like here -- try to find that sweet spot where you're showing genuinely interesting relationships among more than just two variables, but where the resulting figure or set of figures doesn't become overwhelming/confusing.  (Faceting/panel plots might be especially useful here.) If you want to try your hand at mapping, you can find coordinates for the airport codes here: [https://github.com/datasets/airport-codes](https://github.com/datasets/airport-codes).  Combine this with a mapping package like ggmap or usmap, and you should have lots of possibilities!   -->
 
 
 ## Portfolio modeling
@@ -144,7 +250,7 @@ In this problem, you will construct three different portfolios of exchange-trade
 ### The goal  
 
 Suppose you have $100,000 in capital.  Your task is to:  
-- Construct three different possibilities for an ETF-based portfolio, each involving an allocation of your $100,000 in capital to somewhere between 3 and 10 different ETFs.  You can find a [big database of ETFs here.](https://etfdb.com/etfdb-categories/)  
+- Construct two different possibilities for an ETF-based portfolio, each involving an allocation of your $100,000 in capital to somewhere between 3 and 10 different ETFs.  You can find a [big database of ETFs here.](https://etfdb.com/etfdb-categories/)  
 - Download the last five years of daily data on your chosen ETFs, using the functions in the `quantmod` package, as we used in class.   Note: make sure to choose ETFs for which at least five years of data are available.  There are tons of ETFs and some are quite new!  
 - Use bootstrap resampling to estimate the 4-week (20 trading day) value at risk of each of your three portfolios at the 5% level.  
 - Write a report summarizing your portfolios and your VaR findings.  
@@ -152,8 +258,19 @@ Suppose you have $100,000 in capital.  Your task is to:
 You should assume that your portfolios are rebalanced each day at zero transaction cost.  For example, if you're allocating your wealth evenly among 5 ETFs, you always redistribute your wealth at the end of each day so that the equal five-way split is retained, regardless of that day's appreciation/depreciation.  
  
 Notes:
-- Make sure the portfolios are different from each other!  (Maybe one seems safe, another aggressive, another very diverse, etc...)  You're not being graded on what specific portfolios you choose... just provide some context for your choices.   
+- Make sure the portfolios are different from each other!  (Maybe one seems safe, another aggressive, or something like that.)  You're not being graded on what specific portfolios you choose... just provide some context for your choices.   
 - If you're unfamiliar with value at risk (VaR), you can refer to any basic explanation of the idea, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
+
+
+## Clustering and PCA
+
+The data in [wine.csv](../data/wine.csv) contains information on 11 chemical properties of 6500 different bottles of _vinho verde_ wine from northern Portugal.  In addition, two other variables about each wine are recorded:
+- whether the wine is red or white  
+- the quality of the wine, as judged on a 1-10 scale by a panel of certified wine snobs.  
+
+Run both PCA and a clustering algorithm of your choice on the 11 chemical properties (or suitable transformations thereof) and summarize your results.  Which dimensionality reduction technique makes more sense to you for this data?  Convince yourself (and me) that your chosen method is easily capable of distinguishing the reds from the whites, using only the "unsupervised" information contained in the data on chemical properties.  Does your unsupervised technique also seem capable of distinguishing the higher from the lower quality wines?  
+
+To clarify: I'm not asking you to run an supervised learning algorithms.  Rather, I'm asking you to see whether the differences in the labels (red/white and quality score) emerge naturally from applying an unsupervised technique to the chemical properties.  This should be straightforward to assess using plots.  
 
 
 
@@ -169,22 +286,38 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 
 
 
-## Author attribution
+## The Reuters corpus  
 
-Revisit the Reuters C50 corpus that we explored in class.  Your task is to build the best model you can, using any combination of tools you see fit, for predicting the author of an article on the basis of that article's textual content.  Describe clearly what models you are using, how you constructed features, and so forth.  Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning, since constructing features for a document might involve dimensionality reduction.
+Revisit the Reuters C50 text corpus that we briefly explored in class.  Your task is simple: tell an interesting story, anchored in some analytical tools we have learned in this class, using this data.  For example:  
+- you could cluster authors or documents and tell a story about what you find.    
+- you could look for common factors using PCA.    
+- you could train a predictive model and assess its accuracy.  (Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning, since constructing features for a document might involve dimensionality reduction.)  
+- you could do anything else that strikes you as interesting with this data.  
 
-In the C50train directory, you have 50 articles from each of 50 different authors (one author per directory).  Use this training data (and this data alone) to build the model.  Then apply your model to predict the authorship of the articles in the C50test directory, which is about the same size as the training set.  Describe your data pre-processing and analysis pipeline in detail.
+Describe clearly what question you are trying to answer, what models you are using, how you pre-processed the data, and so forth.  Make sure you include at least _one_ really interesting plot (although more than one might be necessary, depending on your question and approach.)  
 
-Note: you will need to figure out a way to deal with words in the test set that you never saw in the training set.  This is a nontrivial aspect of the modeling exercise.  You might, for example, consider adding a pseudo-word to the training set vocabulary, corresponding to "word not seen before," and add a pseudo-count to it so it doesn't look like these out-of-vocabulary words have zero probability on the testing set.  Or you might simply ignore those new words, at a possible cost in performance.
+Format your write-up in the following sections, some of which might be quite short:   
+- Question: What question(s) are you trying to answer?
+- Approach: What approach/statistical tool did you use to answer the questions?
+- Results: What evidence/results did your approach provide to answer the questions? (E.g. any numbers, tables, figures as appropriate.)
+- Conclusion: What are your conclusions about your questions? Provide a written interpretation of your results, understandable to stakeholders who might plausibly take an interest in this data set.
 
-This question will be graded according to two criteria:    
-  1. the clarity of your description.  We will be asking ourselves: could your analysis be reproduced by a competent data scientist based on what you've said?  (That's good.)  Or would that person have to wade into the code in order to understand what, precisely, you've done?  (That's bad.)  
-  2. the test-set performance of your best model, versus the best model that your instructors can build using tools we have learned in class.   
+Regarding the data itself: In the C50train directory, you have 50 articles from each of 50 different authors (one author per directory).  Then in the C50test directory, you have another 50 articles from each of those same 50 authors (again, one author per directory).  This train/test split is obviously intended for building predictive models, but to repeat, you need not do that on this problem.  You can tell any story you want using any methods you want.  Just make it compelling!  
+
+Note: if you try to build a predictive model, you will need to figure out a way to deal with words in the test set that you never saw in the training set.  This is a nontrivial aspect of the modeling exercise.  (E.g. you might simply ignore those new words.)  
+
+
+This question will be graded according to three criteria:    
+  1. the overall "interesting-ness" of your question and analysis.   
+  2. the clarity of your description.  We will be asking ourselves: could your analysis be reproduced by a competent data scientist based on what you've said?  (That's good.)  Or would that person have to wade into the code in order to understand what, precisely, you've done?  (That's bad.)  
+  3. technical correctness (i.e. did you make any mistakes in execution or interpretation?)  
+
 
 
 ## Association rule mining
 
-Use the data on grocery purchases in [groceries.txt](../data/groceries.txt) and find some interesting association rules for these shopping baskets.  Pick your own thresholds for lift and confidence; just be clear what these thresholds are and how you picked them.  Do your discovered item sets make sense?  Present your discoveries in an interesting and concise way.  
+Revisit the notes on association rule mining and the R example on music playlists: [playlists.R](../R/playlists.R) and [playlists.csv](../data/playlists.csv).  Then use the data on grocery purchases in [groceries.txt](../data/groceries.txt) and find some interesting association rules for these shopping baskets.  The data file is a list of shopping baskets: one person's basket for each row, with multiple items per row separated by commas -- you'll have to cobble together a few utilities for processing this into the format expected by the "arules" package.  Pick your own thresholds for lift and confidence; just be clear what these thresholds are and how you picked them.  Do your discovered item sets make sense?  Present your discoveries in an interesting and concise way.  
+ 
 
 Notes: 
 - Like with the first problem: this is an exercise in visual and numerical story-telling.  Do be clear in your description of what you've done, but keep the focus on the data, the figures, and the insights your analysis has drawn from the data.  

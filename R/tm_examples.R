@@ -23,7 +23,7 @@ meta(adam)
 content(adam)
 
 ## apply to all of Simon Cowell's articles
-## (probably not THE Simon Cowell: https://twitter.com/simoncowell)
+## (probably not THE Simon Cowell)
 ## "globbing" = expanding wild cards in filename paths
 file_list = Sys.glob('../data/ReutersC50/C50train/SimonCowell/*.txt')
 simon = lapply(file_list, readerPlain) 
@@ -32,8 +32,6 @@ simon = lapply(file_list, readerPlain)
 file_list
 
 # Clean up the file names
-# no doubt the stringr library would be nicer here.
-# this is just what I hacked together
 mynames = file_list %>%
 	{ strsplit(., '/', fixed=TRUE) } %>%
 	{ lapply(., tail, n=2) } %>%
@@ -50,24 +48,24 @@ documents_raw = Corpus(VectorSource(simon))
 
 ## Some pre-processing/tokenization steps.
 ## tm_map just maps some function to every document in the corpus
-my_documents = documents_raw %>%
-  tm_map(content_transformer(tolower))  %>%             # make everything lowercase
-  tm_map(content_transformer(removeNumbers)) %>%        # remove numbers
-  tm_map(content_transformer(removePunctuation)) %>%    # remove punctuation
-  tm_map(content_transformer(stripWhitespace))          # remove excess white-space
+my_documents = documents_raw
+my_documents = tm_map(my_documents, content_transformer(tolower)) # make everything lowercase
+my_documents = tm_map(my_documents, content_transformer(removeNumbers)) # remove numbers
+my_documents = tm_map(my_documents, content_transformer(removePunctuation)) # remove punctuation
+my_documents = tm_map(my_documents, content_transformer(stripWhitespace)) ## remove excess white-space
 
-## Remove stopwords.  Always be careful with this: one person's trash is another one's treasure.
-# 2 example built-in sets of stop words
+## Remove stopwords.  Always be careful with this!
 stopwords("en")
 stopwords("SMART")
 ?stopwords
-# let's just use the "basic English" stop words
 my_documents = tm_map(my_documents, content_transformer(removeWords), stopwords("en"))
 
 
-## create a doc-term-matrix from the corpus
+## create a doc-term-matrix
 DTM_simon = DocumentTermMatrix(my_documents)
 DTM_simon # some basic summary statistics
+
+class(DTM_simon)  # a special kind of sparse matrix format
 
 ## You can inspect its entries...
 inspect(DTM_simon[1:10,1:20])
@@ -76,46 +74,26 @@ inspect(DTM_simon[1:10,1:20])
 findFreqTerms(DTM_simon, 50)
 
 ## ...or find words whose count correlates with a specified word.
-# the top entries here look like they go with "genetic"
-findAssocs(DTM_simon, "scottish", .5)
+findAssocs(DTM_simon, "genetic", .5) 
 
-## Finally, let's drop those terms that only occur in one or two documents
+## Drop those terms that only occur in one or two documents
 ## This is a common step: the noise of the "long tail" (rare terms)
-## can be huge, and there is nothing to learn if a term occured once.
+##	can be huge, and there is nothing to learn if a term occurred once.
 ## Below removes those terms that have count 0 in >95% of docs.  
-## Probably a bit stringent here... but only 50 docs!
+## Probably a bit extreme in most cases... but here only 50 docs!
 DTM_simon = removeSparseTerms(DTM_simon, 0.95)
 DTM_simon # now ~ 1000 terms (versus ~3000 before)
 
-# construct TF IDF weights -- might be useful if we wanted to use these
-# as features in a predictive model
+# construct TF IDF weights
 tfidf_simon = weightTfIdf(DTM_simon)
 
 ####
-# Compare /cluster documents
+# Compare documents
 ####
+inspect(tfidf_simon[1,])
 
-# cosine similarity
-# first by hand -- this is the formula we saw in the slides
-i = 15
-j = 16
-sum(tfidf_simon[i,] * (tfidf_simon[j,]))/(sqrt(sum(tfidf_simon[i,]^2)) * sqrt(sum(tfidf_simon[j,]^2)))
-
-# the proxy library has a built-in function to calculate cosine distance
-# define the cosine distance matrix for our DTM using this function
-cosine_dist_mat = proxy::dist(as.matrix(tfidf_simon), method='cosine')
-tree_simon = hclust(cosine_dist_mat)
-plot(tree_simon)
-clust5 = cutree(tree_simon, k=5)
-
-# inspect the clusters
-which(clust5 == 3)
-
-# These all look to be about Scottish Amicable
-content(simon[[12]])
-content(simon[[13]])
-content(simon[[21]])
-
+# could go back to the raw corpus
+content(simon[[1]])
 
 
 ####
@@ -128,10 +106,8 @@ summary(colSums(X))
 scrub_cols = which(colSums(X) == 0)
 X = X[,-scrub_cols]
 
-pca_simon = prcomp(X, scale=TRUE)
-
-# looks like 15 or so summaries get us ~50% of the variation in over 1000 features
-summary(pca_simon) 
+pca_simon = prcomp(X, rank=2, scale=TRUE)
+plot(pca_simon) 
 
 # Look at the loadings
 pca_simon$rotation[order(abs(pca_simon$rotation[,1]),decreasing=TRUE),1][1:25]
@@ -146,19 +122,33 @@ plot(pca_simon$x[,1:2], xlab="PCA 1 direction", ylab="PCA 2 direction", bty="n",
      type='n')
 text(pca_simon$x[,1:2], labels = 1:length(simon), cex=0.7)
 
-# 46 and 48 are pretty close
-# Both about Scottish Amicable
+# Both about "Scottish Amicable"
 content(simon[[46]])
 content(simon[[48]])
 
-# 25 and 26 are pretty close
 # Both about genetic testing
 content(simon[[25]])
 content(simon[[26]])
 
-# 10 and 11 pretty close
 # Both about Ladbroke's merger
 content(simon[[10]])
 content(simon[[11]])
 
 # Conclusion: even just these two-number summaries still preserve a lot of information
+
+
+#####
+# Cluster documents
+#####
+
+# define the distance matrix
+# using the PCA scores
+dist_mat = dist(pca_simon$x)
+tree_simon = hclust(dist_mat)
+plot(tree_simon)
+clust5 = cutree(tree_simon, k=5)
+
+# inspect the clusters
+which(clust5 == 3)
+content(simon[[18]])
+content(simon[[19]])

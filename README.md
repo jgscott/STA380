@@ -44,12 +44,14 @@ Optional reference: [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsik
 
 
 
-### (3) Data exploration and visualization
+### (3) Data wrangling and visualization
 
-Topics: data visualization and practice with R.  
+Topics: data visualization and wrangling with R.  
 
 Slides:  
 - [Data visualization](slides/03_data_exploration/datavis.pdf)  
+- [Data wrangling](slides/03_data_exploration/wrangling.pdf)  
+
 
 R materials:  
 
@@ -96,7 +98,7 @@ Readings:
 - K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
 
 
-### (6) Latent features and structure
+### (6) PCA
 
 Principal component analysis (PCA).  
 
@@ -123,7 +125,7 @@ Readings:
 
 ### (7) Networks and association rules  
 
-Networks and association rule mining.  
+Networks and association rule mining.  If time: spectral clustering.  
 
 Slides: [Intro to networks](slides/Networks.pdf).  Note: these slides refer to "lastfm.R" but this is the same thing as "playlists.R" below.  
 
@@ -146,13 +148,12 @@ Supplemental resource: [In-depth explanation of the Apriori algorithm](http://ww
 
 Co-occurrence statistics; naive Bayes; TF-IDF; topic models; vector-space models of text (if time allows).
 
-[Slides on text](notes/text_intro.pdf).   
+Slides:  
+- [Introduction to text](notes/text_intro.pdf).   
+- [Introduction to Naive Bayes text classification](notes/naive_bayes_text.pdf)  
 
 Scripts and data:  
-- [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50)  
 - [congress109_bayes.R](R/congress109_bayes.R)  
+- [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50)  
 - [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
-
-If time in class, we'll cover this script below.  But if not, it's a useful starting point for your homework anyway:  
-- [congress109_classify.R](R/congress109_classify.R)    
 

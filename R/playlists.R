@@ -1,4 +1,5 @@
 library(tidyverse)
+library(igraph)
 library(arules)  # has a big ecosystem of packages built around it
 library(arulesViz)
 
@@ -40,9 +41,9 @@ playtrans = as(playlists, "transactions")
 summary(playtrans)
 
 # Now run the 'apriori' algorithm
-# Look at rules with support > .005 & confidence >.1 & length (# artists) <= 5
+# Look at rules with support > .005 & confidence >.1 & length (# artists) <= 4
 musicrules = apriori(playtrans, 
-	parameter=list(support=.005, confidence=.1, maxlen=5))
+	parameter=list(support=.005, confidence=.1, maxlen=4))
      
 
 # Look at the output... so many rules!
@@ -70,12 +71,9 @@ inspect(subset(musicrules, lift > 20))
 
 
 # graph-based visualization
-sub1 = subset(musicrules, subset=confidence > 0.01 & support > 0.005)
-summary(sub1)
-plot(sub1, method='graph')
-?plot.rules
-
-plot(head(sub1, 100, by='lift'), method='graph')
-
 # export
-saveAsGraph(head(musicrules, n = 1000, by = "lift"), file = "musicrules.graphml")
+# associations are represented as edges
+# For rules, each item in the LHS is connected
+# with a directed edge to the item in the RHS. 
+playlists_graph = associations2igraph(subset(musicrules, lift>2), associationsAsNodes = FALSE)
+igraph::write_graph(playlists_graph, file='playlists.graphml', format = "graphml")
