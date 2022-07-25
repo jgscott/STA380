@@ -64,31 +64,8 @@ Your table should have __10 rows__ and __3 columns__: `performer`, `song`, and `
 
 (_Note_: you'll want to use both `performer` and `song` in any `group_by` operations, to account for the fact that multiple unique songs can share the same title.)  
 
-```{r, echo=FALSE}
-billboard = read.csv('../data/billboard.csv')
-```
-
-
-```{r, echo=FALSE, eval=FALSE}
-billboard %>%
-  group_by(song, performer) %>%
-  summarize(n = n()) %>%
-  arrange(desc(n)) 
-```
-
 
 __Part B__: Is the "musical diversity" of the Billboard Top 100 changing over time?  Let's find out.  We'll measure the musical diversity of given year as _the number of unique songs that appeared in the Billboard Top 100 that year._  Make a line graph that plots this measure of musical diversity over the years.  The x axis should show the year, while the y axis should show the number of unique songs appearing at any position on the Billboard Top 100 chart in any week that year.  For this part, please filter the data set so that it excludes the years 1958 and 2021, since we do not have complete data on either of those years.   Give the figure an informative caption in which you explain what is shown in the figure and comment on any interesting trends you see.  
-
-```{r, echo=FALSE, eval=FALSE}
-yearlycounts = billboard %>%
-  filter(year != 1958 & year != 2021) %>%
-  group_by(year, song, performer) %>%
-  summarize(n = n()) %>%
-  group_by(year) %>% summarize(n=n())
-ggplot(yearlycounts) + 
-  geom_line(aes(x=year, y=n))
-```
-
 
 There are number of ways to accomplish the data wrangling here.  We offer you two hints on two possibilities:  
 
@@ -98,20 +75,6 @@ There are number of ways to accomplish the data wrangling here.  We offer you tw
 
 __Part C__: Let's define a "ten-week hit" as a single song that appeared on the Billboard Top 100 for at least ten weeks.  There are 19 artists in U.S. musical history since 1958 who have had _at least 30 songs_ that were "ten-week hits."  Make a bar plot for these 19 artists, showing how many ten-week hits each one had in their musical career.   Give the plot an informative caption in which you explain what is shown.
 
-```{r, echo=FALSE, eval=FALSE}
-ten_week_hits = billboard %>%
-  group_by(performer, song) %>%
-  summarize(n = n()) %>%
-  filter(n >= 10) %>%
-  group_by(performer) %>%
-  summarize(n=n()) %>%
-  arrange(desc(n)) %>%
-  filter(n >= 30)
-
-ggplot(ten_week_hits) + 
-  geom_col(aes(x=fct_reorder(performer, n), y=n)) + 
-  coord_flip()
-```
 
 _Notes_:  
 
