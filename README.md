@@ -2,6 +2,8 @@
 
 Welcome to part 2 of STA 380, a course on machine learning in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
+Hi! Here's a change.
+
 Instructors:  
 - Dr. James Scott.  Office hours on M T W, 12:30 to 1:15 PM, CBA 6.478.  
 - Dr. David Puelz.  Office hours TBA.  

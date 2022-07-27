@@ -34,9 +34,6 @@ y_train = y_NB[train_set]
 y_test = y_NB[test_set]
 
 # train the model: this function is in the naivebayes package.
-# Check out "congress109_bayes_detailed" if you want to see a 
-# version where we step through these calculations "by hand", i.e.
-# not relying on a package to build the classifier.
 nb_model = multinomial_naive_bayes(x = X_train, y = y_train)
 
 # predict on the test set
@@ -51,3 +48,4 @@ sum(diag(table(y_test, y_test_pred)))/length(y_test)
 # some examples of misses
 misses = which(y_test != y_test_pred)
 congress109members[test_set[misses],]
+
