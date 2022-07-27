@@ -4,7 +4,7 @@ Welcome to part 2 of STA 380, a course on machine learning in the MS program in 
 
 Instructors:  
 - Dr. James Scott.  Office hours on M T W, 12:30 to 1:15 PM, CBA 6.478.  
-- Dr. David Puelz.  Office hours TBA.  
+- Dr. David Puelz.  Office hours on M T W, 4-4:45p in CBA 6.444.  
 
 
 ## Exercises
