@@ -1,5 +1,5 @@
 library(ggplot2)
-library(LICORS)  # for kmeans++
+library(ClusterR)  # for kmeans++
 library(foreach)
 library(mosaic)
 
@@ -39,24 +39,7 @@ qplot(Horsepower, CityMPG, data=cars, color=factor(clust1$cluster))
 
 
 # Using kmeans++ initialization
-clust2 = kmeanspp(X, k=6, nstart=25)
+clust2 = KMeans_rcpp(X, clusters=6, num_init=25, initializer = 'kmeans++')
+clust2$total_SSE
 
-clust2$center[1,]*sigma + mu
-clust2$center[2,]*sigma + mu
-clust2$center[4,]*sigma + mu
-
-# Which cars are in which clusters?
-which(clust2$cluster == 1)
-which(clust2$cluster == 2)
-which(clust2$cluster == 3)
-
-# Compare versus within-cluster average distances from the first run
-clust1$withinss  # each summand in SSE_W on slide 28
-clust2$withinss
-sum(clust1$withinss)
-sum(clust2$withinss)
-clust1$tot.withinss
-clust2$tot.withinss
-clust1$betweenss
-clust2$betweenss
-
+clust1$totss

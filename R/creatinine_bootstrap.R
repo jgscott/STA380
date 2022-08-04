@@ -11,7 +11,7 @@ mean(creatinine$creatclear)
 # OK, 125.25 +/- what?
 # Bootstrap to get a standard error
 boot1 = do(1000)*{
-  mean(resample(creatinine)$creatclear)
+  mean(mosaic::resample(creatinine)$creatclear)
 }
 
 hist(boot1$result, 30)
