@@ -102,7 +102,7 @@ Readings:
 
 Principal component analysis (PCA).  
 
-Slides: [Introduction to PCA](slides/06_PCA/06_PCA.pdf)      
+Slides: [Introduction to PCA](slides/06_PCA/06-PCA.pdf)      
 
 Scripts and data for class:  
 - [pca_intro.R](R/pca_intro.R)  
