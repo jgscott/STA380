@@ -26,7 +26,7 @@ which(cluster1 == 3)
 
 
 # Using max ("complete") linkage instead
-hier_protein2 = hclust(protein_distance_matrix, method='complete')
+hier_protein2 = hclust(protein_distance_matrix, method='single')
 
 # Plot the dendrogram
 plot(hier_protein2, cex=0.8)
