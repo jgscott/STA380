@@ -162,7 +162,7 @@ Scripts and data:
 Treatment effects; multi-armed bandits and Thompson sampling; high-dimensional treatment effects with the lasso.  
 
 Slides:  
-- [Introduction to text](notes/Treatments.pdf).   
+- [Treatments](slides/Treatments.pdf).   
 
 Scripts and data:  
 - [mab.R](R/mab.R) and [Ads_CTR_Optimisation.csv](data/Ads_CTR_Optimisation.csv)  

@@ -1,8 +1,7 @@
 library(tidyverse)
 
-
 ads = read.csv('../data/Ads_CTR_Optimisation.csv')
-
+View(ads)
 
 ## Randomly showing ads
 
