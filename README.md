@@ -165,7 +165,7 @@ Slides:
 - [Introduction to text](notes/Treatments.pdf).   
 
 Scripts and data:  
-- [mab.R](R/mab.R)   
+- [mab.R](R/mab.R) and [Ads_CTR_Optimisation.csv](data/Ads_CTR_Optimisation.csv)  
 - [hockey.R](R/hockey.R) and all files in `data/hockey/`  
 - [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
 
