@@ -85,8 +85,8 @@ hist(price_main + price_int)
 
 ####
 # Lets orthogonalize instead.
-# strategy: isolate "idiosyncratic" variation price and quantity sold
-# by first explicitly adjusting for item and week.
+# strategy: isolate "idiosyncratic" variation in price and quantity sold
+# by first explicitly adjusting for item and week in both y and z (treatment)
 ####
 
 # orthogonalization steps 1-2

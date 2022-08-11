@@ -75,5 +75,5 @@ inspect(subset(musicrules, lift > 20))
 # associations are represented as edges
 # For rules, each item in the LHS is connected
 # with a directed edge to the item in the RHS. 
-playlists_graph = associations2igraph(subset(musicrules, lift>2), associationsAsNodes = FALSE)
+playlists_graph = associations2igraph(subset(musicrules, lift>4), associationsAsNodes = FALSE)
 igraph::write_graph(playlists_graph, file='playlists.graphml', format = "graphml")

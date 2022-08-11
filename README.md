@@ -157,3 +157,15 @@ Scripts and data:
 - [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50)  
 - [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
 
+### (9) Treatment effects
+
+Treatment effects; multi-armed bandits and Thompson sampling; high-dimensional treatment effects with the lasso.  
+
+Slides:  
+- [Introduction to text](notes/Treatments.pdf).   
+
+Scripts and data:  
+- [mab.R](R/mab.R)   
+- [hockey.R](R/hockey.R) and all files in `data/hockey/`  
+- [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
+
