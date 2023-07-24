@@ -8,6 +8,9 @@
 # RStudio files
 .Rproj.user/
 
+notebooks/data/*
+notebooks/env/*
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -20,3 +23,4 @@ data/ercot/station_data.csv
 data/ercot/dewpoint_impute.csv
 data/ercot/temperature_impute.csv
 data/ercot/zones.csv
+.DS_Store

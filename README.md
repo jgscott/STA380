@@ -26,14 +26,7 @@ Readings:
 - [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
 - [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
 
-Your assignment after the first class day:  
-- Create a GitHub account.  
-- Create your first GitHub repository.  
-- Inside that repository (on your local machine), create a toy RMarkdown file that does something---e.g. simulates some normal random variables and plots a histogram.  
-- Knit that RMarkdown file to a Markdown (.md) output.  
-- Push the changes to GitHub and view the final (knitted) .md file.  
-
-These instructions will make sense after you read the tutorials above!  
+Your assignment after the first class day is to get yourself up and running on GitHub, if you're not already.
 
 
 ### (2) Probability: a refresher  
@@ -44,45 +37,28 @@ Optional reference: [Chapter 1 of these course notes.](./notes/Bertsekas_Tsitsik
 
 
 
-### (3) Data wrangling and visualization
+### (3) Data visualization
 
-Topics: data visualization and wrangling with R.  
+Topics: plotting pitfalls; the grammar of graphics; data visualization with R.  
 
 Slides:  
 - [Data visualization](slides/03_data_exploration/datavis.pdf)  
-- [Data wrangling](slides/03_data_exploration/wrangling.pdf)  
 
 
 R materials:  
 
 - Lessons 4-6 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/).  You'll find lesson 5 a bit basic so feel free to breeze through that.  The main thing you need to take away from lesson 5 is the use of pipes (`%>%`) and the `summarize` function.    
-- [datavis_intro.R](R/datavis_intro.R) and [nycflights_wrangle.R](R/nycflights_wrangle.R).  
+- Some R examples can be found in [datavis_intro.R](R/datavis_intro.R) and [nycflights_wrangle.R](R/nycflights_wrangle.R).   
 
 
-### (4) Resampling methods
+### (4) Neural networks: the basics  
 
-The bootstrap; joint distributions; using the bootstrap to approximate value at risk (VaR).  
-
-Slides: [Introduction to the bootstrap](slides/04_resampling/bootstrap_STA380.pdf)  
-  
-Reference: ISL Section 5.2 for a basic overview of the bootstrap.    
-
-For the class exercises, you will need to refer to any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
-
-
-R scripts and data:    
-- [creatinine_bootstrap.R](./R/creatinine_bootstrap.R) and [creatinine.csv](data/creatinine.csv)   
-- [portfolio.R](R/portfolio.R)  
-
-
-Supplemental resources:  
-- Lessons 8 and 9 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/)  
-- [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
+[Intro to neural network slides here.](slides/04_neural_nets/neural_nets.pdf)  [Jupyter notebooks here.](notebooks/)
 
 
 ### (5) Clustering
 
-Basics of clustering; K-means clustering; hierarchical clustering.  
+Basics of clustering; K-means clustering; hierarchical clustering.  Spectral clustering  
 
 Slides: [Introduction to clustering.](slides/05_clustering/05-clustering.pdf)      
 
@@ -90,7 +66,8 @@ Scripts and data:
 - [cars.R](R/cars.R) and [cars.csv](data/cars.csv) 
 - [hclust_examples.R](R/hclust_examples.R)   
 - [linkage_minmax.R](R/linkage_minmax.R)   
-<!-- - [we8there.R](R/we8there.R)   -->  
+- [spectral_cluster.ipynb](notebooks/spectral_cluster.ipynb)  
+
 
 
 Readings:  
@@ -98,24 +75,25 @@ Readings:
 - K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
 
 
-### (6) PCA
+### (6) Dimensionality reduction: PCA and tSNE  
 
-Principal component analysis (PCA).  
+Principal component analysis (PCA).  T-distributed stochastic neighbor embedding (tSNE).  
 
-Slides: [Introduction to PCA](slides/06_PCA/06-PCA.pdf)      
+Slides: [Introduction to PCA and tSNE](slides/06_PCA/06-PCA.pdf)      
 
 Scripts and data for class:  
 - [pca_intro.R](R/pca_intro.R)  
 - [nbc.R](R/nbc.R), [nbc_showdetails.csv](data/nbc_showdetails.csv), [nbc_pilotsurvey.csv](data/nbc_pilotsurvey.csv)  
 - [congress109.R](R/congress109.R), [congress109.csv](data/congress109.csv), and [congress109members.csv](data/congress109members.csv)  
 - [ercot_PCA.R](R/ercot_PCA.R), [ercot.zip](data/ercot.zip)  
+- [tSNE.ipynb](notebooks/tSNE.ipynb)  
 
-
+<!--
 A few other examples we may or may not have time to cover in class:  
 - [FXmonthly.R](R/FXmonthly.R), [FXmonthly.csv](data/FXmonthly.csv), and [currency_codes.txt](data/currency_codes.txt)    
 - [NCI60.R](R/NCI60.R)   
 - [gasoline.R](R/gasoline.R) and [gasoline.csv](data/gasoline.csv)   
-
+--> 
 
 Readings:  
 - ISL Section 10.2 for the basics or Elements Chapter 14.5 (more advanced)  
@@ -155,7 +133,7 @@ Slides:
 Scripts and data:  
 - [congress109_bayes.R](R/congress109_bayes.R)  
 - [tm_examples.R](R/tm_examples.R) and [selections from the Reuters newswire](https://github.com/jgscott/STA380/tree/master/data/ReutersC50)  
-- [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
+
 
 ### (9) Treatment effects
 
@@ -169,3 +147,26 @@ Scripts and data:
 - [hockey.R](R/hockey.R) and all files in `data/hockey/`  
 - [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
 
+
+
+<!-- 
+
+The bootstrap; joint distributions; using the bootstrap to approximate value at risk (VaR).  
+
+Slides: [Introduction to the bootstrap](slides/04_resampling/bootstrap_STA380.pdf)  
+  
+Reference: ISL Section 5.2 for a basic overview of the bootstrap.    
+
+For the class exercises, you will need to refer to any basic explanation of the concept of value at risk (VaR) for a financial portfolio, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
+
+
+R scripts and data:    
+- [creatinine_bootstrap.R](./R/creatinine_bootstrap.R) and [creatinine.csv](data/creatinine.csv)   
+- [portfolio.R](R/portfolio.R)  
+
+
+Supplemental resources:  
+- Lessons 8 and 9 of [Data Science in R: A Gentle Introduction](https://bookdown.org/jgscott/DSGI/)  
+- [Section 2 of these notes](notes/decisions_supplement.pdf), on bootstrap resampling.  You can ignore the stuff about utility if you want.  
+
+ -->
