@@ -6,23 +6,17 @@ Prepare your report on the problems below using RMarkdown or Jupyter (or similar
 
 Note: the option to submit as a group is intended to give you an incentive to get to know some of your classmates.  The idea is for y'all to work together on _all_ the problems and to learn from each other, not to divide up the individual problems.
 
-Submit via Canvas under the "Assignments" tab. You should submit a link to your GitHub repo where the final report has been stored:  
+Submit via Canvas under the "Assignments" tab. __You should submit a link to your GitHub repo where the final report has been stored.__  You are also welcome to use R or Python in any combination (e.g. all in one language, or maybe R for some problems and Jupyter/Python for others.) No matter how you do it, please include a `.README.md` file in your GitHub repo linking clearly to your solutions.  We shouldn't have to guess where your answers are based on the link you send.  
 
-- If using Jupyter, send a link to the .ipynb file.  
-- If using RMarkdown, send a link both to the .Rmd file and to the knitted final document.  Knitting to `.md` or `github_document` format is best because it displays nicely in a browser.  But PDF is acceptable.  If we cannot find the .Rmd file, you will not receive full credit.  
-
-You are also welcome to use R for some problems and Jupyter/Python for others; just include a `.README.md` file in your GitHub repo explaining clearly how you've structured things and where we can find the solutions.  
-
-Either way, make sure your repo is publicly accessible.  
+If you are submitting as a group, make sure you include everyone's names in this `.README.md` file.  
  
 
 Notes: 
 - Do not knit to .html, which won't render properly on GitHub.  
-- Do not include raw R code in your knitted document unless explicitly asked for.  _That's what the .Rmd file is for._  
-- Do not create six different sets of links, one for each problem.  We want a single document.  
-- Do not directly e-mail the instructor directly with your reports.  We will ignore any e-mailed submissions.         
+- Do not directly e-mail the instructors/TA directly with your reports.  We will ignore any e-mailed submissions.         
 - For any mathematical expressions in your report, you can use LaTeX syntax, which I encourage you to learn anyway.  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.   
 - Submissions that are late, but received within 24 hours, will receive a 20% penalty.  Submissions more than 24 hours late will not be considered and will receive a grade of zero.      
+- You are welcome to use large language models like ChatGPT to help you code.  
 
 Grading criteria:  
 
@@ -30,7 +24,7 @@ Grading criteria:
 - Did you address all parts of the question?  
 - Did you include enough detail on what you actually did so that a well-informed reader could understand your analysis in detail?  (You won't receive full credit if it's not clear what steps you actually took in your analysis.)  
 - Did you include properly annotated figures/tables where appropriate?  
-- Did you write up your solution professionally, with an actual narrative flow (good), or did you just copy and paste a bunch of code without much in the way of explanation (bad)?   
+- Did you write up your solution professionally, with an actual narrative flow (good), or did you just copy and paste a bunch of code without much in the way of explanation (bad)?   Submissions with lots of "raw," unadorned code and little in the way of explanation will receive very poor grades.  
 - Did you use sensible analysis techniques to answer a given question?  
 - Did you make any significant technical mistakes?  
 
@@ -231,7 +225,7 @@ The data in [wine.csv](../data/wine.csv) contains information on 11 chemical pro
 - whether the wine is red or white  
 - the quality of the wine, as judged on a 1-10 scale by a panel of certified wine snobs.  
 
-Run PCA, tSNE, and any clustering algorithm of your choice on the 11 chemical properties (or suitable transformations thereof) and summarize your results.  Which dimensionality reduction technique makes the most sense to you for this data?  Convince yourself (and me) that your chosen method is easily capable of distinguishing the reds from the whites, using only the "unsupervised" information contained in the data on chemical properties.  Does your unsupervised technique also seem capable of distinguishing the higher from the lower quality wines?  Present appropriate numerical and/or visual evidence to support your conclusions.  
+Run PCA, tSNE, and any clustering algorithm of your choice on the 11 chemical properties (or suitable transformations thereof) and summarize your results.  Which dimensionality reduction technique makes the most sense to you for this data?  Convince yourself (and me) that your chosen approach is easily capable of distinguishing the reds from the whites, using only the "unsupervised" information contained in the data on chemical properties.  Does your unsupervised technique also seem capable of distinguishing the higher from the lower quality wines?  Present appropriate numerical and/or visual evidence to support your conclusions.  
 
 To clarify: I'm not asking you to run a supervised learning algorithms.  Rather, I'm asking you to see whether the differences in the labels (red/white and quality score) emerge naturally from applying an unsupervised technique to the chemical properties.  This should be straightforward to assess using plots.  
 
@@ -288,7 +282,7 @@ Notes:
 
 
 
-## Classification with neural networks
+## Image classification with neural networks
 
 In this problem, you will train a neural network to classify satellite images.  In the [data/EuroSAT_RGB](https://github.com/jgscott/STA380/tree/master/data/EuroSAT_RGB) directory, you will find 11 subdirectories, each corresponding to a different class of land or land use: e.g. industrial, crops, rivers, forest, etc.  Within each subdirectory, you will find examples in .jpg format of each type.  (Thus the name of the directory in which the image lives is the class label.)  
 
