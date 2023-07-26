@@ -25,3 +25,4 @@ data/ercot/temperature_impute.csv
 data/ercot/zones.csv
 .DS_Store
 notebooks/eurosat.ipynb
+slides/02_probability_refresher/probability_fun_topics_extra.pdf
