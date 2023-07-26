@@ -285,3 +285,19 @@ Revisit the notes on association rule mining and the R example on music playlist
 Notes: 
 - This is an exercise in visual and numerical story-telling.  Do be clear in your description of what you've done, but keep the focus on the data, the figures, and the insights your analysis has drawn from the data, rather than technical details.  
 - The data file is a list of baskets: one row per basket, with multiple items per row separated by commas.  You'll have to cobble together your own code for processing this into the format expected by the "arules" package.  This is not intrinsically all that hard, but it is the kind of data-wrangling wrinkle you'll encounter frequently on real problems, where your software package expects data in one format and the data comes in a different format.  Figuring out how to bridge that gap is part of the assignment, and so we won't be giving tips on this front.  
+
+
+
+## Classification with neural networks
+
+In this problem, you will train a neural network to classify satellite images.  In the [data/EuroSAT_RGB](https://github.com/jgscott/STA380/tree/master/data/EuroSAT_RGB) directory, you will find 11 subdirectories, each corresponding to a different class of land or land use: e.g. industrial, crops, rivers, forest, etc.  Within each subdirectory, you will find examples in .jpg format of each type.  (Thus the name of the directory in which the image lives is the class label.)  
+
+Your job is to set up a neural network that can classify the images as accurately as possible.  Use an 80/20 train test split.  Summarize your model and its accuracy in any way you see fit, but make you include _at a minimum_ the following elements:
+
+- overall test-set accuracy, measured however you think is appropriate   
+- show some of the example images from the test set, together with your model's predicted classes. 
+- a confusion matrix showing the performance of the model on the set test, i.e. a table that cross-tabulates each test set example by (actual class, predicted class).  
+
+I strongly recommend the use of PyTorch in a Jupyter notebook for this problem; look into PyTorch's `ImageFolder` data set class, which will streamline things considerably.  
+
+
