@@ -103,11 +103,9 @@ Readings:
 
 ### (7) Networks and association rules  
 
-Networks and association rule mining.  If time: spectral clustering.  
+Networks and association rule mining.  
 
-Slides: [Intro to networks](slides/Networks.pdf).  Note: these slides refer to "lastfm.R" but this is the same thing as "playlists.R" below.  
-
-Some supplemental [slides on association rule mining.](slides/association_rules.pdf) These contain the details of the apriori algorithm.  If there's time we might cover some of this in class, but mainly we'll focus on the shorter intro slides above, together with the example R scripts below.     
+Slides: [Intro to networks](slides/Networks.pdf).  Note: these slides refer to "lastfm.R" but this is the same thing as "playlists.R" below.   
 
 Software you'll need:   
 - [Gephi](https://gephi.org/), a great piece of software for exploring graphs  
@@ -117,8 +115,6 @@ Scripts and data:
 - [medici.R](R/medici.R) and [medici.txt](data/medici.txt)  
 - [playlists.R](R/playlists.R) and [playlists.csv](data/playlists.csv)  
 - [microfi.R](R/microfi.R), [microfi_households.csv](data/microfi_households.csv), and [microfi_edges.txt](data/microfi_edges.txt).  
-
-Supplemental resource: [In-depth explanation of the Apriori algorithm](http://www.rsrikant.com/papers/vldb94_rj.pdf)  
 
 
 

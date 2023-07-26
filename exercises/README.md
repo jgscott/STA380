@@ -1,25 +1,27 @@
 # STA 380, Part 2: Exercises 
 
-Due: by end of the working day (5:00 PM US Central time) on Monday, August 15.
+Due: by end of the working day (5:00 PM US Central time) on Monday, August 14.
 
-Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  You can self-organize groups via Canvas.  
+Prepare your report on the problems below using RMarkdown or Jupyter (or similar, e.g. Quarto) so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  You can self-organize groups via Canvas.  
 
 Note: the option to submit as a group is intended to give you an incentive to get to know some of your classmates.  The idea is for y'all to work together on _all_ the problems and to learn from each other, not to divide up the individual problems.
 
-Submit via Canvas under the "Assignments" tab. You can submit in one of two ways:  
-  1. A link to a GitHub repo where the final report has been knitted and stored _in Markdown (.md) or PDF format_.   (Knitting to .md format is actually best because it displays nicely in a browser.  But PDF is acceptable.)  Make sure your repo is publicly accessible.  
-  2. A PDF file uploaded via Canvas.  
+Submit via Canvas under the "Assignments" tab. You should submit a link to your GitHub repo where the final report has been stored:  
 
- Either way, your knitted submission file _must also include a link at the top of the document_ to your GitHub repo where the raw .Rmd file can be found.  If we cannot find the .Rmd file, you will not receive full credit.  
+- If using Jupyter, send a link to the .ipynb file.  
+- If using RMarkdown, send a link both to the .Rmd file and to the knitted final document.  Knitting to `.md` or `github_document` format is best because it displays nicely in a browser.  But PDF is acceptable.  If we cannot find the .Rmd file, you will not receive full credit.  
 
+You are also welcome to use R for some problems and Jupyter/Python for others; just include a `.README.md` file in your GitHub repo explaining clearly how you've structured things and where we can find the solutions.  
+
+Either way, make sure your repo is publicly accessible.  
+ 
 
 Notes: 
 - Do not knit to .html, which won't render properly on GitHub.  
 - Do not include raw R code in your knitted document unless explicitly asked for.  _That's what the .Rmd file is for._  
 - Do not create six different sets of links, one for each problem.  We want a single document.  
 - Do not directly e-mail the instructor directly with your reports.  We will ignore any e-mailed submissions.         
-- For any mathematical expressions in your report, you can use LaTeX syntax within RMarkdown, which I encourage you to learn anyway.  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.   
-- We want your report to be fully reproducible.  Of course, it would seem that, by its very nature, one thing that cannot be reproduced exactly is a Monte Carlo simulation.  That's OK --- you can try figuring out how to set a seed for your simulation so that it is fully reproducible within RMarkdown, or you can just accept that it will be a little bit different next time the script is compiled (which is OK).   
+- For any mathematical expressions in your report, you can use LaTeX syntax, which I encourage you to learn anyway.  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.   
 - Submissions that are late, but received within 24 hours, will receive a 20% penalty.  Submissions more than 24 hours late will not be considered and will receive a grade of zero.      
 
 Grading criteria:  
@@ -28,8 +30,8 @@ Grading criteria:
 - Did you address all parts of the question?  
 - Did you include enough detail on what you actually did so that a well-informed reader could understand your analysis in detail?  (You won't receive full credit if it's not clear what steps you actually took in your analysis.)  
 - Did you include properly annotated figures/tables where appropriate?  
-- Did you write up your solution professionally, with an actual narrative flow (good), or did you just copy and paste a bunch of R code without much in the way of explanation (bad)?   
-- Did you use sensible procedures to answer a given question?  
+- Did you write up your solution professionally, with an actual narrative flow (good), or did you just copy and paste a bunch of code without much in the way of explanation (bad)?   
+- Did you use sensible analysis techniques to answer a given question?  
 - Did you make any significant technical mistakes?  
 
 
@@ -67,10 +69,8 @@ Your table should have __10 rows__ and __3 columns__: `performer`, `song`, and `
 
 __Part B__: Is the "musical diversity" of the Billboard Top 100 changing over time?  Let's find out.  We'll measure the musical diversity of given year as _the number of unique songs that appeared in the Billboard Top 100 that year._  Make a line graph that plots this measure of musical diversity over the years.  The x axis should show the year, while the y axis should show the number of unique songs appearing at any position on the Billboard Top 100 chart in any week that year.  For this part, please filter the data set so that it excludes the years 1958 and 2021, since we do not have complete data on either of those years.   Give the figure an informative caption in which you explain what is shown in the figure and comment on any interesting trends you see.  
 
-There are number of ways to accomplish the data wrangling here.  We offer you two hints on two possibilities:  
+There are number of ways to accomplish the data wrangling here.  For example, you could use two distinct sets of data-wrangling steps.  The first set of steps would get you a table that counts the number of times that a given song appears on the Top 100 in a given year.  The second set of steps operate on the result of the first set of steps; it would count the number of unique songs that appeared on the Top 100 in each year, _irrespective of how many times_ it had appeared.
 
-1) You could use two distinct sets of data-wrangling steps.  The first set of steps would get you a table that counts the number of times that a given song appears on the Top 100 in a given year.  The second set of steps operate on the result of the first set of steps; it would count the number of unique songs that appeared on the Top 100 in each year, _irrespective of how many times_ it had appeared.
-2) You could use a single set of data-wrangling steps that combines the `length` and `unique` commands.  
 
 
 __Part C__: Let's define a "ten-week hit" as a single song that appeared on the Billboard Top 100 for at least ten weeks.  There are 19 artists in U.S. musical history since 1958 who have had _at least 30 songs_ that were "ten-week hits."  Make a bar plot for these 19 artists, showing how many ten-week hits each one had in their musical career.   Give the plot an informative caption in which you explain what is shown.
@@ -202,7 +202,7 @@ Your task is to create a figure, or set of related figures, that tell an interes
 
 You have broad freedom to look at any variables you'd like here -- try to find that sweet spot where you're showing genuinely interesting relationships among more than just two variables, but where the resulting figure or set of figures doesn't become overwhelming/confusing.  (Faceting/panel plots might be especially useful here.) If you want to try your hand at mapping, you can find coordinates for the airport codes here: [https://github.com/datasets/airport-codes](https://github.com/datasets/airport-codes).  Combine this with a mapping package like ggmap or usmap, and you should have lots of possibilities!   -->
 
-
+<!--
 ## Portfolio modeling
 
 ### Background
@@ -223,17 +223,17 @@ You should assume that your portfolios are rebalanced each day at zero transacti
 Notes:
 - Make sure the portfolios are different from each other!  (Maybe one seems safe, another aggressive, or something like that.)  You're not being graded on what specific portfolios you choose... just provide some context for your choices.   
 - If you're unfamiliar with value at risk (VaR), you can refer to any basic explanation of the idea, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
+-->
 
-
-## Clustering and PCA
+## Clustering and dimensionality reduction  
 
 The data in [wine.csv](../data/wine.csv) contains information on 11 chemical properties of 6500 different bottles of _vinho verde_ wine from northern Portugal.  In addition, two other variables about each wine are recorded:
 - whether the wine is red or white  
 - the quality of the wine, as judged on a 1-10 scale by a panel of certified wine snobs.  
 
-Run both PCA and a clustering algorithm of your choice on the 11 chemical properties (or suitable transformations thereof) and summarize your results.  Which dimensionality reduction technique makes more sense to you for this data?  Convince yourself (and me) that your chosen method is easily capable of distinguishing the reds from the whites, using only the "unsupervised" information contained in the data on chemical properties.  Does your unsupervised technique also seem capable of distinguishing the higher from the lower quality wines?  
+Run PCA, tSNE, and any clustering algorithm of your choice on the 11 chemical properties (or suitable transformations thereof) and summarize your results.  Which dimensionality reduction technique makes the most sense to you for this data?  Convince yourself (and me) that your chosen method is easily capable of distinguishing the reds from the whites, using only the "unsupervised" information contained in the data on chemical properties.  Does your unsupervised technique also seem capable of distinguishing the higher from the lower quality wines?  Present appropriate numerical and/or visual evidence to support your conclusions.  
 
-To clarify: I'm not asking you to run an supervised learning algorithms.  Rather, I'm asking you to see whether the differences in the labels (red/white and quality score) emerge naturally from applying an unsupervised technique to the chemical properties.  This should be straightforward to assess using plots.  
+To clarify: I'm not asking you to run a supervised learning algorithms.  Rather, I'm asking you to see whether the differences in the labels (red/white and quality score) emerge naturally from applying an unsupervised technique to the chemical properties.  This should be straightforward to assess using plots.  
 
 
 
@@ -254,7 +254,7 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 Revisit the Reuters C50 text corpus that we briefly explored in class.  Your task is simple: tell an interesting story, anchored in some analytical tools we have learned in this class, using this data.  For example:  
 - you could cluster authors or documents and tell a story about what you find.    
 - you could look for common factors using PCA.    
-- you could train a predictive model and assess its accuracy.  (Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning, since constructing features for a document might involve dimensionality reduction.)  
+- you could train a predictive model and assess its accuracy, constructing features for each document that maximize performance.  
 - you could do anything else that strikes you as interesting with this data.  
 
 Describe clearly what question you are trying to answer, what models you are using, how you pre-processed the data, and so forth.  Make sure you include at least _one_ really interesting plot (although more than one might be necessary, depending on your question and approach.)  

@@ -24,3 +24,4 @@ data/ercot/dewpoint_impute.csv
 data/ercot/temperature_impute.csv
 data/ercot/zones.csv
 .DS_Store
+notebooks/eurosat.ipynb
