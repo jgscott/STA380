@@ -136,13 +136,13 @@ Scripts and data:
 Treatment effects; multi-armed bandits and Thompson sampling; high-dimensional treatment effects with the lasso.  
 
 Slides:  
-- [Treatments](slides/Treatments.pdf).   
+- [Treatments](slides/08_treatments/08-treatments.pdf).   
 
 Scripts and data:  
 - [mab.R](R/mab.R) and [Ads_CTR_Optimisation.csv](data/Ads_CTR_Optimisation.csv)  
+- [abortion.R](R/abortion.R) and [abortion.dat](data/abortion.dat)  
+- [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)   
 - [hockey.R](R/hockey.R) and all files in `data/hockey/`  
-- [smallbeer.R](R/smallbeer.R) and [smallbeer.csv](data/smallbeer.csv)  
-
 
 
 <!-- 

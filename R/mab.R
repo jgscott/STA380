@@ -6,6 +6,7 @@ View(ads)
 ## Randomly showing ads
 
 N = nrow(ads)
+num_ads = ncol(ads)
 total_reward = 0
 clicks = rep(0, num_ads)
 views = rep(0, num_ads)
@@ -23,6 +24,40 @@ for(i in 1:N) {
 views
 clicks/views
 total_reward
+
+
+
+eps = 0.05
+# epsilson-greedy Sampling
+# placeholder to track the number of time we showed each ad
+clicks = rep(0, num_ads)
+views = rep(0, num_ads)
+total_reward = 0
+for (i in 1:N) {
+  
+  # Click probabilities from Bayesian posterior distribution (beta)
+  # mean of each beta = prior_clicks / prior_views
+  explore = rbinom(1,1,prob=eps)
+  
+  click_probs = clicks/(views + 1e-6)
+  if(explore) {
+    ad_to_show = sample(1:10, 1)
+  } else {
+    ad_to_show = which.max(click_probs)
+  }
+  
+  views[ad_to_show] = views[ad_to_show] + 1
+  
+  # Check for reward and update reward statistics
+  reward = ads[i, ad_to_show]
+  clicks[ad_to_show] = clicks[ad_to_show] + reward
+  total_reward = total_reward + reward
+}
+
+views
+clicks/views
+total_reward
+
 
 
 ## Thompson sampling
@@ -55,3 +90,4 @@ for (i in 1:N) {
 views
 clicks/views
 total_reward
+

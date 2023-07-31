@@ -311,7 +311,7 @@ $$
 $$
 The "amounts" of each vector $v_k$ are given by the projection of $x_i$ onto $v_K$ (via a dot product; see earlier discussion.)
 
-
+<!--
 ## The Optimization Problem
 
 We want to find the orthonormal basis $V_K = \begin{bmatrix} | & | & & | \\ v_1 & v_2 & \dots & v_K \\ | & | & & | \end{bmatrix}$ that maximizes the projected variance.
@@ -408,14 +408,16 @@ This is how the PC vectors are actually found:
 
 The matrix $V_K$ represents the orthonormal basis that maximizes the variance of the projected data, and its columns are the principal component vectors.
 
+-->
 
 ## Examples
 
 Let's see the examples in:
 
 - `nbc.R` 
-- `congress109.R`
 - `ercot_PCA.R`  
+
+If time, we'll also look at `congress109.R`.
 
 These examples will help us learn to answer the million-dollar question in PCA: what do the summaries mean?  
 

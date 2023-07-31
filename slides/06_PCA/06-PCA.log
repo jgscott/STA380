@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.17)  24 JUL 2023 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.17)  31 JUL 2023 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,11 +1081,22 @@ LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
 
 ] [21
 
-] [22
+]
+\openout4 = `06-PCA.vrb'.
 
-] [23
+(./06-PCA.vrb) [22
 
-] [24
+]
+<06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf, id=191, 178.6675pt x 150.562
+5pt>
+File: 06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file (type pdf)
+<use 06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf>
+Package pdftex.def Info: 06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf  used
+ on input line 498.
+(pdftex.def)             Requested size: 178.66705pt x 150.56212pt.
+[23
+
+ <./06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf>] [24
 
 ] [25
 
@@ -1099,32 +1110,9 @@ LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
 (./06-PCA.vrb) [28
 
 ]
-<06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf, id=228, 178.6675pt x 150.562
-5pt>
-File: 06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf Graphic file (type pdf)
-<use 06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: 06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf  used
- on input line 623.
-(pdftex.def)             Requested size: 178.66705pt x 150.56212pt.
-[29
-
- <./06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf>] [30
-
-] [31
-
-] [32
-
-] [33
-
-]
 \openout4 = `06-PCA.vrb'.
 
-(./06-PCA.vrb) [34
-
-]
-\openout4 = `06-PCA.vrb'.
-
-(./06-PCA.vrb) [35
+(./06-PCA.vrb) [29
 
 ]
 \tf@nav=\write5
@@ -1138,11 +1126,11 @@ Package pdftex.def Info: 06-PCA_files/figure-beamer/unnamed-chunk-4-1.pdf  used
 
 (./06-PCA.aux) ) 
 Here is how much of TeX's memory you used:
- 25016 strings out of 478268
- 483495 string characters out of 5846347
+ 24988 strings out of 478268
+ 483095 string characters out of 5846347
  784892 words of memory out of 5000000
- 42468 multiletter control sequences out of 15000+600000
- 529855 words of font info for 114 fonts, out of 8000000 for 9000
+ 42456 multiletter control sequences out of 15000+600000
+ 529956 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,1003b,388s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathi
@@ -1164,10 +1152,10 @@ c/lm/lmsso8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy1
 live/2022/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2022/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/20
 22/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on 06-PCA.pdf (35 pages, 358952 bytes).
+Output written on 06-PCA.pdf (29 pages, 348394 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 104 named destinations out of 1000 (max. 500000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 86 named destinations out of 1000 (max. 500000)
  36927 words of extra memory for PDF output out of 42996 (max. 10000000)
 

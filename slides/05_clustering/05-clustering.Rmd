@@ -442,7 +442,7 @@ Let's try many clustering with many different values of K:
 \small
 ```{r, message=FALSE, echo=TRUE}
 library(foreach)
-cars = read.csv('../data/cars.csv')
+cars = read.csv('../../data/cars.csv')
 X = scale(cars[,10:18]) # cluster on measurables
 k_grid = seq(2, 30, by=1)
 SSE_grid = foreach(k = k_grid, .combine='c') %do% {
@@ -475,63 +475,9 @@ A lot of elbow plots I've seen look more or less like this.
 
 Your mileage may vary!  
 
-# CH index
-
-
-The CH index is just one of many model-selection criteria that people have proposed for choosing K in K-means clustering.  It tries to balance fit with simplicity.  
-
-Let $n_j$ be the number of points in cluster $j$, and define
-$$
-\begin{aligned}
-B(K) &= \sum_{j=1}^K n_j d(m_j, \bar{x})^2 \quad \mbox{("between")} \\
-W(K) &= \sum_{j=1}^K \sum_{x_i \in C_j} d(x_i, m_j)^2 \quad \mbox{("within")}
-\end{aligned}
-$$
-
-
-# CH index
-
-
-The CH-index is defined as
-$$
-CH(K) = \frac{B(K)}{W(K)} \cdot \frac{N-K}{K-1}
-$$
-
-- The first term, $B(K)/W(K)$ gets larger as $K$ gets larger (better fit).  
-- The second term, $(N-K)/(K-1)$ gets smaller as $K$ gets larger (more complex model).  
-
-So choose $\hat{K} = \arg \max CH(K)$.  
-
-If you know about $F$-tests in regression and ANOVA, this statistic might look familiar.  
-
-# CH index
-
-Here we are computing CH index across our grid of $K$:
-
-\small
-```{r, echo=TRUE, message=FALSE}
-N = nrow(X)
-CH_grid = foreach(k = k_grid, .combine='c') %do% {
-  cluster_k = kmeans(X, k, nstart=50)
-  W = cluster_k$tot.withinss
-  B = cluster_k$betweenss
-  CH = (B/W)*((N-k)/(k-1))
-  CH 
-}
-```
-
-# CH index
-
-```{r, fig.width = 4, fig.asp = 0.85, fig.align='center', message=FALSE}
-plot(k_grid, CH_grid, las=1)
-```
-
-Don't take "highest is best" too literally because these numbers are noisy.  Focus more on the topography rather than the absolute peak.
-
-
 # Gap statistic
 
-Another popular method for choosing $K$ is the gap statistic:
+A popular method for choosing $K$ is the gap statistic:
 
 - find a way to standardize the comparison of $W_K$ (or actually, $\log W_K$) with a reference or "null" reference distribution of the data, i.e. a distribution with no obvious clustering.  
 - The further $\log W_k$ falls the farthest below this reference curve, the better the clustering.  This information is contained in the following formula for the gap statistic:
@@ -582,7 +528,6 @@ Note: I've generally had the most luck with the gap statistic as a model-selecti
 __To sum up, I'll tell you my Spotify K-means story.__
 
 
-
 # Hierarchical clustering
 
 Hierarchical clustering is, well, just what it sounds like.  
@@ -609,32 +554,15 @@ The hierarchy itself may correspond to meaningful taxonomies:
 - languages  
 - etc.  
 
+<!--
 # For example
-
 
 ```{r, out.width = "300px", fig.align='center', echo=FALSE}
 knitr::include_graphics("fig/hier/language.png")
 ```
-
+-->
 
 # Hierarchical clustering
-
-
-Two main types of hierarchical clustering
-
-- Agglomerative:  
-
-  1. Start with the points as individual clusters  
-  2. At each step, merge the closest pair of clusters until only one cluster (or k clusters) left  
-
-- Divisive:  
-
-  1. Start with one, all-inclusive cluster  
-  2. At each step, split a cluster until each cluster contains a point (or there are k clusters)  
-
-
-
-# Agglomerative clustering
 
 
 The basic algorithm is straightforward: start with every point in its own cluster and compute a proximity matrix $D(i, j)$ between every pair of points $i$ and $j$.  
@@ -647,7 +575,7 @@ The basic algorithm is straightforward: start with every point in its own cluste
 Key operation is the computation of the proximity of two clusters.  Different approaches to defining the distance between clusters distinguish the different algorithms.  
 
 
-# Agglomerative clustering
+# Hierarchical clustering
 
 
 Start with a bunch of points and a proximity matrix:  
@@ -657,7 +585,7 @@ knitr::include_graphics("fig/hier/proxmat1.png")
 ```
 
 
-# Agglomerative clustering
+# Hierarchical clustering
 
 
 After some merging steps, we have a handful of clusters:
@@ -667,7 +595,7 @@ knitr::include_graphics("fig/hier/proxmat2.png")
 ```
 
 
-# Agglomerative clustering
+# Hierarchical clustering
 
 
 We want to merge C2 and C5 and update the proximity matrix:
@@ -676,7 +604,7 @@ We want to merge C2 and C5 and update the proximity matrix:
 knitr::include_graphics("fig/hier/proxmat3.png")
 ```
 
-# Agglomerative clustering
+# Hierarchical clustering
 
 
 But how?
@@ -686,7 +614,7 @@ knitr::include_graphics("fig/hier/proxmat4.png")
 ```
 
 
-# Agglomerative clustering
+# Hierarchical clustering
 
 
 The key math question is: how do we measure similarity/distance between two clusters of points?
@@ -749,7 +677,7 @@ Each has its own pros and cons:
 
 See `linkage_minmax.R` and `hclust_examples.R`, where we'll see these ideas in action and show how to get a desired number of clusters by "cutting" the dendrogram.  
 
-# Agglomerative clustering: a few facts
+# Hierarchical clustering: a few facts
 
 
 - $O(N^2)$ space, since the proximity matrix must be stored  
