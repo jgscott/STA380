@@ -105,7 +105,7 @@ Readings:
 
 Networks and association rule mining.  
 
-Slides: [Intro to networks](slides/Networks.pdf).  Note: these slides refer to "lastfm.R" but this is the same thing as "playlists.R" below.   
+Slides: [Intro to networks](slides/07_Networks/Networks.pdf).  Note: these slides refer to "lastfm.R" but this is the same thing as "playlists.R" below.   
 
 Software you'll need:   
 - [Gephi](https://gephi.org/), a great piece of software for exploring graphs  
