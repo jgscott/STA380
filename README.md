@@ -58,7 +58,7 @@ R materials:
 
 ### (5) Clustering
 
-Basics of clustering; K-means clustering; hierarchical clustering.  Spectral clustering  
+Basics of clustering; K-means clustering; hierarchical clustering; spectral clustering  
 
 Slides: [Introduction to clustering.](slides/05_clustering/05-clustering.pdf)      
 
