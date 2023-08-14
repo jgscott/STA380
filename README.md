@@ -1,4 +1,4 @@
-# STA 380: Intro to Machine Learning  
+# STA 380: Intro to Machine Learning
 
 Welcome to part 2 of STA 380, a course on machine learning in the MS program in Business Analytics at UT-Austin.  All course materials can be found through this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
 
@@ -9,10 +9,10 @@ Instructors:
 
 ## Exercises
 
-The exercises are [available here](exercises/).  These are due Monday, August 15th at 5 PM, U.S central time.  Pace yourself over the next few weeks, and start early on the first couple of problems!  
+The exercises are [available here](exercises/).  These are due Monday, August 14th at 5 PM, U.S central time.  Pace yourself over the next few weeks, and start early on the first couple of problems!  
  
 
-## Outline of topics  
+## Outline of topics
 
 ### (1) The data scientist's toolbox
 
@@ -29,7 +29,7 @@ Readings:
 Your assignment after the first class day is to get yourself up and running on GitHub, if you're not already.
 
 
-### (2) Probability: a refresher  
+### (2) Probability: a refresher
 
 Slides: [Some fun topics in probability](slides/02_probability_refresher/probability_fun_topics.pdf)  
 
@@ -51,7 +51,7 @@ R materials:
 - Some R examples can be found in [datavis_intro.R](R/datavis_intro.R) and [nycflights_wrangle.R](R/nycflights_wrangle.R).   
 
 
-### (4) Neural networks: the basics  
+### (4) Neural networks: the basics
 
 [Intro to neural network slides here.](slides/04_neural_nets/neural_nets.pdf)  [Jupyter notebooks here.](notebooks/)
 
@@ -75,7 +75,7 @@ Readings:
 - K-means++ [original paper](http://ilpubs.stanford.edu:8090/778/1/2006-13.pdf) or [simple explanation on Wikipedia](https://en.wikipedia.org/wiki/K-means%2B%2B).  This is a better recipe for initializing cluster centers in k-means than the more typical random initialization.
 
 
-### (6) Dimensionality reduction: PCA and tSNE  
+### (6) Dimensionality reduction: PCA and tSNE
 
 Principal component analysis (PCA).  T-distributed stochastic neighbor embedding (tSNE).  
 
@@ -101,7 +101,7 @@ Readings:
 
 
 
-### (7) Networks and association rules  
+### (7) Networks and association rules
 
 Networks and association rule mining.  
 

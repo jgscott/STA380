@@ -28,7 +28,7 @@ total_reward
 
 
 eps = 0.05
-# epsilson-greedy Sampling
+# epsilon-greedy Sampling
 # placeholder to track the number of time we showed each ad
 clicks = rep(0, num_ads)
 views = rep(0, num_ads)
@@ -39,7 +39,7 @@ for (i in 1:N) {
   # mean of each beta = prior_clicks / prior_views
   explore = rbinom(1,1,prob=eps)
   
-  click_probs = clicks/(views + 1e-6)
+  click_probs = clicks/(views + 1)
   if(explore) {
     ad_to_show = sample(1:10, 1)
   } else {
