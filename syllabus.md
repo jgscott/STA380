@@ -3,7 +3,7 @@
 ## Course details
 
 Instructors:  
-- Dr. James Scott.  Office hours on M T W, 12:30 to 1:15 PM, CBA 6.478.  
+- Dr. James Scott.  Office hours on M T W, 12:30 to 1:15 PM, WEL 5.224G.  
 - Dr. David Puelz.  Office hours on M T W, 4-4:45p in CBA 6.444.  
 
 
@@ -31,9 +31,9 @@ The course is intended as an overview, rather than an in-depth treatment of any 
 - Other software: please [install Git and create a GitHub account](https://help.github.com/articles/set-up-git/).  You will use GitHub for version control and to submit your assignments.    
 
 
-## Grading  
+## Grading
 
-Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Monday, August 15th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
+Your grade for this half of the course will come from a long set of [exercises](exercises/), due on Sunday, August 18th, which consist of analyzing several different data sets, creating a fully reproducible report using RMarkdown, and submitting your report through GitHub.   
 
 There is no final exam.  Attendance plays no formal role in grading, although you are unlikely to do well on the exercises if you do not attend and follow the examples in class.  
 

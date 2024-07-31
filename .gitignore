@@ -186,3 +186,4 @@ data/tokenizers/punkt/PY3/slovene.pickle
 data/tokenizers/punkt/PY3/spanish.pickle
 data/tokenizers/punkt/PY3/swedish.pickle
 data/tokenizers/punkt/PY3/turkish.pickle
+notebooks/blender.ipynb
