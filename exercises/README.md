@@ -1,22 +1,22 @@
-# STA 380, Part 2: Exercises 
+# STA 380, Part 2: Exercises
 
-Due: by end of the working day (5:00 PM US Central time) on Monday, August 14.
+Due: Sunday, August 18th by 11:59 PM.
 
 Prepare your report on the problems below using RMarkdown or Jupyter (or similar, e.g. Quarto) so that they are fully reproducible, carefully integrating visual and numerical evidence with prose.  You may work solo, or in groups of 4 or fewer people.  You can self-organize groups via Canvas.  
 
 Note: the option to submit as a group is intended to give you an incentive to get to know some of your classmates.  The idea is for y'all to work together on _all_ the problems and to learn from each other, not to divide up the individual problems.
 
-Submit via Canvas under the "Assignments" tab. __You should submit a link to your GitHub repo where the final report has been stored.__  You are also welcome to use R or Python in any combination (e.g. all in one language, or maybe R for some problems and Jupyter/Python for others.) No matter how you do it, please include a `.README.md` file in your GitHub repo linking clearly to your solutions.  We shouldn't have to guess where your answers are based on the link you send.  
+Submit via Canvas under the "Assignments" tab. __You should submit a link to your GitHub repo where the final report has been stored.__  You are also welcome to use R or Python in any combination (e.g. all in one language, or maybe R for some problems and Jupyter/Python for others.) No matter how you do it, please include a `README.md` file in your GitHub repo linking clearly to your solutions.  We shouldn't have to guess where your answers are based on the link you send.  
 
-If you are submitting as a group, make sure you include everyone's names in this `.README.md` file.  
+If you are submitting as a group, make sure you include everyone's names in this `README.md` file.  
  
 
 Notes: 
 - Do not knit to .html, which won't render properly on GitHub.  
-- Do not directly e-mail the instructors/TA directly with your reports.  We will ignore any e-mailed submissions.         
+- Do not directly e-mail the instructors/TA directly with your reports.  We will ignore any e-mailed submissions. _Submit via Canvas._          
 - For any mathematical expressions in your report, you can use LaTeX syntax, which I encourage you to learn anyway.  Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report.  This is a simple, low-overhead option.   
 - Submissions that are late, but received within 24 hours, will receive a 20% penalty.  Submissions more than 24 hours late will not be considered and will receive a grade of zero.      
-- You are welcome to use large language models like ChatGPT to help you code.  
+- You are welcome to use large language models like ChatGPT to help you code. But take responsibility and ownership of your own report.    
 
 Grading criteria:  
 
@@ -42,7 +42,7 @@ __Part B.__ Imagine a medical test for a disease with the following two attribut
 Suppose someone tests positive. What is the probability that they have the disease?  
 
 
-## Wrangling the Billboard Top 100  
+## Wrangling the Billboard Top 100
 
 Consider the data in [billboard.csv](../data/billboard.csv) containing every song to appear on the weekly [Billboard Top 100](https://www.billboard.com/charts/hot-100/) chart since 1958, up through the middle of 2021.  Each row of this data corresponds to a single song in a single week.  For our purposes, the relevant columns here are:
 
@@ -80,7 +80,7 @@ _Notes_:
 
 ## Visual story telling part 1: green buildings
 
-### The case  
+### The case
 
 Over the past decade, both investors and the general public have paid increasingly close attention to the benefits of environmentally conscious buildings. There are both ethical and economic forces at work here.  In commercial real estate, issues of eco-friendliness are intimately tied up with ordinary decisions about how to allocate capital. In this context, the decision to invest in eco-friendly buildings could pay off in at least four ways.  
 
@@ -219,7 +219,7 @@ Notes:
 - If you're unfamiliar with value at risk (VaR), you can refer to any basic explanation of the idea, e.g. [here](https://en.wikipedia.org/wiki/Value_at_risk), [here](http://www.investopedia.com/articles/04/092904.asp), or [here](http://people.stern.nyu.edu/adamodar/pdfiles/papers/VAR.pdf). 
 -->
 
-## Clustering and dimensionality reduction  
+## Clustering and dimensionality reduction
 
 The data in [wine.csv](../data/wine.csv) contains information on 11 chemical properties of 6500 different bottles of _vinho verde_ wine from northern Portugal.  In addition, two other variables about each wine are recorded:
 - whether the wine is red or white  
@@ -243,7 +243,7 @@ Your task to is analyze this data as you see fit, and to prepare a concise repor
 
 
 
-## The Reuters corpus  
+## The Reuters corpus
 
 Revisit the Reuters C50 text corpus that we briefly explored in class.  Your task is simple: tell an interesting story, anchored in some analytical tools we have learned in this class, using this data.  For example:  
 - you could cluster authors or documents and tell a story about what you find.    
