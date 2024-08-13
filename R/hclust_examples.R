@@ -56,7 +56,7 @@ sigma = attr(X,"scaled:scale")
 distance_between_cars = dist(X)
 
 # Now run hierarchical clustering
-h1 = hclust(distance_between_cars, method='complete')
+h1 = hclust(distance_between_cars, method='single')
 
 # Cut the tree into 10 clusters
 cluster1 = cutree(h1, k=10)

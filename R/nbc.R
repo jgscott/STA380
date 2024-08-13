@@ -51,7 +51,7 @@ ggcorrplot::ggcorrplot(cor(pilot_results), hc.order = TRUE)
 
 # Now look at PCA of the (average) survey responses.  
 # This is a common way to treat survey data
-PCApilot = prcomp(pilot_results, scale=TRUE)
+PCApilot = prcomp(pilot_results, rank=6, scale=TRUE)
 
 ## variance plot
 plot(PCApilot)
